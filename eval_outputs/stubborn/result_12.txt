@@ -1,0 +1,140 @@
+=== Claim 12 — Result Metadata ===
+Claim:           최근 연구에 따르면 대형 언어 모델은 진정한 의미의 추론을 수행하지 못한다.
+Expected label:  debatable
+Fact label:      None
+Domain:          AI/인지과학
+Persona:         stubborn
+Turns completed: 4 / 4
+Cost (this item): $0.0242
+
+Expected APIs:   ['arxiv']
+Actual APIs:     {'arxiv': 15, 'news': 15, 'wikipedia': 20}
+API match:       True
+
+Classification (turn 1): debatable
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [arxiv] Making Large Language Models Better Reasoners with Alignment
+      http://arxiv.org/abs/2309.02144v1
+    - [arxiv] Large Language Models Reasoning Abilities Under Non-Ideal Conditions After RL-Fi
+      http://arxiv.org/abs/2508.04848v1
+    - [arxiv] CROP: Token-Efficient Reasoning in Large Language Models via Regularized Prompt 
+      http://arxiv.org/abs/2604.14214v1
+    - [arxiv] Response: Emergent analogical reasoning in large language models
+      http://arxiv.org/abs/2308.16118v2
+    - [arxiv] ARS: Adaptive Reasoning Suppression for Efficient Large Reasoning Language Model
+      http://arxiv.org/abs/2510.00071v2
+    - [news] ‘Reasoning’ AI models have become a trend, for better or worse
+      https://techcrunch.com/2024/12/14/reasoning-ai-models-have-become-a-trend-for-better-or-worse/
+    - [news] Neuro-Symbolic AI Wins On Long-Horizon Reasoning And Does So At A Lower Energy..
+      https://tech.yahoo.com/ai/articles/neuro-symbolic-ai-wins-long-071500294.html
+    - [news] Intelligence Illusion: What Apple’s AI Study Reveals About Reasoning
+      https://www.forbes.com/sites/corneliawalther/2025/06/09/intelligence-illusion-what-apples-ai-study-reveals-about-reasoning/
+    - [news] Improving AI-Generated Mental Health Advice By Dipping Into The Prompt...
+      https://tech.yahoo.com/articles/improving-ai-generated-mental-health-071500576.html
+    - [news] Apple says generative AI cannot think like a human - research paper pours cold..
+      https://tech.yahoo.com/ai/articles/apple-says-generative-ai-cannot-191944399.html
+    - [wikipedia] Large language model
+      https://en.wikipedia.org/wiki/Large_language_model
+    - [wikipedia] Generative pre-trained transformer
+      https://en.wikipedia.org/wiki/Generative_pre-trained_transformer
+    - [wikipedia] Prompt engineering
+      https://en.wikipedia.org/wiki/Prompt_engineering
+    - [wikipedia] Sparrow (chatbot)
+      https://en.wikipedia.org/wiki/Sparrow_(chatbot)
+    - [wikipedia] Artificial intelligence
+      https://en.wikipedia.org/wiki/Artificial_intelligence
+
+--- Turn 2 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Artificial intelligence
+      https://en.wikipedia.org/wiki/Artificial_intelligence
+    - [wikipedia] History of artificial intelligence
+      https://en.wikipedia.org/wiki/History_of_artificial_intelligence
+    - [wikipedia] Misinformation
+      https://en.wikipedia.org/wiki/Misinformation
+    - [wikipedia] Timeline of computing 2020–present
+      https://en.wikipedia.org/wiki/Timeline_of_computing_2020%E2%80%93present
+    - [wikipedia] Deductive reasoning
+      https://en.wikipedia.org/wiki/Deductive_reasoning
+    - [news] Do reasoning AI models really 'think' or not? Apple research sparks lively debat
+      https://venturebeat.com/ai/do-reasoning-models-really-think-or-not-apple-research-sparks-lively-debate-response
+    - [news] Meta's new structured prompting technique makes LLMs significantly better at cod
+      https://venturebeat.com/orchestration/metas-new-structured-prompting-technique-makes-llms-significantly-better-at
+    - [news] LLMs generate 'fluent nonsense' when reasoning outside their training zone
+      https://venturebeat.com/ai/llms-generate-fluent-nonsense-when-reasoning-outside-their-training-zone
+    - [news] Study challenges 'Centaur' AI's claim to human-like cognition — pattern-matching
+      https://www.msn.com/en-us/science/sociology/study-challenges-centaur-ai-s-claim-to-human-like-cognition-pattern-matching-not-reasoning/ar-AA22c0Tk?ocid=BingNewsVerp
+    - [news] Beyond The Llama Drama: 4 New Benchmarks For Large Language Models
+      https://www.forbes.com/sites/corneliawalther/2025/04/13/beyond-the-llama-drama-4-new-benchmarks-for-large-language-models/
+
+--- Turn 3 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Large language model
+      https://en.wikipedia.org/wiki/Large_language_model
+    - [wikipedia] Generative pre-trained transformer
+      https://en.wikipedia.org/wiki/Generative_pre-trained_transformer
+    - [wikipedia] Neural scaling law
+      https://en.wikipedia.org/wiki/Neural_scaling_law
+    - [wikipedia] History of artificial intelligence
+      https://en.wikipedia.org/wiki/History_of_artificial_intelligence
+    - [wikipedia] Reinforcement learning
+      https://en.wikipedia.org/wiki/Reinforcement_learning
+    - [arxiv] Making Large Language Models Better Reasoners with Alignment
+      http://arxiv.org/abs/2309.02144v1
+    - [arxiv] CROP: Token-Efficient Reasoning in Large Language Models via Regularized Prompt 
+      http://arxiv.org/abs/2604.14214v1
+    - [arxiv] ARS: Adaptive Reasoning Suppression for Efficient Large Reasoning Language Model
+      http://arxiv.org/abs/2510.00071v2
+    - [arxiv] Large Language Models Reasoning Abilities Under Non-Ideal Conditions After RL-Fi
+      http://arxiv.org/abs/2508.04848v1
+    - [arxiv] Response: Emergent analogical reasoning in large language models
+      http://arxiv.org/abs/2308.16118v2
+    - [news] Apple study exposes deep cracks in LLMs’ “reasoning” capabilities
+      https://arstechnica.com/ai/2024/10/llms-cant-perform-genuine-logical-reasoning-apple-researchers-suggest/
+    - [news] Apple’s LLM study draws an important distinction about reasoning models
+      https://9to5mac.com/2025/06/09/apples-llm-study-draws-an-important-distinction-about-reasoning-models/
+    - [news] Apple Engineers Show How Flimsy AI ‘Reasoning’ Can Be
+      https://www.wired.com/story/apple-ai-llm-reasoning-research/
+    - [news] This new framework lets LLM agents learn from experience, no fine-tuning require
+      https://venturebeat.com/ai/this-new-framework-lets-llm-agents-learn-from-experience-no-fine-tuning
+    - [news] MemRL outperforms RAG on complex agent benchmarks without fine-tuning
+      https://venturebeat.com/orchestration/memrl-outperforms-rag-on-complex-agent-benchmarks-without-fine-tuning
+
+--- Turn 4 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (10):
+    - [wikipedia] Large language model
+      https://en.wikipedia.org/wiki/Large_language_model
+    - [wikipedia] Artificial intelligence
+      https://en.wikipedia.org/wiki/Artificial_intelligence
+    - [wikipedia] Glossary of artificial intelligence
+      https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence
+    - [wikipedia] Technological singularity
+      https://en.wikipedia.org/wiki/Technological_singularity
+    - [wikipedia] Behavioral economics
+      https://en.wikipedia.org/wiki/Behavioral_economics
+    - [arxiv] Multimodal Reasoning with LLM for Encrypted Traffic Interpretation: A Benchmark
+      http://arxiv.org/abs/2604.08140v1
+    - [arxiv] Navigating the State of Cognitive Flow: Context-Aware AI Interventions for Effec
+      http://arxiv.org/abs/2504.16021v1
+    - [arxiv] V-STaR: Benchmarking Video-LLMs on Video Spatio-Temporal Reasoning
+      http://arxiv.org/abs/2503.11495v1
+    - [arxiv] LongCoT: Benchmarking Long-Horizon Chain-of-Thought Reasoning
+      http://arxiv.org/abs/2604.14140v1
+    - [arxiv] When Reasoning Beats Scale: A 1.5B Reasoning Model Outranks 13B LLMs as Discrimi
+      http://arxiv.org/abs/2505.03786v1
+

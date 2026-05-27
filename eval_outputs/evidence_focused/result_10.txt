@@ -1,0 +1,120 @@
+=== Claim 10 — Result Metadata ===
+Claim:           최근 일론 머스크의 X(트위터) 운영 방침은 표현의 자유를 후퇴시켰다.
+Expected label:  debatable
+Fact label:      None
+Domain:          미디어/플랫폼
+Persona:         evidence_focused
+Turns completed: 4 / 4
+Cost (this item): $0.0250
+
+Expected APIs:   ['news']
+Actual APIs:     {'news': 20, 'wikipedia': 20}
+API match:       True
+
+Classification (turn 1): debatable
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [news] 5 Trends Shaping Social Media Marketing So Far in 2025
+      https://finance.yahoo.com/news/5-trends-shaping-social-media-104000080.html
+    - [news] Violent Extremism Lingers Online With US Flagging Less Content
+      https://www.yahoo.com/news/us-pulls-back-disrupting-violent-153711054.html
+    - [news] Mark Zuckerberg says Meta's 'community notes' are inspired by Elon Musk's X. Her
+      https://www.yahoo.com/news/mark-zuckerberg-says-metas-community-093102151.html
+    - [news] In the New Trump Era, the Proud Boys Are ‘Not Apologizing Anymore’
+      https://www.yahoo.com/news/articles/trump-era-proud-boys-not-153022894.html
+    - [news] Elon Musk has a powerful new acolyte: Mark Zuckerberg
+      https://www.yahoo.com/news/mark-zuckerberg-unveils-latest-persona-090102920.html
+    - [wikipedia] X (social network)
+      https://en.wikipedia.org/wiki/X_(social_network)
+    - [wikipedia] Acquisition of Twitter by Elon Musk
+      https://en.wikipedia.org/wiki/Acquisition_of_Twitter_by_Elon_Musk
+    - [wikipedia] Twitter Files
+      https://en.wikipedia.org/wiki/Twitter_Files
+    - [wikipedia] Criticism of X (social network)
+      https://en.wikipedia.org/wiki/Criticism_of_X_(social_network)
+    - [wikipedia] Twitter, Inc.
+      https://en.wikipedia.org/wiki/Twitter%2C_Inc.
+
+--- Turn 2 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Instagram
+      https://en.wikipedia.org/wiki/Instagram
+    - [wikipedia] X (social network)
+      https://en.wikipedia.org/wiki/X_(social_network)
+    - [wikipedia] Google Cloud Platform
+      https://en.wikipedia.org/wiki/Google_Cloud_Platform
+    - [wikipedia] Digital Services Act
+      https://en.wikipedia.org/wiki/Digital_Services_Act
+    - [wikipedia] Trust and safety
+      https://en.wikipedia.org/wiki/Trust_and_safety
+    - [news] Advertisers say Meta's content-moderation changes make them uneasy. They won't s
+      https://www.businessinsider.com/meta-content-moderation-update-impact-ad-business-brand-safety-2025-1
+    - [news] TikTok removes over 820,000 videos in Kenya
+      https://africabusinesscommunities.com/tech-24/tiktok-removes-over-820000-videos-in-kenya/
+    - [news] Elon Musk's X agrees to UK government's demands on 'hate speech' and terrorist c
+      https://www.msn.com/en-in/news/world/elon-musk-s-x-agrees-to-uk-government-s-demands-on-hate-speech-and-terrorist-content/ar-AA23l0D3?ocid=BingNewsVerp
+    - [news] X Releases First Transparency Report Under Musk’s Leadership
+      https://www.inc.com/x-releases-first-transparency-report-under-musks-leadership.html
+    - [news] Musk’s X Sues New York in Latest Legal Battle Over Content Moderation: What to K
+      https://time.com/7295402/elon-musk-x-new-york-lawsuit-free-speech-content-moderation/
+
+--- Turn 3 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Bernie Sanders
+      https://en.wikipedia.org/wiki/Bernie_Sanders
+    - [wikipedia] 2024 Pakistani general election
+      https://en.wikipedia.org/wiki/2024_Pakistani_general_election
+    - [wikipedia] Agenda 47
+      https://en.wikipedia.org/wiki/Agenda_47
+    - [wikipedia] Alexandria Ocasio-Cortez
+      https://en.wikipedia.org/wiki/Alexandria_Ocasio-Cortez
+    - [wikipedia] Donald Trump and fascism
+      https://en.wikipedia.org/wiki/Donald_Trump_and_fascism
+    - [news] Metro government's ICE outrage is lawlessness disguised as kindness | Opinion
+      https://www.yahoo.com/news/metro-governments-ice-outrage-lawlessness-100313335.html
+    - [news] Fact Check: What to know about Hilton hotel in Minnesota refusing to serve ICE..
+      https://www.yahoo.com/news/articles/fact-check-know-hilton-hotel-175500954.html
+    - [news] Did The US Government Hack Crypto Wallets To Create a Bitcoin Reserve
+      https://finance.yahoo.com/news/did-us-government-hack-crypto-191141589.html
+    - [news] Minnesota Not So Nice
+      https://sports.yahoo.com/articles/minnesota-not-nice-143018981.html
+    - [news] ICE Is Determined To Unmask a Reddit User Whose Only Crime Seems To Be...
+      https://sports.yahoo.com/articles/ice-determined-unmask-reddit-user-200014412.html
+
+--- Turn 4 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (10):
+    - [wikipedia] Agenda 47
+      https://en.wikipedia.org/wiki/Agenda_47
+    - [wikipedia] Generative AI
+      https://en.wikipedia.org/wiki/Generative_AI
+    - [wikipedia] Political positions of Donald Trump
+      https://en.wikipedia.org/wiki/Political_positions_of_Donald_Trump
+    - [wikipedia] Racism in the United States
+      https://en.wikipedia.org/wiki/Racism_in_the_United_States
+    - [wikipedia] Philippines
+      https://en.wikipedia.org/wiki/Philippines
+    - [news] Hanford to use drones for Fourth of July illegal fireworks enforcement
+      https://www.yahoo.com/news/us/articles/hanford-drones-fourth-july-illegal-011737273.html
+    - [news] WWE Enforcing Name Changes for ID Talent — Report
+      https://sports.yahoo.com/articles/wwe-enforcing-name-changes-id-150119354.html
+    - [news] Fact Check: TSA's medical marijuana policy hasn't changed, contrary to claims...
+      https://www.yahoo.com/news/politics/articles/fact-check-tsas-medical-marijuana-130000818.html
+    - [news] WWE Raw results, grades (May 25): Roman Reigns, Jacob Fatu set the table for...
+      https://sports.yahoo.com/wrestling/live/wwe-raw-live-results-may-25-updates-grades-and-highlights-tonight-from-columbus-221500745.html
+    - [news] Newark’s ICE protests becoming bigger NJ political fight — and neither side is b
+      https://nj1015.com/newark-delaney-hall-protests/
+

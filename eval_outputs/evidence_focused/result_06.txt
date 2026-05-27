@@ -1,0 +1,150 @@
+=== Claim 06 — Result Metadata ===
+Claim:           학술 연구에 따르면 백신은 자폐를 유발한다.
+Expected label:  clearly_false
+Fact label:      False
+Domain:          의학
+Persona:         evidence_focused
+Turns completed: 4 / 4
+Cost (this item): $0.0243
+
+Expected APIs:   ['arxiv', 'wikipedia']
+Actual APIs:     {'arxiv': 15, 'wikipedia': 20, 'news': 20}
+API match:       True
+
+Classification (turn 1): clearly_false
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    clearly_false
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (15):
+    - [arxiv] Sensing technologies and machine learning methods for emotion recognition in aut
+      http://arxiv.org/abs/2407.04712v1
+    - [arxiv] eXtended Reality for Autism Interventions: The importance of Mediation and Senso
+      http://arxiv.org/abs/2106.15983v1
+    - [arxiv] Epitope analysis for influenza vaccine design
+      http://arxiv.org/abs/q-bio/0408016v1
+    - [arxiv] Social Engagement of Children with Autism during Interaction with a Robot
+      http://arxiv.org/abs/2002.12360v1
+    - [arxiv] A Systematic Review of Computational Thinking in Early Ages
+      http://arxiv.org/abs/2106.10275v1
+    - [wikipedia] Vaccines and autism
+      https://en.wikipedia.org/wiki/Vaccines_and_autism
+    - [wikipedia] MMR vaccine and autism
+      https://en.wikipedia.org/wiki/MMR_vaccine_and_autism
+    - [wikipedia] Robert F. Kennedy Jr.
+      https://en.wikipedia.org/wiki/Robert_F._Kennedy_Jr.
+    - [wikipedia] Anti-vaccine activism
+      https://en.wikipedia.org/wiki/Anti-vaccine_activism
+    - [wikipedia] Vaccine hesitancy
+      https://en.wikipedia.org/wiki/Vaccine_hesitancy
+    - [news] Kennedy's new US autism panel to examine potential causes
+      https://www.reuters.com/legal/litigation/kennedys-new-us-autism-panel-examine-potential-causes-2026-03-05/
+    - [news] RFK Jr.’s Picks for a Key Autism Panel Include Advocates for Bizarre Theories
+      https://www.wired.com/story/rfk-jr-s-picks-for-a-key-autism-panel-include-advocates-for-bizarre-theories/
+    - [news] Settting the Record Straight on Vaccines and Autism
+      https://www.counterpunch.org/2026/03/18/settting-the-record-straight-on-vaccines-and-autism/
+    - [news] CDC in turmoil after agency backpedals on rejecting vaccines-autism link
+      https://www.msn.com/en-us/health/diseases-and-conditions/under-rfk-jr-cdc-promotes-false-vaccines-autism-link-it-once-discredited/ar-AA1QMSRD?ocid=BingNewsVerp
+    - [news] How AI Is Reshaping Science’s Most Trusted Tool
+      https://newrepublic.com/article/204513/ai-science-systematic-reviews-vaccines
+
+--- Turn 2 ---
+  classification:    clearly_false
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] MMR vaccine and autism
+      https://en.wikipedia.org/wiki/MMR_vaccine_and_autism
+    - [wikipedia] Vaccines and autism
+      https://en.wikipedia.org/wiki/Vaccines_and_autism
+    - [wikipedia] Anti-vaccine activism
+      https://en.wikipedia.org/wiki/Anti-vaccine_activism
+    - [wikipedia] Vaccine hesitancy
+      https://en.wikipedia.org/wiki/Vaccine_hesitancy
+    - [wikipedia] COVID-19 vaccine misinformation and hesitancy
+      https://en.wikipedia.org/wiki/COVID-19_vaccine_misinformation_and_hesitancy
+    - [news] Trump backs reduced vaccine schedule, revives autism claim
+      https://www.msn.com/en-us/news/other/trump-backs-reduced-vaccine-schedule-revives-autism-claim/gm-GM33E0DDA6?ocid=BingNewsVerp
+    - [news] Healthy debate: NY health officials reject CDC autism/vaccine shift
+      https://www.msn.com/en-us/health/general/healthy-debate-ny-health-officials-reject-cdc-autism-vaccine-shift/ar-AA1QUEdE?ocid=BingNewsVerp
+    - [news] Scientists esteemed by public, with vaccine scientists seen as similar to scient
+      https://medicalxpress.com/news/2026-04-scientists-esteemed-vaccine-similar-general.html
+    - [news] RFK Jr. picks promoters of debunked vaccine-autism claims for key panel
+      https://www.washingtonpost.com/health/2026/01/29/rfk-jr-autism-board-vaccine/
+    - [news] CDC website is changed to include false claim about autism and vaccines
+      https://www.cbsnews.com/news/cdc-website-change-vaccines-autism/
+    - [arxiv] eXtended Reality for Autism Interventions: The importance of Mediation and Senso
+      http://arxiv.org/abs/2106.15983v1
+    - [arxiv] Epitope analysis for influenza vaccine design
+      http://arxiv.org/abs/q-bio/0408016v1
+    - [arxiv] Social Engagement of Children with Autism during Interaction with a Robot
+      http://arxiv.org/abs/2002.12360v1
+    - [arxiv] Reduced interhemispheric functional connectivity of children with autism: eviden
+      http://arxiv.org/abs/1309.5840v1
+    - [arxiv] MMR-V: What's Left Unsaid? A Benchmark for Multimodal Deep Reasoning in Videos
+      http://arxiv.org/abs/2506.04141v1
+
+--- Turn 3 ---
+  classification:    clearly_false
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] MMR vaccine and autism
+      https://en.wikipedia.org/wiki/MMR_vaccine_and_autism
+    - [wikipedia] Vaccines and autism
+      https://en.wikipedia.org/wiki/Vaccines_and_autism
+    - [wikipedia] Vaccine hesitancy
+      https://en.wikipedia.org/wiki/Vaccine_hesitancy
+    - [wikipedia] Epidemiology of autism
+      https://en.wikipedia.org/wiki/Epidemiology_of_autism
+    - [wikipedia] Thiomersal and vaccines
+      https://en.wikipedia.org/wiki/Thiomersal_and_vaccines
+    - [news] No link found between aluminum in vaccines and autism: Study
+      https://www.msn.com/en-us/health/diseases-and-conditions/no-link-found-between-aluminum-in-vaccines-and-autism-study/ar-AA1IIVfq?ocid=BingNewsVerp
+    - [news] RFK Jr. blames these 5 environmental toxins for a spike in autism cases
+      https://www.yahoo.com/news/rfk-jr-blames-5-environmental-154826567.html
+    - [news] Breathing tubes, blindness and death. I’ve seen effects of vaccine skepticism. |
+      https://www.yahoo.com/news/articles/breathing-tubes-blindness-death-ve-100253243.html
+    - [news] RFK Jr's appointment boosts Europe's anti-vax movements, researchers claim
+      https://www.yahoo.com/news/rfk-jrs-appointment-boosts-europes-144357306.html
+    - [news] The CDC's New Messaging May Be Damaging Trust in Vaccines, Study Says
+      https://www.msn.com/en-us/news/other/the-cdc-s-new-messaging-may-be-damaging-trust-in-vaccines-study-says/ar-AA227yOg?ocid=BingNewsVerp
+
+--- Turn 4 ---
+  classification:    clearly_false
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (15):
+    - [wikipedia] Epidemiology of autism
+      https://en.wikipedia.org/wiki/Epidemiology_of_autism
+    - [wikipedia] Vaccine
+      https://en.wikipedia.org/wiki/Vaccine
+    - [wikipedia] COVID-19 vaccine
+      https://en.wikipedia.org/wiki/COVID-19_vaccine
+    - [wikipedia] HPV vaccination in Japan
+      https://en.wikipedia.org/wiki/HPV_vaccination_in_Japan
+    - [wikipedia] False or misleading statements by Donald Trump (second term)
+      https://en.wikipedia.org/wiki/False_or_misleading_statements_by_Donald_Trump_(second_term)
+    - [news] The vaccines and autism myth was debunked years ago
+      https://www.baltimoresun.com/2025/11/30/rfk-cdc-vaccine-autism/
+    - [news] Do vaccines cause autism? WHO finally answers
+      https://www.msn.com/en-in/health/other/do-vaccines-cause-autism-who-finally-answers/ar-AA1SbNN9?ocid=BingNewsVerp
+    - [news] What parents should know about autism and vaccines
+      https://www.msn.com/en-us/health/other/what-parents-should-know-about-autism-and-vaccines/ar-AA1R7Flm?ocid=BingNewsVerp
+    - [news] WHO global expert committee finds no causal link exists between vaccines and aut
+      https://www.news-medical.net/news/20251212/WHO-global-expert-committee-finds-no-causal-link-exists-between-vaccines-and-autism.aspx
+    - [news] Vaccines, Autism, and a CDC That Blinked
+      https://www.acsh.org/news/2025/12/04/vaccines-autism-and-cdc-blinked-49848
+    - [arxiv] eXtended Reality for Autism Interventions: The importance of Mediation and Senso
+      http://arxiv.org/abs/2106.15983v1
+    - [arxiv] Social Engagement of Children with Autism during Interaction with a Robot
+      http://arxiv.org/abs/2002.12360v1
+    - [arxiv] Epitope analysis for influenza vaccine design
+      http://arxiv.org/abs/q-bio/0408016v1
+    - [arxiv] An Open Natural Language Processing Development Framework for EHR-based Clinical
+      http://arxiv.org/abs/2110.10780v3
+    - [arxiv] Reduced interhemispheric functional connectivity of children with autism: eviden
+      http://arxiv.org/abs/1309.5840v1
+

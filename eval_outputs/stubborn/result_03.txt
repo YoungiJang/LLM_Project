@@ -1,0 +1,120 @@
+=== Claim 03 — Result Metadata ===
+Claim:           인간은 뇌의 10%만 사용한다.
+Expected label:  clearly_false
+Fact label:      False
+Domain:          신경과학
+Persona:         stubborn
+Turns completed: 4 / 4
+Cost (this item): $0.0220
+
+Expected APIs:   ['wikipedia']
+Actual APIs:     {'wikipedia': 20, 'news': 10, 'arxiv': 10}
+API match:       True
+
+Classification (turn 1): clearly_false
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    clearly_false
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (5):
+    - [wikipedia] Ten-percent-of-the-brain myth
+      https://en.wikipedia.org/wiki/Ten-percent-of-the-brain_myth
+    - [wikipedia] List of common misconceptions about science, technology, and mathematics
+      https://en.wikipedia.org/wiki/List_of_common_misconceptions_about_science%2C_technology%2C_and_mathematics
+    - [wikipedia] MythBusters (2010 season)
+      https://en.wikipedia.org/wiki/MythBusters_(2010_season)
+    - [wikipedia] Red Bull
+      https://en.wikipedia.org/wiki/Red_Bull
+    - [wikipedia] Adolescence
+      https://en.wikipedia.org/wiki/Adolescence
+
+--- Turn 2 ---
+  classification:    clearly_false
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (5):
+    - [wikipedia] Ten-percent-of-the-brain myth
+      https://en.wikipedia.org/wiki/Ten-percent-of-the-brain_myth
+    - [wikipedia] List of common misconceptions about science, technology, and mathematics
+      https://en.wikipedia.org/wiki/List_of_common_misconceptions_about_science%2C_technology%2C_and_mathematics
+    - [wikipedia] Scientific racism
+      https://en.wikipedia.org/wiki/Scientific_racism
+    - [wikipedia] Variant Creutzfeldt–Jakob disease
+      https://en.wikipedia.org/wiki/Variant_Creutzfeldt%E2%80%93Jakob_disease
+    - [wikipedia] G-spot
+      https://en.wikipedia.org/wiki/G-spot
+
+--- Turn 3 ---
+  classification:    clearly_false
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Framing (social sciences)
+      https://en.wikipedia.org/wiki/Framing_(social_sciences)
+    - [wikipedia] Frame analysis
+      https://en.wikipedia.org/wiki/Frame_analysis
+    - [wikipedia] Influence of mass media
+      https://en.wikipedia.org/wiki/Influence_of_mass_media
+    - [wikipedia] List of pseudoscience topics
+      https://en.wikipedia.org/wiki/List_of_pseudoscience_topics
+    - [wikipedia] Nonviolent Communication
+      https://en.wikipedia.org/wiki/Nonviolent_Communication
+    - [news] Framing Effects in Public Opinion Dynamics
+      https://www.nature.com/nature-index/topics/l4/framing-effects-in-public-opinion-dynamics
+    - [news] Framing Effects in Decision Making
+      https://www.nature.com/nature-index/topics/l4/framing-effects-in-decision-making
+    - [news] Wikipedia now labels the top Jewish civil rights group as an unreliable source
+      https://finance.yahoo.com/news/wikipedia-now-labels-top-jewish-195824042.html
+    - [news] Anti-hate group ADL slams Wikipedia after site labels it ‘unreliable’ source on 
+      https://www.yahoo.com/news/anti-hate-group-adl-slams-214533812.html
+    - [news] A Wikipedia Conference Took a Dark Turn. Unfortunately, It’s Not a Total Surpris
+      https://www.yahoo.com/news/articles/wikipedia-conference-took-dark-turn-201500894.html
+    - [arxiv] Large Synoptic Survey Telescope: Dark Energy Science Collaboration
+      http://arxiv.org/abs/1211.0310v1
+    - [arxiv] Twelve Years of Education and Public Outreach with the Fermi Gamma-ray Space Tel
+      http://arxiv.org/abs/1303.0042v1
+    - [arxiv] Pulsar Science with the SKA Observatory
+      http://arxiv.org/abs/2512.16152v1
+    - [arxiv] Science with the X-ray Imaging and Spectroscopy Mission (XRISM)
+      http://arxiv.org/abs/2003.04962v1
+    - [arxiv] GREX-PLUS Science Book
+      http://arxiv.org/abs/2304.08104v2
+
+--- Turn 4 ---
+  classification:    clearly_false
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (15):
+    - [wikipedia] Reading
+      https://en.wikipedia.org/wiki/Reading
+    - [wikipedia] Psychopathy
+      https://en.wikipedia.org/wiki/Psychopathy
+    - [wikipedia] Attention
+      https://en.wikipedia.org/wiki/Attention
+    - [wikipedia] Glass ceiling
+      https://en.wikipedia.org/wiki/Glass_ceiling
+    - [wikipedia] Chronic condition
+      https://en.wikipedia.org/wiki/Chronic_condition
+    - [arxiv] Wikipedia: organisation from a bottom-up approach
+      http://arxiv.org/abs/cs/0611068v2
+    - [arxiv] Disagreement as a way to study misinformation and its effects
+      http://arxiv.org/abs/2408.08025v2
+    - [arxiv] Helping People Deal With Disinformation -- A Socio-Technical Perspective
+      http://arxiv.org/abs/2104.04311v1
+    - [arxiv] Why do People Share Misinformation during the COVID-19 Pandemic?
+      http://arxiv.org/abs/2004.09600v1
+    - [arxiv] Combating Misinformation in the Arab World: Challenges & Opportunities
+      http://arxiv.org/abs/2506.05582v1
+    - [news] Scott Adams, ‘Dilbert’ Creator Who Courted Controversy, Dead at 68
+      https://www.yahoo.com/entertainment/celebrity/articles/scott-adams-dilbert-creator-courted-154620715.html
+    - [news] How Biden’s immigration policies paved the way for Springfield’s pet controversy
+      https://www.yahoo.com/news/biden-immigration-policies-paved-way-141528457.html
+    - [news] 14 Famous Wellness “Gurus” Accused Of Being Total Frauds
+      https://www.yahoo.com/lifestyle/14-famous-wellness-gurus-accused-114541929.html
+    - [news] Opinion - Food addiction is not a political issue: Leave it to the scientists...
+      https://www.yahoo.com/news/opinion-food-addiction-not-political-170000901.html
+    - [news] 14 Influencers Who Were Spectacularly Canceled for Selling Snake Oil
+      https://www.yahoo.com/entertainment/celebrity/articles/14-influencers-were-spectacularly-canceled-101550163.html
+

@@ -1,0 +1,160 @@
+=== Claim 13 — Result Metadata ===
+Claim:           강화학습 기반 RLHF는 벤치마크 상에서 LLM 정렬 문제의 근본적 해법으로 입증되었다.
+Expected label:  debatable
+Fact label:      None
+Domain:          AI 안전/학술
+Persona:         stubborn
+Turns completed: 4 / 4
+Cost (this item): $0.0252
+
+Expected APIs:   ['arxiv']
+Actual APIs:     {'wikipedia': 20, 'arxiv': 20, 'news': 20}
+API match:       True
+
+Classification (turn 1): debatable
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    debatable
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Reinforcement learning from human feedback
+      https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback
+    - [wikipedia] Reinforcement learning
+      https://en.wikipedia.org/wiki/Reinforcement_learning
+    - [wikipedia] Large language model
+      https://en.wikipedia.org/wiki/Large_language_model
+    - [wikipedia] Generative pre-trained transformer
+      https://en.wikipedia.org/wiki/Generative_pre-trained_transformer
+    - [wikipedia] Reasoning model
+      https://en.wikipedia.org/wiki/Reasoning_model
+    - [arxiv] RLHF-Blender: A Configurable Interactive Interface for Learning from Diverse Hum
+      http://arxiv.org/abs/2308.04332v1
+    - [arxiv] Reinforcement Learning from Human Feedback: Whose Culture, Whose Values, Whose P
+      http://arxiv.org/abs/2407.17482v2
+    - [arxiv] Value Bonuses using Ensemble Errors for Exploration in Reinforcement Learning
+      http://arxiv.org/abs/2602.12375v1
+    - [arxiv] URLB: Unsupervised Reinforcement Learning Benchmark
+      http://arxiv.org/abs/2110.15191v1
+    - [arxiv] Directed Policy Gradient for Safe Reinforcement Learning with Human Advice
+      http://arxiv.org/abs/1808.04096v1
+    - [news] New AI framework autonomously optimizes training data, architectures and algorit
+      https://venturebeat.com/orchestration/new-ai-framework-autonomously-optimizes-training-data-architectures-and-algorithms-outperforming-human-baselines
+    - [news] Two Gen Zers turned down millions from Elon Musk to build an AI based on the hum
+      https://finance.yahoo.com/news/two-gen-zers-turned-down-110500973.html
+    - [news] Hy3 Preview: Tencent’s Base-Model Play Built For The Larger Ecosystem
+      https://tech.yahoo.com/ai/meta-ai/articles/hy3-preview-tencent-model-play-110353357.html
+    - [news] Scientists Grew Mini Brains, Then Trained Them to Solve an Engineering Problem
+      https://www.yahoo.com/news/articles/scientists-grew-mini-brains-then-160002516.html
+    - [news] Matt Shumer’s viral blog about AI’s looming impact on knowledge workers is based
+      https://finance.yahoo.com/news/matt-shumer-viral-blog-ai-180322170.html
+
+--- Turn 2 ---
+  classification:    debatable
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] AI alignment
+      https://en.wikipedia.org/wiki/AI_alignment
+    - [wikipedia] Glossary of artificial intelligence
+      https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence
+    - [wikipedia] Large language model
+      https://en.wikipedia.org/wiki/Large_language_model
+    - [wikipedia] Mode collapse
+      https://en.wikipedia.org/wiki/Mode_collapse
+    - [wikipedia] Feedback
+      https://en.wikipedia.org/wiki/Feedback
+    - [news] More RLHF, More Trust? On the Impact of Preference Alignment on Trustworthiness
+      https://www.hbs.edu/faculty/Pages/item.aspx?num=68645
+    - [news] Responsible AI Institute Launches Responsible AI Safety and Effectiveness (RAISE
+      https://www.businesswire.com/news/home/20231207702730/en/Responsible-AI-Institute-Launches-Responsible-AI-Safety-and-Effectiveness-RAISE-Benchmarks-to-Operationalize-and-Scale-Responsible-AI-Policies
+    - [news] AI And Us: The Role Of Human Preference In Model Alignment
+      https://www.forbes.com/councils/forbestechcouncil/2024/12/05/ai-and-us-the-role-of-human-preference-in-model-alignment/
+    - [news] AI Reinforcement Learning from Human Feedback (RLHF) explained
+      https://www.geeky-gadgets.com/reinforcement-learning-from-human-feedback/
+    - [news] Inflection AI helps address RLHF uniformity issues with unique models for enterp
+      https://venturebeat.com/ai/inflection-helps-fix-rlhf-uniformity-with-unique-models-for-enterprise-agentic-ai/
+    - [arxiv] Data-Centric Human Preference with Rationales for Direct Preference Alignment
+      http://arxiv.org/abs/2407.14477v4
+    - [arxiv] Arithmetic Control of LLMs for Diverse User Preferences: Directional Preference 
+      http://arxiv.org/abs/2402.18571v3
+    - [arxiv] Online Iterative Reinforcement Learning from Human Feedback with General Prefere
+      http://arxiv.org/abs/2402.07314v3
+    - [arxiv] Iterative Preference Learning from Human Feedback: Bridging Theory and Practice 
+      http://arxiv.org/abs/2312.11456v4
+    - [arxiv] More RLHF, More Trust? On The Impact of Preference Alignment On Trustworthiness
+      http://arxiv.org/abs/2404.18870v2
+
+--- Turn 3 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Amanda Askell
+      https://en.wikipedia.org/wiki/Amanda_Askell
+    - [wikipedia] Large language model
+      https://en.wikipedia.org/wiki/Large_language_model
+    - [wikipedia] GPT-5
+      https://en.wikipedia.org/wiki/GPT-5
+    - [wikipedia] AI alignment
+      https://en.wikipedia.org/wiki/AI_alignment
+    - [wikipedia] Reinforcement learning from human feedback
+      https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback
+    - [news] RLHF And Beyond: How Can We Teach AI The Right Values?
+      https://www.forbes.com/sites/robtoews/2024/02/04/what-is-the-best-way-to-control-todays-ai/
+    - [news] Why synthetic data will be pivotal in building next-generation AI and automated.
+      https://tech.yahoo.com/ai/articles/why-synthetic-data-pivotal-building-085154432.html
+    - [news] Will Reinforcement Learning Take Us To AGI?
+      https://www.forbes.com/sites/robtoews/2025/08/10/will-reinforcement-learning-take-us-to-agi/
+    - [news] With human feedback, AI-driven robots learn tasks better and faster
+      https://www.eurekalert.org/news-releases/1095406
+    - [news] How Auto-Classifying Feedback Can Improve Reinforcement Learning
+      https://www.forbes.com/councils/forbestechcouncil/2025/04/15/how-auto-classifying-feedback-can-improve-reinforcement-learning/
+    - [arxiv] Improving LLM Safety and Helpfulness using SFT and DPO: A Study on OPT-350M
+      http://arxiv.org/abs/2509.09055v1
+    - [arxiv] Equilibrate RLHF: Towards Balancing Helpfulness-Safety Trade-off in Large Langua
+      http://arxiv.org/abs/2502.11555v1
+    - [arxiv] Perception-Aware Bias Detection for Query Suggestions
+      http://arxiv.org/abs/2601.03730v1
+    - [arxiv] Laser pointer prohibition: improving safety or driving misclassification
+      http://arxiv.org/abs/1406.4924v1
+    - [arxiv] Iterative Preference Learning from Human Feedback: Bridging Theory and Practice 
+      http://arxiv.org/abs/2312.11456v4
+
+--- Turn 4 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (15):
+    - [wikipedia] Reinforcement learning from human feedback
+      https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback
+    - [wikipedia] Artificial intelligence
+      https://en.wikipedia.org/wiki/Artificial_intelligence
+    - [wikipedia] Glossary of artificial intelligence
+      https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence
+    - [wikipedia] Generative pre-trained transformer
+      https://en.wikipedia.org/wiki/Generative_pre-trained_transformer
+    - [wikipedia] List of datasets for machine-learning research
+      https://en.wikipedia.org/wiki/List_of_datasets_for_machine-learning_research
+    - [news] RLHF And Beyond: How Can We Teach AI The Right Values?
+      https://www.forbes.com/sites/robtoews/2024/02/04/what-is-the-best-way-to-control-todays-ai/
+    - [news] AI And Us: The Role Of Human Preference In Model Alignment
+      https://www.forbes.com/councils/forbestechcouncil/2024/12/05/ai-and-us-the-role-of-human-preference-in-model-alignment/
+    - [news] Uh-oh! Fine-tuning LLMs compromises their safety, study finds
+      https://venturebeat.com/ai/uh-oh-fine-tuning-llms-compromises-their-safety-study-finds/
+    - [news] MOSS: An open conversational large language model
+      https://www.eurekalert.org/news-releases/1046480
+    - [news] AI Reinforcement Learning from Human Feedback (RLHF) explained
+      https://www.geeky-gadgets.com/reinforcement-learning-from-human-feedback/
+    - [arxiv] Aligning Language Models Using Follow-up Likelihood as Reward Signal
+      http://arxiv.org/abs/2409.13948v3
+    - [arxiv] Interpretable Preferences via Multi-Objective Reward Modeling and Mixture-of-Exp
+      http://arxiv.org/abs/2406.12845v1
+    - [arxiv] PREFINE: Preference-Based Implicit Reward and Cost Fine-Tuning for Safety Alignm
+      http://arxiv.org/abs/2605.21225v1
+    - [arxiv] SALMON: Self-Alignment with Instructable Reward Models
+      http://arxiv.org/abs/2310.05910v2
+    - [arxiv] Difficulty-Based Preference Data Selection by DPO Implicit Reward Gap
+      http://arxiv.org/abs/2508.04149v2
+

@@ -1,0 +1,120 @@
+=== Claim 08 — Result Metadata ===
+Claim:           최근 보도에 따르면 2024년 미국 대선은 광범위한 부정선거로 결과가 뒤집혔다.
+Expected label:  clearly_false
+Fact label:      False
+Domain:          시사/정치
+Persona:         evidence_focused
+Turns completed: 4 / 4
+Cost (this item): $0.0240
+
+Expected APIs:   ['news']
+Actual APIs:     {'news': 20, 'wikipedia': 20}
+API match:       True
+
+Classification (turn 1): debatable
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    debatable
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (10):
+    - [news] Tempers flare as Trump's voter fraud hunt implodes — again
+      https://www.msn.com/en-us/news/politics/tempers-flare-as-trump-s-voter-fraud-hunt-implodes-again/ar-AA21EQua?ocid=BingNewsVerp
+    - [news] Trump reshares post claiming to prove voter fraud in 2020 — with wrong number of
+      https://www.msn.com/en-au/news/other/trump-reshares-post-claiming-to-prove-voter-fraud-in-2020-with-wrong-number-of-voters/ar-AA21o31N?ocid=BingNewsVerp
+    - [news] Trump revives election fraud claims after Virginia redistricting defeat
+      https://www.msn.com/en-us/news/politics/trump-revives-election-fraud-claims-after-virginia-redistricting-defeat/ar-AA21vtc8?ocid=BingNewsVerp
+    - [news] Pennsylvania criminal case highlights problems with third-party voter registrati
+      https://www.msn.com/en-us/politics/elections/pennsylvania-criminal-case-highlights-problems-with-third-party-voter-registration-drives/ar-AA1PAOeJ?ocid=BingNewsVerp
+    - [news] Organizer pleads guilty in Pennsylvania voter registration fraud case
+      https://www.timesleader.com/news/1740128/man-gets-month-in-jail-for-pennsylvania-voter-registration-quotas-in-2024-presidential-race
+    - [wikipedia] List of cases of electoral fraud in the United States
+      https://en.wikipedia.org/wiki/List_of_cases_of_electoral_fraud_in_the_United_States
+    - [wikipedia] 2004 United States presidential election
+      https://en.wikipedia.org/wiki/2004_United_States_presidential_election
+    - [wikipedia] Voter identification laws in the United States
+      https://en.wikipedia.org/wiki/Voter_identification_laws_in_the_United_States
+    - [wikipedia] 2024 United States presidential election
+      https://en.wikipedia.org/wiki/2024_United_States_presidential_election
+    - [wikipedia] 2024 United States elections
+      https://en.wikipedia.org/wiki/2024_United_States_elections
+
+--- Turn 2 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [news] FBI obtains records of Arizona Senate audit of 2020 Maricopa County election res
+      https://www.cnbc.com/2026/03/09/trump-arizona-election-grand-jury-maricopa-fbi.html
+    - [news] Trump expands 2020 election probe to include Arizona 'audit' records
+      https://www.azcentral.com/story/news/politics/elections/2026/03/09/trump-2020-election-probe-arizona/89069824007/
+    - [news] Here's what the Arizona Senate gave Trump's FBI on 2020 election
+      https://www.azcentral.com/story/news/politics/elections/2026/03/16/arizona-senate-gave-trump-fbi-2020-election-information/89143157007/
+    - [news] Amid an elections power struggle, Maricopa County officials hurl unsubstantiated
+      https://www.msn.com/en-us/politics/government/amid-an-elections-power-struggle-maricopa-county-officials-hurl-unsubstantiated-claims-of-voter-disenfranchisement/ar-AA21km4o?ocid=BingNewsVerp
+    - [news] GAO Lobbying Report Audit Meetings to Resume When Shutdown Ends
+      https://www.jdsupra.com/legalnews/gao-lobbying-report-audit-meetings-to-6463311/
+    - [wikipedia] Electronic voting in the United States
+      https://en.wikipedia.org/wiki/Electronic_voting_in_the_United_States
+    - [wikipedia] Electoral fraud in the United States
+      https://en.wikipedia.org/wiki/Electoral_fraud_in_the_United_States
+    - [wikipedia] Republican Party efforts to disrupt the 2024 United States presidential election
+      https://en.wikipedia.org/wiki/Republican_Party_efforts_to_disrupt_the_2024_United_States_presidential_election
+    - [wikipedia] United States Congress
+      https://en.wikipedia.org/wiki/United_States_Congress
+    - [wikipedia] Merrick Garland
+      https://en.wikipedia.org/wiki/Merrick_Garland
+
+--- Turn 3 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [news] FBI obtains records related to Arizona Senate audit of Maricopa County 2020 elec
+      https://kesq.com/news/national-politics/cnn-us-politics/2026/03/09/fbi-obtains-records-related-to-arizona-senate-audit-of-maricopa-county-2020-president-eleciton-results-state-lawmaker-says/
+    - [news] FBI subpoenas Arizona county voting records related to notorious 2020 audit
+      https://www.msn.com/en-us/news/politics/fbi-subpoenas-arizona-county-voting-records-related-to-notorious-2020-audit/ar-AA1XRPlT?ocid=BingNewsVerp
+    - [news] F.B.I. Subpoenas Records in Arizona in Expansion of 2020 Voting Inquiry
+      https://www.nytimes.com/2026/03/09/nyregion/fbi-subpoena-arizona-maricopa-county-election.html
+    - [news] FBI expands probe into Arizona's 2020 election audit despite confirmation of Bid
+      https://www.msn.com/en-gb/news/world/fbi-expands-probe-into-arizonas-2020-election-audit-despite-confirmation-of-bidens-victory/ar-AA1XUTFm?ocid=BingNewsVerp
+    - [news] Latest probe of Arizona's 2020 voting lacks key evidence - the ballots
+      https://www.msn.com/en-us/news/politics/latest-probe-of-arizona-s-2020-voting-lacks-key-evidence-the-ballots/ar-AA1YLV8A?ocid=BingNewsVerp
+    - [wikipedia] Postal voting in the United States
+      https://en.wikipedia.org/wiki/Postal_voting_in_the_United_States
+    - [wikipedia] Republican Party efforts to disrupt the 2024 United States presidential election
+      https://en.wikipedia.org/wiki/Republican_Party_efforts_to_disrupt_the_2024_United_States_presidential_election
+    - [wikipedia] Sidney Powell
+      https://en.wikipedia.org/wiki/Sidney_Powell
+    - [wikipedia] War on drugs
+      https://en.wikipedia.org/wiki/War_on_drugs
+    - [wikipedia] Attempts to overturn the 2020 United States presidential election
+      https://en.wikipedia.org/wiki/Attempts_to_overturn_the_2020_United_States_presidential_election
+
+--- Turn 4 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (10):
+    - [news] Mail-in voting latest target of Donald Trump's election ire
+      https://www.yahoo.com/news/articles/mail-voting-latest-target-donald-130347209.html
+    - [news] As controversy swirls over uncounted ballots in New Hanover County, here's...
+      https://www.yahoo.com/news/controversy-swirls-over-uncounted-ballots-161534993.html
+    - [news] What Texans need to know about helping people register to vote or cast ballots
+      https://www.yahoo.com/news/texans-know-helping-people-register-100000554.html
+    - [news] Commonwealth Court says rejecting mail-in ballots without a date violates the...
+      https://www.yahoo.com/news/commonwealth-court-says-rejecting-mail-225549717.html
+    - [news] Mail-in ballots and Space Command: Why Colorado elections may have led to Trump’
+      https://www.yahoo.com/news/articles/mail-ballots-space-command-why-022103203.html
+    - [wikipedia] Republican Party efforts to disrupt the 2024 United States presidential election
+      https://en.wikipedia.org/wiki/Republican_Party_efforts_to_disrupt_the_2024_United_States_presidential_election
+    - [wikipedia] 2021 Maricopa County presidential ballot audit
+      https://en.wikipedia.org/wiki/2021_Maricopa_County_presidential_ballot_audit
+    - [wikipedia] Elections in the Philippines
+      https://en.wikipedia.org/wiki/Elections_in_the_Philippines
+    - [wikipedia] 2022 Kazakh presidential election
+      https://en.wikipedia.org/wiki/2022_Kazakh_presidential_election
+    - [wikipedia] United Russia
+      https://en.wikipedia.org/wiki/United_Russia
+

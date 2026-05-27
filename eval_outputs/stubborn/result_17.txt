@@ -1,0 +1,138 @@
+=== Claim 17 — Result Metadata ===
+Claim:           사형제는 흉악범죄 억제에 효과적이므로 유지되어야 한다.
+Expected label:  debatable
+Fact label:      None
+Domain:          사회/윤리
+Persona:         stubborn
+Turns completed: 4 / 4
+Cost (this item): $0.0224
+
+Expected APIs:   ['wikipedia', 'arxiv']
+Actual APIs:     {'wikipedia': 20, 'news': 19, 'arxiv': 10}
+API match:       True
+
+Classification (turn 1): debatable
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    debatable
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (14):
+    - [wikipedia] Deterrence (penology)
+      https://en.wikipedia.org/wiki/Deterrence_(penology)
+    - [wikipedia] Torture
+      https://en.wikipedia.org/wiki/Torture
+    - [wikipedia] Criminology
+      https://en.wikipedia.org/wiki/Criminology
+    - [wikipedia] Group polarization
+      https://en.wikipedia.org/wiki/Group_polarization
+    - [wikipedia] Confirmation bias
+      https://en.wikipedia.org/wiki/Confirmation_bias
+    - [news] Deterrence and the Death Penalty
+      https://www.nationalacademies.org/read/13363/chapter/90.
+    - [news] ‘Fear of death doesn't deter violent crime,’ experts say as executions rise
+      https://www.yahoo.com/news/articles/fear-death-doesnt-deter-violent-051806498.html
+    - [news] NC Republicans want to restart the death penalty, but there are obstacles |...
+      https://www.yahoo.com/news/articles/nc-republicans-want-restart-death-090000526.html
+    - [news] Corporate crime persists in the shadows
+      https://www.yahoo.com/news/articles/corporate-crime-persists-shadows-140000686.html
+    - [arxiv] P-value evaluation, variability index and biomarker categorization for adaptivel
+      http://arxiv.org/abs/1708.05084v1
+    - [arxiv] Expert Insight-Based Modeling of Non-Kinetic Strategic Deterrence of Rare Earth 
+      http://arxiv.org/abs/2506.11645v1
+    - [arxiv] Generative AI and Creativity: A Systematic Literature Review and Meta-Analysis
+      http://arxiv.org/abs/2505.17241v1
+    - [arxiv] IQ: Intrinsic measure for quantifying the heterogeneity in meta-analysis
+      http://arxiv.org/abs/2109.05755v2
+    - [arxiv] A novel density-based approach for estimating unknown means, distribution visual
+      http://arxiv.org/abs/2411.10971v1
+
+--- Turn 2 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Deterrence (penology)
+      https://en.wikipedia.org/wiki/Deterrence_(penology)
+    - [wikipedia] Torture
+      https://en.wikipedia.org/wiki/Torture
+    - [wikipedia] Rape
+      https://en.wikipedia.org/wiki/Rape
+    - [wikipedia] Criminology
+      https://en.wikipedia.org/wiki/Criminology
+    - [wikipedia] Etomidate
+      https://en.wikipedia.org/wiki/Etomidate
+    - [news] Deterrence and the Death Penalty
+      https://www.nationalacademies.org/read/13363
+    - [news] Pope Leo calls for worldwide abolition of death penalty
+      https://www.msn.com/en-xl/society-culture-and-history/social-issues/pope-leo-calls-for-worldwide-abolition-of-death-penalty/ar-AA21Jh0g?ocid=BingNewsVerp
+    - [news] Israel passes death penalty law for Palestinians convicted of lethal attacks
+      https://www.reuters.com/world/middle-east/israeli-death-penalty-bill-palestinian-murder-convicts-faces-vote-2026-03-30/
+    - [news] Photos: Wrongful Convictions and Death Penalty Panel
+      https://drexel.edu/law/news/articles/overview/2026/April/photos-wrongful-convictions-panel/
+    - [news] New report details systemic failures in Ohio wrongful convictions
+      https://www.msn.com/en-us/news/crime/new-report-details-systemic-failures-in-ohio-wrongful-convictions/ar-AA1ZKQum?ocid=BingNewsVerp
+
+--- Turn 3 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Deterrence (penology)
+      https://en.wikipedia.org/wiki/Deterrence_(penology)
+    - [wikipedia] Suicide
+      https://en.wikipedia.org/wiki/Suicide
+    - [wikipedia] Broken windows theory
+      https://en.wikipedia.org/wiki/Broken_windows_theory
+    - [wikipedia] Gun violence in the United States
+      https://en.wikipedia.org/wiki/Gun_violence_in_the_United_States
+    - [wikipedia] Recidivism
+      https://en.wikipedia.org/wiki/Recidivism
+    - [news] Malaysia scraps mandatory death penalty, natural-life prison terms
+      https://www.asahi.com/ajw/articles/14876975
+    - [news] Enough is enough: SA must reopen the constitutional debate on the death penalty 
+      https://www.msn.com/en-za/news/other/enough-is-enough-sa-must-reopen-the-constitutional-debate-on-the-death-penalty-for-heinous-crimes/ar-AA22BdGH?ocid=BingNewsVerp
+    - [news] Outrage, grief and the law: why SA's death penalty debate has resurfaced after N
+      https://www.msn.com/en-za/news/other/outrage-grief-and-the-law-why-sa-s-death-penalty-debate-has-resurfaced-after-newark-murders/ar-AA22ChsF?ocid=BingNewsVerp
+    - [news] Rethinking the Death Penalty
+      https://www.yahoo.com/news/articles/rethinking-death-penalty-140715599.html
+    - [news] Trump’s death penalty push gains traction in statehouses
+      https://www.yahoo.com/news/articles/trump-death-penalty-push-gains-100000708.html
+    - [arxiv] DETER: Detecting Edited Regions for Deterring Generative Manipulations
+      http://arxiv.org/abs/2312.10539v1
+    - [arxiv] Individual Updating of Subjective Probability of Homicide Victimization: a "Natu
+      http://arxiv.org/abs/2312.08171v1
+    - [arxiv] P-value evaluation, variability index and biomarker categorization for adaptivel
+      http://arxiv.org/abs/1708.05084v1
+    - [arxiv] The Theory of Crowd Capital
+      http://arxiv.org/abs/1210.2013v1
+    - [arxiv] A Micro-foundation of Social Capital in Evolving Social Networks
+      http://arxiv.org/abs/1511.02429v1
+
+--- Turn 4 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (10):
+    - [news] Israel’s Death Penalty Bill Would Bring Darkness, Not Deterrence
+      https://www.jurist.org/commentary/2025/12/israels-death-penalty-bill-would-bring-darkness-not-deterrence/
+    - [news] Deterrence and the Death Penalty
+      https://www.nationalacademies.org/read/13363
+    - [news] 'It's broken': Report highlights death row inmates in Ohio who've been exonerate
+      https://local12.com/news/local/its-broken-report-highlights-death-row-inmates-in-ohio-whove-been-exonerated-cincinnati-ohians-executions-stop-elwood-jones-wrongful-convictions-murder-penalty
+    - [news] Wrongful Convictions & Death Penalty Panel
+      https://drexel.edu/scdc/about/events/workshops/event?_i=46320_121623
+    - [news] Trial courts handed 128 death sentences in 2025, highest female convictions sinc
+      https://www.msn.com/en-in/crime/general/trial-courts-handed-128-death-sentences-in-2025-highest-female-convictions-since-2016-says-report/ar-AA1VVsXQ?ocid=BingNewsVerp
+    - [wikipedia] Deterrence (penology)
+      https://en.wikipedia.org/wiki/Deterrence_(penology)
+    - [wikipedia] Punishment
+      https://en.wikipedia.org/wiki/Punishment
+    - [wikipedia] Criminology
+      https://en.wikipedia.org/wiki/Criminology
+    - [wikipedia] Victimology
+      https://en.wikipedia.org/wiki/Victimology
+    - [wikipedia] Recidivism
+      https://en.wikipedia.org/wiki/Recidivism
+

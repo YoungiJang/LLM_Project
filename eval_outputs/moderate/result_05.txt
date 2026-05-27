@@ -1,0 +1,124 @@
+=== Claim 05 — Result Metadata ===
+Claim:           1969년 아폴로 11호 달 착륙은 조작이다.
+Expected label:  clearly_false
+Fact label:      False
+Domain:          역사
+Persona:         moderate
+Turns completed: 4 / 4
+Cost (this item): $0.0236
+
+Expected APIs:   ['wikipedia']
+Actual APIs:     {'wikipedia': 20, 'news': 17, 'arxiv': 5}
+API match:       True
+
+Classification (turn 1): clearly_false
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    clearly_false
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Third-party evidence for Apollo Moon landings
+      https://en.wikipedia.org/wiki/Third-party_evidence_for_Apollo_Moon_landings
+    - [wikipedia] Apollo 11
+      https://en.wikipedia.org/wiki/Apollo_11
+    - [wikipedia] Moon landing conspiracy theories
+      https://en.wikipedia.org/wiki/Moon_landing_conspiracy_theories
+    - [wikipedia] Apollo 16
+      https://en.wikipedia.org/wiki/Apollo_16
+    - [wikipedia] Apollo program
+      https://en.wikipedia.org/wiki/Apollo_program
+    - [news] Apollo astronauts saw UFOs from the Moon, new files reveal
+      https://www.yahoo.com/news/articles/apollo-astronauts-saw-ufos-moon-155624760.html
+    - [news] What do astronomers say about Moon landing deniers? Batting down the conspiracy.
+      https://www.yahoo.com/news/astronomers-moon-landing-deniers-batting-150646841.html
+    - [news] Scientists discover fascinating tunnel on the moon
+      https://www.yahoo.com/lifestyle/scientists-discover-fascinating-tunnel-moon-090000771.html
+    - [news] Scientists Detect Huge Caverns Under Surface of Moon
+      https://www.yahoo.com/news/scientists-detect-huge-caves-under-175704967.html
+    - [news] Did we really land on the moon? Artemis II photos, conspiracies debunked
+      https://www.usatoday.com/story/news/2026/04/07/conspiracy-theory-moon-landing-fake-artemis-2/89498292007/
+
+--- Turn 2 ---
+  classification:    clearly_false
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (7):
+    - [news] Courts Were Already Getting Video Evidence Wrong. AI Will Make That Look Like A 
+      https://www.forbes.com/sites/larsdaniel/2026/02/26/courts-were-already-getting-video-evidence-wrong-ai-will-make-that-look-like-a-warm-up/
+    - [news] Audit Trails Explained: Essential Tracking, Types, and Examples
+      https://www.investopedia.com/terms/a/audittrail.asp
+    - [wikipedia] Al-Ahli Arab Hospital explosion
+      https://en.wikipedia.org/wiki/Al-Ahli_Arab_Hospital_explosion
+    - [wikipedia] WhatsApp
+      https://en.wikipedia.org/wiki/WhatsApp
+    - [wikipedia] Speedrunning
+      https://en.wikipedia.org/wiki/Speedrunning
+    - [wikipedia] Digital rights management
+      https://en.wikipedia.org/wiki/Digital_rights_management
+    - [wikipedia] Surveillance
+      https://en.wikipedia.org/wiki/Surveillance
+
+--- Turn 3 ---
+  classification:    clearly_false
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Disappearance of Madeleine McCann
+      https://en.wikipedia.org/wiki/Disappearance_of_Madeleine_McCann
+    - [wikipedia] Virginia Tech shooting
+      https://en.wikipedia.org/wiki/Virginia_Tech_shooting
+    - [wikipedia] War crimes in the Gaza war
+      https://en.wikipedia.org/wiki/War_crimes_in_the_Gaza_war
+    - [wikipedia] Murder of Sherri Rasmussen
+      https://en.wikipedia.org/wiki/Murder_of_Sherri_Rasmussen
+    - [wikipedia] Mobile telephony
+      https://en.wikipedia.org/wiki/Mobile_telephony
+    - [news] MLB announces that they will no longer show if a pitch is a ball or strike...
+      https://sports.yahoo.com/articles/mlb-announces-no-longer-show-150436754.html
+    - [news] TV Ratings: All 112 Shows That Averaged 5 Million or More Viewers in 2024-25
+      https://www.yahoo.com/entertainment/articles/tv-ratings-112-shows-averaged-202344830.html
+    - [news] Investigating claim NBC edited footage of Vance being booed at 2026 Winter...
+      https://www.yahoo.com/news/articles/investigating-claim-nbc-edited-footage-174600192.html
+    - [news] E.W. Scripps Q1 Earnings Call Highlights
+      https://finance.yahoo.com/markets/stocks/articles/e-w-scripps-q1-earnings-040706347.html
+    - [news] A New Lease On Life At Turf Paradise
+      https://sports.yahoo.com/articles/lease-life-turf-paradise-165950140.html
+
+--- Turn 4 ---
+  classification:    clearly_false
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (15):
+    - [wikipedia] Signals intelligence
+      https://en.wikipedia.org/wiki/Signals_intelligence
+    - [wikipedia] Sgt. Pepper's Lonely Hearts Club Band
+      https://en.wikipedia.org/wiki/Sgt._Pepper's_Lonely_Hearts_Club_Band
+    - [wikipedia] Strategic management
+      https://en.wikipedia.org/wiki/Strategic_management
+    - [wikipedia] Parapsychology
+      https://en.wikipedia.org/wiki/Parapsychology
+    - [wikipedia] Deductive-nomological model
+      https://en.wikipedia.org/wiki/Deductive-nomological_model
+    - [news] Dublin Students Create AI Tool For Legislation Analysis, Debate Simulation
+      https://patch.com/california/dublin/dublin-students-create-ai-tool-legislation-analysis-debate-simulation
+    - [news] Inside Track: Broadcast is back in the Emmys race. Sort of.
+      https://www.yahoo.com/entertainment/articles/inside-track-broadcast-back-emmys-190000255.html
+    - [news] Location tracking company Unacast tells Norway its data was hacked, broadcaster.
+      https://finance.yahoo.com/news/location-tracking-company-unacast-tells-001837944.html
+    - [news] GB News faces investigation over Donald Trump interview
+      https://www.yahoo.com/news/articles/gb-news-faces-investigation-over-165932018.html
+    - [news] No, Zohran Mamdani Isn’t a Communist
+      https://r.search.yahoo.com/_ylt=A2RTVORjxxZqdgIAkb_QtDMD;_ylu=Y29sbwNhcC1zb3V0aGVhc3QtMQRwb3MDOAR2dGlkAwRzZWMDc3I-/RV=2/RE=1781087332/RO=10/RU=https://www.yahoo.com/news/articles/no-zohran-mamdani-isn-t-064311774.html?fr=sycsrp_catchall/RK=2/RS=u9cUP59IbrMIes7NFvnn0npMxcs-
+    - [arxiv] Data Encoding for Byzantine-Resilient Distributed Optimization
+      http://arxiv.org/abs/1907.02664v2
+    - [arxiv] Byzantine-Resilient SGD in High Dimensions on Heterogeneous Data
+      http://arxiv.org/abs/2005.07866v1
+    - [arxiv] Constraints on dark energy from H II starburst galaxy apparent magnitude versus 
+      http://arxiv.org/abs/1110.5626v1
+    - [arxiv] TerraGen: A Unified Multi-Task Layout Generation Framework for Remote Sensing Da
+      http://arxiv.org/abs/2510.21391v1
+    - [arxiv] AeroGen: Enhancing Remote Sensing Object Detection with Diffusion-Driven Data Ge
+      http://arxiv.org/abs/2411.15497v3
+

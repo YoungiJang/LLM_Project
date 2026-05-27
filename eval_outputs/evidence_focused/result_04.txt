@@ -1,0 +1,120 @@
+=== Claim 04 — Result Metadata ===
+Claim:           지구는 평평하다.
+Expected label:  clearly_false
+Fact label:      False
+Domain:          과학
+Persona:         evidence_focused
+Turns completed: 4 / 4
+Cost (this item): $0.0238
+
+Expected APIs:   ['wikipedia']
+Actual APIs:     {'wikipedia': 20, 'news': 20}
+API match:       True
+
+Classification (turn 1): clearly_false
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    clearly_false
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Empirical evidence for the spherical shape of Earth
+      https://en.wikipedia.org/wiki/Empirical_evidence_for_the_spherical_shape_of_Earth
+    - [wikipedia] Modern flat Earth beliefs
+      https://en.wikipedia.org/wiki/Modern_flat_Earth_beliefs
+    - [wikipedia] Mark Sargent (flat Earth proponent)
+      https://en.wikipedia.org/wiki/Mark_Sargent_(flat_Earth_proponent)
+    - [wikipedia] Young Earth creationism
+      https://en.wikipedia.org/wiki/Young_Earth_creationism
+    - [wikipedia] Pizzagate conspiracy theory
+      https://en.wikipedia.org/wiki/Pizzagate_conspiracy_theory
+    - [news] Flat Earth on the ballot? Debunked claim pops up in US politics.
+      https://www.yahoo.com/news/flat-earth-ballot-debunked-claim-100122646.html
+    - [news] Nemesis: The Theoretical ‘Death Star’ That Could Explain Earth’s Mass Extinction
+      https://www.yahoo.com/news/articles/nemesis-theoretical-death-star-could-163000803.html
+    - [news] There is such a thing as 'settled science' — anyone who says otherwise is trying
+      https://www.yahoo.com/news/articles/thing-settled-science-anyone-says-141310948.html
+    - [news] Artemis II, Hollywood And Moon Landing Conspiracy Theories
+      https://www.yahoo.com/news/articles/artemis-ii-hollywood-moon-landing-122145058.html
+    - [news] 13 Ridiculous Conspiracy Theories Many Americans Still Believe
+      https://www.yahoo.com/lifestyle/articles/13-ridiculous-conspiracy-theories-many-104548598.html
+
+--- Turn 2 ---
+  classification:    clearly_false
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Modern flat Earth beliefs
+      https://en.wikipedia.org/wiki/Modern_flat_Earth_beliefs
+    - [wikipedia] Glossary of astronomy
+      https://en.wikipedia.org/wiki/Glossary_of_astronomy
+    - [wikipedia] History of geodesy
+      https://en.wikipedia.org/wiki/History_of_geodesy
+    - [wikipedia] Surveying
+      https://en.wikipedia.org/wiki/Surveying
+    - [wikipedia] Lidar
+      https://en.wikipedia.org/wiki/Lidar
+    - [news] Neil deGrasse Tyson explains how you can't believe in flat Earth if you've ever 
+      https://www.msn.com/en-us/news/technology/neil-degrasse-tyson-explains-how-you-can-t-believe-in-flat-earth-if-you-ve-ever-seen-a-lunar-eclipse/ar-AA213mV2?ocid=BingNewsVerp
+    - [news] Nikon discontinues popular camera just before an eclipse. Now people think NASA 
+      https://www.msn.com/en-ca/news/other/nikon-discontinues-popular-camera-just-before-an-eclipse-now-people-think-nasa-ordered-it/ar-AA23XBuv?ocid=BingNewsVerp
+    - [news] This Google Earth image doesn't show piles of bodies in Sudan
+      https://www.snopes.com/fact-check/google-earth-kumia-sudan-bodies/
+    - [news] How a Reddit User Proved Flat-Earthers Wrong
+      https://gizmodo.com/how-a-reddit-user-proved-flat-earthers-wrong-2000672723
+    - [news] Flat Earth, spirits and conspiracy theories — experience can shape even extraord
+      https://www.space.com/astronomy/earth/flat-earth-spirits-and-conspiracy-theories-experience-can-shape-even-extraordinary-beliefs
+
+--- Turn 3 ---
+  classification:    clearly_false
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Empirical evidence for the spherical shape of Earth
+      https://en.wikipedia.org/wiki/Empirical_evidence_for_the_spherical_shape_of_Earth
+    - [wikipedia] Nibiru cataclysm
+      https://en.wikipedia.org/wiki/Nibiru_cataclysm
+    - [wikipedia] List of conspiracy theories
+      https://en.wikipedia.org/wiki/List_of_conspiracy_theories
+    - [wikipedia] History of physics
+      https://en.wikipedia.org/wiki/History_of_physics
+    - [wikipedia] Earth ellipsoid
+      https://en.wikipedia.org/wiki/Earth_ellipsoid
+    - [news] Neil deGrasse Tyson explains how you can't believe in flat Earth if you've ever 
+      https://www.msn.com/en-us/news/technology/neil-degrasse-tyson-explains-how-you-can-t-believe-in-flat-earth-if-you-ve-ever-seen-a-lunar-eclipse/ar-AA213mV2?ocid=BingNewsVerp
+    - [news] Earth's outer core beneath Pacific reversed direction in 2010, satellite data re
+      https://phys.org/news/2026-05-earth-outer-core-beneath-pacific.html
+    - [news] Time to Toss Your Hard-to-Read Bubble Level. These Upgraded Laser Levels...
+      https://shopping.yahoo.com/home-garden/home-improvement/articles/time-toss-hard-read-bubble-175700100.html
+    - [news] The US Navy is full speed ahead on building a laser fleet
+      https://www.yahoo.com/news/articles/us-navy-full-speed-ahead-185144501.html
+    - [news] Dark crater laser could standardize lunar navigation and timekeeping
+      https://tech.yahoo.com/science/articles/dark-crater-laser-could-standardize-160700406.html
+
+--- Turn 4 ---
+  classification:    clearly_false
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (10):
+    - [wikipedia] Modern flat Earth beliefs
+      https://en.wikipedia.org/wiki/Modern_flat_Earth_beliefs
+    - [wikipedia] Black hole
+      https://en.wikipedia.org/wiki/Black_hole
+    - [wikipedia] Geodesy
+      https://en.wikipedia.org/wiki/Geodesy
+    - [wikipedia] Gravitational wave
+      https://en.wikipedia.org/wiki/Gravitational_wave
+    - [wikipedia] General relativity
+      https://en.wikipedia.org/wiki/General_relativity
+    - [news] Flat-earthers travel to Antarctica to prove the Earth is flat until the sky expo
+      https://www.msn.com/en-us/news/world/flat-earthers-travel-to-antarctica-to-prove-the-earth-is-flat-until-the-sky-exposed-a-reality-they-couldn-t-explain/ar-AA1SPkuo?ocid=BingNewsVerp
+    - [news] Why is the moon red? How lunar eclipse changes the full moon color
+      https://www.msn.com/en-us/news/technology/why-is-the-moon-red-how-lunar-eclipse-changes-the-full-moon-color/ar-AA1XnKlO?ocid=BingNewsVerp
+    - [news] PHOTOS: Total lunar eclipse turns moon blood red
+      https://www.clickorlando.com/news/local/2026/03/02/blood-moon-what-to-know-and-how-best-to-see-total-lunar-eclipse/
+    - [news] The moon will soon turn red during total lunar eclipse
+      https://www.clickorlando.com/news/local/2026/02/24/the-moon-will-soon-turn-red-during-total-lunar-eclipse/
+    - [news] Blood Moon: How To See Total Lunar Eclipse Over US
+      https://www.newsweek.com/blood-moon-how-to-see-next-lunar-eclipse-11567553
+

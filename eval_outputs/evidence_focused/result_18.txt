@@ -1,0 +1,160 @@
+=== Claim 18 — Result Metadata ===
+Claim:           실증 연구에 따르면 재택근무는 사무실 근무보다 생산성이 높다.
+Expected label:  debatable
+Fact label:      None
+Domain:          노동
+Persona:         evidence_focused
+Turns completed: 4 / 4
+Cost (this item): $0.0248
+
+Expected APIs:   ['arxiv', 'news']
+Actual APIs:     {'arxiv': 20, 'wikipedia': 20, 'news': 20}
+API match:       True
+
+Classification (turn 1): debatable
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    debatable
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (15):
+    - [arxiv] Prompt Compression in Production Task Orchestration: A Pre-Registered Randomized
+      http://arxiv.org/abs/2603.23525v1
+    - [arxiv] Garbage Collection Makes Rust Easier to Use: A Randomized Controlled Trial of th
+      http://arxiv.org/abs/2110.01098v2
+    - [arxiv] TimeSenCLIP: A Time Series Vision-Language Model for Remote Sensing
+      http://arxiv.org/abs/2508.11919v3
+    - [arxiv] Aggregated Deep Local Features for Remote Sensing Image Retrieval
+      http://arxiv.org/abs/1903.09469v1
+    - [arxiv] Vision-Language Modeling Meets Remote Sensing: Models, Datasets and Perspectives
+      http://arxiv.org/abs/2505.14361v1
+    - [wikipedia] Trip.com Group
+      https://en.wikipedia.org/wiki/Trip.com_Group
+    - [wikipedia] Nicholas Bloom
+      https://en.wikipedia.org/wiki/Nicholas_Bloom
+    - [wikipedia] Telehealth
+      https://en.wikipedia.org/wiki/Telehealth
+    - [wikipedia] Telemetry
+      https://en.wikipedia.org/wiki/Telemetry
+    - [wikipedia] Large language model
+      https://en.wikipedia.org/wiki/Large_language_model
+    - [news] Remote Symptom Monitoring of Patients With Advanced Lung Cancer (The ProWide Stu
+      https://ascopubs.org/doi/10.1200/OP-24-00562
+    - [news] Opinion - Do-it-yourself AI could be the key to work-from-home productivity and.
+      https://www.yahoo.com/news/articles/opinion-yourself-ai-could-key-130000946.html
+    - [news] NCATS award to support multi-site study evaluating remote trials
+      https://www.buffalo.edu/provost/messages.host.html/content/shared/university/news/ub-reporter-articles/stories/2024/11/ncats-remote-trials.detail.html
+    - [news] Opinion - Management failure, not work-from-home, kills productivity
+      https://www.yahoo.com/news/opinion-management-failure-not-home-130000529.html
+    - [news] Opinion - A flexible company is a successful company: Make the workplace work...
+      https://finance.yahoo.com/news/opinion-flexible-company-successful-company-140000023.html
+
+--- Turn 2 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Nicholas Bloom
+      https://en.wikipedia.org/wiki/Nicholas_Bloom
+    - [wikipedia] Large language model
+      https://en.wikipedia.org/wiki/Large_language_model
+    - [wikipedia] Canada
+      https://en.wikipedia.org/wiki/Canada
+    - [wikipedia] McKinsey & Company
+      https://en.wikipedia.org/wiki/McKinsey_%26_Company
+    - [wikipedia] Apple Inc.
+      https://en.wikipedia.org/wiki/Apple_Inc.
+    - [news] America's productivity boom may have an unlikely hero: working from home
+      https://www.msn.com/en-us/money/markets/americas-productivity-boom-may-have-an-unlikely-hero-working-from-home/ar-AA23aX1a?ocid=BingNewsVerp
+    - [news] Does remote work productivity match office performance?
+      https://www.wsbradio.com/contributor/does-remote-work/FLLBQZOHKM2WJKWPHU4N5MSYKM/
+    - [news] Remote work, not AI, credited for US productivity growth
+      https://www.msn.com/en-us/news/insight/burnout-and-ai-layoffs-reshape-u-s-job-market-in-2026/gm-GM3B25D4EB?ocid=BingNewsVerp
+    - [news] AI is finally delivering productivity — for remote employees
+      https://www.computerworld.com/article/4159817/ai-is-finally-delivering-productivity-for-remote-employees.html
+    - [news] Salary isn’t everything: Why flexibility to work remotely is the future of work
+      https://thehill.com/opinion/finance/5859902-hybrid-work-performance-retention/
+    - [arxiv] A Comparative Study of Removal Noise from Remote Sensing Image
+      http://arxiv.org/abs/1002.1148v1
+    - [arxiv] Prompt Compression in Production Task Orchestration: A Pre-Registered Randomized
+      http://arxiv.org/abs/2603.23525v1
+    - [arxiv] Aggregated Deep Local Features for Remote Sensing Image Retrieval
+      http://arxiv.org/abs/1903.09469v1
+    - [arxiv] TimeSenCLIP: A Time Series Vision-Language Model for Remote Sensing
+      http://arxiv.org/abs/2508.11919v3
+    - [arxiv] Vision-Language Modeling Meets Remote Sensing: Models, Datasets and Perspectives
+      http://arxiv.org/abs/2505.14361v1
+
+--- Turn 3 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Millennials
+      https://en.wikipedia.org/wiki/Millennials
+    - [wikipedia] Walkability
+      https://en.wikipedia.org/wiki/Walkability
+    - [wikipedia] Air conditioning
+      https://en.wikipedia.org/wiki/Air_conditioning
+    - [wikipedia] Rural poverty
+      https://en.wikipedia.org/wiki/Rural_poverty
+    - [wikipedia] Big data
+      https://en.wikipedia.org/wiki/Big_data
+    - [news] SHOCKER! Study Says Working From Home Makes People Happy
+      https://www.blackenterprise.com/study-australia-work-home-remote-happy/
+    - [news] Turns Out, Your Boss Was Wrong—Study Says Remote Work Makes You Healthier And Ha
+      https://www.blackenterprise.com/study-people-happier-working-home/
+    - [news] How Remote Work Revolutionizes Employee Well-Being and Productivity According to
+      https://www.msn.com/en-us/money/careers/how-remote-work-revolutionizes-employee-well-being-and-productivity-according-to-latest-research/ar-AA1F68xU?ocid=BingNewsVerp
+    - [news] Does remote work productivity match office performance?
+      https://www.wsbradio.com/contributor/does-remote-work/FLLBQZOHKM2WJKWPHU4N5MSYKM/
+    - [news] Remote work, not AI, credited for US productivity growth
+      https://www.msn.com/en-us/news/insight/burnout-and-ai-layoffs-reshape-u-s-job-market-in-2026/gm-GM3B25D4EB?ocid=BingNewsVerp
+    - [arxiv] A Comparative Study of Removal Noise from Remote Sensing Image
+      http://arxiv.org/abs/1002.1148v1
+    - [arxiv] TimeSenCLIP: A Time Series Vision-Language Model for Remote Sensing
+      http://arxiv.org/abs/2508.11919v3
+    - [arxiv] Space-time distributions
+      http://arxiv.org/abs/gr-qc/9810059v1
+    - [arxiv] Aggregated Deep Local Features for Remote Sensing Image Retrieval
+      http://arxiv.org/abs/1903.09469v1
+    - [arxiv] Clinical Productivity System - A Decision Support Model
+      http://arxiv.org/abs/1206.0021v1
+
+--- Turn 4 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (15):
+    - [wikipedia] Remote work
+      https://en.wikipedia.org/wiki/Remote_work
+    - [wikipedia] Autism
+      https://en.wikipedia.org/wiki/Autism
+    - [wikipedia] LibreOffice
+      https://en.wikipedia.org/wiki/LibreOffice
+    - [wikipedia] Usability
+      https://en.wikipedia.org/wiki/Usability
+    - [wikipedia] Occupational stress
+      https://en.wikipedia.org/wiki/Occupational_stress
+    - [news] Is remote work dying?
+      https://www.marketplace.org/story/2025/12/02/why-companies-are-mandating-fully-inperson-work
+    - [news] Top Remote Work Statistics And Trends
+      https://www.forbes.com/advisor/business/remote-work-statistics/
+    - [news] The return-to-the-office trend backfires
+      https://thehill.com/opinion/technology/5775420-remote-first-productivity-growth/
+    - [news] Remote Or In-Office Work? The Future Lies In A Better Hybrid Model
+      https://www.forbes.com/sites/esade/2025/11/20/remote-or-in-office-work-the-future-lies-in-a-better-hybrid-model/
+    - [news] AI is finally delivering productivity — for remote employees
+      https://www.computerworld.com/article/4159817/ai-is-finally-delivering-productivity-for-remote-employees.html
+    - [arxiv] Astrotourism for Development: An Overview of Resources from the IAU Office of As
+      http://arxiv.org/abs/2507.15827v1
+    - [arxiv] TimeSenCLIP: A Time Series Vision-Language Model for Remote Sensing
+      http://arxiv.org/abs/2508.11919v3
+    - [arxiv] Aggregated Deep Local Features for Remote Sensing Image Retrieval
+      http://arxiv.org/abs/1903.09469v1
+    - [arxiv] Vision-Language Modeling Meets Remote Sensing: Models, Datasets and Perspectives
+      http://arxiv.org/abs/2505.14361v1
+    - [arxiv] Change-Agent: Towards Interactive Comprehensive Remote Sensing Change Interpreta
+      http://arxiv.org/abs/2403.19646v3
+

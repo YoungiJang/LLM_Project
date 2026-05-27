@@ -1,0 +1,130 @@
+=== Claim 10 — Result Metadata ===
+Claim:           최근 일론 머스크의 X(트위터) 운영 방침은 표현의 자유를 후퇴시켰다.
+Expected label:  debatable
+Fact label:      None
+Domain:          미디어/플랫폼
+Persona:         believer
+Turns completed: 4 / 4
+Cost (this item): $0.0234
+
+Expected APIs:   ['news']
+Actual APIs:     {'news': 20, 'wikipedia': 20, 'arxiv': 5}
+API match:       True
+
+Classification (turn 1): debatable
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [news] 5 Trends Shaping Social Media Marketing So Far in 2025
+      https://finance.yahoo.com/news/5-trends-shaping-social-media-104000080.html
+    - [news] Violent Extremism Lingers Online With US Flagging Less Content
+      https://www.yahoo.com/news/us-pulls-back-disrupting-violent-153711054.html
+    - [news] Mark Zuckerberg says Meta's 'community notes' are inspired by Elon Musk's X. Her
+      https://www.yahoo.com/news/mark-zuckerberg-says-metas-community-093102151.html
+    - [news] In the New Trump Era, the Proud Boys Are ‘Not Apologizing Anymore’
+      https://www.yahoo.com/news/articles/trump-era-proud-boys-not-153022894.html
+    - [news] Elon Musk has a powerful new acolyte: Mark Zuckerberg
+      https://www.yahoo.com/news/mark-zuckerberg-unveils-latest-persona-090102920.html
+    - [wikipedia] X (social network)
+      https://en.wikipedia.org/wiki/X_(social_network)
+    - [wikipedia] Acquisition of Twitter by Elon Musk
+      https://en.wikipedia.org/wiki/Acquisition_of_Twitter_by_Elon_Musk
+    - [wikipedia] Twitter Files
+      https://en.wikipedia.org/wiki/Twitter_Files
+    - [wikipedia] Criticism of X (social network)
+      https://en.wikipedia.org/wiki/Criticism_of_X_(social_network)
+    - [wikipedia] Twitter, Inc.
+      https://en.wikipedia.org/wiki/Twitter%2C_Inc.
+
+--- Turn 2 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Twitter under Elon Musk
+      https://en.wikipedia.org/wiki/Twitter_under_Elon_Musk
+    - [wikipedia] Censorship by X
+      https://en.wikipedia.org/wiki/Censorship_by_X
+    - [wikipedia] YouTube
+      https://en.wikipedia.org/wiki/YouTube
+    - [wikipedia] History of YouTube
+      https://en.wikipedia.org/wiki/History_of_YouTube
+    - [wikipedia] Internet censorship in India
+      https://en.wikipedia.org/wiki/Internet_censorship_in_India
+    - [news] Content moderation in the AI era: Humans are still needed across industries, say
+      https://www.fastcompany.com/91111253/content-moderation-generative-ai-humans-twitter-alex-popken
+    - [news] Insider Q&A: Trust and safety exec talks about AI and content moderation
+      https://www.ksn.com/news/tech/ap-technology/ap-insider-qa-trust-and-safety-exec-talks-about-ai-and-content-moderation/
+    - [news] Community Notes help reduce the virality of false information on X, study finds
+      https://www.eurekalert.org/news-releases/1099133
+    - [news] Meta Remains Vague About Controversial 'Community Notes'
+      https://www.mediapost.com/publications/article/403621/meta-remains-vague-about-controversial-community.html
+    - [news] Meta To Launch X-Like Community Notes In Major Fact-Checking Shift
+      https://www.forbes.com/sites/esatdedezade/2025/03/13/meta-to-launch-x-like-community-notes-in-major-moderation-shift/
+
+--- Turn 3 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [news] Meta unveils new community notes program; will not apply distribution penalties 
+      https://www.foxnews.com/politics/exclusive-meta-unveils-new-community-notes-program-flagged-content-not-have-limited-distribution
+    - [news] TikTok Tests 'Community Notes' Copycat
+      https://www.mediapost.com/publications/article/405164/tiktok-tests-community-notes-copycat-in-the-us.html
+    - [news] Meta says online harassment is up and false flags are down following a change in
+      https://www.businessinsider.com/meta-says-online-harassment-is-up-after-content-moderation-changes-2025-5
+    - [news] Meta rolls out new AI content enforcement systems while reducing reliance on thi
+      https://techcrunch.com/2026/03/19/meta-rolls-out-new-ai-content-enforcement-systems-while-reducing-reliance-on-third-party-vendors/
+    - [news] Meta uses Elon Musk's X algorithm for its new community notes
+      https://www.businessinsider.com/meta-community-notes-elon-musk-x-algorithm-facebook-instagram-2025-3
+    - [wikipedia] Social media
+      https://en.wikipedia.org/wiki/Social_media
+    - [wikipedia] Internet forum
+      https://en.wikipedia.org/wiki/Internet_forum
+    - [wikipedia] The Babylon Bee
+      https://en.wikipedia.org/wiki/The_Babylon_Bee
+    - [wikipedia] YouTube
+      https://en.wikipedia.org/wiki/YouTube
+    - [wikipedia] Google Chrome
+      https://en.wikipedia.org/wiki/Google_Chrome
+
+--- Turn 4 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (15):
+    - [wikipedia] Misinformation
+      https://en.wikipedia.org/wiki/Misinformation
+    - [wikipedia] Anti-vaccine activism
+      https://en.wikipedia.org/wiki/Anti-vaccine_activism
+    - [wikipedia] Climate change denial
+      https://en.wikipedia.org/wiki/Climate_change_denial
+    - [wikipedia] Deplatforming
+      https://en.wikipedia.org/wiki/Deplatforming
+    - [wikipedia] Russian web brigades
+      https://en.wikipedia.org/wiki/Russian_web_brigades
+    - [news] The economic chilling effect of Trump's immigration crackdown
+      https://www.wvxu.org/news-from-npr/2026-05-12/the-economic-chilling-effect-of-trumps-immigration-crackdown
+    - [news] The Viral ‘Community Notes’ Spree That X Just Unleashed on YouTube
+      https://www.mensjournal.com/news/x-community-notes-spree-youtube-viral-weekend
+    - [news] Musk’s X Sues New York in Latest Legal Battle Over Content Moderation: What to K
+      https://time.com/7295402/elon-musk-x-new-york-lawsuit-free-speech-content-moderation/
+    - [news] WhatsApp Channels to Fall Under EU Content Moderation Rules
+      https://www.techrepublic.com/article/news-whatsapp-channels-eu-dsa-vlop/
+    - [news] WhatsApp Set to Face Stricter Content Moderation Rules in the EU
+      https://www.bloomberg.com/news/articles/2025-11-11/whatsapp-set-to-face-stricter-content-moderation-rules-in-the-eu
+    - [arxiv] Algorithmic Addiction by Design: Big Tech's Leverage of Dark Patterns to Maintai
+      http://arxiv.org/abs/2505.00054v3
+    - [arxiv] Tabletop Roleplaying Games as Procedural Content Generators
+      http://arxiv.org/abs/2007.06108v2
+    - [arxiv] Exploring the Vulnerability of the Content Moderation Guardrail in Large Languag
+      http://arxiv.org/abs/2505.18556v2
+    - [arxiv] How to define and test an Indirect Moderation model: the missing link in regress
+      http://arxiv.org/abs/1701.08862v3
+    - [arxiv] Content Removal as a Moderation Strategy: Compliance and Other Outcomes in the C
+      http://arxiv.org/abs/1910.09563v1
+

@@ -1,0 +1,110 @@
+=== Claim 03 — Result Metadata ===
+Claim:           인간은 뇌의 10%만 사용한다.
+Expected label:  clearly_false
+Fact label:      False
+Domain:          신경과학
+Persona:         believer
+Turns completed: 4 / 4
+Cost (this item): $0.0220
+
+Expected APIs:   ['wikipedia']
+Actual APIs:     {'wikipedia': 20, 'arxiv': 15}
+API match:       True
+
+Classification (turn 1): clearly_false
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    clearly_false
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (5):
+    - [wikipedia] Ten-percent-of-the-brain myth
+      https://en.wikipedia.org/wiki/Ten-percent-of-the-brain_myth
+    - [wikipedia] List of common misconceptions about science, technology, and mathematics
+      https://en.wikipedia.org/wiki/List_of_common_misconceptions_about_science%2C_technology%2C_and_mathematics
+    - [wikipedia] MythBusters (2010 season)
+      https://en.wikipedia.org/wiki/MythBusters_(2010_season)
+    - [wikipedia] Variant Creutzfeldt–Jakob disease
+      https://en.wikipedia.org/wiki/Variant_Creutzfeldt%E2%80%93Jakob_disease
+    - [wikipedia] Facebook
+      https://en.wikipedia.org/wiki/Facebook
+
+--- Turn 2 ---
+  classification:    clearly_false
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Ten-percent-of-the-brain myth
+      https://en.wikipedia.org/wiki/Ten-percent-of-the-brain_myth
+    - [wikipedia] List of common misconceptions about science, technology, and mathematics
+      https://en.wikipedia.org/wiki/List_of_common_misconceptions_about_science%2C_technology%2C_and_mathematics
+    - [wikipedia] The Body Keeps the Score
+      https://en.wikipedia.org/wiki/The_Body_Keeps_the_Score
+    - [wikipedia] Variant Creutzfeldt–Jakob disease
+      https://en.wikipedia.org/wiki/Variant_Creutzfeldt%E2%80%93Jakob_disease
+    - [wikipedia] Conspiracy theories about Adolf Hitler's death
+      https://en.wikipedia.org/wiki/Conspiracy_theories_about_Adolf_Hitler's_death
+    - [arxiv] IPPOG : Bridging the gap between science education at school and modern scientif
+      http://arxiv.org/abs/2011.14743v1
+    - [arxiv] Precise measurement of CMB polarisation from Dome-C: the BRAIN and CLOVER experi
+      http://arxiv.org/abs/astro-ph/0412590v2
+    - [arxiv] The myth of the Digital Earth between fragmentation and wholeness
+      http://arxiv.org/abs/1412.2078v1
+    - [arxiv] Efficient embedding network for 3D brain tumor segmentation
+      http://arxiv.org/abs/2011.11052v1
+    - [arxiv] Refutations on "Debunking the Myths of Influence Maximization: An In-Depth Bench
+      http://arxiv.org/abs/1705.05144v3
+
+--- Turn 3 ---
+  classification:    clearly_false
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Ten-percent-of-the-brain myth
+      https://en.wikipedia.org/wiki/Ten-percent-of-the-brain_myth
+    - [wikipedia] Brain matures at 25 myth
+      https://en.wikipedia.org/wiki/Brain_matures_at_25_myth
+    - [wikipedia] List of common misconceptions about science, technology, and mathematics
+      https://en.wikipedia.org/wiki/List_of_common_misconceptions_about_science%2C_technology%2C_and_mathematics
+    - [wikipedia] Marijuana Myths, Marijuana Facts: A Review of the Scientific Evidence
+      https://en.wikipedia.org/wiki/Marijuana_Myths%2C_Marijuana_Facts%3A_A_Review_of_the_Scientific_Evidence
+    - [wikipedia] Daniel T. Willingham
+      https://en.wikipedia.org/wiki/Daniel_T._Willingham
+    - [arxiv] Precise measurement of CMB polarisation from Dome-C: the BRAIN and CLOVER experi
+      http://arxiv.org/abs/astro-ph/0412590v2
+    - [arxiv] IPPOG : Bridging the gap between science education at school and modern scientif
+      http://arxiv.org/abs/2011.14743v1
+    - [arxiv] The myth of the Digital Earth between fragmentation and wholeness
+      http://arxiv.org/abs/1412.2078v1
+    - [arxiv] Efficient embedding network for 3D brain tumor segmentation
+      http://arxiv.org/abs/2011.11052v1
+    - [arxiv] Names from Greek Myth in Fundamental Physics
+      http://arxiv.org/abs/2210.10623v3
+
+--- Turn 4 ---
+  classification:    clearly_false
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (10):
+    - [arxiv] IPPOG : Bridging the gap between science education at school and modern scientif
+      http://arxiv.org/abs/2011.14743v1
+    - [arxiv] Precise measurement of CMB polarisation from Dome-C: the BRAIN and CLOVER experi
+      http://arxiv.org/abs/astro-ph/0412590v2
+    - [arxiv] The myth of the Digital Earth between fragmentation and wholeness
+      http://arxiv.org/abs/1412.2078v1
+    - [arxiv] Efficient embedding network for 3D brain tumor segmentation
+      http://arxiv.org/abs/2011.11052v1
+    - [arxiv] Names from Greek Myth in Fundamental Physics
+      http://arxiv.org/abs/2210.10623v3
+    - [wikipedia] Ten-percent-of-the-brain myth
+      https://en.wikipedia.org/wiki/Ten-percent-of-the-brain_myth
+    - [wikipedia] List of common misconceptions about science, technology, and mathematics
+      https://en.wikipedia.org/wiki/List_of_common_misconceptions_about_science%2C_technology%2C_and_mathematics
+    - [wikipedia] Scientific racism
+      https://en.wikipedia.org/wiki/Scientific_racism
+    - [wikipedia] Science of reading
+      https://en.wikipedia.org/wiki/Science_of_reading
+    - [wikipedia] Yakub (Nation of Islam)
+      https://en.wikipedia.org/wiki/Yakub_(Nation_of_Islam)
+

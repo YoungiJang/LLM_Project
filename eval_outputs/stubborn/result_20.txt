@@ -1,0 +1,70 @@
+=== Claim 20 — Result Metadata ===
+Claim:           클래식 음악이 재즈보다 더 가치 있는 예술이다.
+Expected label:  subjective_opinion
+Fact label:      None
+Domain:          음악
+Persona:         stubborn
+Turns completed: 4 / 4
+Cost (this item): $0.0184
+
+Expected APIs:   ['wikipedia']
+Actual APIs:     {'wikipedia': 10, 'news': 5}
+API match:       True
+
+Classification (turn 1): subjective_opinion
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    subjective_opinion
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (0):
+
+--- Turn 2 ---
+  classification:    subjective_opinion
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (0):
+
+--- Turn 3 ---
+  classification:    subjective_opinion
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Progressive music
+      https://en.wikipedia.org/wiki/Progressive_music
+    - [wikipedia] Globalization
+      https://en.wikipedia.org/wiki/Globalization
+    - [wikipedia] Anton Webern
+      https://en.wikipedia.org/wiki/Anton_Webern
+    - [wikipedia] Culture of Europe
+      https://en.wikipedia.org/wiki/Culture_of_Europe
+    - [wikipedia] Ethnomusicology
+      https://en.wikipedia.org/wiki/Ethnomusicology
+    - [news] Music = Science and Einstein + Jazz = Genius: Stuck in a musical rut? Give the ‘
+      https://www.yahoo.com/entertainment/music-science-einstein-jazz-genius-124207370.html
+    - [news] The Origin And Evolution Of Canadian Poutine
+      https://www.yahoo.com/lifestyle/origin-evolution-canadian-poutine-175540214.html
+    - [news] Steinbrenner divide: Yankees’ evolution under Hal raises questions about what’s 
+      https://sports.yahoo.com/articles/steinbrenner-divide-yankees-evolution-under-211701784.html
+    - [news] Forget vinyl, reel-to-reel tapes are the last word in sound quality – and they’r
+      https://tech.yahoo.com/audio/articles/forget-vinyl-reel-reel-tapes-153440810.html
+    - [news] Barack Obama reveals the songs he says shaped the United States
+      https://www.yahoo.com/entertainment/music/articles/barack-obama-reveals-songs-says-015014955.html
+
+--- Turn 4 ---
+  classification:    subjective_opinion
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (5):
+    - [wikipedia] Ethnomusicology
+      https://en.wikipedia.org/wiki/Ethnomusicology
+    - [wikipedia] Marxist cultural analysis
+      https://en.wikipedia.org/wiki/Marxist_cultural_analysis
+    - [wikipedia] Music and politics
+      https://en.wikipedia.org/wiki/Music_and_politics
+    - [wikipedia] Nina Simone
+      https://en.wikipedia.org/wiki/Nina_Simone
+    - [wikipedia] Iran
+      https://en.wikipedia.org/wiki/Iran
+

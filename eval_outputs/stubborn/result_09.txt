@@ -1,0 +1,130 @@
+=== Claim 09 — Result Metadata ===
+Claim:           최근 OpenAI의 영리 기업 전환은 AI 안전성을 약화시켰다.
+Expected label:  debatable
+Fact label:      None
+Domain:          AI 산업/거버넌스
+Persona:         stubborn
+Turns completed: 4 / 4
+Cost (this item): $0.0243
+
+Expected APIs:   ['news']
+Actual APIs:     {'news': 20, 'wikipedia': 20, 'arxiv': 5}
+API match:       True
+
+Classification (turn 1): debatable
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [news] Elon Musk sought $80B for Mars colonization, OpenAI president says in trial
+      https://www.fox6now.com/news/openai-musk-trial-for-profit-mars-control
+    - [news] Musk testifies he did not read 'fine print' about OpenAI becoming for-profit com
+      https://www.reuters.com/sustainability/boards-policy-regulation/elon-musk-return-witness-stand-cross-examination-by-openais-lawyer-2026-04-30/
+    - [news] Musk-OpenAI Trial Previews How Antitrust Will Steer AI’s Future
+      https://news.bloomberglaw.com/legal-exchange-insights-and-commentary/musk-openai-trial-previews-how-antitrust-will-steer-ais-future
+    - [news] University of Michigan’s $20M OpenAI stake revealed in Musk trial
+      https://www.msn.com/en-us/news/insight/murati-says-altman-misled-on-ai-safety-in-musk-trial/gm-GM2D541466?ocid=BingNewsVerp
+    - [news] All the evidence revealed so far in Musk v. Altman
+      https://www.theverge.com/ai-artificial-intelligence/920775/evidence-exhibits-elon-musk-sam-altman-openai-trial
+    - [wikipedia] AI boom
+      https://en.wikipedia.org/wiki/AI_boom
+    - [wikipedia] Large language model
+      https://en.wikipedia.org/wiki/Large_language_model
+    - [wikipedia] Big Tech
+      https://en.wikipedia.org/wiki/Big_Tech
+    - [wikipedia] Views of Elon Musk
+      https://en.wikipedia.org/wiki/Views_of_Elon_Musk
+    - [wikipedia] Data center
+      https://en.wikipedia.org/wiki/Data_center
+
+--- Turn 2 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Soviet Union
+      https://en.wikipedia.org/wiki/Soviet_Union
+    - [wikipedia] Premiership of Keir Starmer
+      https://en.wikipedia.org/wiki/Premiership_of_Keir_Starmer
+    - [wikipedia] The Ocean Cleanup
+      https://en.wikipedia.org/wiki/The_Ocean_Cleanup
+    - [wikipedia] Sustainable Development Goals
+      https://en.wikipedia.org/wiki/Sustainable_Development_Goals
+    - [wikipedia] Walmart
+      https://en.wikipedia.org/wiki/Walmart
+    - [news] How Katie Porter's strongest asset came to haunt her California governor run
+      https://www.yahoo.com/news/politics/articles/mean-girl-double-standard-plagues-120000707.html
+    - [news] Lawmakers hope to jumpstart Unemployment Equity Act for school staff
+      https://www.yahoo.com/news/politics/articles/lawmakers-hope-jumpstart-unemployment-equity-142701365.html
+    - [news] Texas Tribune journalists, staff secure AI protections and pay raises under...
+      https://www.yahoo.com/news/us/articles/texas-tribune-journalists-staff-secure-120000567.html
+    - [news] US says people seeking green cards must leave the country to apply
+      https://www.yahoo.com/news/articles/us-says-people-seeking-green-082936558.html
+    - [news] Why did Rocky Mountain keep its reservation system while other national parks...
+      https://www.denverpost.com/2026/05/22/rocky-mountain-national-park-reservation-system/
+
+--- Turn 3 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Performance indicator
+      https://en.wikipedia.org/wiki/Performance_indicator
+    - [wikipedia] Health care quality
+      https://en.wikipedia.org/wiki/Health_care_quality
+    - [wikipedia] Patient safety organization
+      https://en.wikipedia.org/wiki/Patient_safety_organization
+    - [wikipedia] Pay for performance (healthcare)
+      https://en.wikipedia.org/wiki/Pay_for_performance_(healthcare)
+    - [wikipedia] Evidence-based design
+      https://en.wikipedia.org/wiki/Evidence-based_design
+    - [news] Patient safety at 14 Mass. hospitals degraded in the past half-year, report says
+      https://www.masslive.com/news/2024/05/patient-safety-at-14-mass-hospitals-degraded-in-the-past-half-year-report-says.html
+    - [news] HealthAlliance-Clinton Hospital earns ‘A’ safety grade from Leapfrog
+      https://www.lowellsun.com/2026/05/19/healthalliance-clinton-hospital-earns-a-safety-grade-from-leapfrog/
+    - [news] CT hospitals rank top 5 in safety, shows room for improvements, study shows
+      https://www.nbcconnecticut.com/news/local/ct-hospitals-rank-top-5-safety-shows-room-improvements-study/3664750/
+    - [news] Where do Lehigh Valley hospitals rank in latest safety report?
+      https://www.mcall.com/2024/11/20/leapfrog-hospital-safety-st-luke-lehigh-valley-health/
+    - [news] UH Parma Medical Center continues streak of receiving top hospital safety, quali
+      https://www.cleveland.com/community/2024/05/uh-parma-medical-center-continues-streak-of-receiving-top-safety-quality-hospital-grade.html
+
+--- Turn 4 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (15):
+    - [wikipedia] Indoor air quality
+      https://en.wikipedia.org/wiki/Indoor_air_quality
+    - [wikipedia] Hazard
+      https://en.wikipedia.org/wiki/Hazard
+    - [wikipedia] Oxygen toxicity
+      https://en.wikipedia.org/wiki/Oxygen_toxicity
+    - [wikipedia] Chronic obstructive pulmonary disease
+      https://en.wikipedia.org/wiki/Chronic_obstructive_pulmonary_disease
+    - [wikipedia] Three Mile Island accident
+      https://en.wikipedia.org/wiki/Three_Mile_Island_accident
+    - [news] Tracking Safety Leading Indicators to Improve DOT Employee Safety Performance
+      https://www.nationalacademies.org/read/28599/chapter/4
+    - [news] Eli Lilly Stock Eyes Best Month This Year As Cholesterol, Obesity Drug Tailwinds
+      https://finance.yahoo.com/sectors/healthcare/articles/eli-lilly-stock-eyes-best-050839165.html
+    - [news] LLY Reports Third Phase III Win for Next-Generation Obesity Drug
+      https://finance.yahoo.com/sectors/healthcare/articles/lly-reports-third-phase-iii-143400347.html
+    - [news] Lilly’s weight loss pill shows 13% weight loss in adults over 65 years of age
+      https://www.yahoo.com/news/science/articles/lilly-weight-loss-pill-shows-111318893.html
+    - [news] AMGN Stock Down 13% in 3 Months: Buy the Dip or Book Profits?
+      https://finance.yahoo.com/markets/stocks/articles/amgn-stock-down-13-3-132100204.html
+    - [arxiv] Sequential Design and Spatial Modeling for Portfolio Tail Risk Measurement
+      http://arxiv.org/abs/1710.05204v2
+    - [arxiv] On the Selection of Loss Severity Distributions to Model Operational Risk
+      http://arxiv.org/abs/2107.03979v1
+    - [arxiv] Indemnity Payments in Agricultural Insurance: Risk Exposure of EU States
+      http://arxiv.org/abs/2003.05726v1
+    - [arxiv] Evaluating Range Value at Risk Forecasts
+      http://arxiv.org/abs/1902.04489v3
+    - [arxiv] Statistical Emulators for Pricing and Hedging Longevity Risk Products
+      http://arxiv.org/abs/1508.00310v2
+

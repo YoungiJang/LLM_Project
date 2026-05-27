@@ -1,0 +1,140 @@
+=== Claim 07 — Result Metadata ===
+Claim:           이버멕틴은 코로나19 치료에 효과적이라는 임상 증거가 충분하다.
+Expected label:  clearly_false
+Fact label:      False
+Domain:          의학/팬데믹
+Persona:         moderate
+Turns completed: 4 / 4
+Cost (this item): $0.0251
+
+Expected APIs:   ['arxiv', 'news']
+Actual APIs:     {'news': 20, 'wikipedia': 20, 'arxiv': 10}
+API match:       True
+
+Classification (turn 1): debatable
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    debatable
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (10):
+    - [news] Ivermectin was touted as a cure for COVID, now it’s being tested for cancer. But
+      https://theconversation.com/ivermectin-was-touted-as-a-cure-for-covid-now-its-being-tested-for-cancer-but-what-can-it-actually-treat-276180
+    - [news] Ivermectin is being touted as a cure for COVID and cancer. Here’s what science s
+      https://www.yahoo.com/news/ivermectin-being-touted-cure-covid-150006467.html
+    - [news] Do Hydroxychloroquine and Ivermectin Work?
+      https://sports.yahoo.com/articles/hydroxychloroquine-ivermectin-184516678.html
+    - [news] Do Face Masks Work?
+      https://sports.yahoo.com/articles/face-masks-181502165.html
+    - [news] Most COVID-19 Drugs Fall Short, Meta-Analysis Confirms
+      https://www.medscape.com/viewarticle/most-covid-19-drugs-fall-short-meta-analysis-confirms-2025a1000ib6
+    - [wikipedia] Ivermectin
+      https://en.wikipedia.org/wiki/Ivermectin
+    - [wikipedia] Ivermectin during the COVID-19 pandemic
+      https://en.wikipedia.org/wiki/Ivermectin_during_the_COVID-19_pandemic
+    - [wikipedia] COVID-19 pandemic
+      https://en.wikipedia.org/wiki/COVID-19_pandemic
+    - [wikipedia] COVID-19 misinformation
+      https://en.wikipedia.org/wiki/COVID-19_misinformation
+    - [wikipedia] Treatment and management of COVID-19
+      https://en.wikipedia.org/wiki/Treatment_and_management_of_COVID-19
+
+--- Turn 2 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Ivermectin during the COVID-19 pandemic
+      https://en.wikipedia.org/wiki/Ivermectin_during_the_COVID-19_pandemic
+    - [wikipedia] COVID-19 pandemic
+      https://en.wikipedia.org/wiki/COVID-19_pandemic
+    - [wikipedia] Treatment and management of COVID-19
+      https://en.wikipedia.org/wiki/Treatment_and_management_of_COVID-19
+    - [wikipedia] COVID-19 misinformation
+      https://en.wikipedia.org/wiki/COVID-19_misinformation
+    - [wikipedia] Furosemide
+      https://en.wikipedia.org/wiki/Furosemide
+    - [news] FDA, CDC, doctors warn not to use ivermectin for COVID treatment, prevention
+      https://abc7.com/post/ivermectin-covid-humans-side-effects-treatment/10994919/
+    - [news] GOP lawmakers push to make ivermectin available in Pennsylvania without a prescr
+      https://www.goerie.com/story/news/politics/state/2025/05/27/ivermectin-pa-over-the-counter-bill/83791145007/
+    - [news] Fact Check: No evidence that ivermectin ‘should work’ against hantaviruses
+      https://www.reuters.com/fact-check/no-evidence-that-ivermectin-should-work-against-hantaviruses-2026-05-13/
+    - [news] Lawmakers revive pandemic-era fight over ivermectin
+      https://www.msn.com/en-us/health/other/lawmakers-revive-pandemic-era-fight-over-ivermectin/ar-AA1FNnSv?ocid=BingNewsVerp
+    - [news] Demographic Variation In US Outpatient Hydroxychloroquine And Ivermectin Use Dur
+      https://www.healthaffairs.org/doi/10.1377/hlthaff.2024.00452
+
+--- Turn 3 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Nirmatrelvir/ritonavir
+      https://en.wikipedia.org/wiki/Nirmatrelvir%2Fritonavir
+    - [wikipedia] Doxycycline
+      https://en.wikipedia.org/wiki/Doxycycline
+    - [wikipedia] Fluoxetine
+      https://en.wikipedia.org/wiki/Fluoxetine
+    - [wikipedia] COVID-19 misinformation
+      https://en.wikipedia.org/wiki/COVID-19_misinformation
+    - [wikipedia] COVID-19 pandemic
+      https://en.wikipedia.org/wiki/COVID-19_pandemic
+    - [news] Combined Oral Ivermectin and 5% Permethrin Cream to Treat Severe Scabies
+      https://www.nejm.org/doi/full/10.1056/NEJMoa2411721
+    - [news] Standard-dose ivermectin superior to high dose for severe scabies
+      https://www.healio.com/news/dermatology/20260513/standarddose-ivermectin-superior-to-high-dose-for-severe-scabies
+    - [news] Ivermectin is being touted as a cure for COVID and cancer. Here’s what science s
+      https://www.yahoo.com/news/ivermectin-being-touted-cure-covid-150006467.html
+    - [news] Is this 2020 all over again? Some Republicans push Ivermectin again amid Hantavi
+      https://www.silive.com/politics/2026/05/is-this-2020-all-over-again-some-republicans-push-ivermectin-again-amid-hantavirus-fears.html
+    - [news] FDA seeks drug repurposing input as ivermectin-hantavirus claims denied
+      https://www.msn.com/en-us/news/other/fda-seeks-drug-repurposing-input-as-ivermectin-hantavirus-claims-denied/gm-GMF3AE67A8?ocid=BingNewsVerp
+    - [arxiv] An Efficient Mixture of Deep and Machine Learning Models for COVID-19 and Tuberc
+      http://arxiv.org/abs/2007.08223v1
+    - [arxiv] Bayesian hypothesis testing and hierarchical modelling of ivermectin effectivene
+      http://arxiv.org/abs/2109.13739v2
+    - [arxiv] Dietary Supplements and Nutraceuticals Under Investigation for COVID-19 Preventi
+      http://arxiv.org/abs/2102.02250v1
+    - [arxiv] An Open-Publishing Response to the COVID-19 Infodemic
+      http://arxiv.org/abs/2109.08633v1
+    - [arxiv] COVID 19, a realistic model for saturation, growth and decay of the India specif
+      http://arxiv.org/abs/2004.09912v1
+
+--- Turn 4 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (15):
+    - [wikipedia] COVID-19 misinformation
+      https://en.wikipedia.org/wiki/COVID-19_misinformation
+    - [wikipedia] COVID-19 vaccination in Bulgaria
+      https://en.wikipedia.org/wiki/COVID-19_vaccination_in_Bulgaria
+    - [wikipedia] Pharmacokinetics of progesterone
+      https://en.wikipedia.org/wiki/Pharmacokinetics_of_progesterone
+    - [wikipedia] Ketamine
+      https://en.wikipedia.org/wiki/Ketamine
+    - [wikipedia] Alprazolam
+      https://en.wikipedia.org/wiki/Alprazolam
+    - [news] Ivermectin Does Not Improve COVID-19 Outcomes
+      https://www.medscape.com/viewarticle/971936
+    - [news] Clinical trial hopes to determine if Ivermectin and other drugs can be repurpose
+      https://www.kjrh.com/news/national/coronavirus/clinical-trial-hopes-to-determine-if-ivermectin-and-other-drugs-can-be-repurposed-to-fight-covid-19
+    - [news] Ivermectin Reduces Malaria Transmission in Trial
+      https://www.medpagetoday.com/infectiousdisease/generalinfectiousdisease/116715
+    - [news] Greene slammed for false ivermectin claim amid hantavirus outbreak
+      https://www.msn.com/en-us/news/other/greene-slammed-for-false-ivermectin-claim-amid-hantavirus-outbreak/gm-GMLEED5C2C?ocid=BingNewsVerp
+    - [news] What Ivermectin Can (and Can’t) Do
+      https://www.nytimes.com/2025/03/31/well/ivermectin-cancer-covid.html
+    - [arxiv] Assessing the similarity of dose response and target doses in two non-overlappin
+      http://arxiv.org/abs/1607.05424v2
+    - [arxiv] Optimal designs for active controlled dose finding trials with efficacy-toxicity
+      http://arxiv.org/abs/1601.00797v1
+    - [arxiv] Prompt Compression in Production Task Orchestration: A Pre-Registered Randomized
+      http://arxiv.org/abs/2603.23525v1
+    - [arxiv] P-value evaluation, variability index and biomarker categorization for adaptivel
+      http://arxiv.org/abs/1708.05084v1
+    - [arxiv] Data synthesis and adversarial networks: A review and meta-analysis in cancer im
+      http://arxiv.org/abs/2107.09543v2
+

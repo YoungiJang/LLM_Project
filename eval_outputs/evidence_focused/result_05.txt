@@ -1,0 +1,130 @@
+=== Claim 05 — Result Metadata ===
+Claim:           1969년 아폴로 11호 달 착륙은 조작이다.
+Expected label:  clearly_false
+Fact label:      False
+Domain:          역사
+Persona:         evidence_focused
+Turns completed: 4 / 4
+Cost (this item): $0.0264
+
+Expected APIs:   ['wikipedia']
+Actual APIs:     {'wikipedia': 20, 'news': 20, 'arxiv': 5}
+API match:       True
+
+Classification (turn 1): clearly_false
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    clearly_false
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Moon landing conspiracy theories
+      https://en.wikipedia.org/wiki/Moon_landing_conspiracy_theories
+    - [wikipedia] Moon landing conspiracy theories in popular culture
+      https://en.wikipedia.org/wiki/Moon_landing_conspiracy_theories_in_popular_culture
+    - [wikipedia] Bad Astronomy
+      https://en.wikipedia.org/wiki/Bad_Astronomy
+    - [wikipedia] Bart Sibrel
+      https://en.wikipedia.org/wiki/Bart_Sibrel
+    - [wikipedia] UFO sightings in outer space
+      https://en.wikipedia.org/wiki/UFO_sightings_in_outer_space
+    - [news] Brit Hume rebuts moon hoax claims amid Artemis II buzz
+      https://www.msn.com/en-us/news/insight/brit-hume-rebuts-moon-hoax-claims-amid-artemis-ii-buzz/gm-GMF2C2D07A?ocid=BingNewsVerp
+    - [news] Artemis II fake NASA claims surge online as Apollo 11 hoax returns
+      https://www.msn.com/en-in/news/world/artemis-ii-fake-nasa-claims-surge-online-as-apollo-11-hoax-returns/ar-AA20DJFR?ocid=BingNewsVerp
+    - [news] Is NASA lying? Artemis II clip sparks decades-old 'fake Apollo moon landing' deb
+      https://www.msn.com/en-in/technology/space-exploration/is-nasa-lying-artemis-ii-clip-sparks-decades-old-fake-apollo-moon-landing-debate-watch/ar-AA20f9ai?ocid=BingNewsVerp
+    - [news] Conspiracy Theorists Are Going to Have a Field Day as NASA Gears Up to Launch Hi
+      https://futurism.com/space/nasa-launch-moon-mission-april-fools-day
+    - [news] Lunar Laser Ranging and Gravitational Theory
+      https://www.nature.com/nature-index/topics/l4/lunar-laser-ranging-and-gravitational-theory
+
+--- Turn 2 ---
+  classification:    clearly_false
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] John F. Kennedy
+      https://en.wikipedia.org/wiki/John_F._Kennedy
+    - [wikipedia] Outer space
+      https://en.wikipedia.org/wiki/Outer_space
+    - [wikipedia] List of common misconceptions about science, technology, and mathematics
+      https://en.wikipedia.org/wiki/List_of_common_misconceptions_about_science%2C_technology%2C_and_mathematics
+    - [wikipedia] Global catastrophe scenarios
+      https://en.wikipedia.org/wiki/Global_catastrophe_scenarios
+    - [wikipedia] Carbon dioxide
+      https://en.wikipedia.org/wiki/Carbon_dioxide
+    - [news] Brit Hume pushes back on moon landing hoax claims in new clip
+      https://www.msn.com/en-us/news/technology/brit-hume-pushes-back-on-moon-landing-hoax-claims-in-new-clip/ar-AA204VWl?ocid=BingNewsVerp
+    - [news] The secret Soviet mission that tricked the world into a fake moon landing
+      https://www.msn.com/en-us/science/general/the-secret-soviet-mission-that-tricked-the-world-into-a-fake-moon-landing/ar-AA1UrzH6?ocid=BingNewsVerp
+    - [news] Declassified Apollo mission UFO files challenge long-running moon landing conspi
+      https://www.msn.com/en-us/news/other/declassified-apollo-mission-ufo-files-challenge-long-running-moon-landing-conspiracy-theories/ar-AA22Iw6R?ocid=BingNewsVerp
+    - [news] Artemis II, Hollywood And Moon Landing Conspiracy Theories
+      https://www.forbes.com/sites/marshallshepherd/2026/04/03/artemis-ii-hollywood-and-moon-landing-conspiracy-theories/
+    - [news] Did we really land on the moon? Artemis II photos, conspiracies debunked
+      https://www.usatoday.com/story/news/2026/04/07/conspiracy-theory-moon-landing-fake-artemis-2/89498292007/
+
+--- Turn 3 ---
+  classification:    clearly_false
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Moon landing conspiracy theories
+      https://en.wikipedia.org/wiki/Moon_landing_conspiracy_theories
+    - [wikipedia] Moon rock
+      https://en.wikipedia.org/wiki/Moon_rock
+    - [wikipedia] 2020 in science
+      https://en.wikipedia.org/wiki/2020_in_science
+    - [wikipedia] July–September 2020 in science
+      https://en.wikipedia.org/wiki/July%E2%80%93September_2020_in_science
+    - [wikipedia] History of IBM
+      https://en.wikipedia.org/wiki/History_of_IBM
+    - [news] Brit Hume Shuts Down Claims Moon Landing Was Fake
+      https://www.aol.com/news/brit-hume-shuts-down-claims-031801751.html
+    - [news] Bryson DeChambeau doubts moon-landing footage
+      https://www.msn.com/en-us/sports/general/bryson-dechambeau-doubts-moon-landing-footage/ar-AA23GWM1?ocid=BingNewsVerp
+    - [news] Did the moon landing actually happen?
+      https://www.msn.com/en-us/science/general/did-the-moon-landing-actually-happen/vi-AA20kbyO?ocid=BingNewsVerp
+    - [news] Did we really land on the moon? Artemis II photos, conspiracies debunked
+      https://www.usatoday.com/story/news/2026/04/07/conspiracy-theory-moon-landing-fake-artemis-2/89498292007/
+    - [news] Why moon hoaxes still find believers today
+      https://www.msn.com/en-us/news/insight/why-moon-hoaxes-still-find-believers-today/gm-GM5F734F78?ocid=BingNewsVerp
+
+--- Turn 4 ---
+  classification:    clearly_false
+  evidence_strength: weak
+  evaluator_state:   close
+  sources (15):
+    - [wikipedia] Street light
+      https://en.wikipedia.org/wiki/Street_light
+    - [wikipedia] Fallen Astronaut
+      https://en.wikipedia.org/wiki/Fallen_Astronaut
+    - [wikipedia] Exploration of Io
+      https://en.wikipedia.org/wiki/Exploration_of_Io
+    - [wikipedia] 2019 in science
+      https://en.wikipedia.org/wiki/2019_in_science
+    - [wikipedia] Radioisotope thermoelectric generator
+      https://en.wikipedia.org/wiki/Radioisotope_thermoelectric_generator
+    - [news] Lunar Laser Ranging and Gravitational Theory
+      https://www.nature.com/nature-index/topics/l4/lunar-laser-ranging-and-gravitational-theory
+    - [news] Laser Ranging Retro-Reflector, Apollo
+      https://www.si.edu/es/object/laser-ranging-retro-reflector-apollo:nasm_A19730063000
+    - [news] The Technology That Proves That Yes, the Lunar Landings Really Did Take Place
+      https://www.redsharknews.com/the-technology-that-proves-that-yes-the-lunar-landings-really-did-take-place
+    - [news] Lunar laser: China makes 1st daytime laser-ranging measurement from Earth to the
+      https://www.msn.com/en-gb/technology/space-exploration/lunar-laser-china-makes-1st-daytime-laser-ranging-measurement-from-earth-to-the-moon/ar-AA1Elywa?ocid=BingNewsVerp
+    - [news] Chang’e-4 data hints at a low-radiation cavity between Earth and the moon
+      https://www.msn.com/en-us/science/astronomy/chang-e-4-data-hints-at-a-low-radiation-cavity-between-earth-and-the-moon/ar-AA1ZIRlA?ocid=BingNewsVerp
+    - [arxiv] Lunar Laser Ranging Science
+      http://arxiv.org/abs/gr-qc/0411095v1
+    - [arxiv] A Critical Review of the Lunar Laser Ranging
+      http://arxiv.org/abs/1805.05863v3
+    - [arxiv] Science from the Moon: The NASA/NLSI Lunar University Network for Astrophysics R
+      http://arxiv.org/abs/0909.1509v1
+    - [arxiv] Millimeter Laser Ranging to the Moon: a comprehensive theoretical model for adva
+      http://arxiv.org/abs/0902.3489v1
+    - [arxiv] Data Encoding for Byzantine-Resilient Distributed Optimization
+      http://arxiv.org/abs/1907.02664v2
+

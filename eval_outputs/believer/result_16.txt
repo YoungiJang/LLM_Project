@@ -1,0 +1,160 @@
+=== Claim 16 — Result Metadata ===
+Claim:           전기차는 내연기관차보다 환경에 더 이롭다.
+Expected label:  debatable
+Fact label:      None
+Domain:          환경
+Persona:         believer
+Turns completed: 4 / 4
+Cost (this item): $0.0254
+
+Expected APIs:   ['wikipedia', 'arxiv']
+Actual APIs:     {'wikipedia': 20, 'news': 20, 'arxiv': 20}
+API match:       True
+
+Classification (turn 1): debatable
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    debatable
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Life-cycle assessment
+      https://en.wikipedia.org/wiki/Life-cycle_assessment
+    - [wikipedia] Electric vehicle
+      https://en.wikipedia.org/wiki/Electric_vehicle
+    - [wikipedia] Plug-in electric vehicle
+      https://en.wikipedia.org/wiki/Plug-in_electric_vehicle
+    - [wikipedia] Hydrogen vehicle
+      https://en.wikipedia.org/wiki/Hydrogen_vehicle
+    - [wikipedia] Plug-in electric vehicles in the United States
+      https://en.wikipedia.org/wiki/Plug-in_electric_vehicles_in_the_United_States
+    - [news] The EU is officially dropping its 2035 combustion engine ban
+      https://www.msn.com/en-us/autos/electric-cars/the-eu-is-officially-dropping-its-2035-combustion-engine-ban/ar-AA1SGNNu?ocid=BingNewsVerp
+    - [news] Europe backtracks on ban of new combustion engine cars, in setback to tackling c
+      https://www.cnn.com/2025/12/16/business/eu-combustion-engine-ban-changed-intl
+    - [news] Are EVs Really Better for the Environment? How Electric Cars Compare to Gas Vehi
+      https://www.techtimes.com/articles/313637/20251226/are-evs-really-better-environment-how-electric-cars-compare-gas-vehicles-greener-future.htm
+    - [news] This once-common engine design is quietly disappearing from new vehicles
+      https://www.msn.com/en-us/autos/news/this-once-common-engine-design-is-quietly-disappearing-from-new-vehicles/ar-AA21TUgu?ocid=BingNewsVerp
+    - [news] A radical new engine shows why internal combustion still matters
+      https://www.msn.com/en-us/technology/general/a-radical-new-engine-shows-why-internal-combustion-still-matters/ar-AA21Dxv3?ocid=BingNewsVerp
+    - [arxiv] Large Interferometer For Exoplanets (LIFE): XIII. The Value of Combining Thermal
+      http://arxiv.org/abs/2406.13037v1
+    - [arxiv] Large Interferometer For Exoplanets (LIFE): IV. Ideal kernel-nulling array archi
+      http://arxiv.org/abs/2201.04891v3
+    - [arxiv] Double-distribution-function discrete Boltzmann model for combustion
+      http://arxiv.org/abs/1405.5500v3
+    - [arxiv] Free Energy and Internal Combustion Engine Cycles
+      http://arxiv.org/abs/1205.0177v1
+    - [arxiv] Large Interferometer For Exoplanets (LIFE): IX. Assessing the Impact of Clouds o
+      http://arxiv.org/abs/2303.04727v2
+
+--- Turn 2 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Zero-emissions vehicle
+      https://en.wikipedia.org/wiki/Zero-emissions_vehicle
+    - [wikipedia] Phase-out of fossil fuel vehicles
+      https://en.wikipedia.org/wiki/Phase-out_of_fossil_fuel_vehicles
+    - [wikipedia] Plug-in hybrid
+      https://en.wikipedia.org/wiki/Plug-in_hybrid
+    - [wikipedia] Clean Air Act (United States)
+      https://en.wikipedia.org/wiki/Clean_Air_Act_(United_States)
+    - [wikipedia] Volkswagen emissions scandal
+      https://en.wikipedia.org/wiki/Volkswagen_emissions_scandal
+    - [news] Electric vehicles are already making the air cleaner, study finds
+      https://www.msn.com/en-us/weather/topstories/electric-vehicles-are-already-making-the-air-cleaner-study-finds/ar-AA236y9z?ocid=BingNewsVerp
+    - [news] Are EVs Really Better for the Environment? How Electric Cars Compare to Gas Vehi
+      https://www.techtimes.com/articles/313637/20251226/are-evs-really-better-environment-how-electric-cars-compare-gas-vehicles-greener-future.htm
+    - [news] New study reveals unexpected side effect of having more electric vehicles on roa
+      https://www.msn.com/en-us/science/environmental-science/new-study-reveals-unexpected-side-effect-of-having-more-electric-vehicles-on-road-it-s-not-just-the-tailpipe/ar-AA1IMprv?ocid=BingNewsVerp
+    - [news] Beyond The Tailpipe: The Unseen Environmental Battle For Electric Vehicles
+      https://www.msn.com/en-us/technology/renewable-energy/beyond-the-tailpipe-the-unseen-environmental-battle-for-electric-vehicles/ar-AA1McJVh?ocid=BingNewsVerp
+    - [news] EVs are already making your air cleaner, research shows
+      https://www.yahoo.com/news/articles/evs-already-making-air-cleaner-163000089.html
+    - [arxiv] Indoor Air Quality Improvement
+      http://arxiv.org/abs/2012.15387v2
+    - [arxiv] B-ETS: A Trusted Blockchain-based Emissions Trading System for Vehicle-to-Vehicl
+      http://arxiv.org/abs/2102.13477v2
+    - [arxiv] Joint vehicle state and parameters estimation via Twin-in-the-Loop observers
+      http://arxiv.org/abs/2309.01461v1
+    - [arxiv] Electric Vehicles Charging Control based on Future Internet Generic Enablers
+      http://arxiv.org/abs/1503.01267v1
+    - [arxiv] Secure Charging and Payment System for Electric Land Vehicles with Authenticatio
+      http://arxiv.org/abs/2107.06100v1
+
+--- Turn 3 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Volkswagen emissions scandal
+      https://en.wikipedia.org/wiki/Volkswagen_emissions_scandal
+    - [wikipedia] Clean Air Act (United States)
+      https://en.wikipedia.org/wiki/Clean_Air_Act_(United_States)
+    - [wikipedia] Air pollution
+      https://en.wikipedia.org/wiki/Air_pollution
+    - [wikipedia] Electric vehicle
+      https://en.wikipedia.org/wiki/Electric_vehicle
+    - [wikipedia] Plug-in hybrid
+      https://en.wikipedia.org/wiki/Plug-in_hybrid
+    - [news] FedEx Expands Electric Vehicle Fleet in Japan, Advancing Zero-Tailpipe Emissions
+      https://www.csrwire.com/press-release/fedex-expands-electric-vehicle-fleet-japan-advancing-zero-tailpipe-emissions-last-mile/
+    - [news] New study reveals unexpected side effect of having more electric vehicles on roa
+      https://www.msn.com/en-us/news/other/new-study-reveals-unexpected-side-effect-of-having-more-electric-vehicles-on-road-it-s-not-just-the-tailpipe/ar-AA1IMprv?ocid=BingNewsVerp
+    - [news] Canada to Toughen Tailpipe Emissions Standards, Ditch EV Sales Mandate
+      https://www.morningstar.com/news/dow-jones/202602059520/canada-to-toughen-tailpipe-emissions-standards-ditch-ev-sales-mandate
+    - [news] Real-world testing shows which vehicle models emit more of the deadly pollutant 
+      https://www.msn.com/en-au/news/australia/real-world-testing-shows-which-vehicle-models-emit-more-of-the-deadly-pollutant-nox/ar-AA1Rr6HP?ocid=BingNewsVerp
+    - [news] What soaring gas prices mean for California's EV market
+      https://www.aol.com/articles/soaring-gas-prices-mean-californias-100000351.html
+    - [arxiv] B-ETS: A Trusted Blockchain-based Emissions Trading System for Vehicle-to-Vehicl
+      http://arxiv.org/abs/2102.13477v2
+    - [arxiv] Computational Study on the Impact of Gasoline-Ethanol Blending on Autoignition a
+      http://arxiv.org/abs/2403.10687v1
+    - [arxiv] Joint vehicle state and parameters estimation via Twin-in-the-Loop observers
+      http://arxiv.org/abs/2309.01461v1
+    - [arxiv] Electric Vehicles Charging Control based on Future Internet Generic Enablers
+      http://arxiv.org/abs/1503.01267v1
+    - [arxiv] Secure Charging and Payment System for Electric Land Vehicles with Authenticatio
+      http://arxiv.org/abs/2107.06100v1
+
+--- Turn 4 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (15):
+    - [wikipedia] Alternative fuel vehicle
+      https://en.wikipedia.org/wiki/Alternative_fuel_vehicle
+    - [wikipedia] Life-cycle assessment
+      https://en.wikipedia.org/wiki/Life-cycle_assessment
+    - [wikipedia] Electric vehicle battery
+      https://en.wikipedia.org/wiki/Electric_vehicle_battery
+    - [wikipedia] Electric vehicle
+      https://en.wikipedia.org/wiki/Electric_vehicle
+    - [wikipedia] Plug-in electric vehicle
+      https://en.wikipedia.org/wiki/Plug-in_electric_vehicle
+    - [news] EVs outperform ICE vehicles on lifetime emissions, study finds
+      https://www.yahoo.com/news/evs-outperform-icevs-lifetime-emissions-100000252.html
+    - [news] Electric vehicles outperform gasoline cars in lifetime environmental impact
+      https://www.eurekalert.org/news-releases/1102315
+    - [news] EVs Pay Off Their Carbon Debt in Just 2 Years | BEV Lifecycle Benefits
+      https://www.autoblog.com/news/evs-pay-off-their-carbon-debt-in-just-2-years-after-that-its-no-contest
+    - [news] New Study: Plug-In Hybrid EVs Nearly As Dirty As Gas Vehicles
+      https://oilprice.com/Energy/Energy-General/New-Study-Plug-In-Hybrid-EVs-Nearly-As-Dirty-As-Gas-Vehicles.html
+    - [news] Decarbonizing Mobility via Circular Manufacturing, Green Machining, and Life-Cyc
+      https://www.frontiersin.org/research-topics/79067/decarbonizing-mobility-via-circular-manufacturing-green-machining-and-life-cycle-strategies
+    - [arxiv] Computational Study on the Impact of Gasoline-Ethanol Blending on Autoignition a
+      http://arxiv.org/abs/2403.10687v1
+    - [arxiv] A City Is a Complex Network
+      http://arxiv.org/abs/1509.08452v4
+    - [arxiv] Application of Long-short Term Memory (LSTM) Model for Forecasting NOx Emission 
+      http://arxiv.org/abs/2311.15632v1
+    - [arxiv] The nox-minima dome: a tangible alternative to flat star maps for astronomy educ
+      http://arxiv.org/abs/2508.21195v1
+    - [arxiv] Quantum Software Development Lifecycle
+      http://arxiv.org/abs/2106.09323v1
+

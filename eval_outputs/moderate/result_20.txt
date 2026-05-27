@@ -1,0 +1,70 @@
+=== Claim 20 — Result Metadata ===
+Claim:           클래식 음악이 재즈보다 더 가치 있는 예술이다.
+Expected label:  subjective_opinion
+Fact label:      None
+Domain:          음악
+Persona:         moderate
+Turns completed: 4 / 4
+Cost (this item): $0.0197
+
+Expected APIs:   ['wikipedia']
+Actual APIs:     {'wikipedia': 15}
+API match:       True
+
+Classification (turn 1): subjective_opinion
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    subjective_opinion
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (0):
+
+--- Turn 2 ---
+  classification:    subjective_opinion
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (5):
+    - [wikipedia] Music and politics
+      https://en.wikipedia.org/wiki/Music_and_politics
+    - [wikipedia] Album era
+      https://en.wikipedia.org/wiki/Album_era
+    - [wikipedia] Cultural diplomacy
+      https://en.wikipedia.org/wiki/Cultural_diplomacy
+    - [wikipedia] Cultural impact of the Beatles
+      https://en.wikipedia.org/wiki/Cultural_impact_of_the_Beatles
+    - [wikipedia] The Cold War in popular culture
+      https://en.wikipedia.org/wiki/The_Cold_War_in_popular_culture
+
+--- Turn 3 ---
+  classification:    subjective_opinion
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (5):
+    - [wikipedia] History of music
+      https://en.wikipedia.org/wiki/History_of_music
+    - [wikipedia] Oral tradition
+      https://en.wikipedia.org/wiki/Oral_tradition
+    - [wikipedia] Romanian traditional music
+      https://en.wikipedia.org/wiki/Romanian_traditional_music
+    - [wikipedia] Madrigal
+      https://en.wikipedia.org/wiki/Madrigal
+    - [wikipedia] Ashik
+      https://en.wikipedia.org/wiki/Ashik
+
+--- Turn 4 ---
+  classification:    subjective_opinion
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (5):
+    - [wikipedia] Windham–Campbell Literature Prizes
+      https://en.wikipedia.org/wiki/Windham%E2%80%93Campbell_Literature_Prizes
+    - [wikipedia] Psychology of music
+      https://en.wikipedia.org/wiki/Psychology_of_music
+    - [wikipedia] Musical theatre
+      https://en.wikipedia.org/wiki/Musical_theatre
+    - [wikipedia] List of British Jewish writers
+      https://en.wikipedia.org/wiki/List_of_British_Jewish_writers
+    - [wikipedia] Violin
+      https://en.wikipedia.org/wiki/Violin
+

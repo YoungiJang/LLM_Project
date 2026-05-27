@@ -1,0 +1,116 @@
+=== Claim 04 — Result Metadata ===
+Claim:           지구는 평평하다.
+Expected label:  clearly_false
+Fact label:      False
+Domain:          과학
+Persona:         moderate
+Turns completed: 4 / 4
+Cost (this item): $0.0233
+
+Expected APIs:   ['wikipedia']
+Actual APIs:     {'wikipedia': 20, 'news': 18}
+API match:       True
+
+Classification (turn 1): clearly_false
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    clearly_false
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Empirical evidence for the spherical shape of Earth
+      https://en.wikipedia.org/wiki/Empirical_evidence_for_the_spherical_shape_of_Earth
+    - [wikipedia] Modern flat Earth beliefs
+      https://en.wikipedia.org/wiki/Modern_flat_Earth_beliefs
+    - [wikipedia] Mark Sargent (flat Earth proponent)
+      https://en.wikipedia.org/wiki/Mark_Sargent_(flat_Earth_proponent)
+    - [wikipedia] Young Earth creationism
+      https://en.wikipedia.org/wiki/Young_Earth_creationism
+    - [wikipedia] Pizzagate conspiracy theory
+      https://en.wikipedia.org/wiki/Pizzagate_conspiracy_theory
+    - [news] Flat Earth on the ballot? Debunked claim pops up in US politics.
+      https://www.yahoo.com/news/flat-earth-ballot-debunked-claim-100122646.html
+    - [news] Flat Earth on the ballot? Debunked claim pops up in US politics.
+      https://www.aol.com/news/flat-earth-ballot-debunked-claim-100122646.html
+    - [news] NASA launches interactive "Your Name in Landsat" tool using Earth imagery
+      https://www.msn.com/en-us/news/technology/nasa-launches-interactive-your-name-in-landsat-tool-using-earth-imagery/ar-AA21MPAA?ocid=BingNewsVerp
+    - [news] Can you write your name on the Earth with NASA’s satellite imagery?
+      https://www.govtech.com/question-of-the-day/can-you-write-your-name-on-the-earth-with-nasas-satellite-imagery
+    - [news] NASA’s Kennedy Space Center marks Earth Day with name-spelling satellite tool
+      https://www.wcvb.com/article/landsat-satellite-images-spell-your-name-nasa/71101618
+
+--- Turn 2 ---
+  classification:    clearly_false
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Empirical evidence for the spherical shape of Earth
+      https://en.wikipedia.org/wiki/Empirical_evidence_for_the_spherical_shape_of_Earth
+    - [wikipedia] Modern flat Earth beliefs
+      https://en.wikipedia.org/wiki/Modern_flat_Earth_beliefs
+    - [wikipedia] Dark energy
+      https://en.wikipedia.org/wiki/Dark_energy
+    - [wikipedia] List of common misconceptions about science, technology, and mathematics
+      https://en.wikipedia.org/wiki/List_of_common_misconceptions_about_science%2C_technology%2C_and_mathematics
+    - [wikipedia] Voyages of Christopher Columbus
+      https://en.wikipedia.org/wiki/Voyages_of_Christopher_Columbus
+    - [news] Flat earther busted after using fake image to smear NASA
+      https://www.msn.com/en-us/news/technology/flat-earther-busted-after-using-fake-image-to-smear-nasa/ar-AA1VlxWT?ocid=BingNewsVerp
+    - [news] Flat Earther Reveals Updated Perspective After Accepting He Was Wrong During an 
+      https://www.msn.com/en-us/news/technology/flat-earther-reveals-updated-perspective-after-accepting-he-was-wrong-during-an-antarctica-adventure-to-prove-the-earth-is-flat/ar-AA1KnLTP?ocid=BingNewsVerp
+    - [news] Flat-earthers travel to Antarctica to prove the Earth is flat until the sky expo
+      https://www.msn.com/en-us/news/world/flat-earthers-travel-to-antarctica-to-prove-the-earth-is-flat-until-the-sky-exposed-a-reality-they-couldn-t-explain/ar-AA1SPkuo?ocid=BingNewsVerp
+    - [news] March 3 blood moon, lunar eclipse coincide. Everything to know
+      https://www.palmbeachpost.com/story/news/2026/03/02/lunar-eclipse-tonight-red-blood-moon-florida/88943188007/
+    - [news] When was the last 'blood moon' lunar eclipse? Next one isn't until 2028
+      https://www.cincinnati.com/story/life/2026/03/02/last-next-blood-moon-lunar-eclipse-march-2026-full-moon/88943153007/
+
+--- Turn 3 ---
+  classification:    clearly_false
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Solar cycle
+      https://en.wikipedia.org/wiki/Solar_cycle
+    - [wikipedia] List of Dutch discoveries
+      https://en.wikipedia.org/wiki/List_of_Dutch_discoveries
+    - [wikipedia] Empirical evidence for the spherical shape of Earth
+      https://en.wikipedia.org/wiki/Empirical_evidence_for_the_spherical_shape_of_Earth
+    - [wikipedia] History of cartography
+      https://en.wikipedia.org/wiki/History_of_cartography
+    - [wikipedia] Navigation
+      https://en.wikipedia.org/wiki/Navigation
+    - [news] Earth is round and high-altitude footage doesn’t prove Earth is flat
+      https://www.poynter.org/fact-checking/2024/earth-is-round-not-flat-proof/
+    - [news] Why does everything look flat even though the Earth is round?
+      https://www.space.com/the-universe/earth/why-does-everything-look-flat-even-though-the-earth-is-round
+    - [news] Why does everything look flat even though the Earth is round?
+      https://theconversation.com/why-does-everything-look-flat-even-though-the-earth-is-round-229582
+    - [news] Foucault, revisited
+      https://www.eurekalert.org/news-releases/781171
+    - [news] Pendulum : Léon Foucault and the triumph of science / Amir D. Aczel
+      https://www.si.edu/object/pendulum-leon-foucault-and-triumph-science-amir-d-aczel:siris_sil_963886
+
+--- Turn 4 ---
+  classification:    clearly_false
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (8):
+    - [wikipedia] Modern flat Earth beliefs
+      https://en.wikipedia.org/wiki/Modern_flat_Earth_beliefs
+    - [wikipedia] Moon
+      https://en.wikipedia.org/wiki/Moon
+    - [wikipedia] History of geodesy
+      https://en.wikipedia.org/wiki/History_of_geodesy
+    - [wikipedia] Glossary of astronomy
+      https://en.wikipedia.org/wiki/Glossary_of_astronomy
+    - [wikipedia] Johannes Kepler
+      https://en.wikipedia.org/wiki/Johannes_Kepler
+    - [news] Neil deGrasse Tyson explains how you can't believe in flat Earth if you've ever 
+      https://www.msn.com/en-us/news/technology/neil-degrasse-tyson-explains-how-you-can-t-believe-in-flat-earth-if-you-ve-ever-seen-a-lunar-eclipse/ar-AA213mV2?ocid=BingNewsVerp
+    - [news] Flat-earthers travel to Antarctica to prove the Earth is flat until the sky expo
+      https://www.msn.com/en-us/news/technology/flat-earthers-travel-to-antarctica-to-prove-the-earth-is-flat-until-the-sky-exposed-a-reality-they-couldn-t-explain/ar-AA1SPkuo?ocid=BingNewsVerp
+    - [news] Flat Earther Reveals Updated Perspective After Accepting He Was Wrong During an 
+      https://www.msn.com/en-us/news/technology/flat-earther-reveals-updated-perspective-after-accepting-he-was-wrong-during-an-antarctica-adventure-to-prove-the-earth-is-flat/ar-AA1KnLTP?ocid=BingNewsVerp
+

@@ -1,0 +1,160 @@
+=== Claim 15 — Result Metadata ===
+Claim:           원자력은 탄소중립 달성에 필수적인 에너지원이다.
+Expected label:  debatable
+Fact label:      None
+Domain:          에너지
+Persona:         believer
+Turns completed: 4 / 4
+Cost (this item): $0.0264
+
+Expected APIs:   ['wikipedia', 'news']
+Actual APIs:     {'wikipedia': 20, 'news': 20, 'arxiv': 20}
+API match:       True
+
+Classification (turn 1): debatable
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    debatable
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Nuclear power
+      https://en.wikipedia.org/wiki/Nuclear_power
+    - [wikipedia] Nuclear power debate
+      https://en.wikipedia.org/wiki/Nuclear_power_debate
+    - [wikipedia] Carbon price
+      https://en.wikipedia.org/wiki/Carbon_price
+    - [wikipedia] Low-carbon economy
+      https://en.wikipedia.org/wiki/Low-carbon_economy
+    - [wikipedia] Carbon accounting
+      https://en.wikipedia.org/wiki/Carbon_accounting
+    - [news] Calls for steady nuke power progress
+      https://global.chinadaily.com.cn/a/202503/14/WS67d38460a310c240449dabee.html
+    - [news] Kazakhstan’s Nuclear Bet to Reach Carbon Neutrality
+      https://thediplomat.com/2026/05/kazakhstans-nuclear-bet-to-reach-carbon-neutrality/
+    - [news] Five Reasons the Clean Energy Transition Needs Nuclear Power
+      https://www.iaea.org/newscenter/news/five-reasons-the-clean-energy-transition-needs-nuclear-power
+    - [news] Some parts of western North Carolina to see higher utility bills
+      https://www.yahoo.com/news/parts-western-north-carolina-see-160013293.html
+    - [news] Coal power's role in decarbonization: flexibility as a key driver
+      https://www.eurekalert.org/news-releases/1111229
+    - [arxiv] The Frontiers of Nuclear Science, A Long Range Plan
+      http://arxiv.org/abs/0809.3137v1
+    - [arxiv] Toxicity of Carbon Nanomaterials
+      http://arxiv.org/abs/2109.13918v1
+    - [arxiv] Beyond-mean-field approaches for nuclear neutrinoless double beta decay in the s
+      http://arxiv.org/abs/2111.15543v3
+    - [arxiv] Nuclear Symmetry Energy Extracted from Laboratory Experiments
+      http://arxiv.org/abs/1701.03564v1
+    - [arxiv] Encapsulating C59N azafullerene derivatives inside single-wall carbon nanotubes
+      http://arxiv.org/abs/cond-mat/0602636v1
+
+--- Turn 2 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Public opinion on nuclear issues
+      https://en.wikipedia.org/wiki/Public_opinion_on_nuclear_issues
+    - [wikipedia] Energy policy of the United Kingdom
+      https://en.wikipedia.org/wiki/Energy_policy_of_the_United_Kingdom
+    - [wikipedia] Renewable energy in the United Kingdom
+      https://en.wikipedia.org/wiki/Renewable_energy_in_the_United_Kingdom
+    - [wikipedia] Iran nuclear deal
+      https://en.wikipedia.org/wiki/Iran_nuclear_deal
+    - [wikipedia] CNO cycle
+      https://en.wikipedia.org/wiki/CNO_cycle
+    - [news] Nuclear Vs. Renewables: Which Energy Source Wins The Zero-Carbon Race?
+      https://www.forbes.com/sites/dianneplummer/2025/02/11/nuclear-vs-renewables-which-energy-source-wins-the-zero-carbon-race/
+    - [news] Zero-Carbon Nuclear Power Emerging as a Critical Pillar of the Clean Electricity
+      https://www.morningstar.com/news/pr-newswire/20251230ln54438/zero-carbon-nuclear-power-emerging-as-a-critical-pillar-of-the-clean-electricity-market-delivering-a-scalable-growth-gateway
+    - [news] Six Global Trends in Nuclear Power You Should Know
+      https://www.iaea.org/newscenter/news/six-global-trends-in-nuclear-power-you-should-know
+    - [news] Where’s the vision for ‘net-zero’ in Maryland? | GUEST COMMENTARY
+      https://www.baltimoresun.com/2026/02/01/maryland-net-zero-energy/
+    - [news] Nuclear Energy Comeback Action Is at the State Level
+      https://finance.yahoo.com/news/nuclear-energy-comeback-action-state-165711864.html
+    - [arxiv] The Frontiers of Nuclear Science, A Long Range Plan
+      http://arxiv.org/abs/0809.3137v1
+    - [arxiv] Nuclear Symmetry Energy Extracted from Laboratory Experiments
+      http://arxiv.org/abs/1701.03564v1
+    - [arxiv] Beyond-mean-field approaches for nuclear neutrinoless double beta decay in the s
+      http://arxiv.org/abs/2111.15543v3
+    - [arxiv] Comparison of nuclear data uncertainty propagation methodologies for PWR burn-up
+      http://arxiv.org/abs/1411.0834v1
+    - [arxiv] Nuclear Equation of State from ground and collective excited state properties of
+      http://arxiv.org/abs/1804.06256v1
+
+--- Turn 3 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] 2025 Iberian Peninsula blackout
+      https://en.wikipedia.org/wiki/2025_Iberian_Peninsula_blackout
+    - [wikipedia] Electrical grid
+      https://en.wikipedia.org/wiki/Electrical_grid
+    - [wikipedia] Electric power system
+      https://en.wikipedia.org/wiki/Electric_power_system
+    - [wikipedia] Energy policy of India
+      https://en.wikipedia.org/wiki/Energy_policy_of_India
+    - [wikipedia] Energiewende
+      https://en.wikipedia.org/wiki/Energiewende
+    - [news] The POWER Interview: Grid Integration of DERs
+      https://www.powermag.com/the-power-interview-grid-integration-of-ders/
+    - [news] Illinois bets on virtual power plants to ease electric grid strain and costs
+      https://www.chicagotribune.com/2025/12/30/illinois-virtual-power-plants/
+    - [news] Battery Storage Comes of Age: From Grid Accessory to Essential Infrastructure
+      https://www.powermag.com/battery-storage-comes-of-age-from-grid-accessory-to-essential-infrastructure/
+    - [news] Plus Power Adds Major Energy Storage Project to ISO New England Grid
+      https://www.powermag.com/plus-power-adds-major-energy-storage-project-to-iso-new-england-grid/
+    - [news] Turning Customer Batteries Into Grid Capacity: How Behind-the-Meter Storage Is R
+      https://www.powermag.com/turning-customer-batteries-into-grid-capacity-how-behind-the-meter-storage-is-reshaping-the-future-of-flexible-power/
+    - [arxiv] Regression-based Inverter Control for Decentralized Optimal Power Flow and Volta
+      http://arxiv.org/abs/1902.08594v1
+    - [arxiv] Optimal Distributed Feedback Voltage Control under Limited Reactive Power
+      http://arxiv.org/abs/1810.11121v3
+    - [arxiv] Synchronous Condensers: Enhancing Stability in Power Systems with Grid-Following
+      http://arxiv.org/abs/2604.02622v1
+    - [arxiv] IVOA Recommendation: IVOA Support Interfaces
+      http://arxiv.org/abs/1110.5825v1
+    - [arxiv] Enhanced active power filter control for nonlinear non-stationary reactive power
+      http://arxiv.org/abs/1206.4232v1
+
+--- Turn 4 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (15):
+    - [wikipedia] Power system reliability
+      https://en.wikipedia.org/wiki/Power_system_reliability
+    - [wikipedia] Battery energy storage system
+      https://en.wikipedia.org/wiki/Battery_energy_storage_system
+    - [wikipedia] Solar power in India
+      https://en.wikipedia.org/wiki/Solar_power_in_India
+    - [wikipedia] Energy policy of India
+      https://en.wikipedia.org/wiki/Energy_policy_of_India
+    - [wikipedia] Open energy system models
+      https://en.wikipedia.org/wiki/Open_energy_system_models
+    - [news] NERC Warns Long-Term Grid Reliability Risks Mounting from Surging Demand, Laggin
+      https://www.powermag.com/nerc-warns-long-term-grid-reliability-risks-mounting-from-surging-demand-lagging-resources/
+    - [news] What will power the grid in 2035? The race is wide open
+      https://techcrunch.com/2026/03/28/what-will-power-the-grid-in-2035-the-race-is-wide-open/
+    - [news] This company says nuclear fusion could finally power the grid — and soon
+      https://www.cnn.com/2026/04/30/climate/nuclear-fusion-real-world-electricity-grid
+    - [news] AI data center boom strains U.S. power grid capacity
+      https://www.msn.com/en-us/news/other/ai-data-center-boom-strains-us-power-grid-capacity/gm-GMB7D2031E?ocid=BingNewsVerp
+    - [news] California’s battery fleet discharged 12,000 megawatts in one evening — equaling
+      https://www.msn.com/en-us/news/us/california-s-battery-fleet-discharged-12000-megawatts-in-one-evening-equaling-12-nuclear-plants-during-peak-demand/ar-AA22yd4G?ocid=BingNewsVerp
+    - [arxiv] Online Algorithm for Demand Response with Inelastic Demands and Apparent Power C
+      http://arxiv.org/abs/1611.00559v2
+    - [arxiv] Power Reserve Capacity from Virtual Power Plants with Reliability and Cost Guara
+      http://arxiv.org/abs/2510.04815v1
+    - [arxiv] Mapping Disruption Sources in the Power Grid and Implications for Resilience
+      http://arxiv.org/abs/2207.08146v1
+    - [arxiv] Dynamic Exploitation Gaussian Bare-Bones Bat Algorithm for Optimal Reactive Powe
+      http://arxiv.org/abs/2112.06382v1
+    - [arxiv] A Linear LMP Model for Active and Reactive Power with Power Loss
+      http://arxiv.org/abs/1910.02400v1
+

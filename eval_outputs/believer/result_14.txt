@@ -1,0 +1,160 @@
+=== Claim 14 — Result Metadata ===
+Claim:           메타분석에 따르면 청소년의 SNS 사용은 정신건강에 부정적 영향을 준다.
+Expected label:  debatable
+Fact label:      None
+Domain:          보건/심리학 연구
+Persona:         believer
+Turns completed: 4 / 4
+Cost (this item): $0.0248
+
+Expected APIs:   ['arxiv']
+Actual APIs:     {'wikipedia': 20, 'arxiv': 20, 'news': 20}
+API match:       True
+
+Classification (turn 1): debatable
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Problematic social media use
+      https://en.wikipedia.org/wiki/Problematic_social_media_use
+    - [wikipedia] Digital media use and mental health
+      https://en.wikipedia.org/wiki/Digital_media_use_and_mental_health
+    - [wikipedia] Social media
+      https://en.wikipedia.org/wiki/Social_media
+    - [wikipedia] Effects of pornography
+      https://en.wikipedia.org/wiki/Effects_of_pornography
+    - [wikipedia] Mental health
+      https://en.wikipedia.org/wiki/Mental_health
+    - [arxiv] Technology in Association With Mental Health: Meta-ethnography
+      http://arxiv.org/abs/2307.10513v2
+    - [arxiv] On the State of Social Media Data for Mental Health Research
+      http://arxiv.org/abs/2011.05233v2
+    - [arxiv] Multitask learning for recognizing stress and depression in social media
+      http://arxiv.org/abs/2305.18907v2
+    - [arxiv] Topic Shifts as a Proxy for Assessing Politicization in Social Media
+      http://arxiv.org/abs/2312.11326v2
+    - [arxiv] Coordinated Behavior on Social Media in 2019 UK General Election
+      http://arxiv.org/abs/2008.08370v2
+    - [news] How Social Media Really Impacts Teen Mental Health
+      https://www.psychologytoday.com/ca/blog/evidence-based-living/202603/how-social-media-really-impacts-teen-mental-health
+    - [news] Evidence for link between digital technology use and teenage mental health probl
+      https://theconversation.com/evidence-for-link-between-digital-technology-use-and-teenage-mental-health-problems-is-weak-our-large-study-suggests-273386
+    - [news] Meta and YouTube Found Negligent in Landmark Social Media Addiction Case
+      https://www.nytimes.com/2026/03/25/technology/social-media-trial-verdict.html
+    - [news] Teens and TikTok: How Parents Shape Social Media Habits
+      https://www.psychologytoday.com/gb/blog/from-lab-to-real-world/202506/teens-and-tiktok-how-parents-shape-social-media-habits
+    - [news] How Social Media Really Impacts Teen Mental Health
+      https://www.psychologytoday.com/gb/blog/evidence-based-living/202603/how-social-media-really-impacts-teen-mental-health
+
+--- Turn 2 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Problematic social media use
+      https://en.wikipedia.org/wiki/Problematic_social_media_use
+    - [wikipedia] Digital media use and mental health
+      https://en.wikipedia.org/wiki/Digital_media_use_and_mental_health
+    - [wikipedia] Adolescent sleep
+      https://en.wikipedia.org/wiki/Adolescent_sleep
+    - [wikipedia] Generation Z
+      https://en.wikipedia.org/wiki/Generation_Z
+    - [wikipedia] Generalized anxiety disorder
+      https://en.wikipedia.org/wiki/Generalized_anxiety_disorder
+    - [news] Meta’s own research found parental supervision doesn’t really help curb teens’ c
+      https://techcrunch.com/2026/02/17/metas-own-research-found-parental-supervision-doesnt-really-help-curb-teens-compulsive-social-media-use/
+    - [news] Social media can be addictive, a jury finds. Research hints at a link
+      https://www.sciencenews.org/article/social-media-addictive-meta-youtube
+    - [news] Research points to how companies could make social media less addictive for teen
+      https://www.npr.org/2026/03/27/nx-s1-5763017/social-media-teens-addictive-design
+    - [news] What a Landmark Verdict Reveals About Social Media and Youth
+      https://www.psychologytoday.com/us/blog/no-more-fomo/202605/what-a-landmark-verdict-reveals-about-social-media-and-youth
+    - [news] Jurors wade through daunting evidence in high-stakes Meta trial about social med
+      https://www.mercurynews.com/2026/03/20/jurors-wade-through-daunting-evidence-in-high-stakes-meta-trial-about-social-media-risks-to-children/
+    - [arxiv] Multitask learning for recognizing stress and depression in social media
+      http://arxiv.org/abs/2305.18907v2
+    - [arxiv] Topic Shifts as a Proxy for Assessing Politicization in Social Media
+      http://arxiv.org/abs/2312.11326v2
+    - [arxiv] Coordinated Behavior on Social Media in 2019 UK General Election
+      http://arxiv.org/abs/2008.08370v2
+    - [arxiv] Understanding Musical Diversity via Online Social Media
+      http://arxiv.org/abs/1604.02522v2
+    - [arxiv] Recurrent Neural Network based Part-of-Speech Tagger for Code-Mixed Social Media
+      http://arxiv.org/abs/1611.04989v2
+
+--- Turn 3 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Digital media use and mental health
+      https://en.wikipedia.org/wiki/Digital_media_use_and_mental_health
+    - [wikipedia] Mental health
+      https://en.wikipedia.org/wiki/Mental_health
+    - [wikipedia] Generation Z
+      https://en.wikipedia.org/wiki/Generation_Z
+    - [wikipedia] Transgender health care
+      https://en.wikipedia.org/wiki/Transgender_health_care
+    - [wikipedia] Polyendocrine metabolic ovarian syndrome
+      https://en.wikipedia.org/wiki/Polyendocrine_metabolic_ovarian_syndrome
+    - [news] New research explores why some teens may be more vulnerable to harmful social me
+      https://www.wqad.com/article/news/local/the-current/teens-social-media-mental-health-teenagers-university-of-iowa-study-research-screen-time-offline-behavior/526-21fd1375-b526-46fd-9c68-54841f47e6b8
+    - [news] Teen social media ban impacts should include mental and physical health, school 
+      https://medicalxpress.com/news/2026-03-teen-social-media-impacts-mental.html
+    - [news] How Social Media Really Impacts Teen Mental Health
+      https://www.psychologytoday.com/za/blog/evidence-based-living/202603/how-social-media-really-impacts-teen-mental-health
+    - [news] Meta wants to block data about social media use, mental health in child safety t
+      https://arstechnica.com/tech-policy/2026/01/meta-wants-to-block-data-about-social-media-use-mental-health-in-child-safety-trial/
+    - [news] Understanding Problematic Social Media Use in Adolescents
+      https://www.psychologytoday.com/ca/blog/addiction-outlook/202508/understanding-problematic-social-media-use-in-adolescents
+    - [arxiv] Technology in Association With Mental Health: Meta-ethnography
+      http://arxiv.org/abs/2307.10513v2
+    - [arxiv] On the State of Social Media Data for Mental Health Research
+      http://arxiv.org/abs/2011.05233v2
+    - [arxiv] Multitask learning for recognizing stress and depression in social media
+      http://arxiv.org/abs/2305.18907v2
+    - [arxiv] Topic Shifts as a Proxy for Assessing Politicization in Social Media
+      http://arxiv.org/abs/2312.11326v2
+    - [arxiv] Coordinated Behavior on Social Media in 2019 UK General Election
+      http://arxiv.org/abs/2008.08370v2
+
+--- Turn 4 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (15):
+    - [wikipedia] Digital media use and mental health
+      https://en.wikipedia.org/wiki/Digital_media_use_and_mental_health
+    - [wikipedia] Autism
+      https://en.wikipedia.org/wiki/Autism
+    - [wikipedia] Adverse childhood experiences
+      https://en.wikipedia.org/wiki/Adverse_childhood_experiences
+    - [wikipedia] Attention deficit hyperactivity disorder
+      https://en.wikipedia.org/wiki/Attention_deficit_hyperactivity_disorder
+    - [wikipedia] Sertraline
+      https://en.wikipedia.org/wiki/Sertraline
+    - [news] Screen Time and Teen Mental Health: Is More Always Worse?
+      https://www.psychologytoday.com/us/blog/the-asymmetric-brain/202510/screen-time-and-mental-illness-is-more-always-worse
+    - [news] Meta and YouTube head to trial to defend against youth addiction, mental health 
+      https://www.cnn.com/2026/01/26/tech/social-media-youth-mental-health-trial
+    - [news] Addictive screen habits harm early adolescent mental health
+      https://www.news-medical.net/news/20260212/Addictive-screen-habits-harm-early-adolescent-mental-health.aspx
+    - [news] AI Meta-Hallucinations In Mental Health Are Giving Out Unsafe Self-Explanatory P
+      https://www.forbes.com/sites/lanceeliot/2025/12/18/ai-meta-hallucinations-in-mental-health-are-giving-out-unsafe-self-explanatory-psychological-guidance/
+    - [news] Short Videos, Big Impact on Youth Mental Health
+      https://www.psychologytoday.com/us/blog/no-more-fomo/202602/short-videos-big-impact-on-youth-mental-health
+    - [arxiv] Technology in Association With Mental Health: Meta-ethnography
+      http://arxiv.org/abs/2307.10513v2
+    - [arxiv] Usable Security for ML Systems in Mental Health: A Framework
+      http://arxiv.org/abs/2008.07738v1
+    - [arxiv] On the State of Social Media Data for Mental Health Research
+      http://arxiv.org/abs/2011.05233v2
+    - [arxiv] Excessive Screen Time is Associated with Mental Health Problems and ADHD in US C
+      http://arxiv.org/abs/2508.10062v1
+    - [arxiv] Between Help and Harm: An Evaluation of Mental Health Crisis Handling by LLMs
+      http://arxiv.org/abs/2509.24857v3
+

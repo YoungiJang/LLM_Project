@@ -1,0 +1,160 @@
+=== Claim 15 — Result Metadata ===
+Claim:           원자력은 탄소중립 달성에 필수적인 에너지원이다.
+Expected label:  debatable
+Fact label:      None
+Domain:          에너지
+Persona:         stubborn
+Turns completed: 4 / 4
+Cost (this item): $0.0245
+
+Expected APIs:   ['wikipedia', 'news']
+Actual APIs:     {'wikipedia': 20, 'news': 20, 'arxiv': 20}
+API match:       True
+
+Classification (turn 1): debatable
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Nuclear power
+      https://en.wikipedia.org/wiki/Nuclear_power
+    - [wikipedia] Nuclear power debate
+      https://en.wikipedia.org/wiki/Nuclear_power_debate
+    - [wikipedia] Carbon price
+      https://en.wikipedia.org/wiki/Carbon_price
+    - [wikipedia] Low-carbon economy
+      https://en.wikipedia.org/wiki/Low-carbon_economy
+    - [wikipedia] Carbon accounting
+      https://en.wikipedia.org/wiki/Carbon_accounting
+    - [news] Calls for steady nuke power progress
+      https://global.chinadaily.com.cn/a/202503/14/WS67d38460a310c240449dabee.html
+    - [news] Kazakhstan’s Nuclear Bet to Reach Carbon Neutrality
+      https://thediplomat.com/2026/05/kazakhstans-nuclear-bet-to-reach-carbon-neutrality/
+    - [news] Five Reasons the Clean Energy Transition Needs Nuclear Power
+      https://www.iaea.org/newscenter/news/five-reasons-the-clean-energy-transition-needs-nuclear-power
+    - [news] Some parts of western North Carolina to see higher utility bills
+      https://www.yahoo.com/news/parts-western-north-carolina-see-160013293.html
+    - [news] How the US cut climate-changing emissions while its economy more than doubled
+      https://www.yahoo.com/news/articles/us-cut-climate-changing-emissions-140431747.html
+    - [arxiv] The Frontiers of Nuclear Science, A Long Range Plan
+      http://arxiv.org/abs/0809.3137v1
+    - [arxiv] Toxicity of Carbon Nanomaterials
+      http://arxiv.org/abs/2109.13918v1
+    - [arxiv] Beyond-mean-field approaches for nuclear neutrinoless double beta decay in the s
+      http://arxiv.org/abs/2111.15543v3
+    - [arxiv] Nuclear Symmetry Energy Extracted from Laboratory Experiments
+      http://arxiv.org/abs/1701.03564v1
+    - [arxiv] Encapsulating C59N azafullerene derivatives inside single-wall carbon nanotubes
+      http://arxiv.org/abs/cond-mat/0602636v1
+
+--- Turn 2 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Life-cycle greenhouse gas emissions of energy sources
+      https://en.wikipedia.org/wiki/Life-cycle_greenhouse_gas_emissions_of_energy_sources
+    - [wikipedia] Greenhouse gas emissions
+      https://en.wikipedia.org/wiki/Greenhouse_gas_emissions
+    - [wikipedia] Emission intensity
+      https://en.wikipedia.org/wiki/Emission_intensity
+    - [wikipedia] Climate change mitigation
+      https://en.wikipedia.org/wiki/Climate_change_mitigation
+    - [wikipedia] Environmental impact of electricity generation
+      https://en.wikipedia.org/wiki/Environmental_impact_of_electricity_generation
+    - [news] Five Reasons the Clean Energy Transition Needs Nuclear Power
+      https://www.iaea.org/newscenter/news/five-reasons-the-clean-energy-transition-needs-nuclear-power
+    - [news] GAO Finds Mounting Costs, Years-Long Delays Across NNSA Nuclear Projects
+      https://www.enr.com/articles/62632-gao-finds-mounting-costs-years-long-delays-across-nnsa-nuclear-projects
+    - [news] Nuclear power promised to fuel AI. Soaring costs and delays tell another story
+      https://www.latimes.com/business/story/2026-03-10/nuclear-power-promised-to-fuel-ai-soaring-costs-delays-tell-another-story
+    - [news] Renewables Surge 62% in 2026 as Solar and Storage Reshape the U.S. Grid
+      https://www.msn.com/en-in/news/other/the-2026-renewable-surge-rewrites-the-us-energy-map/gm-GM466EC6EF?ocid=BingNewsVerp
+    - [news] Battery Storage Is Reshaping the Grid; Integration Strategy Will Shape the Outco
+      https://www.powermag.com/battery-storage-is-reshaping-the-grid-integration-strategy-will-shape-the-outcome/
+    - [arxiv] Constraining the p-mode--g-mode tidal instability with GW170817
+      http://arxiv.org/abs/1808.08676v3
+    - [arxiv] Expected Performance of the ATLAS Experiment - Detector, Trigger and Physics
+      http://arxiv.org/abs/0901.0512v4
+    - [arxiv] Observation of the rare $B^0_s\toμ^+μ^-$ decay from the combined analysis of CMS
+      http://arxiv.org/abs/1411.4413v2
+    - [arxiv] Search for High-energy Neutrinos from Binary Neutron Star Merger GW170817 with A
+      http://arxiv.org/abs/1710.05839v2
+    - [arxiv] Improved measurement of $η/ η^{\prime}$ mixing in $B^{0}_{(s)} \rightarrow J/ψη^
+      http://arxiv.org/abs/2507.13914v2
+
+--- Turn 3 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Climate change
+      https://en.wikipedia.org/wiki/Climate_change
+    - [wikipedia] Renewable energy
+      https://en.wikipedia.org/wiki/Renewable_energy
+    - [wikipedia] Plug-in hybrid
+      https://en.wikipedia.org/wiki/Plug-in_hybrid
+    - [wikipedia] Electric vehicle
+      https://en.wikipedia.org/wiki/Electric_vehicle
+    - [wikipedia] Greenhouse gas emissions
+      https://en.wikipedia.org/wiki/Greenhouse_gas_emissions
+    - [news] EU energy mix: Crisis pushes balance on nuclear, renewables and security
+      https://www.msn.com/en-my/news/other/eu-energy-mix-crisis-pushes-balance-on-nuclear-renewables-and-security/ar-AA21Sx7P?ocid=BingNewsVerp
+    - [news] Powering Tomorrow: A Multi-Technology Roadmap for the Global Energy Transition
+      https://www.yahoo.com/news/articles/powering-tomorrow-multi-technology-roadmap-211103876.html
+    - [news] National targets for new nuclear 'far exceed a tripling of global capacity'
+      https://www.world-nuclear-news.org/articles/national-targets-for-new-nuclear-far-exceed-tripling-global-capacity?cid=118199&utm_map=137f6067-b5ea-4d5f-985f-bdb9ce5975aa
+    - [news] International Ministerial Conference on Nuclear Power
+      https://www.iaea.org/events/ministerial-nuclear-power-conference-2026
+    - [news] China tops global ranking of overall nuclear power capacity, report says
+      https://global.chinadaily.com.cn/a/202504/28/WS680f9880a310a04af22bcace.html
+    - [arxiv] Large Interferometer For Exoplanets (LIFE): XIII. The Value of Combining Thermal
+      http://arxiv.org/abs/2406.13037v1
+    - [arxiv] Large Interferometer For Exoplanets (LIFE): IV. Ideal kernel-nulling array archi
+      http://arxiv.org/abs/2201.04891v3
+    - [arxiv] Large Interferometer For Exoplanets (LIFE): V. Diagnostic potential of a mid-inf
+      http://arxiv.org/abs/2204.10041v1
+    - [arxiv] The Frontiers of Nuclear Science, A Long Range Plan
+      http://arxiv.org/abs/0809.3137v1
+    - [arxiv] Large Interferometer For Exoplanets (LIFE): IX. Assessing the Impact of Clouds o
+      http://arxiv.org/abs/2303.04727v2
+
+--- Turn 4 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (15):
+    - [wikipedia] Low-carbon electricity
+      https://en.wikipedia.org/wiki/Low-carbon_electricity
+    - [wikipedia] Life-cycle greenhouse gas emissions of energy sources
+      https://en.wikipedia.org/wiki/Life-cycle_greenhouse_gas_emissions_of_energy_sources
+    - [wikipedia] Nuclear power debate
+      https://en.wikipedia.org/wiki/Nuclear_power_debate
+    - [wikipedia] Nuclear power
+      https://en.wikipedia.org/wiki/Nuclear_power
+    - [wikipedia] Nuclear power phase-out
+      https://en.wikipedia.org/wiki/Nuclear_power_phase-out
+    - [news] EU energy mix: Crisis pushes balance on nuclear, renewables and security
+      https://www.msn.com/en-au/money/general/eu-energy-mix-crisis-pushes-balance-on-nuclear-renewables-and-security/ar-AA21T8Cq?ocid=BingNewsVerp
+    - [news] New York needs nuclear. Just look at our stretched grid | Opinion
+      https://www.lohud.com/story/opinion/2026/05/05/new-york-power-grid-nuclear/89930291007/
+    - [news] TotalEnergies to reassess 2050 net zero plans due to slow energy transition
+      https://www.reuters.com/sustainability/climate-energy/totalenergies-reassess-2050-net-zero-plans-due-slow-energy-transition-2026-03-26/
+    - [news] Grid Stability at Risk: Tech Investment Must Catch Up with Renewable Growth
+      https://www.tdworld.com/reliability-and-resiliency/article/55298715/grid-stability-at-risk-tech-investment-must-catch-up-with-renewable-growth
+    - [news] Renewable energy, power storage key to meeting Texas’ electricity demand, expert
+      https://www.houstonpublicmedia.org/articles/news/energy-environment/2025/10/09/532971/renewable-energy-power-storage-key-to-meeting-texas-electricity-demand-panelists-say/
+    - [arxiv] The Frontiers of Nuclear Science, A Long Range Plan
+      http://arxiv.org/abs/0809.3137v1
+    - [arxiv] Toxicity of Carbon Nanomaterials
+      http://arxiv.org/abs/2109.13918v1
+    - [arxiv] Beyond-mean-field approaches for nuclear neutrinoless double beta decay in the s
+      http://arxiv.org/abs/2111.15543v3
+    - [arxiv] Nuclear Symmetry Energy Extracted from Laboratory Experiments
+      http://arxiv.org/abs/1701.03564v1
+    - [arxiv] Encapsulating C59N azafullerene derivatives inside single-wall carbon nanotubes
+      http://arxiv.org/abs/cond-mat/0602636v1
+

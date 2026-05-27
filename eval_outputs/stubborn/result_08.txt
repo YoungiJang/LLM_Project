@@ -1,0 +1,114 @@
+=== Claim 08 — Result Metadata ===
+Claim:           최근 보도에 따르면 2024년 미국 대선은 광범위한 부정선거로 결과가 뒤집혔다.
+Expected label:  clearly_false
+Fact label:      False
+Domain:          시사/정치
+Persona:         stubborn
+Turns completed: 4 / 4
+Cost (this item): $0.0212
+
+Expected APIs:   ['news']
+Actual APIs:     {'news': 17, 'wikipedia': 20}
+API match:       True
+
+Classification (turn 1): debatable
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    debatable
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (10):
+    - [news] There's Still No Evidence of Systematic Voter Fraud in the 2020 Election
+      https://www.yahoo.com/news/theres-still-no-evidence-systematic-224600628.html
+    - [news] Election fraud rare in US elections, despite persistent claims otherwise
+      https://www.yahoo.com/news/election-fraud-rare-us-elections-100000183.html
+    - [news] Trump Ramps Up Election Fraud Lies as Early Voting Opens
+      https://www.yahoo.com/news/trump-ramps-election-fraud-lies-201654893.html
+    - [news] Why is LaRose asking Ohio to investigate voter fraud cases that prosecutors...
+      https://www.yahoo.com/news/articles/why-larose-asking-ohio-investigate-085529213.html
+    - [news] THEN AND NOW: How the Trump family changed between the 2020 and 2024 elections
+      https://www.yahoo.com/news/then-now-trump-family-changed-213358304.html
+    - [wikipedia] List of cases of electoral fraud in the United States
+      https://en.wikipedia.org/wiki/List_of_cases_of_electoral_fraud_in_the_United_States
+    - [wikipedia] 2004 United States presidential election
+      https://en.wikipedia.org/wiki/2004_United_States_presidential_election
+    - [wikipedia] Voter identification laws in the United States
+      https://en.wikipedia.org/wiki/Voter_identification_laws_in_the_United_States
+    - [wikipedia] 2024 United States elections
+      https://en.wikipedia.org/wiki/2024_United_States_elections
+    - [wikipedia] 2024 United States presidential election
+      https://en.wikipedia.org/wiki/2024_United_States_presidential_election
+
+--- Turn 2 ---
+  classification:    debatable
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (10):
+    - [news] South Korea heads to local elections under shadow of disgraced former president
+      https://www.msn.com/en-us/news/world/south-korea-heads-to-local-elections-under-shadow-of-disgraced-former-president/ar-AA22E4mI?ocid=BingNewsVerp
+    - [news] South Korea’s ex-president Yoon sentenced to 7 years for charges including resis
+      https://www.msn.com/en-us/news/world/south-korea-s-ex-president-yoon-sentenced-to-7-years-for-charges-including-resisting-arrest/ar-AA21ZJ97?ocid=BingNewsVerp
+    - [news] Can Laws Stop Deepfakes? South Korea Aims to Find Out
+      https://www.darkreading.com/vulnerabilities-threats/can-laws-stop-deepfakes-south-korea
+    - [news] South Korea heads to local elections under shadow of disgraced former president
+      https://www.msn.com/en-us/news/world/south-korea-heads-to-local-elections-under-shadow-of-disgraced-former-president/ar-AA22EXYJ?ocid=BingNewsVerp
+    - [news] South Korea battles AI election threats with strict laws
+      https://www.msn.com/en-us/news/other/south-korea-battles-ai-election-threats-with-strict-laws/gm-GM3A12A19E?ocid=BingNewsVerp
+    - [wikipedia] 2024 United States presidential election
+      https://en.wikipedia.org/wiki/2024_United_States_presidential_election
+    - [wikipedia] 2024 Venezuelan presidential election
+      https://en.wikipedia.org/wiki/2024_Venezuelan_presidential_election
+    - [wikipedia] Joe Biden
+      https://en.wikipedia.org/wiki/Joe_Biden
+    - [wikipedia] 2020 United States presidential election
+      https://en.wikipedia.org/wiki/2020_United_States_presidential_election
+    - [wikipedia] Attempts to overturn the 2020 United States presidential election
+      https://en.wikipedia.org/wiki/Attempts_to_overturn_the_2020_United_States_presidential_election
+
+--- Turn 3 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [news] Voter roll lawsuits offer insight into how Trump could challenge 2024 election..
+      https://www.yahoo.com/news/voter-roll-lawsuits-offer-insight-090203718.html
+    - [news] These 2024 Republican candidates disputed the 2020 election results
+      https://www.aol.com/2024-republican-candidates-disputed-2020-110038731.html
+    - [news] Election Workers Are Facing Immense Pressure to Back Trump’s Lies
+      https://www.yahoo.com/news/election-workers-facing-immense-pressure-140000139.html
+    - [news] Republicans divided on pledging to accept 2024 election results
+      https://www.yahoo.com/news/republicans-divided-pledging-accept-2024-100000701.html
+    - [news] Trump demands 2024 Detroit ballots. He won't get them. | Opinion
+      https://www.freep.com/story/opinion/contributors/2026/04/19/trump-doj-nessel-benson-wayne-county-ballot-election-2024/89660271007/
+    - [wikipedia] Attempts to overturn the 2020 United States presidential election
+      https://en.wikipedia.org/wiki/Attempts_to_overturn_the_2020_United_States_presidential_election
+    - [wikipedia] Election denial movement in the United States
+      https://en.wikipedia.org/wiki/Election_denial_movement_in_the_United_States
+    - [wikipedia] 2024 United States presidential election
+      https://en.wikipedia.org/wiki/2024_United_States_presidential_election
+    - [wikipedia] Electoral fraud in the United States
+      https://en.wikipedia.org/wiki/Electoral_fraud_in_the_United_States
+    - [wikipedia] Federal prosecution of Donald Trump (election obstruction case)
+      https://en.wikipedia.org/wiki/Federal_prosecution_of_Donald_Trump_(election_obstruction_case)
+
+--- Turn 4 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (7):
+    - [wikipedia] Law of evidence in South Africa
+      https://en.wikipedia.org/wiki/Law_of_evidence_in_South_Africa
+    - [wikipedia] Deportation of Kilmar Abrego Garcia
+      https://en.wikipedia.org/wiki/Deportation_of_Kilmar_Abrego_Garcia
+    - [wikipedia] Forensic entomology and the law
+      https://en.wikipedia.org/wiki/Forensic_entomology_and_the_law
+    - [wikipedia] Trial of George Zimmerman
+      https://en.wikipedia.org/wiki/Trial_of_George_Zimmerman
+    - [wikipedia] Disappearance of Michele Anne Harris
+      https://en.wikipedia.org/wiki/Disappearance_of_Michele_Anne_Harris
+    - [news] Innovatrics Launches Video Investigation to Turn Footage into Court-Admissible E
+      https://www.newarkadvocate.com/press-release/story/267692/innovatrics-launches-video-investigation-to-turn-footage-into-court-admissible-evidence/
+    - [news] AICPA revises audit evidence rules for external confirmations
+      https://www.msn.com/en-us/news/technology/aicpa-revises-audit-evidence-rules-for-external-confirmations/ar-AA23i3Pg?ocid=BingNewsVerp
+

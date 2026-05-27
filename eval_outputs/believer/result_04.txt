@@ -1,0 +1,110 @@
+=== Claim 04 — Result Metadata ===
+Claim:           지구는 평평하다.
+Expected label:  clearly_false
+Fact label:      False
+Domain:          과학
+Persona:         believer
+Turns completed: 4 / 4
+Cost (this item): $0.0219
+
+Expected APIs:   ['wikipedia']
+Actual APIs:     {'wikipedia': 20, 'news': 15}
+API match:       True
+
+Classification (turn 1): clearly_false
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    clearly_false
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (5):
+    - [wikipedia] Empirical evidence for the spherical shape of Earth
+      https://en.wikipedia.org/wiki/Empirical_evidence_for_the_spherical_shape_of_Earth
+    - [wikipedia] Modern flat Earth beliefs
+      https://en.wikipedia.org/wiki/Modern_flat_Earth_beliefs
+    - [wikipedia] Mark Sargent (flat Earth proponent)
+      https://en.wikipedia.org/wiki/Mark_Sargent_(flat_Earth_proponent)
+    - [wikipedia] Young Earth creationism
+      https://en.wikipedia.org/wiki/Young_Earth_creationism
+    - [wikipedia] Moon landing conspiracy theories
+      https://en.wikipedia.org/wiki/Moon_landing_conspiracy_theories
+
+--- Turn 2 ---
+  classification:    clearly_false
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Modern flat Earth beliefs
+      https://en.wikipedia.org/wiki/Modern_flat_Earth_beliefs
+    - [wikipedia] Myth of the flat Earth
+      https://en.wikipedia.org/wiki/Myth_of_the_flat_Earth
+    - [wikipedia] British Post Office scandal
+      https://en.wikipedia.org/wiki/British_Post_Office_scandal
+    - [wikipedia] Flat Earth
+      https://en.wikipedia.org/wiki/Flat_Earth
+    - [wikipedia] Big Bang
+      https://en.wikipedia.org/wiki/Big_Bang
+    - [news] Flat-earthers travel to Antarctica to prove the Earth is flat until the sky expo
+      https://www.msn.com/en-us/news/technology/flat-earthers-travel-to-antarctica-to-prove-the-earth-is-flat-until-the-sky-exposed-a-reality-they-couldn-t-explain/ar-AA1SPkuo?ocid=BingNewsVerp
+    - [news] Flat Earth on the ballot? Debunked claim pops up in US politics.
+      https://www.usatoday.com/story/news/2025/05/17/flat-earth-us-politicians/83492658007/
+    - [news] Inertial Labs, a VIAVI Solutions Company, Launches Visual-Aided Inertial Navigat
+      https://seekingalpha.com/pr/20122255-inertial-labs-a-viavi-solutions-company-launches-visual-aided-inertial-navigation-system-for
+    - [news] Inertial Labs unveils visual-aided inertial navigation system for GPS-denied env
+      https://www.gpsworld.com/inertial-labs-unveils-visual-aided-inertial-navigation-system-for-gps-denied-environments/
+    - [news] Quantum navigation could solve the military’s GPS jamming problem
+      https://www.technologyreview.com/2025/12/16/1129887/quantum-navigation-militarys-gps-jamming-problem/
+
+--- Turn 3 ---
+  classification:    clearly_false
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Modern flat Earth beliefs
+      https://en.wikipedia.org/wiki/Modern_flat_Earth_beliefs
+    - [wikipedia] Empirical evidence for the spherical shape of Earth
+      https://en.wikipedia.org/wiki/Empirical_evidence_for_the_spherical_shape_of_Earth
+    - [wikipedia] Dark energy
+      https://en.wikipedia.org/wiki/Dark_energy
+    - [wikipedia] Moon landing conspiracy theories
+      https://en.wikipedia.org/wiki/Moon_landing_conspiracy_theories
+    - [wikipedia] Ingo Swann
+      https://en.wikipedia.org/wiki/Ingo_Swann
+    - [news] Use your brain words spoken before a flat-earther debunked himself
+      https://www.msn.com/en-us/health/medical/use-your-brain-words-spoken-before-a-flat-earther-debunked-himself/vi-AA1RDZPT?ocid=BingNewsVerp
+    - [news] Flat-earthers travel to Antarctica to prove the Earth is flat until the sky expo
+      https://www.msn.com/en-us/news/technology/flat-earthers-travel-to-antarctica-to-prove-the-earth-is-flat-until-the-sky-exposed-a-reality-they-couldn-t-explain/ar-AA1SPkuo?ocid=BingNewsVerp
+    - [news] Flat Earth on the ballot? Debunked claim pops up in US politics.
+      https://www.yahoo.com/news/flat-earth-ballot-debunked-claim-100122646.html
+    - [news] 13 Ridiculous Conspiracy Theories Many Americans Still Believe
+      https://www.yahoo.com/lifestyle/articles/13-ridiculous-conspiracy-theories-many-104548598.html
+    - [news] Corneal Curvature Measurements Significantly Affected by Dry Eye
+      https://www.ajmc.com/view/corneal-curvature-measurements-significantly-affected-by-dry-eye
+
+--- Turn 4 ---
+  classification:    clearly_false
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (10):
+    - [wikipedia] Flat Earth
+      https://en.wikipedia.org/wiki/Flat_Earth
+    - [wikipedia] Moon landing conspiracy theories
+      https://en.wikipedia.org/wiki/Moon_landing_conspiracy_theories
+    - [wikipedia] Anaximander
+      https://en.wikipedia.org/wiki/Anaximander
+    - [wikipedia] Pakol
+      https://en.wikipedia.org/wiki/Pakol
+    - [wikipedia] Life on Mars
+      https://en.wikipedia.org/wiki/Life_on_Mars
+    - [news] Are flat-earthers being serious?
+      https://www.yahoo.com/lifestyle/flat-earthers-being-serious-135841693.html
+    - [news] OTD In Space - December 30: First Photo of Curvature of the Earth
+      https://www.yahoo.com/news/videos/otd-space-december-30-first-190000905.html
+    - [news] Inertial Labs unveils visual-aided inertial navigation system for GPS-denied env
+      https://www.gpsworld.com/inertial-labs-unveils-visual-aided-inertial-navigation-system-for-gps-denied-environments/
+    - [news] Quantum alternative to GPS navigation will be tested on US military spaceplane
+      https://theconversation.com/quantum-alternative-to-gps-navigation-will-be-tested-on-us-military-spaceplane-262967
+    - [news] Quantum navigation could solve the military’s GPS jamming problem
+      https://www.technologyreview.com/2025/12/16/1129887/quantum-navigation-militarys-gps-jamming-problem/
+

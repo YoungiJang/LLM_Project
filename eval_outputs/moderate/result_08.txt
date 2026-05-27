@@ -1,0 +1,120 @@
+=== Claim 08 — Result Metadata ===
+Claim:           최근 보도에 따르면 2024년 미국 대선은 광범위한 부정선거로 결과가 뒤집혔다.
+Expected label:  clearly_false
+Fact label:      False
+Domain:          시사/정치
+Persona:         moderate
+Turns completed: 4 / 4
+Cost (this item): $0.0238
+
+Expected APIs:   ['news']
+Actual APIs:     {'news': 20, 'wikipedia': 20}
+API match:       True
+
+Classification (turn 1): debatable
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    debatable
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (10):
+    - [news] Trump will send 'Election Integrity Army' to states for midterms
+      https://www.msn.com/en-us/politics/government/trump-will-send-election-integrity-army-to-states-for-midterms/ar-AA22RQ8F?ocid=BingNewsVerp
+    - [news] Trump admin demands Detroit 2024 ballots for voter fraud probe
+      https://www.usatoday.com/story/news/politics/elections/2026/04/20/trump-doj-detroit-2024-ballots-voter-fraud/89701099007/
+    - [news] Analysis: False election fraud claims in Shasta County are casting doubt in 2024
+      https://www.yahoo.com/news/analysis-false-election-fraud-claims-091514006.html
+    - [news] Don't be fooled on Election Day: 6 false voting claims to look out for
+      https://www.yahoo.com/news/dont-fooled-election-day-6-100331183.html
+    - [news] Donald Trump won elections in 2016 and 2024 – not 2020 | Fact check
+      https://www.yahoo.com/news/donald-trump-won-elections-2016-175016819.html
+    - [wikipedia] Electoral fraud in the United States
+      https://en.wikipedia.org/wiki/Electoral_fraud_in_the_United_States
+    - [wikipedia] 2020 United States presidential election
+      https://en.wikipedia.org/wiki/2020_United_States_presidential_election
+    - [wikipedia] Election denial movement in the United States
+      https://en.wikipedia.org/wiki/Election_denial_movement_in_the_United_States
+    - [wikipedia] Attempts to overturn the 2020 United States presidential election
+      https://en.wikipedia.org/wiki/Attempts_to_overturn_the_2020_United_States_presidential_election
+    - [wikipedia] List of Donald Trump 2024 presidential campaign non-political endorsements
+      https://en.wikipedia.org/wiki/List_of_Donald_Trump_2024_presidential_campaign_non-political_endorsements
+
+--- Turn 2 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [news] Judge denies Fulton’s request for return of 2020 ballots seized in FBI raid
+      https://www.ajc.com/politics/2026/05/judge-denies-fultons-request-for-return-of-2020-ballots-seized-in-fbi-raid/
+    - [news] Trump administration can keep 2020 election ballots seized from Georgia, judge r
+      https://www.msn.com/en-us/news/politics/trump-administration-can-keep-2020-election-ballots-seized-from-georgia-judge-rules/ar-AA22yYfA?ocid=BingNewsVerp
+    - [news] FBI chief Patel says 2020 election fraud arrests 'coming soon'
+      https://www.usatoday.com/story/news/politics/elections/2026/04/20/fbi-chief-patel-says-2020-election-fraud-arrests-coming-soon/89707799007/
+    - [news] Judge Says F.B.I. Can Keep 2020 Election Records Seized From Georgia
+      https://www.nytimes.com/2026/05/06/us/politics/judge-says-fbi-can-keep-2020-election-records-seized-from-georgia.html
+    - [news] DOJ can keep 2020 Fulton County election records it seized, judge rules
+      https://www.msn.com/en-us/news/politics/doj-can-keep-2020-fulton-county-election-records-it-seized-judge-rules/ar-AA22yct0?ocid=BingNewsVerp
+    - [wikipedia] 2020 United States presidential election
+      https://en.wikipedia.org/wiki/2020_United_States_presidential_election
+    - [wikipedia] Attempts to overturn the 2020 United States presidential election
+      https://en.wikipedia.org/wiki/Attempts_to_overturn_the_2020_United_States_presidential_election
+    - [wikipedia] List of cases of electoral fraud in the United States
+      https://en.wikipedia.org/wiki/List_of_cases_of_electoral_fraud_in_the_United_States
+    - [wikipedia] 2016 United States presidential election recounts
+      https://en.wikipedia.org/wiki/2016_United_States_presidential_election_recounts
+    - [wikipedia] 2000 United States presidential election recount in Florida
+      https://en.wikipedia.org/wiki/2000_United_States_presidential_election_recount_in_Florida
+
+--- Turn 3 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [news] Georgia’s Election Is Headed for Potential Disaster. Thank the Supreme Court.
+      https://www.yahoo.com/news/georgia-election-headed-potential-disaster-184047585.html
+    - [news] Supreme Court grapples with laws allowing mail ballots that arrive after Electio
+      https://www.cbsnews.com/news/supreme-court-mail-ballots-mississippi-law/
+    - [news] Trump administration can keep 2020 election ballots seized from Georgia, judge r
+      https://www.msn.com/en-us/news/politics/trump-administration-can-keep-2020-election-ballots-seized-from-georgia-judge-rules/ar-AA22yYfA?ocid=BingNewsVerp
+    - [news] Judge says DOJ can keep Georgia ballots seized in vote probe
+      https://www.msn.com/en-us/news/politics/judge-says-doj-can-keep-georgia-ballots-seized-in-vote-probe/ar-AA22yIAI?ocid=BingNewsVerp
+    - [news] Judge rules ‘MyPillow Guy’ Mike Lindell defamed Smartmatic with false claims on 
+      https://thehill.com/regulation/court-battles/mike-lindell-smartmatic-voting-machines/
+    - [wikipedia] Electoral fraud in the United States
+      https://en.wikipedia.org/wiki/Electoral_fraud_in_the_United_States
+    - [wikipedia] 2024 Venezuelan presidential election
+      https://en.wikipedia.org/wiki/2024_Venezuelan_presidential_election
+    - [wikipedia] Electoral fraud
+      https://en.wikipedia.org/wiki/Electoral_fraud
+    - [wikipedia] List of cases of electoral fraud in the United States
+      https://en.wikipedia.org/wiki/List_of_cases_of_electoral_fraud_in_the_United_States
+    - [wikipedia] 2004 Washington gubernatorial election
+      https://en.wikipedia.org/wiki/2004_Washington_gubernatorial_election
+
+--- Turn 4 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (10):
+    - [wikipedia] Electoral fraud in the United States
+      https://en.wikipedia.org/wiki/Electoral_fraud_in_the_United_States
+    - [wikipedia] Attempts to overturn the 2020 United States presidential election
+      https://en.wikipedia.org/wiki/Attempts_to_overturn_the_2020_United_States_presidential_election
+    - [wikipedia] Post-election lawsuits related to the 2020 U.S. presidential election
+      https://en.wikipedia.org/wiki/Post-election_lawsuits_related_to_the_2020_U.S._presidential_election
+    - [wikipedia] Federal prosecution of Donald Trump (election obstruction case)
+      https://en.wikipedia.org/wiki/Federal_prosecution_of_Donald_Trump_(election_obstruction_case)
+    - [wikipedia] Georgia election racketeering prosecution
+      https://en.wikipedia.org/wiki/Georgia_election_racketeering_prosecution
+    - [news] Trump-aligned group is already planning lawsuits over election results
+      https://www.yahoo.com/news/trump-aligned-group-already-planning-091002444.html
+    - [news] 'The litigation election': Trump and Harris teams head to court in flurry of...
+      https://www.yahoo.com/news/litigation-election-trump-harris-teams-090110409.html
+    - [news] Special counsel Jack Smith reveals new evidence against Trump in 2020 election..
+      https://www.yahoo.com/news/articles/special-counsel-jack-smith-reveals-002458546.html
+    - [news] Voter roll lawsuits offer insight into how Trump could challenge 2024 election..
+      https://www.yahoo.com/news/voter-roll-lawsuits-offer-insight-090203718.html
+    - [news] What Happened to Rudy Giuliani After the 2020 Election? Inside His Life amid His
+      https://www.yahoo.com/news/articles/happened-rudy-giuliani-2020-election-215914518.html
+

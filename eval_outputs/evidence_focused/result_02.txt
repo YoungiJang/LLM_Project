@@ -1,0 +1,22 @@
+=== Claim 02 — Result Metadata ===
+Claim:           흡연은 폐암 위험을 유의하게 증가시킨다.
+Expected label:  established_fact
+Fact label:      True
+Domain:          의학
+Persona:         evidence_focused
+Turns completed: 1 / 4
+Cost (this item): $0.0016
+
+Expected APIs:   ['wikipedia']
+Actual APIs:     {}
+API match:       False
+
+Classification (turn 1): established_fact
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    established_fact
+  evidence_strength: strong
+  evaluator_state:   close
+  sources (0):
+

@@ -1,0 +1,160 @@
+=== Claim 15 — Result Metadata ===
+Claim:           원자력은 탄소중립 달성에 필수적인 에너지원이다.
+Expected label:  debatable
+Fact label:      None
+Domain:          에너지
+Persona:         moderate
+Turns completed: 4 / 4
+Cost (this item): $0.0260
+
+Expected APIs:   ['wikipedia', 'news']
+Actual APIs:     {'wikipedia': 20, 'arxiv': 20, 'news': 20}
+API match:       True
+
+Classification (turn 1): debatable
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    debatable
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Nuclear power debate
+      https://en.wikipedia.org/wiki/Nuclear_power_debate
+    - [wikipedia] Nuclear power
+      https://en.wikipedia.org/wiki/Nuclear_power
+    - [wikipedia] Carbon price
+      https://en.wikipedia.org/wiki/Carbon_price
+    - [wikipedia] Low-carbon economy
+      https://en.wikipedia.org/wiki/Low-carbon_economy
+    - [wikipedia] Carbon accounting
+      https://en.wikipedia.org/wiki/Carbon_accounting
+    - [arxiv] The Frontiers of Nuclear Science, A Long Range Plan
+      http://arxiv.org/abs/0809.3137v1
+    - [arxiv] Toxicity of Carbon Nanomaterials
+      http://arxiv.org/abs/2109.13918v1
+    - [arxiv] Beyond-mean-field approaches for nuclear neutrinoless double beta decay in the s
+      http://arxiv.org/abs/2111.15543v3
+    - [arxiv] Nuclear Symmetry Energy Extracted from Laboratory Experiments
+      http://arxiv.org/abs/1701.03564v1
+    - [arxiv] Encapsulating C59N azafullerene derivatives inside single-wall carbon nanotubes
+      http://arxiv.org/abs/cond-mat/0602636v1
+    - [news] Calls for steady nuke power progress
+      https://global.chinadaily.com.cn/a/202503/14/WS67d38460a310c240449dabee.html
+    - [news] Kazakhstan’s Nuclear Bet to Reach Carbon Neutrality
+      https://thediplomat.com/2026/05/kazakhstans-nuclear-bet-to-reach-carbon-neutrality/
+    - [news] Five Reasons the Clean Energy Transition Needs Nuclear Power
+      https://www.iaea.org/newscenter/news/five-reasons-the-clean-energy-transition-needs-nuclear-power
+    - [news] Some parts of western North Carolina to see higher utility bills
+      https://www.yahoo.com/news/parts-western-north-carolina-see-160013293.html
+    - [news] Editorial: New nuclear should power decarbonization
+      https://cen.acs.org/energy/nuclear-power/Editorial-New-nuclear-should-power/102/i36
+
+--- Turn 2 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Nuclear power
+      https://en.wikipedia.org/wiki/Nuclear_power
+    - [wikipedia] Coal in China
+      https://en.wikipedia.org/wiki/Coal_in_China
+    - [wikipedia] Nuclear power debate
+      https://en.wikipedia.org/wiki/Nuclear_power_debate
+    - [wikipedia] 100% renewable energy
+      https://en.wikipedia.org/wiki/100%25_renewable_energy
+    - [wikipedia] Battery energy storage system
+      https://en.wikipedia.org/wiki/Battery_energy_storage_system
+    - [news] Calls for steady nuke power progress
+      https://global.chinadaily.com.cn/a/202503/14/WS67d38460a310c240449dabee.html
+    - [news] KHNP develops solar power at Yeosu Gwangyang Port for carbon neutrality
+      https://www.msn.com/en-xl/urban-infrastructure/environmental-sustainability/khnp-port-authority-develop-solar-project-for-carbon-neutral-port/ar-AA21pfYx?ocid=BingNewsVerp
+    - [news] Kazakhstan’s Nuclear Bet to Reach Carbon Neutrality
+      https://thediplomat.com/2026/05/kazakhstans-nuclear-bet-to-reach-carbon-neutrality/
+    - [news] New York needs nuclear. Just look at our stretched grid | Opinion
+      https://www.aol.com/news/york-needs-nuclear-just-look-142123047.html
+    - [news] Nuclear Vs. Renewables: Which Energy Source Wins The Zero-Carbon Race?
+      https://www.forbes.com/sites/dianneplummer/2025/02/11/nuclear-vs-renewables-which-energy-source-wins-the-zero-carbon-race/
+    - [arxiv] Mapping Disruption Sources in the Power Grid and Implications for Resilience
+      http://arxiv.org/abs/2207.08146v1
+    - [arxiv] PowerGraph-LLM: Novel Power Grid Graph Embedding and Optimization with Large Lan
+      http://arxiv.org/abs/2501.07639v3
+    - [arxiv] Development and high-power testing of an X-band dielectric-loaded power extracto
+      http://arxiv.org/abs/1907.01069v1
+    - [arxiv] Mixed-Integer Optimization for Bio-Inspired Robust Power Network Design
+      http://arxiv.org/abs/2010.16033v2
+    - [arxiv] Robust Power Flow and Three-Phase Power Flow Analyses
+      http://arxiv.org/abs/1803.01211v2
+
+--- Turn 3 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Battery energy storage system
+      https://en.wikipedia.org/wiki/Battery_energy_storage_system
+    - [wikipedia] Electrical grid
+      https://en.wikipedia.org/wiki/Electrical_grid
+    - [wikipedia] Photovoltaic system
+      https://en.wikipedia.org/wiki/Photovoltaic_system
+    - [wikipedia] Open energy system models
+      https://en.wikipedia.org/wiki/Open_energy_system_models
+    - [wikipedia] Energy storage
+      https://en.wikipedia.org/wiki/Energy_storage
+    - [news] GERC draft rules put BESS at centre of Gujarat grid
+      https://timesofindia.indiatimes.com/city/ahmedabad/gerc-draft-rules-put-bess-at-centre-of-gujarat-grid/articleshow/131101753.cms
+    - [news] Energy storage powers Oman’s renewable drive
+      https://www.zawya.com/en/economy/gcc/energy-storage-powers-omans-renewable-drive-pi8mdnxi
+    - [news] Persistence Market Research Pvt. Ltd.: AI in Energy Distribution Market to Reach
+      https://www.finanznachrichten.de/nachrichten-2026-05/68597309-persistence-market-research-pvt-ltd-ai-in-energy-distribution-market-to-reach-us-dollar-42-7-billion-by-2033-expands-amid-grid-modernization-and-renewabl-008.htm
+    - [news] Sungrow to supply 7.5GWh of storage for Masdar’s Abu Dhabi RTC project
+      https://finance.yahoo.com/sectors/energy/articles/sungrow-supply-7-5gwh-storage-085906434.html
+    - [news] Don’t let Texas become the next California when it comes to energy | Opinion
+      https://www.yahoo.com/news/politics/articles/don-t-let-texas-become-102400112.html
+    - [arxiv] Techno-economic analysis of renewable energy generation at the South Pole
+      http://arxiv.org/abs/2306.13552v2
+    - [arxiv] Co-optimization of Energy and Reserve with Incentives to Wind Generation: Case S
+      http://arxiv.org/abs/2107.09636v1
+    - [arxiv] RTO Frequency Regulation Market Clearing Formulations and the Effect of Opportun
+      http://arxiv.org/abs/2001.11134v1
+    - [arxiv] Capacity Estimation for Vehicle-to-Grid Frequency Regulation Services with Smart
+      http://arxiv.org/abs/1410.1282v4
+    - [arxiv] Representation of the German transmission grid for Renewable Energy Sources impa
+      http://arxiv.org/abs/1612.05532v1
+
+--- Turn 4 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (15):
+    - [wikipedia] Thermal energy storage
+      https://en.wikipedia.org/wiki/Thermal_energy_storage
+    - [wikipedia] Solar power in India
+      https://en.wikipedia.org/wiki/Solar_power_in_India
+    - [wikipedia] Energy policy of the United Kingdom
+      https://en.wikipedia.org/wiki/Energy_policy_of_the_United_Kingdom
+    - [wikipedia] Chevrolet Volt (first generation)
+      https://en.wikipedia.org/wiki/Chevrolet_Volt_(first_generation)
+    - [wikipedia] Solar vehicle
+      https://en.wikipedia.org/wiki/Solar_vehicle
+    - [news] FlexGen Acquires Clean Energy Services (CES), Strengthening Battery Leadership a
+      https://www.businesswire.com/news/home/20260402922794/en/FlexGen-Acquires-Clean-Energy-Services-CES-Strengthening-Battery-Leadership-and-Improving-System-Reliability-with-Expanded-Service-Offerings
+    - [news] Emerging trends in battery energy storage systems
+      https://www.edn.com/emerging-trends-in-battery-energy-storage-systems/
+    - [news] Noon Energy demonstrates 100+ hour ultra-long-duration energy storage system
+      https://www.pv-magazine.com/2026/01/21/noon-energy-demonstrates-100-hour-ultra-long-duration-energy-storage-system/
+    - [news] Long-duration energy storage is key for energy dominance and grid modernization
+      https://www.washingtontimes.com/news/2026/apr/21/long-duration-energy-storage-key-energy-dominance-grid-modernization/
+    - [news] ESS Tech acquires VoltStorage GmbH to expand long-duration energy storage
+      https://www.pv-magazine.com/2026/02/23/ess-tech-acquires-voltstorage-gmbh-to-expand-long-duration-energy-storage/
+    - [arxiv] Privacy-Preserving Distributed Control for a Networked Battery Energy Storage Sy
+      http://arxiv.org/abs/2508.19345v2
+    - [arxiv] Sizing of Energy Storage System for Virtual Inertia Emulation
+      http://arxiv.org/abs/2201.06566v2
+    - [arxiv] Cost Reducing Adiabatic Compressed Air Energy Storage for Long Duration Energy S
+      http://arxiv.org/abs/2511.03463v1
+    - [arxiv] Optimal Energy Dispatch of Grid-Connected Electric Vehicle Considering Lithium B
+      http://arxiv.org/abs/2411.14700v1
+    - [arxiv] Enhanced Representative Days and System States Modeling for Energy Storage Inves
+      http://arxiv.org/abs/1810.09539v1
+

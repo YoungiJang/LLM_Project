@@ -1,0 +1,120 @@
+=== Claim 08 — Result Metadata ===
+Claim:           최근 보도에 따르면 2024년 미국 대선은 광범위한 부정선거로 결과가 뒤집혔다.
+Expected label:  clearly_false
+Fact label:      False
+Domain:          시사/정치
+Persona:         believer
+Turns completed: 4 / 4
+Cost (this item): $0.0224
+
+Expected APIs:   ['news']
+Actual APIs:     {'news': 20, 'wikipedia': 20}
+API match:       True
+
+Classification (turn 1): debatable
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    debatable
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (10):
+    - [news] Tempers flare as Trump's voter fraud hunt implodes — again
+      https://www.msn.com/en-us/news/politics/tempers-flare-as-trump-s-voter-fraud-hunt-implodes-again/ar-AA21EQua?ocid=BingNewsVerp
+    - [news] Trump reshares post claiming to prove voter fraud in 2020 — with wrong number of
+      https://www.msn.com/en-au/news/other/trump-reshares-post-claiming-to-prove-voter-fraud-in-2020-with-wrong-number-of-voters/ar-AA21o31N?ocid=BingNewsVerp
+    - [news] Trump revives election fraud claims after Virginia redistricting defeat
+      https://www.msn.com/en-us/news/politics/trump-revives-election-fraud-claims-after-virginia-redistricting-defeat/ar-AA21vtc8?ocid=BingNewsVerp
+    - [news] TikTok’s algorithm systematically skewed to the right during the 2024 US electio
+      https://www.nature.com/articles/d41586-026-01314-0
+    - [news] Fact check: Hegseth twice made a false claim to Congress about troops being sent
+      https://www.cnn.com/2026/05/04/politics/hegseth-biden-2024-troops-voting-locations-fact-check
+    - [wikipedia] List of cases of electoral fraud in the United States
+      https://en.wikipedia.org/wiki/List_of_cases_of_electoral_fraud_in_the_United_States
+    - [wikipedia] 2004 United States presidential election
+      https://en.wikipedia.org/wiki/2004_United_States_presidential_election
+    - [wikipedia] 2024 United States elections
+      https://en.wikipedia.org/wiki/2024_United_States_elections
+    - [wikipedia] 2024 United States presidential election
+      https://en.wikipedia.org/wiki/2024_United_States_presidential_election
+    - [wikipedia] Voter identification laws in the United States
+      https://en.wikipedia.org/wiki/Voter_identification_laws_in_the_United_States
+
+--- Turn 2 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [news] FBI director teases Trump election fraud evidence as Florida conspiracy probe ga
+      https://www.washingtontimes.com/news/2026/apr/24/trump-allies-roll-election-fraud-claims-sweeping-florida-conspiracy/
+    - [news] Trump's election fraud claims spread distrust before midterms, Reuters/Ipsos pol
+      https://www.reuters.com/world/trumps-election-fraud-claims-spread-distrust-before-midterms-reutersipsos-poll-2026-04-23/
+    - [news] Mike Johnson shut down after pushing debunked Georgia voter fraud claims on NBC
+      https://www.msn.com/en-ca/news/other/mike-johnson-shut-down-after-pushing-debunked-georgia-voter-fraud-claims-on-nbc/ar-AA1Vw7Av?ocid=BingNewsVerp
+    - [news] FBI chief Patel says 2020 election fraud arrests 'coming soon'
+      https://www.aol.com/articles/fbi-chief-patel-says-2020-000521854.html
+    - [news] Trump admin demands Detroit 2024 ballots for voter fraud probe
+      https://www.usatoday.com/story/news/politics/elections/2026/04/20/trump-doj-detroit-2024-ballots-voter-fraud/89701099007/
+    - [wikipedia] 2020 United States presidential election
+      https://en.wikipedia.org/wiki/2020_United_States_presidential_election
+    - [wikipedia] Electoral fraud in the United States
+      https://en.wikipedia.org/wiki/Electoral_fraud_in_the_United_States
+    - [wikipedia] Election denial movement in the United States
+      https://en.wikipedia.org/wiki/Election_denial_movement_in_the_United_States
+    - [wikipedia] Timeline of the 2020 United States presidential election (November 2020–January 
+      https://en.wikipedia.org/wiki/Timeline_of_the_2020_United_States_presidential_election_(November_2020%E2%80%93January_2021)
+    - [wikipedia] Electronic voting in the United States
+      https://en.wikipedia.org/wiki/Electronic_voting_in_the_United_States
+
+--- Turn 3 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [news] State audit identifies election procedure concerns in Clarendon County
+      https://www.msn.com/en-us/news/us/state-audit-identifies-election-procedure-concerns-in-clarendon-county/ar-AA238o8R?ocid=BingNewsVerp
+    - [news] February 2024 local elections plagued by widespread financing irregularities, re
+      https://www.msn.com/en-ca/news/politics/february-2024-local-elections-plagued-by-widespread-financing-irregularities-report-reveals/ar-AA1U7GBf?ocid=BingNewsVerp
+    - [news] California election officials cope with ballot glitches and vote count...
+      https://www.yahoo.com/news/california-election-officials-cope-ballot-110031675.html
+    - [news] Experts: Georgia GOP officials lay groundwork to "obstruct" and "subvert"...
+      https://www.yahoo.com/news/experts-georgia-gop-officials-lay-093005015.html
+    - [news] Passaic County completes count of 2024 election votes. Here's what changed
+      https://www.yahoo.com/news/passaic-county-completes-count-2024-092423020.html
+    - [wikipedia] Attempts to overturn the 2020 United States presidential election
+      https://en.wikipedia.org/wiki/Attempts_to_overturn_the_2020_United_States_presidential_election
+    - [wikipedia] Legal challenge of the 2012 Ghanaian Presidential Election
+      https://en.wikipedia.org/wiki/Legal_challenge_of_the_2012_Ghanaian_Presidential_Election
+    - [wikipedia] Second impeachment of Sara Duterte
+      https://en.wikipedia.org/wiki/Second_impeachment_of_Sara_Duterte
+    - [wikipedia] Free and Fair Election Network
+      https://en.wikipedia.org/wiki/Free_and_Fair_Election_Network
+    - [wikipedia] 2024 Pakistani general election
+      https://en.wikipedia.org/wiki/2024_Pakistani_general_election
+
+--- Turn 4 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (10):
+    - [news] State audit identifies election procedure concerns in Clarendon County
+      https://www.msn.com/en-us/news/us/state-audit-identifies-election-procedure-concerns-in-clarendon-county/ar-AA238o8R?ocid=BingNewsVerp
+    - [news] State audit finds mistakes in Clarendon County 2024 elections, director responds
+      https://www.msn.com/en-us/politics/elections/state-audit-finds-mistakes-in-clarendon-county-2024-elections-director-responds/ar-AA238thZ?ocid=BingNewsVerp
+    - [news] Riviera council member raises alarm over breach of clerk’s vault, missing electi
+      https://www.msn.com/en-us/news/us/riviera-council-member-raises-alarm-over-breach-of-clerk-s-vault-missing-election-records/ar-AA21W2UI?ocid=BingNewsVerp
+    - [news] Michigan Dems’ vote-by-phone convention results in ‘material errors’ – including
+      https://www.msn.com/en-us/news/politics/michigan-dems-vote-by-phone-convention-results-in-material-errors-including-200-ineligible-ballots-cast-candidate-claims/ar-AA22ohw1?ocid=BingNewsVerp
+    - [news] 2020 election fraud evidence to be part of Florida conspiracy case
+      https://www.washingtontimes.com/news/2026/apr/21/2020-election-fraud-evidence-part-florida-conspiracy-case/
+    - [wikipedia] Electoral fraud
+      https://en.wikipedia.org/wiki/Electoral_fraud
+    - [wikipedia] Republican Party efforts to disrupt the 2024 United States presidential election
+      https://en.wikipedia.org/wiki/Republican_Party_efforts_to_disrupt_the_2024_United_States_presidential_election
+    - [wikipedia] Digital preservation
+      https://en.wikipedia.org/wiki/Digital_preservation
+    - [wikipedia] 2026 United States intervention in Venezuela
+      https://en.wikipedia.org/wiki/2026_United_States_intervention_in_Venezuela
+    - [wikipedia] Postal voting in the United States
+      https://en.wikipedia.org/wiki/Postal_voting_in_the_United_States
+

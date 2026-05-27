@@ -1,0 +1,130 @@
+=== Claim 11 — Result Metadata ===
+Claim:           최근 중국의 희토류 수출 통제 강화는 서방의 반도체 공급망에 심각한 위협이다.
+Expected label:  debatable
+Fact label:      None
+Domain:          국제정치/무역
+Persona:         moderate
+Turns completed: 4 / 4
+Cost (this item): $0.0248
+
+Expected APIs:   ['news']
+Actual APIs:     {'news': 20, 'wikipedia': 20, 'arxiv': 5}
+API match:       True
+
+Classification (turn 1): debatable
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [news] China tightens rare earth export controls, targets defence, semiconductor users
+      https://www.aol.com/china-tightens-rare-earth-export-015234512.html
+    - [news] The US wants to cut off China’s chip equipment. China says the supply chain will
+      https://thenextweb.com/news/china-us-chip-export-controls-match-act
+    - [news] China’s New Export Rules Explained: Will They Affect India’s $120 Billion Electr
+      https://www.oneindia.com/international/china-s-new-export-rules-explained-will-they-affect-india-s-120-billion-electronics-export-target-8098353.html
+    - [news] Rare earths, trade and pressure tactics: How China holds a powerful card against
+      https://www.moneycontrol.com/world/rare-earths-trade-and-pressure-tactics-how-china-holds-a-powerful-card-against-trump-explained-article-13918158.html
+    - [news] Why China’s ‘Rare Earth Card’ Is Unlikely to Become a Lasting Geopolitical Lever
+      https://thediplomat.com/2026/04/why-chinas-rare-earth-card-is-unlikely-to-become-a-lasting-geopolitical-lever/
+    - [wikipedia] Rare-earth element
+      https://en.wikipedia.org/wiki/Rare-earth_element
+    - [wikipedia] Semiconductor industry
+      https://en.wikipedia.org/wiki/Semiconductor_industry
+    - [wikipedia] China–United States trade war
+      https://en.wikipedia.org/wiki/China%E2%80%93United_States_trade_war
+    - [wikipedia] Made in China 2025
+      https://en.wikipedia.org/wiki/Made_in_China_2025
+    - [wikipedia] Electric vehicle supply chain
+      https://en.wikipedia.org/wiki/Electric_vehicle_supply_chain
+
+--- Turn 2 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Economy of China
+      https://en.wikipedia.org/wiki/Economy_of_China
+    - [wikipedia] Automotive industry in China
+      https://en.wikipedia.org/wiki/Automotive_industry_in_China
+    - [wikipedia] Protein adulteration in China
+      https://en.wikipedia.org/wiki/Protein_adulteration_in_China
+    - [wikipedia] Economy of India
+      https://en.wikipedia.org/wiki/Economy_of_India
+    - [wikipedia] 2007 pet food recalls
+      https://en.wikipedia.org/wiki/2007_pet_food_recalls
+    - [news] YY-IC: Artificial Intelligence, Rare Earths, and Semiconductors – Can China Ushe
+      https://www.fayobserver.com/press-release/story/65717/yy-ic-artificial-intelligence-rare-earths-and-semiconductors-can-china-usher-in-a-new-national-fortune-in-2026/
+    - [news] Pentagon-Linked REalloys Secures U.S. Rare Earth Supply Ahead of China Ban
+      https://oilprice.com/Energy/Energy-General/Pentagon-Linked-REalloys-Secures-US-Rare-Earth-Supply-Ahead-of-China-Ban.html
+    - [news] USA Rare Earth's acquisition sharply accelerates its production timeline
+      https://www.fool.com/investing/2026/04/27/usa-rare-earth-just-made-a-28-billion-strategic/
+    - [news] China still drags its feet on rare earths sometimes, says Greer
+      https://www.reuters.com/business/aerospace-defense/china-still-drags-its-feet-rare-earths-sometimes-says-greer-2026-05-15/
+    - [news] The Sobering Truth About Rare Earths
+      https://time.com/article/2026/04/20/trump-s-push-to-break-china-s-dominance-of-critical-rare-earth-minerals/
+
+--- Turn 3 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Solar cell
+      https://en.wikipedia.org/wiki/Solar_cell
+    - [wikipedia] Shortages related to the COVID-19 pandemic
+      https://en.wikipedia.org/wiki/Shortages_related_to_the_COVID-19_pandemic
+    - [wikipedia] Technological and industrial history of the United States
+      https://en.wikipedia.org/wiki/Technological_and_industrial_history_of_the_United_States
+    - [wikipedia] 2012 in science
+      https://en.wikipedia.org/wiki/2012_in_science
+    - [wikipedia] Glossary of engineering: M–Z
+      https://en.wikipedia.org/wiki/Glossary_of_engineering%3A_M%E2%80%93Z
+    - [news] How To Scale Your Supply Chain With The New Data Infrastructure
+      https://www.forbes.com/councils/forbestechcouncil/2025/11/06/how-to-scale-your-supply-chain-with-the-new-data-infrastructure/
+    - [news] Taiwan Semiconductor Quietly Turns The AI Choke Point Into Pricing Power
+      https://seekingalpha.com/article/4858612-taiwan-semiconductor-quietly-turns-the-ai-choke-point-into-pricing-power
+    - [news] AI Demand Is Driving Record Semiconductor Revenues Amid Mounting Supply Strains
+      https://www.msn.com/en-us/news/other/ai-demand-is-driving-record-semiconductor-revenues-amid-mounting-supply-strains/gm-GMD66C17A6?ocid=BingNewsVerp
+    - [news] Can Musk Build His Own Semiconductor Supply Chain?
+      https://www.forbes.com/sites/tiriasresearch/2026/04/08/can-musk-build-his-own-semiconductor-supply-chain/
+    - [news] War or Peace, the Artificial Intelligence (AI) Chip Industry Just Learned Depend
+      https://www.fool.com/investing/2026/04/28/war-or-peace-the-artificial-intelligence-ai-chip-i/
+
+--- Turn 4 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (15):
+    - [wikipedia] Solar cell
+      https://en.wikipedia.org/wiki/Solar_cell
+    - [wikipedia] 2012 in science
+      https://en.wikipedia.org/wiki/2012_in_science
+    - [wikipedia] Rare-earth element
+      https://en.wikipedia.org/wiki/Rare-earth_element
+    - [wikipedia] Economy of China
+      https://en.wikipedia.org/wiki/Economy_of_China
+    - [wikipedia] United States Environmental Protection Agency
+      https://en.wikipedia.org/wiki/United_States_Environmental_Protection_Agency
+    - [news] America Is Closing the Gap in the Rare Earth Supply Chain Race - OilPrice.com Ma
+      https://www.morningstar.com/news/pr-newswire/20260313ln09717/america-is-closing-the-gap-in-the-rare-earth-supply-chain-race-oilpricecom-market-commentary
+    - [news] The Pentagon Has Less Than 8 Months to Break China’s Rare Earth Grip
+      https://oilprice.com/Energy/Energy-General/The-Pentagon-Has-Less-Than-8-Months-to-Break-Chinas-Rare-Earth-Grip.html
+    - [news] REalloys, U.S. Critical Materials sign MoU to build domestic rare earth supply c
+      https://www.reuters.com/business/aerospace-defense/realloys-us-critical-materials-sign-mou-build-domestic-rare-earth-supply-chain-2026-04-01/
+    - [news] MP Materials announces $1.25 billion rare earths facility meant to help counter 
+      https://www.washingtonexaminer.com/policy/energy-and-environment/4472997/mp-materials-1-25b-rare-earths-facility-help-counter-china/
+    - [news] China dominates the rare earth elements industry, but this American company hope
+      https://www.cbsnews.com/news/china-dominates-rare-earths-american-company-hopes-to-challenge-60-minutes-transcript/
+    - [arxiv] Modeling the Path of Structural Strategic Deterrence: A Sand Table Simulation an
+      http://arxiv.org/abs/2505.21579v1
+    - [arxiv] The pre-main sequence binary HK Ori : Spectro-astrometry and EXPORT data
+      http://arxiv.org/abs/astro-ph/0406542v1
+    - [arxiv] EXPORT: optical photometry and polarimetry of Vega-type and pre-main sequence st
+      http://arxiv.org/abs/astro-ph/0110641v1
+    - [arxiv] Expert Insight-Based Modeling of Non-Kinetic Strategic Deterrence of Rare Earth 
+      http://arxiv.org/abs/2506.11645v1
+    - [arxiv] Lunar-like silicate material forms the Earth quasisatellite (469219) 2016 HO3 Ka
+      http://arxiv.org/abs/2111.06372v1
+

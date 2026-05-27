@@ -1,0 +1,150 @@
+=== Claim 16 — Result Metadata ===
+Claim:           전기차는 내연기관차보다 환경에 더 이롭다.
+Expected label:  debatable
+Fact label:      None
+Domain:          환경
+Persona:         stubborn
+Turns completed: 4 / 4
+Cost (this item): $0.0236
+
+Expected APIs:   ['wikipedia', 'arxiv']
+Actual APIs:     {'wikipedia': 20, 'news': 20, 'arxiv': 15}
+API match:       True
+
+Classification (turn 1): debatable
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    debatable
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Electric vehicle
+      https://en.wikipedia.org/wiki/Electric_vehicle
+    - [wikipedia] Electric vehicle battery
+      https://en.wikipedia.org/wiki/Electric_vehicle_battery
+    - [wikipedia] Alternative fuel vehicle
+      https://en.wikipedia.org/wiki/Alternative_fuel_vehicle
+    - [wikipedia] Plug-in electric vehicle
+      https://en.wikipedia.org/wiki/Plug-in_electric_vehicle
+    - [wikipedia] Hydrogen vehicle
+      https://en.wikipedia.org/wiki/Hydrogen_vehicle
+    - [news] Duke study finds EVs quickly overcome their energy-intensive build to be cleaner
+      https://www.wunc.org/environment/2025-10-30/duke-research-study-electric-vehicle-ev-cars-energy-use
+    - [news] A radical new engine shows why internal combustion still matters
+      https://www.msn.com/en-us/technology/general/a-radical-new-engine-shows-why-internal-combustion-still-matters/ar-AA21Dxv3?ocid=BingNewsVerp
+    - [news] Polestar’s Luxury Electric SUV Has Lower Lifetime Environmental Impact Than Tiny
+      https://www.forbes.com/sites/carltonreid/2025/05/15/polestars-luxury-electric-suv-has-lower-lifetime-environmental-impact-than-tiny-petrol-car/
+    - [news] Europe backtracks on ban of new combustion engine cars, in setback to tackling c
+      https://www.cnn.com/2025/12/16/business/eu-combustion-engine-ban-changed-intl
+    - [news] The Age Old Question Of Hybrids Vs EVs Is A Hot Topic At Toyota
+      https://www.forbes.com/sites/peterlyon/2025/06/14/toyota-chairman-claims-hybrids-are-cleaner-than-evs/
+    - [arxiv] Double-distribution-function discrete Boltzmann model for combustion
+      http://arxiv.org/abs/1405.5500v3
+    - [arxiv] B-ETS: A Trusted Blockchain-based Emissions Trading System for Vehicle-to-Vehicl
+      http://arxiv.org/abs/2102.13477v2
+    - [arxiv] Deep learning-based denoising for fast time-resolved flame emission spectroscopy
+      http://arxiv.org/abs/2208.12544v3
+    - [arxiv] Forecasting the value of battery electric vehicles compared to internal combusti
+      http://arxiv.org/abs/1806.06947v1
+    - [arxiv] Joint vehicle state and parameters estimation via Twin-in-the-Loop observers
+      http://arxiv.org/abs/2309.01461v1
+
+--- Turn 2 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Electric vehicle
+      https://en.wikipedia.org/wiki/Electric_vehicle
+    - [wikipedia] Climate change
+      https://en.wikipedia.org/wiki/Climate_change
+    - [wikipedia] Electric vehicle battery
+      https://en.wikipedia.org/wiki/Electric_vehicle_battery
+    - [wikipedia] Plug-in hybrid
+      https://en.wikipedia.org/wiki/Plug-in_hybrid
+    - [wikipedia] Health and environmental effects of battery electric cars
+      https://en.wikipedia.org/wiki/Health_and_environmental_effects_of_battery_electric_cars
+    - [news] EVs outperform ICE vehicles on lifetime emissions, study finds
+      https://r.search.yahoo.com/_ylt=A2RTVOR72BZqiAIAwt7QtDMD;_ylu=Y29sbwNhcC1zb3V0aGVhc3QtMQRwb3MDMwR2dGlkAwRzZWMDc3I-/RV=2/RE=1781091708/RO=10/RU=https://www.yahoo.com/news/evs-outperform-icevs-lifetime-emissions-100000252.html?fr=sycsrp_catchall/RK=2/RS=64IVz_dTErUjrZ2wX8fh67HNP0o-
+    - [news] EVs Pay Off Their Carbon Debt in Just 2 Years | BEV Lifecycle Benefits
+      https://autos.yahoo.com/articles/evs-pay-off-carbon-debt-175800978.html;_ylt=A2RTVOR72BZqiAIAvN7QtDMD;_ylu=Y29sbwNhcC1zb3V0aGVhc3QtMQRwb3MDMQR2dGlkAwRzZWMDc3I-
+    - [news] Are EVs really reducing overall emissions? What ‘cradle-to-grave’ analysis found
+      https://r.search.yahoo.com/_ylt=A2RTVOR72BZqiAIAy97QtDMD;_ylu=Y29sbwNhcC1zb3V0aGVhc3QtMQRwb3MDNgR2dGlkAwRzZWMDc3I-/RV=2/RE=1781091708/RO=10/RU=https://www.yahoo.com/news/articles/evs-really-reducing-overall-emissions-120000957.html?fr=sycsrp_catchall/RK=2/RS=6kSNe.hyufwu6DQTSf2LNui7svc-
+    - [news] This Week In Electric Vehicles - Hydrogen Trucks: A Cleaner Future for European.
+      https://r.search.yahoo.com/_ylt=A2RTVOR72BZqiAIA1N7QtDMD;_ylu=Y29sbwNhcC1zb3V0aGVhc3QtMQRwb3MDOQR2dGlkAwRzZWMDc3I-/RV=2/RE=1781091708/RO=10/RU=https://finance.yahoo.com/news/week-electric-vehicles-hydrogen-trucks-120715508.html?fr=sycsrp_catchall/RK=2/RS=cZoU0YZv6HSF6AnMdzAkMI9GTTY-
+    - [news] Are Electric Vehicles Better or Worse for the Environment?
+      https://r.search.yahoo.com/_ylt=A2RTVOR72BZqiAIAv97QtDMD;_ylu=Y29sbwNhcC1zb3V0aGVhc3QtMQRwb3MDMgR2dGlkAwRzZWMDc3I-/RV=2/RE=1781091708/RO=10/RU=https://tech.yahoo.com/general/articles/electric-vehicles-better-worse-environment-130000193.html/RK=2/RS=HkN7Dwo2_pFoMpwvMX0RGrn6so8-
+
+--- Turn 3 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Nuclear power debate
+      https://en.wikipedia.org/wiki/Nuclear_power_debate
+    - [wikipedia] Climate change mitigation
+      https://en.wikipedia.org/wiki/Climate_change_mitigation
+    - [wikipedia] Environmental, social, and governance
+      https://en.wikipedia.org/wiki/Environmental%2C_social%2C_and_governance
+    - [wikipedia] Economic analysis of climate change
+      https://en.wikipedia.org/wiki/Economic_analysis_of_climate_change
+    - [wikipedia] Forest management
+      https://en.wikipedia.org/wiki/Forest_management
+    - [news] Duke study finds EVs quickly overcome their energy-intensive build to be cleaner
+      https://www.wunc.org/environment/2025-10-30/duke-research-study-electric-vehicle-ev-cars-energy-use
+    - [news] Battery electric cars produce 73% less emissions -research
+      https://www.reuters.com/sustainability/climate-energy/battery-electric-cars-produce-73-less-emissions-research-2025-07-08/
+    - [news] Are EVs really reducing overall emissions? What ‘cradle-to-grave' analysis found
+      https://www.msn.com/en-us/autos/electric-cars/are-evs-really-reducing-overall-emissions-what-cradle-to-grave-analysis-found/ar-AA1LgqHO?ocid=BingNewsVerp
+    - [news] Are EVs really reducing overall emissions? What ‘cradle-to-grave’ analysis found
+      https://www.miamiherald.com/news/nation-world/national/article311855307.html
+    - [news] How 3D Printing Could Build Safer, Smarter Lithium Batteries
+      https://www.azom.com/news.aspx?newsID=65452
+    - [arxiv] Towards the implementation of Industry 4.0: A methodology-based approach oriente
+      http://arxiv.org/abs/2401.17661v1
+    - [arxiv] Theories of Accounting: Evolution & Developments, Income-Determination and Diver
+      http://arxiv.org/abs/1411.4633v1
+    - [arxiv] Computational Methodology for the Prediction of Functional Requirement Variation
+      http://arxiv.org/abs/0905.0775v1
+    - [arxiv] Exposure to World War II and Its Labor Market Consequences over the Life Cycle
+      http://arxiv.org/abs/2303.14486v2
+    - [arxiv] CAGI, the Critical Assessment of Genome Interpretation, establishes progress and
+      http://arxiv.org/abs/2205.05897v1
+
+--- Turn 4 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (15):
+    - [wikipedia] Electric vehicle
+      https://en.wikipedia.org/wiki/Electric_vehicle
+    - [wikipedia] Environmental issues in India
+      https://en.wikipedia.org/wiki/Environmental_issues_in_India
+    - [wikipedia] Plug-in electric vehicle
+      https://en.wikipedia.org/wiki/Plug-in_electric_vehicle
+    - [wikipedia] Air pollution
+      https://en.wikipedia.org/wiki/Air_pollution
+    - [wikipedia] Hybrid vehicle
+      https://en.wikipedia.org/wiki/Hybrid_vehicle
+    - [news] Letter: Electric vehicles reduce pollution and improve air quality
+      https://www.aol.com/news/letter-electric-vehicles-reduce-pollution-085123058.html
+    - [news] Adoption of electric vehicles tied to real-world reductions in air pollution, st
+      https://www.eurekalert.org/news-releases/1113760
+    - [news] Adoption of electric vehicles tied to real-world reductions in air pollution
+      https://www.msn.com/en-us/health/medical/adoption-of-electric-vehicles-tied-to-real-world-reductions-in-air-pollution/ar-AA1UPpa6?ocid=BingNewsVerp
+    - [news] Sensors tracking air pollution in Chicago make up largest network of its kind in
+      https://www.yahoo.com/news/science/articles/sensors-tracking-air-pollution-chicago-213853280.html
+    - [news] "Open Air Chicago," nation's largest air quality sensor network, monitors...
+      https://www.cbsnews.com/chicago/news/open-air-chicago-air-quality-sensor-network-pollution/
+    - [arxiv] Indoor Air Quality Improvement
+      http://arxiv.org/abs/2012.15387v2
+    - [arxiv] Urban Mobility
+      http://arxiv.org/abs/2211.00355v1
+    - [arxiv] Mapping Urban Villages in China: Progress and Challenges
+      http://arxiv.org/abs/2503.14195v1
+    - [arxiv] Sampling Trade-Offs in Duty-Cycled Systems for Air Quality Low-Cost Sensors
+      http://arxiv.org/abs/2112.09072v2
+    - [arxiv] Measurement of Pressure Dependent Fluorescence Yield of Air: Calibration Factor 
+      http://arxiv.org/abs/astro-ph/0506741v1
+

@@ -1,0 +1,160 @@
+=== Claim 17 — Result Metadata ===
+Claim:           사형제는 흉악범죄 억제에 효과적이므로 유지되어야 한다.
+Expected label:  debatable
+Fact label:      None
+Domain:          사회/윤리
+Persona:         evidence_focused
+Turns completed: 4 / 4
+Cost (this item): $0.0250
+
+Expected APIs:   ['wikipedia', 'arxiv']
+Actual APIs:     {'wikipedia': 20, 'news': 20, 'arxiv': 20}
+API match:       True
+
+Classification (turn 1): debatable
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    debatable
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Deterrence (penology)
+      https://en.wikipedia.org/wiki/Deterrence_(penology)
+    - [wikipedia] Punishment
+      https://en.wikipedia.org/wiki/Punishment
+    - [wikipedia] Criminology
+      https://en.wikipedia.org/wiki/Criminology
+    - [wikipedia] Recidivism
+      https://en.wikipedia.org/wiki/Recidivism
+    - [wikipedia] Victimology
+      https://en.wikipedia.org/wiki/Victimology
+    - [news] Israel’s Death Penalty Bill Would Bring Darkness, Not Deterrence
+      https://www.jurist.org/commentary/2025/12/israels-death-penalty-bill-would-bring-darkness-not-deterrence/
+    - [news] Deterrence and the Death Penalty
+      https://www.nationalacademies.org/read/13363
+    - [news] Homicide rates in US cities plummeted to historic lows in 2025
+      https://www.msn.com/en-us/crime/general/homicide-rates-in-us-cities-plummeted-to-historic-lows-in-2025/ar-AA1VQwjR?ocid=BingNewsVerp
+    - [news] ‘Fear of death doesn't deter violent crime,’ experts say as executions rise
+      https://www.yahoo.com/news/articles/fear-death-doesnt-deter-violent-051806498.html
+    - [news] New study finds states with stronger firearm laws have lower rates of youth-perp
+      https://www.eurekalert.org/news-releases/1125615
+    - [arxiv] P-value evaluation, variability index and biomarker categorization for adaptivel
+      http://arxiv.org/abs/1708.05084v1
+    - [arxiv] Expert Insight-Based Modeling of Non-Kinetic Strategic Deterrence of Rare Earth 
+      http://arxiv.org/abs/2506.11645v1
+    - [arxiv] IQ: Intrinsic measure for quantifying the heterogeneity in meta-analysis
+      http://arxiv.org/abs/2109.05755v2
+    - [arxiv] A novel density-based approach for estimating unknown means, distribution visual
+      http://arxiv.org/abs/2411.10971v1
+    - [arxiv] Generative AI and Creativity: A Systematic Literature Review and Meta-Analysis
+      http://arxiv.org/abs/2505.17241v1
+
+--- Turn 2 ---
+  classification:    debatable
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Deterrence (penology)
+      https://en.wikipedia.org/wiki/Deterrence_(penology)
+    - [wikipedia] Immigration and crime
+      https://en.wikipedia.org/wiki/Immigration_and_crime
+    - [wikipedia] Recidivism
+      https://en.wikipedia.org/wiki/Recidivism
+    - [wikipedia] Criminology
+      https://en.wikipedia.org/wiki/Criminology
+    - [wikipedia] Rape
+      https://en.wikipedia.org/wiki/Rape
+    - [news] The death penalty remains the strongest deterrent to violent crime
+      https://thehill.com/opinion/criminal-justice/555027-the-death-penalty-remains-the-strongest-deterrent-to-violent-crime/
+    - [news] US violent crime is at its lowest in more than a century – but the funding that 
+      https://theconversation.com/us-violent-crime-is-at-its-lowest-in-more-than-a-century-but-the-funding-that-helped-reduce-it-is-disappearing-276834
+    - [news] Faith leaders in Ohio call on state legislators to repeal state's death penalty
+      https://www.msn.com/en-us/politics/government/faith-leaders-in-ohio-call-on-state-legislators-to-repeal-state-s-death-penalty/vi-AA22mON7?ocid=BingNewsVerp
+    - [news] Gruesome murders relived before Utah committee axes death penalty repeal
+      https://www.ksl.com/article/news/utah/gruesome-murders-relived-before-utah-committee-axes-death-penalty-repeal/50348764
+    - [news] Commentary: Crime and the deterrence myth
+      https://www.orlandosentinel.com/2025/11/30/commentary-crime-and-the-deterrence-myth/
+    - [arxiv] Probing the position-dependent optical energy fluence rate in three-dimensional 
+      http://arxiv.org/abs/2401.14748v2
+    - [arxiv] Individual Updating of Subjective Probability of Homicide Victimization: a "Natu
+      http://arxiv.org/abs/2312.08171v1
+    - [arxiv] Cluster analysis of homicide rates in the Brazilian state of Goias from 2002 to 
+      http://arxiv.org/abs/1811.06366v2
+    - [arxiv] P-value evaluation, variability index and biomarker categorization for adaptivel
+      http://arxiv.org/abs/1708.05084v1
+    - [arxiv] Expert Insight-Based Modeling of Non-Kinetic Strategic Deterrence of Rare Earth 
+      http://arxiv.org/abs/2506.11645v1
+
+--- Turn 3 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Deterrence (penology)
+      https://en.wikipedia.org/wiki/Deterrence_(penology)
+    - [wikipedia] Immigration and crime
+      https://en.wikipedia.org/wiki/Immigration_and_crime
+    - [wikipedia] Recidivism
+      https://en.wikipedia.org/wiki/Recidivism
+    - [wikipedia] Rape
+      https://en.wikipedia.org/wiki/Rape
+    - [wikipedia] Criminology
+      https://en.wikipedia.org/wiki/Criminology
+    - [news] The death penalty remains the strongest deterrent to violent crime
+      https://thehill.com/opinion/criminal-justice/555027-the-death-penalty-remains-the-strongest-deterrent-to-violent-crime/
+    - [news] Denver City Council debates controversial proposal to reduce penalties for some 
+      https://www.msn.com/en-us/crime/general/denver-city-council-debates-controversial-proposal-to-reduce-penalties-for-some-municipal-offenses/ar-AA23eu3v?ocid=BingNewsVerp
+    - [news] Deterrence or state interference: New anti-sacrilege law sparks panthic debate
+      https://www.msn.com/en-in/news/other/deterrence-or-state-interference-new-anti-sacrilege-law-sparks-panthic-debate/ar-AA22JS6c?ocid=BingNewsVerp
+    - [news] NSW unveils sweeping anti-gang laws amid deterrence debate
+      https://www.msn.com/en-au/news/other/nsw-unveils-sweeping-anti-gang-laws-amid-deterrence-debate/gm-GMDC8C6691?ocid=BingNewsVerp
+    - [news] Trump’s death penalty push gains traction in statehouses
+      https://thehill.com/homenews/state-watch/5548010-death-penalty-expansion-trump/
+    - [arxiv] Probing the position-dependent optical energy fluence rate in three-dimensional 
+      http://arxiv.org/abs/2401.14748v2
+    - [arxiv] Individual Updating of Subjective Probability of Homicide Victimization: a "Natu
+      http://arxiv.org/abs/2312.08171v1
+    - [arxiv] Cluster analysis of homicide rates in the Brazilian state of Goias from 2002 to 
+      http://arxiv.org/abs/1811.06366v2
+    - [arxiv] P-value evaluation, variability index and biomarker categorization for adaptivel
+      http://arxiv.org/abs/1708.05084v1
+    - [arxiv] Expert Insight-Based Modeling of Non-Kinetic Strategic Deterrence of Rare Earth 
+      http://arxiv.org/abs/2506.11645v1
+
+--- Turn 4 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (15):
+    - [wikipedia] Deterrence (penology)
+      https://en.wikipedia.org/wiki/Deterrence_(penology)
+    - [wikipedia] Punishment
+      https://en.wikipedia.org/wiki/Punishment
+    - [wikipedia] Broken windows theory
+      https://en.wikipedia.org/wiki/Broken_windows_theory
+    - [wikipedia] Immigration and crime
+      https://en.wikipedia.org/wiki/Immigration_and_crime
+    - [wikipedia] Rape
+      https://en.wikipedia.org/wiki/Rape
+    - [news] Let the punishment fit the crime
+      https://www.msn.com/en-za/crime/general/let-the-punishment-fit-the-crime/ar-AA22YIEc?ocid=BingNewsVerp
+    - [news] The death penalty remains the strongest deterrent to violent crime
+      https://thehill.com/opinion/criminal-justice/555027-the-death-penalty-remains-the-strongest-deterrent-to-violent-crime/
+    - [news] Falling homicide, crime rate in Nashville in line with national trend
+      https://www.aol.com/articles/falling-homicide-crime-rate-nashville-100914955.html
+    - [news] Lower crime rates touted by Anne Arundel Police, but scholars say data follows n
+      https://www.capitalgazette.com/2026/02/06/lower-crime-rates-touted-by-police-but-scholars-say-data-follows-national-trend/
+    - [news] Homicide rates in US cities plummeted to historic lows in 2025
+      https://www.msn.com/en-us/crime/general/homicide-rates-in-us-cities-plummeted-to-historic-lows-in-2025/ar-AA1VQwjR?ocid=BingNewsVerp
+    - [arxiv] Disentangling Community-level Changes in Crime Trends During the COVID-19 Pandem
+      http://arxiv.org/abs/2011.05658v1
+    - [arxiv] Organized crime behavior of shell-company networks in procurement: prevention in
+      http://arxiv.org/abs/2307.10028v1
+    - [arxiv] Crime Topic Modeling
+      http://arxiv.org/abs/1701.01505v2
+    - [arxiv] The role of city size and urban metrics on crime modeling
+      http://arxiv.org/abs/1712.02817v1
+    - [arxiv] Spatial concentration and temporal regularities in crime
+      http://arxiv.org/abs/1901.03589v1
+

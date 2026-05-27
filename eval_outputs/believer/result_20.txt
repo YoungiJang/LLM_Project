@@ -1,0 +1,90 @@
+=== Claim 20 — Result Metadata ===
+Claim:           클래식 음악이 재즈보다 더 가치 있는 예술이다.
+Expected label:  subjective_opinion
+Fact label:      None
+Domain:          음악
+Persona:         believer
+Turns completed: 4 / 4
+Cost (this item): $0.0225
+
+Expected APIs:   ['wikipedia']
+Actual APIs:     {'wikipedia': 15, 'news': 10}
+API match:       True
+
+Classification (turn 1): subjective_opinion
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    subjective_opinion
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (0):
+
+--- Turn 2 ---
+  classification:    subjective_opinion
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Cultural impact of the Beatles
+      https://en.wikipedia.org/wiki/Cultural_impact_of_the_Beatles
+    - [wikipedia] Jazz
+      https://en.wikipedia.org/wiki/Jazz
+    - [wikipedia] Music of the United States
+      https://en.wikipedia.org/wiki/Music_of_the_United_States
+    - [wikipedia] Minimal music
+      https://en.wikipedia.org/wiki/Minimal_music
+    - [wikipedia] Bebop
+      https://en.wikipedia.org/wiki/Bebop
+    - [news] Changing our tune: Classical and jazz music are becoming less complicated, study
+      https://www.msn.com/en-my/entertainment/music/changing-our-tune-classical-and-jazz-music-are-becoming-less-complicated-study-finds/ar-AA21TZsG?ocid=BingNewsVerp
+    - [news] Jazz and classical music have become simpler, a new study finds
+      https://www.sciencenews.org/article/jazz-classical-music-simpler-pop-rock
+    - [news] The Evolution of Jazz Guitar: Blending Tradition with Innovation
+      https://sports.yahoo.com/articles/evolution-jazz-guitar-blending-tradition-183600246.html
+    - [news] Pat Metheny called him “the father of modern jazz guitar” – here's how Jim Hall 
+      https://www.yahoo.com/entertainment/pat-metheny-called-him-father-095351509.html
+    - [news] “Proof you can fit guitar solos into perfect two-minute pop songs”: Towa Bird st
+      https://www.yahoo.com/entertainment/proof-fit-guitar-solos-perfect-120822213.html
+
+--- Turn 3 ---
+  classification:    subjective_opinion
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Music of the United States
+      https://en.wikipedia.org/wiki/Music_of_the_United_States
+    - [wikipedia] Music industry of Asia
+      https://en.wikipedia.org/wiki/Music_industry_of_Asia
+    - [wikipedia] Globalization
+      https://en.wikipedia.org/wiki/Globalization
+    - [wikipedia] Music of Mexico
+      https://en.wikipedia.org/wiki/Music_of_Mexico
+    - [wikipedia] Music of Italy
+      https://en.wikipedia.org/wiki/Music_of_Italy
+    - [news] Zachary Ezrin showcases his wild whammy technique on Eye of Mars – and a Gibson 
+      https://www.yahoo.com/entertainment/zachary-ezrin-showcases-wild-whammy-171703667.html
+    - [news] Preview calendar: Psychedelic Furs, Buckcherry, Confetti Fest, Matisyahu and...
+      https://www.yahoo.com/entertainment/music/articles/preview-calendar-psychedelic-furs-buckcherry-100021418.html
+    - [news] The Grammy Nominations For 2026 Are Officially In! See Every Single Nominee Here
+      https://www.yahoo.com/entertainment/music/articles/grammy-nominations-2026-officially-see-173751711.html
+    - [news] "I have a very emotional relationship with my machines”: How Djrum made one of 2
+      https://www.yahoo.com/entertainment/articles/very-emotional-relationship-machines-djrum-094040525.html
+    - [news] 38 Actors Who Were Oscar-Nominated for Playing Real Musicians & Singers
+      https://www.yahoo.com/entertainment/music/articles/38-actors-were-oscar-nominated-164000513.html
+
+--- Turn 4 ---
+  classification:    subjective_opinion
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (5):
+    - [wikipedia] Jazz
+      https://en.wikipedia.org/wiki/Jazz
+    - [wikipedia] Album era
+      https://en.wikipedia.org/wiki/Album_era
+    - [wikipedia] Culture of the United States
+      https://en.wikipedia.org/wiki/Culture_of_the_United_States
+    - [wikipedia] Culture of the People's Republic of China
+      https://en.wikipedia.org/wiki/Culture_of_the_People's_Republic_of_China
+    - [wikipedia] Cultural impact of the Beatles
+      https://en.wikipedia.org/wiki/Cultural_impact_of_the_Beatles
+

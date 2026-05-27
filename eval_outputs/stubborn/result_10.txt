@@ -1,0 +1,120 @@
+=== Claim 10 — Result Metadata ===
+Claim:           최근 일론 머스크의 X(트위터) 운영 방침은 표현의 자유를 후퇴시켰다.
+Expected label:  debatable
+Fact label:      None
+Domain:          미디어/플랫폼
+Persona:         stubborn
+Turns completed: 4 / 4
+Cost (this item): $0.0220
+
+Expected APIs:   ['news']
+Actual APIs:     {'news': 20, 'wikipedia': 20}
+API match:       True
+
+Classification (turn 1): debatable
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [news] 5 Trends Shaping Social Media Marketing So Far in 2025
+      https://finance.yahoo.com/news/5-trends-shaping-social-media-104000080.html
+    - [news] Violent Extremism Lingers Online With US Flagging Less Content
+      https://www.yahoo.com/news/us-pulls-back-disrupting-violent-153711054.html
+    - [news] Mark Zuckerberg says Meta's 'community notes' are inspired by Elon Musk's X. Her
+      https://www.yahoo.com/news/mark-zuckerberg-says-metas-community-093102151.html
+    - [news] In the New Trump Era, the Proud Boys Are ‘Not Apologizing Anymore’
+      https://www.yahoo.com/news/articles/trump-era-proud-boys-not-153022894.html
+    - [news] Elon Musk has a powerful new acolyte: Mark Zuckerberg
+      https://www.yahoo.com/news/mark-zuckerberg-unveils-latest-persona-090102920.html
+    - [wikipedia] X (social network)
+      https://en.wikipedia.org/wiki/X_(social_network)
+    - [wikipedia] Acquisition of Twitter by Elon Musk
+      https://en.wikipedia.org/wiki/Acquisition_of_Twitter_by_Elon_Musk
+    - [wikipedia] Twitter Files
+      https://en.wikipedia.org/wiki/Twitter_Files
+    - [wikipedia] Criticism of X (social network)
+      https://en.wikipedia.org/wiki/Criticism_of_X_(social_network)
+    - [wikipedia] Twitter, Inc.
+      https://en.wikipedia.org/wiki/Twitter%2C_Inc.
+
+--- Turn 2 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [news] Musk’s X Sues New York in Latest Legal Battle Over Content Moderation: What to K
+      https://time.com/7295402/elon-musk-x-new-york-lawsuit-free-speech-content-moderation/
+    - [news] Content Moderation and Platform Governance in Digital Communities
+      https://www.nature.com/nature-index/topics/l4/content-moderation-and-platform-governance-in-digital-communities
+    - [news] Why Meta’s New Content Moderation Policy Could Pose Risks to Its Stock
+      https://www.morningstar.com/sustainable-investing/why-metas-new-content-moderation-policy-could-pose-risks-its-stock
+    - [news] Meta expands teen safety tools as encryption ends on Instagram
+      https://www.msn.com/en-us/news/other/meta-expands-teen-safety-tools-as-encryption-ends-on-instagram/gm-GM5A11EC87?ocid=BingNewsVerp
+    - [news] Why You Should Care If Your Google Reviews Are Removed Without Warning
+      https://www.thetechedvocate.org/why-you-should-care-if-your-google-reviews-are-removed-without-warning/
+    - [wikipedia] Twitter Files
+      https://en.wikipedia.org/wiki/Twitter_Files
+    - [wikipedia] Instagram
+      https://en.wikipedia.org/wiki/Instagram
+    - [wikipedia] Oversight Board (Meta)
+      https://en.wikipedia.org/wiki/Oversight_Board_(Meta)
+    - [wikipedia] Censorship by Google
+      https://en.wikipedia.org/wiki/Censorship_by_Google
+    - [wikipedia] Diversity, equity, and inclusion policies of the second Trump administration
+      https://en.wikipedia.org/wiki/Diversity%2C_equity%2C_and_inclusion_policies_of_the_second_Trump_administration
+
+--- Turn 3 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Cherry picking
+      https://en.wikipedia.org/wiki/Cherry_picking
+    - [wikipedia] Incel
+      https://en.wikipedia.org/wiki/Incel
+    - [wikipedia] Fuzzy concept
+      https://en.wikipedia.org/wiki/Fuzzy_concept
+    - [wikipedia] Freedom of speech
+      https://en.wikipedia.org/wiki/Freedom_of_speech
+    - [wikipedia] YouTube moderation
+      https://en.wikipedia.org/wiki/YouTube_moderation
+    - [news] Wizz App, Trusted by 16 Million Users, Partners with Cinder to Power AI-Driven C
+      https://www.hometownlife.com/press-release/story/58978/wizz-app-trusted-by-16-million-users-partners-with-cinder-to-power-ai-driven-content-moderation-at-scale/
+    - [news] Musk’s X Sues New York in Latest Legal Battle Over Content Moderation: What to K
+      https://time.com/7295402/elon-musk-x-new-york-lawsuit-free-speech-content-moderation/
+    - [news] Fact-checkers ask federal judge to block Trump policy they say chills free speec
+      https://www.poynter.org/ethics-trust/2026/coalition-for-independent-technology-research-v-rubio/
+    - [news] The Global Content Regulation Landscape – Developments in the EU, UK, U.S., and 
+      https://www.jdsupra.com/legalnews/the-global-content-regulation-landscape-3884642/
+    - [news] X sues to block copycat NY content moderation law after California win
+      https://arstechnica.com/tech-policy/2025/06/x-sues-to-block-copycat-ny-content-moderation-law-after-california-win/
+
+--- Turn 4 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (10):
+    - [wikipedia] Fact-checking
+      https://en.wikipedia.org/wiki/Fact-checking
+    - [wikipedia] Donald Trump and fascism
+      https://en.wikipedia.org/wiki/Donald_Trump_and_fascism
+    - [wikipedia] Criticism of Wikipedia
+      https://en.wikipedia.org/wiki/Criticism_of_Wikipedia
+    - [wikipedia] Google DeepMind
+      https://en.wikipedia.org/wiki/Google_DeepMind
+    - [wikipedia] Fuzzy concept
+      https://en.wikipedia.org/wiki/Fuzzy_concept
+    - [news] Content Moderation and Platform Governance in Digital Communities
+      https://www.nature.com/nature-index/topics/l4/content-moderation-and-platform-governance-in-digital-communities
+    - [news] California’s Assembly Bill 587 Loses Key Provisions After Legal Challenge from X
+      https://www.jdsupra.com/legalnews/california-s-assembly-bill-587-loses-2041575/
+    - [news] Musk’s X Sues New York in Latest Legal Battle Over Content Moderation: What to K
+      https://time.com/7295402/elon-musk-x-new-york-lawsuit-free-speech-content-moderation/
+    - [news] Elon Musk's X wins appeal to block part of California content moderation law
+      https://www.reuters.com/legal/elon-musks-x-wins-appeal-block-part-california-content-moderation-law-2024-09-04/
+    - [news] Wait... is pasta actually healthy? Here's the truth about whole grain noodles
+      https://health.yahoo.com/wellness/nutrition/healthy-eating/articles/wait-pasta-actually-healthy-heres-110028638.html
+

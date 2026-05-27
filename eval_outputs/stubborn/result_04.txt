@@ -1,0 +1,120 @@
+=== Claim 04 — Result Metadata ===
+Claim:           지구는 평평하다.
+Expected label:  clearly_false
+Fact label:      False
+Domain:          과학
+Persona:         stubborn
+Turns completed: 4 / 4
+Cost (this item): $0.0212
+
+Expected APIs:   ['wikipedia']
+Actual APIs:     {'wikipedia': 20, 'news': 10, 'arxiv': 10}
+API match:       True
+
+Classification (turn 1): clearly_false
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    clearly_false
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Empirical evidence for the spherical shape of Earth
+      https://en.wikipedia.org/wiki/Empirical_evidence_for_the_spherical_shape_of_Earth
+    - [wikipedia] Modern flat Earth beliefs
+      https://en.wikipedia.org/wiki/Modern_flat_Earth_beliefs
+    - [wikipedia] Mark Sargent (flat Earth proponent)
+      https://en.wikipedia.org/wiki/Mark_Sargent_(flat_Earth_proponent)
+    - [wikipedia] Young Earth creationism
+      https://en.wikipedia.org/wiki/Young_Earth_creationism
+    - [wikipedia] Pizzagate conspiracy theory
+      https://en.wikipedia.org/wiki/Pizzagate_conspiracy_theory
+    - [news] Flat Earth on the ballot? Debunked claim pops up in US politics.
+      https://www.yahoo.com/news/flat-earth-ballot-debunked-claim-100122646.html
+    - [news] Flat Earth on the ballot? Debunked claim pops up in US politics.
+      https://www.aol.com/news/flat-earth-ballot-debunked-claim-100122646.html
+    - [news] Earth's 'dirtier' colors in recent NASA photos have an easy explanation
+      https://www.kgw.com/article/news/nation-world/earth-dirty-colors-nasa-photos-explination-artemis-apollo/507-a2c4e130-ffd3-48e4-aa02-fd19bdcb4926
+    - [news] Is Earth getting brighter at night? It's complicated, new NASA 'Black Marble pro
+      https://www.msn.com/en-gb/news/other/is-earth-getting-brighter-at-night-its-complicated-new-nasa-black-marble-project-images-reveal/ar-AA23FWIb?ocid=BingNewsVerp
+    - [news] Artemis II mission: NASA shares stunning Earth images—but which camera captured 
+      https://www.msn.com/en-ca/news/technology/artemis-ii-mission-nasa-shares-stunning-earth-images-but-which-camera-captured-them/ar-AA207LiW?ocid=BingNewsVerp
+
+--- Turn 2 ---
+  classification:    clearly_false
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (5):
+    - [wikipedia] Scholarly peer review
+      https://en.wikipedia.org/wiki/Scholarly_peer_review
+    - [wikipedia] Systematic review
+      https://en.wikipedia.org/wiki/Systematic_review
+    - [wikipedia] Natural science
+      https://en.wikipedia.org/wiki/Natural_science
+    - [wikipedia] Scientific method
+      https://en.wikipedia.org/wiki/Scientific_method
+    - [wikipedia] Research
+      https://en.wikipedia.org/wiki/Research
+
+--- Turn 3 ---
+  classification:    clearly_false
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Algorithmic bias
+      https://en.wikipedia.org/wiki/Algorithmic_bias
+    - [wikipedia] Psychology
+      https://en.wikipedia.org/wiki/Psychology
+    - [wikipedia] Research
+      https://en.wikipedia.org/wiki/Research
+    - [wikipedia] Research transparency
+      https://en.wikipedia.org/wiki/Research_transparency
+    - [wikipedia] P-value
+      https://en.wikipedia.org/wiki/P-value
+    - [arxiv] Modelling publication bias and p-hacking
+      http://arxiv.org/abs/1911.12445v2
+    - [arxiv] The Power of Tests for Detecting $p$-Hacking
+      http://arxiv.org/abs/2205.07950v4
+    - [arxiv] Communications Standards for Unmanned Aircraft Systems: The 3GPP Perspective and
+      http://arxiv.org/abs/2009.03533v3
+    - [arxiv] Perception-Aware Bias Detection for Query Suggestions
+      http://arxiv.org/abs/2601.03730v1
+    - [arxiv] Detecting p-hacking
+      http://arxiv.org/abs/1906.06711v5
+    - [news] Fascinating, but does it replicate? The reproducibility crisis is undermining sc
+      https://phys.org/news/2025-07-fascinating-replicate-crisis-undermining-scientific.html
+    - [news] The Irreproducibility Crisis Is Producing an Irresponsibility Crisis in Governme
+      https://www.realclearscience.com/articles/2025/08/19/the_irreproducibility_crisis_is_producing_an_irresponsibility_crisis_in_government_1127133.html
+    - [news] Reproducibility and Replicability in Science
+      https://www.nationalacademies.org/read/25303/page/1
+    - [news] Unreliable: Bias, Fraud, and the Reproducibility Crisis in Biomedical Research
+      https://www.publishersweekly.com/9780231216241
+    - [news] Fascinating, but does it replicate? The reproducibility crisis is undermining sc
+      https://www.msn.com/en-us/news/technology/fascinating-but-does-it-replicate-the-reproducibility-crisis-is-undermining-scientific-trust/ar-AA1IhxEs?ocid=BingNewsVerp
+
+--- Turn 4 ---
+  classification:    clearly_false
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (10):
+    - [wikipedia] Selection bias
+      https://en.wikipedia.org/wiki/Selection_bias
+    - [wikipedia] Confirmation bias
+      https://en.wikipedia.org/wiki/Confirmation_bias
+    - [wikipedia] Bias
+      https://en.wikipedia.org/wiki/Bias
+    - [wikipedia] Political bias
+      https://en.wikipedia.org/wiki/Political_bias
+    - [wikipedia] Observation
+      https://en.wikipedia.org/wiki/Observation
+    - [arxiv] IPPOG : Bridging the gap between science education at school and modern scientif
+      http://arxiv.org/abs/2011.14743v1
+    - [arxiv] Divide to Adapt: Mitigating Confirmation Bias for Domain Adaptation of Black-Box
+      http://arxiv.org/abs/2205.14467v1
+    - [arxiv] Perception-Aware Bias Detection for Query Suggestions
+      http://arxiv.org/abs/2601.03730v1
+    - [arxiv] Second Order WinoBias (SoWinoBias) Test Set for Latent Gender Bias Detection in 
+      http://arxiv.org/abs/2109.14047v1
+    - [arxiv] Model Selection versus Model Averaging in Dose Finding Studies
+      http://arxiv.org/abs/1508.00281v1
+

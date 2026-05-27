@@ -1,0 +1,120 @@
+=== Claim 05 — Result Metadata ===
+Claim:           1969년 아폴로 11호 달 착륙은 조작이다.
+Expected label:  clearly_false
+Fact label:      False
+Domain:          역사
+Persona:         stubborn
+Turns completed: 4 / 4
+Cost (this item): $0.0216
+
+Expected APIs:   ['wikipedia']
+Actual APIs:     {'wikipedia': 20, 'news': 20}
+API match:       True
+
+Classification (turn 1): clearly_false
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    clearly_false
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Moon landing conspiracy theories
+      https://en.wikipedia.org/wiki/Moon_landing_conspiracy_theories
+    - [wikipedia] Third-party evidence for Apollo Moon landings
+      https://en.wikipedia.org/wiki/Third-party_evidence_for_Apollo_Moon_landings
+    - [wikipedia] United States UFO files
+      https://en.wikipedia.org/wiki/United_States_UFO_files
+    - [wikipedia] Moon landing conspiracy theories in popular culture
+      https://en.wikipedia.org/wiki/Moon_landing_conspiracy_theories_in_popular_culture
+    - [wikipedia] We choose to go to the Moon
+      https://en.wikipedia.org/wiki/We_choose_to_go_to_the_Moon
+    - [news] Declassified Apollo mission UFO files challenge long-running moon landing conspi
+      https://www.msn.com/en-us/news/technology/declassified-apollo-mission-ufo-files-challenge-long-running-moon-landing-conspiracy-theories/ar-AA22Iw6R?ocid=BingNewsVerp
+    - [news] Did we really land on the moon? Artemis II photos, conspiracies debunked
+      https://www.aol.com/news/did-really-land-moon-artemis-214548754.html
+    - [news] Did the moon landing actually happen?
+      https://www.msn.com/en-us/news/technology/did-the-moon-landing-actually-happen/vi-AA20kbyO?ocid=BingNewsVerp
+    - [news] Artemis II fake NASA claims surge online as Apollo 11 hoax returns
+      https://www.msn.com/en-in/news/world/artemis-ii-fake-nasa-claims-surge-online-as-apollo-11-hoax-returns/ar-AA20DJFR?ocid=BingNewsVerp
+    - [news] HKU co-hosts International Lunar Sample Research Symposium
+      https://www.eurekalert.org/news-releases/1110476
+
+--- Turn 2 ---
+  classification:    clearly_false
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Safety case
+      https://en.wikipedia.org/wiki/Safety_case
+    - [wikipedia] List of most-watched television broadcasts
+      https://en.wikipedia.org/wiki/List_of_most-watched_television_broadcasts
+    - [wikipedia] Extreme programming
+      https://en.wikipedia.org/wiki/Extreme_programming
+    - [wikipedia] Systems engineering
+      https://en.wikipedia.org/wiki/Systems_engineering
+    - [wikipedia] Santa Susana Field Laboratory
+      https://en.wikipedia.org/wiki/Santa_Susana_Field_Laboratory
+    - [news] Signs of life on planet K2-18b are promising but need more scrutiny. What to...
+      https://www.yahoo.com/news/signs-life-planet-k2-18b-182234922.html
+    - [news] Can AI judge journalism? A Thiel-backed startup says yes, even if it risks...
+      https://tech.yahoo.com/ai/meta-ai/articles/ai-judge-journalism-thiel-backed-183320655.html
+    - [news] Reproducibility may be the key idea students need to balance trust in evidence..
+      https://www.yahoo.com/news/reproducibility-may-key-idea-students-125038685.html
+    - [news] Trump administration promised 'gold standard science.' Scientists say they got..
+      https://www.yahoo.com/news/articles/trump-administration-promised-gold-standard-100000917.html
+    - [news] Column: A CIA 'assessment' revives the fact-free claim that COVID started in a..
+      https://www.yahoo.com/news/column-cia-assessment-revives-fact-110053008.html
+
+--- Turn 3 ---
+  classification:    clearly_false
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Wikipedia
+      https://en.wikipedia.org/wiki/Wikipedia
+    - [wikipedia] Media bias
+      https://en.wikipedia.org/wiki/Media_bias
+    - [wikipedia] Algorithmic bias
+      https://en.wikipedia.org/wiki/Algorithmic_bias
+    - [wikipedia] Media bias in the United States
+      https://en.wikipedia.org/wiki/Media_bias_in_the_United_States
+    - [wikipedia] X (social network)
+      https://en.wikipedia.org/wiki/X_(social_network)
+    - [news] Regula’s ID Verification Software Is Now Compatible with Most Passport Readers o
+      https://www.businesswire.com/news/home/20250204069695/en/Regula’s-ID-Verification-Software-Is-Now-Compatible-with-Most-Passport-Readers-on-the-Market
+    - [news] Trump administrations runs millions of voter registrations through verification.
+      https://www.denver7.com/news/politics/trump-administrations-runs-millions-of-voter-registrations-through-verification-program
+    - [news] Mother files $30 million lawsuit following death of her son aboard USS Helena
+      https://www.yahoo.com/news/us/articles/mother-files-30-million-lawsuit-090325124.html
+    - [news] Trump administration wants federal workers to sign NDAs
+      https://www.yahoo.com/news/politics/articles/trump-administration-wants-federal-workers-002728538.html
+    - [news] UK Visa Portal spilled thousands of applicants’ passports and selfies online — a
+      https://tech.yahoo.com/cybersecurity/articles/uk-visa-portal-spilled-thousands-234905596.html
+
+--- Turn 4 ---
+  classification:    clearly_false
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (10):
+    - [wikipedia] F-test
+      https://en.wikipedia.org/wiki/F-test
+    - [wikipedia] Pearson's chi-squared test
+      https://en.wikipedia.org/wiki/Pearson's_chi-squared_test
+    - [wikipedia] P-value
+      https://en.wikipedia.org/wiki/P-value
+    - [wikipedia] Null hypothesis
+      https://en.wikipedia.org/wiki/Null_hypothesis
+    - [wikipedia] Deflated Sharpe ratio
+      https://en.wikipedia.org/wiki/Deflated_Sharpe_ratio
+    - [news] Conditional Independence Testing in Statistical Inference
+      https://www.nature.com/nature-index/topics/l4/conditional-independence-testing-in-statistical-inference
+    - [news] The Role of Assumptions in Statistical Model Selection
+      https://www.techtimes.com/articles/309129/20250120/role-assumptions-statistical-model-selection.htm
+    - [news] The Danger Of Bias In Bid Procurements And Contract Awards
+      https://www.forbes.com/sites/glebtsipursky/2022/12/07/the-danger-of-bias-in-bid-procurements-and-contract-awards/
+    - [news] How to Establish a Bias-Free Procurement Process
+      https://www.psychologytoday.com/us/blog/intentional-insights/202210/how-to-establish-a-bias-free-procurement-process
+    - [news] How to Establish a Bias-Free Procurement Process
+      https://www.psychologytoday.com/au/blog/intentional-insights/202210/how-to-establish-a-bias-free-procurement-process
+

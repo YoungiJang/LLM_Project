@@ -1,0 +1,120 @@
+=== Claim 10 — Result Metadata ===
+Claim:           최근 일론 머스크의 X(트위터) 운영 방침은 표현의 자유를 후퇴시켰다.
+Expected label:  debatable
+Fact label:      None
+Domain:          미디어/플랫폼
+Persona:         moderate
+Turns completed: 4 / 4
+Cost (this item): $0.0230
+
+Expected APIs:   ['news']
+Actual APIs:     {'news': 20, 'wikipedia': 20}
+API match:       True
+
+Classification (turn 1): debatable
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    debatable
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (10):
+    - [news] Musk’s X Sues New York in Latest Legal Battle Over Content Moderation: What to K
+      https://time.com/7295402/elon-musk-x-new-york-lawsuit-free-speech-content-moderation/
+    - [news] DOJ won’t contribute to France’s probe of Musk’s X: Report
+      https://thehill.com/policy/technology/5838025-doj-france-x-probe-musk/
+    - [news] X agrees to British crackdown on hate speech and militant content, regulator say
+      https://www.msn.com/en-gb/news/world/x-agrees-to-british-crackdown-on-hate-speech-and-militant-content-regulator-says/ar-AA23hDNx?ocid=BingNewsVerp
+    - [news] French prosecutors summon Elon Musk over allegations of child abuse images and d
+      https://www.bostonherald.com/2026/04/20/france-elon-musk-x-deepfakes/
+    - [news] X / Twitter purges then reinstates journalists, podcasters, and leftist accounts
+      https://mashable.com/article/twitter-bans-journalists-leftist-accounts-elon-musk
+    - [wikipedia] X (social network)
+      https://en.wikipedia.org/wiki/X_(social_network)
+    - [wikipedia] Acquisition of Twitter by Elon Musk
+      https://en.wikipedia.org/wiki/Acquisition_of_Twitter_by_Elon_Musk
+    - [wikipedia] Twitter Files
+      https://en.wikipedia.org/wiki/Twitter_Files
+    - [wikipedia] Criticism of X (social network)
+      https://en.wikipedia.org/wiki/Criticism_of_X_(social_network)
+    - [wikipedia] Twitter, Inc.
+      https://en.wikipedia.org/wiki/Twitter%2C_Inc.
+
+--- Turn 2 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [news] The FTC's Probe Into 'Potentially Illegal' Content Moderation Is a Blatant...
+      https://sports.yahoo.com/articles/ftcs-probe-potentially-illegal-content-191510205.html
+    - [news] Facebook Is Creating Fake AI-Powered Black Women While Changing Its Rules So It’
+      https://www.yahoo.com/news/facebook-creating-fake-ai-powered-141031736.html
+    - [news] 'White Dudes for Harris' fundraiser thinks Elon Musk might have suspended his...
+      https://www.yahoo.com/news/white-dudes-harris-fundraiser-thinks-195514821.html
+    - [news] Why the Fight Against Online Extremism Keeps Failing
+      https://www.yahoo.com/news/why-fight-against-online-extremism-175136427.html
+    - [news] Elon Musk is an imperfect mascot for free speech — but he's got a point on Brazi
+      https://www.yahoo.com/news/elon-musk-imperfect-mascot-free-101302837.html
+    - [wikipedia] X (social network)
+      https://en.wikipedia.org/wiki/X_(social_network)
+    - [wikipedia] Meta Platforms
+      https://en.wikipedia.org/wiki/Meta_Platforms
+    - [wikipedia] Large language model
+      https://en.wikipedia.org/wiki/Large_language_model
+    - [wikipedia] Oversight Board (Meta)
+      https://en.wikipedia.org/wiki/Oversight_Board_(Meta)
+    - [wikipedia] The Babylon Bee
+      https://en.wikipedia.org/wiki/The_Babylon_Bee
+
+--- Turn 3 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [news] Reuters X account restored in India after suspension over legal demand
+      https://finance.yahoo.com/news/x-suspends-reuters-account-india-161221064.html
+    - [news] X Launches Labels for Parody and Fan Accounts
+      https://finance.yahoo.com/news/x-launches-labels-parody-fan-191443370.html
+    - [news] Celebrity Plane Tracking Accounts That Followed Taylor Swift and Other A-Listers
+      https://www.aol.com/celebrity-plane-tracking-accounts-followed-231231422.html
+    - [news] Meta is banning accounts that track the jets of celebrities like Elon Musk and..
+      https://www.aol.com/meta-banning-accounts-track-jets-120601129.html
+    - [news] Fact Check: Screenshot shows suspended X handle unrelated to UK government’s off
+      https://www.reuters.com/fact-check/screenshot-shows-suspended-x-handle-unrelated-uk-governments-official-account-2026-05-27/
+    - [wikipedia] Limit state design
+      https://en.wikipedia.org/wiki/Limit_state_design
+    - [wikipedia] European Central Bank
+      https://en.wikipedia.org/wiki/European_Central_Bank
+    - [wikipedia] Genetically modified food controversies
+      https://en.wikipedia.org/wiki/Genetically_modified_food_controversies
+    - [wikipedia] Truth Social
+      https://en.wikipedia.org/wiki/Truth_Social
+    - [wikipedia] X (social network)
+      https://en.wikipedia.org/wiki/X_(social_network)
+
+--- Turn 4 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (10):
+    - [wikipedia] X (social network)
+      https://en.wikipedia.org/wiki/X_(social_network)
+    - [wikipedia] Notice and take down
+      https://en.wikipedia.org/wiki/Notice_and_take_down
+    - [wikipedia] Project 2025
+      https://en.wikipedia.org/wiki/Project_2025
+    - [wikipedia] Persecution of transgender people under the second Trump administration
+      https://en.wikipedia.org/wiki/Persecution_of_transgender_people_under_the_second_Trump_administration
+    - [wikipedia] ChatGPT
+      https://en.wikipedia.org/wiki/ChatGPT
+    - [news] Malaysia orders TikTok to address ‘defamatory’ content about king
+      https://www.aljazeera.com/economy/2026/5/22/malaysia-orders-tiktok-to-address-defamatory-content-about-king
+    - [news] AI is rewiring digital media’s power structure
+      https://finance.yahoo.com/sectors/technology/articles/ai-rewiring-digital-media-power-135715375.html
+    - [news] Meta’s Nudity Policies Discriminate Against Trans People, Oversight Board Says
+      https://gizmodo.com/meta-instagram-facebook-trans-moderation-1849994959
+    - [news] Speaking as Suspicion: How Immigration Enforcement Chills Free Speech
+      https://www.jurist.org/commentary/2025/12/speaking-as-suspicion-how-immigration-enforcement-chills-free-speech/
+    - [news] Building Trust: How Technology Can Help Police with Transparency
+      https://www.officer.com/command-hq/technology/article/55278578/building-trust-how-technology-can-help-police-with-transparency
+

@@ -1,0 +1,148 @@
+=== Claim 13 — Result Metadata ===
+Claim:           강화학습 기반 RLHF는 벤치마크 상에서 LLM 정렬 문제의 근본적 해법으로 입증되었다.
+Expected label:  debatable
+Fact label:      None
+Domain:          AI 안전/학술
+Persona:         believer
+Turns completed: 4 / 4
+Cost (this item): $0.0265
+
+Expected APIs:   ['arxiv']
+Actual APIs:     {'wikipedia': 20, 'news': 14, 'arxiv': 20}
+API match:       True
+
+Classification (turn 1): debatable
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    debatable
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Reinforcement learning from human feedback
+      https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback
+    - [wikipedia] Reinforcement learning
+      https://en.wikipedia.org/wiki/Reinforcement_learning
+    - [wikipedia] Large language model
+      https://en.wikipedia.org/wiki/Large_language_model
+    - [wikipedia] Reasoning model
+      https://en.wikipedia.org/wiki/Reasoning_model
+    - [wikipedia] Multi-agent reinforcement learning
+      https://en.wikipedia.org/wiki/Multi-agent_reinforcement_learning
+    - [news] New AI framework autonomously optimizes training data, architectures and algorit
+      https://venturebeat.com/orchestration/new-ai-framework-autonomously-optimizes-training-data-architectures-and-algorithms-outperforming-human-baselines
+    - [news] Two Gen Zers turned down millions from Elon Musk to build an AI based on the hum
+      https://finance.yahoo.com/news/two-gen-zers-turned-down-110500973.html
+    - [news] Hy3 Preview: Tencent’s Base-Model Play Built For The Larger Ecosystem
+      https://tech.yahoo.com/ai/meta-ai/articles/hy3-preview-tencent-model-play-110353357.html
+    - [news] Scientists Grew Mini Brains, Then Trained Them to Solve an Engineering Problem
+      https://www.yahoo.com/news/articles/scientists-grew-mini-brains-then-160002516.html
+    - [news] Google set up two robotic arms for a game of infinite table tennis
+      https://tech.yahoo.com/ai/articles/google-set-two-robotic-arms-195149347.html
+    - [arxiv] RLHF-Blender: A Configurable Interactive Interface for Learning from Diverse Hum
+      http://arxiv.org/abs/2308.04332v1
+    - [arxiv] Reinforcement Learning from Human Feedback: Whose Culture, Whose Values, Whose P
+      http://arxiv.org/abs/2407.17482v2
+    - [arxiv] Value Bonuses using Ensemble Errors for Exploration in Reinforcement Learning
+      http://arxiv.org/abs/2602.12375v1
+    - [arxiv] URLB: Unsupervised Reinforcement Learning Benchmark
+      http://arxiv.org/abs/2110.15191v1
+    - [arxiv] Directed Policy Gradient for Safe Reinforcement Learning with Human Advice
+      http://arxiv.org/abs/1808.04096v1
+
+--- Turn 2 ---
+  classification:    debatable
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (14):
+    - [wikipedia] Llama (language model)
+      https://en.wikipedia.org/wiki/Llama_(language_model)
+    - [wikipedia] Reinforcement learning from human feedback
+      https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback
+    - [wikipedia] AI alignment
+      https://en.wikipedia.org/wiki/AI_alignment
+    - [wikipedia] Large language model
+      https://en.wikipedia.org/wiki/Large_language_model
+    - [wikipedia] Artificial intelligence
+      https://en.wikipedia.org/wiki/Artificial_intelligence
+    - [arxiv] Improving LLM Safety and Helpfulness using SFT and DPO: A Study on OPT-350M
+      http://arxiv.org/abs/2509.09055v1
+    - [arxiv] Efficient RLHF: Reducing the Memory Usage of PPO
+      http://arxiv.org/abs/2309.00754v1
+    - [arxiv] Equilibrate RLHF: Towards Balancing Helpfulness-Safety Trade-off in Large Langua
+      http://arxiv.org/abs/2502.11555v1
+    - [arxiv] Iterative Preference Learning from Human Feedback: Bridging Theory and Practice 
+      http://arxiv.org/abs/2312.11456v4
+    - [arxiv] Deliberative Technology for Alignment
+      http://arxiv.org/abs/2312.03893v1
+    - [news] RLHF And Beyond: How Can We Teach AI The Right Values?
+      https://www.forbes.com/sites/robtoews/2024/02/04/what-is-the-best-way-to-control-todays-ai/
+    - [news] How Direct Preference Optimization Can Bring User‑Driven Agility To AI
+      https://www.forbes.com/councils/forbestechcouncil/2025/08/06/how-direct-preference-optimization-can-bring-userdriven-agility-to-ai/
+    - [news] AI Reinforcement Learning from Human Feedback (RLHF) explained
+      https://www.geeky-gadgets.com/reinforcement-learning-from-human-feedback/
+    - [news] AI And Us: The Role Of Human Preference In Model Alignment
+      https://www.forbes.com/councils/forbestechcouncil/2024/12/05/ai-and-us-the-role-of-human-preference-in-model-alignment/
+
+--- Turn 3 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [arxiv] Interpretable Preferences via Multi-Objective Reward Modeling and Mixture-of-Exp
+      http://arxiv.org/abs/2406.12845v1
+    - [arxiv] OPPO: Accelerating PPO-based RLHF via Pipeline Overlap
+      http://arxiv.org/abs/2509.25762v2
+    - [arxiv] Online Iterative Reinforcement Learning from Human Feedback with General Prefere
+      http://arxiv.org/abs/2402.07314v3
+    - [arxiv] Improving LLM Safety and Helpfulness using SFT and DPO: A Study on OPT-350M
+      http://arxiv.org/abs/2509.09055v1
+    - [arxiv] Arithmetic Control of LLMs for Diverse User Preferences: Directional Preference 
+      http://arxiv.org/abs/2402.18571v3
+    - [wikipedia] AI alignment
+      https://en.wikipedia.org/wiki/AI_alignment
+    - [wikipedia] Glossary of artificial intelligence
+      https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence
+    - [wikipedia] Multi-agent reinforcement learning
+      https://en.wikipedia.org/wiki/Multi-agent_reinforcement_learning
+    - [wikipedia] Reasoning model
+      https://en.wikipedia.org/wiki/Reasoning_model
+    - [wikipedia] Euphoria
+      https://en.wikipedia.org/wiki/Euphoria
+
+--- Turn 4 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (15):
+    - [wikipedia] Glossary of artificial intelligence
+      https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence
+    - [wikipedia] Large language model
+      https://en.wikipedia.org/wiki/Large_language_model
+    - [wikipedia] AI alignment
+      https://en.wikipedia.org/wiki/AI_alignment
+    - [wikipedia] Machine learning
+      https://en.wikipedia.org/wiki/Machine_learning
+    - [wikipedia] Artificial intelligence
+      https://en.wikipedia.org/wiki/Artificial_intelligence
+    - [news] RLHF And Beyond: How Can We Teach AI The Right Values?
+      https://www.forbes.com/sites/robtoews/2024/02/04/what-is-the-best-way-to-control-todays-ai/
+    - [news] How Direct Preference Optimization Can Bring User‑Driven Agility To AI
+      https://www.forbes.com/councils/forbestechcouncil/2025/08/06/how-direct-preference-optimization-can-bring-userdriven-agility-to-ai/
+    - [news] New AI Visibility Standards Framework Published for LLM Brand Discovery
+      https://www.usatoday.com/press-release/story/32462/new-ai-visibility-standards-framework-published-for-llm-brand-discovery/
+    - [news] Introducing Align Evals : The Ultimate Tool for AI Precision and Efficiency
+      https://www.geeky-gadgets.com/align-evals-llm-evaluation-tool/
+    - [news] Anthropic says decades of evil robot stories may be echoing inside AI models
+      https://tech.yahoo.com/ai/claude/articles/anthropic-says-decades-evil-robot-080843663.html
+    - [arxiv] OPPO: Accelerating PPO-based RLHF via Pipeline Overlap
+      http://arxiv.org/abs/2509.25762v2
+    - [arxiv] PPO-Based Hybrid Optimization for RIS-Assisted Semantic Vehicular Edge Computing
+      http://arxiv.org/abs/2603.09082v1
+    - [arxiv] Laser pointer prohibition: improving safety or driving misclassification
+      http://arxiv.org/abs/1406.4924v1
+    - [arxiv] Iterative Preference Learning from Human Feedback: Bridging Theory and Practice 
+      http://arxiv.org/abs/2312.11456v4
+    - [arxiv] Safety Assessment of Chinese Large Language Models
+      http://arxiv.org/abs/2304.10436v1
+

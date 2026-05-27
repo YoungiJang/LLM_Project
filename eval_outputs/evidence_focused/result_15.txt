@@ -1,0 +1,150 @@
+=== Claim 15 — Result Metadata ===
+Claim:           원자력은 탄소중립 달성에 필수적인 에너지원이다.
+Expected label:  debatable
+Fact label:      None
+Domain:          에너지
+Persona:         evidence_focused
+Turns completed: 4 / 4
+Cost (this item): $0.0266
+
+Expected APIs:   ['wikipedia', 'news']
+Actual APIs:     {'wikipedia': 20, 'news': 20, 'arxiv': 15}
+API match:       True
+
+Classification (turn 1): debatable
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    debatable
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Nuclear power debate
+      https://en.wikipedia.org/wiki/Nuclear_power_debate
+    - [wikipedia] Nuclear power
+      https://en.wikipedia.org/wiki/Nuclear_power
+    - [wikipedia] Carbon price
+      https://en.wikipedia.org/wiki/Carbon_price
+    - [wikipedia] Low-carbon economy
+      https://en.wikipedia.org/wiki/Low-carbon_economy
+    - [wikipedia] Carbon accounting
+      https://en.wikipedia.org/wiki/Carbon_accounting
+    - [news] Calls for steady nuke power progress
+      https://global.chinadaily.com.cn/a/202503/14/WS67d38460a310c240449dabee.html
+    - [news] Kazakhstan’s Nuclear Bet to Reach Carbon Neutrality
+      https://thediplomat.com/2026/05/kazakhstans-nuclear-bet-to-reach-carbon-neutrality/
+    - [news] Five Reasons the Clean Energy Transition Needs Nuclear Power
+      https://www.iaea.org/newscenter/news/five-reasons-the-clean-energy-transition-needs-nuclear-power
+    - [news] Editorial: New nuclear should power decarbonization
+      https://cen.acs.org/energy/nuclear-power/Editorial-New-nuclear-should-power/102/i36
+    - [news] Industry Partners Showcase Next-Gen Nuclear Reactor for Maritime Decarbonization
+      https://www.marinelink.com/amp/news/industry-partners-showcase-nextgen-525512
+    - [arxiv] The Frontiers of Nuclear Science, A Long Range Plan
+      http://arxiv.org/abs/0809.3137v1
+    - [arxiv] Toxicity of Carbon Nanomaterials
+      http://arxiv.org/abs/2109.13918v1
+    - [arxiv] Beyond-mean-field approaches for nuclear neutrinoless double beta decay in the s
+      http://arxiv.org/abs/2111.15543v3
+    - [arxiv] Nuclear Symmetry Energy Extracted from Laboratory Experiments
+      http://arxiv.org/abs/1701.03564v1
+    - [arxiv] Encapsulating C59N azafullerene derivatives inside single-wall carbon nanotubes
+      http://arxiv.org/abs/cond-mat/0602636v1
+
+--- Turn 2 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Low-carbon electricity
+      https://en.wikipedia.org/wiki/Low-carbon_electricity
+    - [wikipedia] Nuclear power debate
+      https://en.wikipedia.org/wiki/Nuclear_power_debate
+    - [wikipedia] Greenhouse gas emissions by Australia
+      https://en.wikipedia.org/wiki/Greenhouse_gas_emissions_by_Australia
+    - [wikipedia] Energy policy of Australia
+      https://en.wikipedia.org/wiki/Energy_policy_of_Australia
+    - [wikipedia] Sustainable energy
+      https://en.wikipedia.org/wiki/Sustainable_energy
+    - [news] Climate Win: Clean Power Could Cut CO2 Emissions From Electricity This Year
+      https://www.newsweek.com/climate-win-clean-power-expected-cut-co2-electricity-1863385
+    - [news] Nuclear power set record global output last year — and the IEA says nuclear plus
+      https://www.msn.com/en-us/technology/renewable-energy/nuclear-power-set-record-global-output-last-year-and-the-iea-says-nuclear-plus-renewables-will-generate-half-of-all-electricity-by-2030/ar-AA237SqG?ocid=BingNewsVerp
+    - [news] Zero-Carbon Nuclear Power Emerging as a Critical Pillar of the Clean Electricity
+      https://www.morningstar.com/news/pr-newswire/20251230ln54438/zero-carbon-nuclear-power-emerging-as-a-critical-pillar-of-the-clean-electricity-market-delivering-a-scalable-growth-gateway
+    - [news] The UK wants to unlock a 'golden age of nuclear' but faces key challenges in rev
+      https://www.cnbc.com/2025/12/06/the-history-of-nuclear-energy-lies-on-british-soil-does-its-future-.html
+    - [news] Six Global Trends in Nuclear Power You Should Know
+      https://www.iaea.org/newscenter/news/six-global-trends-in-nuclear-power-you-should-know
+    - [arxiv] The Frontiers of Nuclear Science, A Long Range Plan
+      http://arxiv.org/abs/0809.3137v1
+    - [arxiv] Nuclear Symmetry Energy Extracted from Laboratory Experiments
+      http://arxiv.org/abs/1701.03564v1
+    - [arxiv] Beyond-mean-field approaches for nuclear neutrinoless double beta decay in the s
+      http://arxiv.org/abs/2111.15543v3
+    - [arxiv] Exoplanet Vision 2050
+      http://arxiv.org/abs/1911.12114v2
+    - [arxiv] Comparison of nuclear data uncertainty propagation methodologies for PWR burn-up
+      http://arxiv.org/abs/1411.0834v1
+
+--- Turn 3 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Electric vehicle
+      https://en.wikipedia.org/wiki/Electric_vehicle
+    - [wikipedia] Energy transition
+      https://en.wikipedia.org/wiki/Energy_transition
+    - [wikipedia] Carbon capture and storage
+      https://en.wikipedia.org/wiki/Carbon_capture_and_storage
+    - [wikipedia] Energy in Indonesia
+      https://en.wikipedia.org/wiki/Energy_in_Indonesia
+    - [wikipedia] Climate change in Europe
+      https://en.wikipedia.org/wiki/Climate_change_in_Europe
+    - [news] IEA declines to rule out ditching net zero scenario
+      https://www.upstreamonline.com/politics/iea-declines-to-rule-out-ditching-net-zero-scenario/2-1-1946483
+    - [news] US energy leader slams IEA's net zero agenda, suggests Washington could walk out
+      https://www.msn.com/en-us/money/markets/us-energy-leader-slams-iea-s-net-zero-agenda-suggests-washington-could-walk-out/ar-AA1WFAya?ocid=BingNewsVerp
+    - [news] IEA: Oil and Gas Demand Likely to Rise Through 2050, Putting Climate Goals Out o
+      https://www.msn.com/en-us/money/markets/iea-oil-and-gas-demand-likely-to-rise-through-2050-putting-climate-goals-out-of-reach/ar-AA1QhHRJ?ocid=BingNewsVerp
+    - [news] Oil and gas demand could grow until 2050, IEA says
+      https://www.foxbusiness.com/energy/oil-gas-demand-could-grow-until-2050-iea-says
+    - [news] IEA Drops Peak Oil Predictions
+      https://www.msn.com/en-us/money/general/iea-drops-peak-oil-predictions/ar-AA1Qh0ch?ocid=BingNewsVerp
+
+--- Turn 4 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (15):
+    - [wikipedia] Energy transition
+      https://en.wikipedia.org/wiki/Energy_transition
+    - [wikipedia] Nuclear power
+      https://en.wikipedia.org/wiki/Nuclear_power
+    - [wikipedia] Climate change
+      https://en.wikipedia.org/wiki/Climate_change
+    - [wikipedia] Electric vehicle
+      https://en.wikipedia.org/wiki/Electric_vehicle
+    - [wikipedia] Climate change mitigation
+      https://en.wikipedia.org/wiki/Climate_change_mitigation
+    - [news] Slovakia’s new nuclear rollout
+      https://finance.yahoo.com/news/slovakia-nuclear-rollout-115800874.html
+    - [news] Trump Admin Threatens To Withdraw From IEA Over Net Zero Agenda
+      https://oilprice.com/Latest-Energy-News/World-News/Trump-Admin-Threatens-To-Withdraw-From-IEA-Over-Net-Zero-Agenda.html
+    - [news] This Profit Powerhouse Nuclear Stock Is Up 264% In 2025. Is It Too Late to Buy?
+      https://finance.yahoo.com/news/profit-powerhouse-nuclear-stock-264-132000769.html
+    - [news] IEA details rollout of 400M-barrel oil release to ease war-driven price surge
+      https://seekingalpha.com/news/4564584-iea-details-rollout-of-400m-barrel-oil-release-to-ease-war-driven-price-surge
+    - [news] Middle East War Revives Push for Domestic Energy
+      https://finance.yahoo.com/news/middle-east-war-revives-push-210000518.html
+    - [arxiv] The Frontiers of Nuclear Science, A Long Range Plan
+      http://arxiv.org/abs/0809.3137v1
+    - [arxiv] Nuclear Symmetry Energy Extracted from Laboratory Experiments
+      http://arxiv.org/abs/1701.03564v1
+    - [arxiv] Beyond-mean-field approaches for nuclear neutrinoless double beta decay in the s
+      http://arxiv.org/abs/2111.15543v3
+    - [arxiv] Comparison of nuclear data uncertainty propagation methodologies for PWR burn-up
+      http://arxiv.org/abs/1411.0834v1
+    - [arxiv] Consistency Examinations of Calculations of Nuclear Matrix Elements of Double-$β
+      http://arxiv.org/abs/1901.06841v1
+

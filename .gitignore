@@ -1,0 +1,10 @@
+# API 키 등 시크릿 — 절대 커밋 금지
+.env
+
+# Python 임시 파일
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS 시스템 파일
+.DS_Store

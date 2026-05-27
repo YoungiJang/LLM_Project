@@ -1,0 +1,120 @@
+=== Claim 11 — Result Metadata ===
+Claim:           최근 중국의 희토류 수출 통제 강화는 서방의 반도체 공급망에 심각한 위협이다.
+Expected label:  debatable
+Fact label:      None
+Domain:          국제정치/무역
+Persona:         believer
+Turns completed: 4 / 4
+Cost (this item): $0.0235
+
+Expected APIs:   ['news']
+Actual APIs:     {'news': 20, 'wikipedia': 20}
+API match:       True
+
+Classification (turn 1): debatable
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [news] China rare earth export pause nears expiry amid persistent supply concentration
+      https://www.msn.com/en-us/politics/government/china-rare-earth-export-pause-nears-expiry-amid-persistent-supply-concentration/ar-AA21RhEe?ocid=BingNewsVerp
+    - [news] China tightens rare earth export controls, targets defence, semiconductor users
+      https://www.aol.com/china-tightens-rare-earth-export-015234512.html
+    - [news] The US wants to cut off China’s chip equipment. China says the supply chain will
+      https://thenextweb.com/news/china-us-chip-export-controls-match-act
+    - [news] Rare earths, trade and pressure tactics: How China holds a powerful card against
+      https://www.moneycontrol.com/world/rare-earths-trade-and-pressure-tactics-how-china-holds-a-powerful-card-against-trump-explained-article-13918158.html
+    - [news] Why China’s ‘Rare Earth Card’ Is Unlikely to Become a Lasting Geopolitical Lever
+      https://thediplomat.com/2026/04/why-chinas-rare-earth-card-is-unlikely-to-become-a-lasting-geopolitical-lever/
+    - [wikipedia] Rare-earth element
+      https://en.wikipedia.org/wiki/Rare-earth_element
+    - [wikipedia] Semiconductor industry
+      https://en.wikipedia.org/wiki/Semiconductor_industry
+    - [wikipedia] China–United States trade war
+      https://en.wikipedia.org/wiki/China%E2%80%93United_States_trade_war
+    - [wikipedia] Made in China 2025
+      https://en.wikipedia.org/wiki/Made_in_China_2025
+    - [wikipedia] Electric vehicle supply chain
+      https://en.wikipedia.org/wiki/Electric_vehicle_supply_chain
+
+--- Turn 2 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Rare-earth element
+      https://en.wikipedia.org/wiki/Rare-earth_element
+    - [wikipedia] China–United States trade war
+      https://en.wikipedia.org/wiki/China%E2%80%93United_States_trade_war
+    - [wikipedia] Economy of China
+      https://en.wikipedia.org/wiki/Economy_of_China
+    - [wikipedia] Artificial intelligence industry in the United Kingdom
+      https://en.wikipedia.org/wiki/Artificial_intelligence_industry_in_the_United_Kingdom
+    - [wikipedia] The Clean Network
+      https://en.wikipedia.org/wiki/The_Clean_Network
+    - [news] Analysis-As Trump Reins in China Tech Curbs, Beijing's Export Controls Come of A
+      https://money.usnews.com/investing/news/articles/2026-02-26/analysis-as-trump-reins-in-china-tech-curbs-beijings-export-controls-come-of-age
+    - [news] Why China’s ‘Rare Earth Card’ Is Unlikely to Become a Lasting Geopolitical Lever
+      https://thediplomat.com/2026/04/why-chinas-rare-earth-card-is-unlikely-to-become-a-lasting-geopolitical-lever/
+    - [news] Exclusive: Rare earth shortages worsen in US aerospace, chips despite trade truc
+      https://www.reuters.com/business/aerospace-defense/rare-earth-shortages-worsen-us-aerospace-chips-despite-trade-truce-sources-say-2026-02-26/
+    - [news] Greenland-based rare earth mining deal to strengthen US supply chains
+      https://interestingengineering.com/innovation/greenland-rare-earth-mining-china
+    - [news] China keeps tight InP export controls despite Trump-Xi talks
+      https://www.digitimes.com/news/a20260515PD230/china-rare-earth-materials-semiconductors-substrate-optics.html
+
+--- Turn 3 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [news] U.S., Australia move to rebuild rare earth supply chain
+      https://www.upi.com/Top_News/World-News/2026/04/27/us-australia-rebuilding-rare-earth-supply-chain/8361777335009/
+    - [news] The Pentagon Has Less Than 8 Months to Break China’s Rare Earth Grip
+      https://oilprice.com/Energy/Energy-General/The-Pentagon-Has-Less-Than-8-Months-to-Break-Chinas-Rare-Earth-Grip.html
+    - [news] China tightens hold on rare earth metals to counter US supply chain push
+      https://www.msn.com/en-in/news/world/china-tightens-hold-on-rare-earth-metals-to-counter-us-supply-chain-push/ar-AA1WdD5s?ocid=BingNewsVerp
+    - [news] As the U.S. invests in rare earths, a mine that was broke and underwater 10 year
+      https://www.cbsnews.com/news/mp-materials-rare-earths-mine-us-china-trade-60-minutes/
+    - [news] 5 Rare Earth Stocks To Buy In 2026
+      https://www.forbes.com/sites/investor-hub/article/5-rare-earth-stocks-to-buy-in-2026/
+    - [wikipedia] Online shopping
+      https://en.wikipedia.org/wiki/Online_shopping
+    - [wikipedia] Presidency of Joe Biden
+      https://en.wikipedia.org/wiki/Presidency_of_Joe_Biden
+    - [wikipedia] 2025 in the United Kingdom
+      https://en.wikipedia.org/wiki/2025_in_the_United_Kingdom
+    - [wikipedia] 2021 in science
+      https://en.wikipedia.org/wiki/2021_in_science
+    - [wikipedia] Science and technology in China
+      https://en.wikipedia.org/wiki/Science_and_technology_in_China
+
+--- Turn 4 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (10):
+    - [news] China dominates the rare earth elements industry, but this American company hope
+      https://www.cbsnews.com/news/china-dominates-rare-earths-american-company-hopes-to-challenge-60-minutes-transcript/
+    - [news] China tightens hold on rare earth metals to counter US supply chain push
+      https://www.msn.com/en-in/news/world/china-tightens-hold-on-rare-earth-metals-to-counter-us-supply-chain-push/ar-AA1WdD5s?ocid=BingNewsVerp
+    - [news] Pentagon-Linked REalloys Secures U.S. Rare Earth Supply Ahead of China Ban
+      https://oilprice.com/Energy/Energy-General/Pentagon-Linked-REalloys-Secures-US-Rare-Earth-Supply-Ahead-of-China-Ban.html
+    - [news] The State of America's Rare Earth Supply Chain in 2026 - OilPrice.com Market Com
+      https://www.morningstar.com/news/pr-newswire/20260316ln10293/the-state-of-americas-rare-earth-supply-chain-in-2026-oilpricecom-market-commentary
+    - [news] America Is Closing the Gap in the Rare Earth Supply Chain Race - OilPrice.com Ma
+      https://www.morningstar.com/news/pr-newswire/20260313ln09717/america-is-closing-the-gap-in-the-rare-earth-supply-chain-race-oilpricecom-market-commentary
+    - [wikipedia] Rare-earth element
+      https://en.wikipedia.org/wiki/Rare-earth_element
+    - [wikipedia] China–United States trade war
+      https://en.wikipedia.org/wiki/China%E2%80%93United_States_trade_war
+    - [wikipedia] Economy of China
+      https://en.wikipedia.org/wiki/Economy_of_China
+    - [wikipedia] Economy of Japan
+      https://en.wikipedia.org/wiki/Economy_of_Japan
+    - [wikipedia] Yemeni civil war (2014–present)
+      https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)
+

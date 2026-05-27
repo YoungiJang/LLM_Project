@@ -1,0 +1,126 @@
+=== Claim 09 — Result Metadata ===
+Claim:           최근 OpenAI의 영리 기업 전환은 AI 안전성을 약화시켰다.
+Expected label:  debatable
+Fact label:      None
+Domain:          AI 산업/거버넌스
+Persona:         moderate
+Turns completed: 4 / 4
+Cost (this item): $0.0228
+
+Expected APIs:   ['news']
+Actual APIs:     {'news': 18, 'wikipedia': 20, 'arxiv': 5}
+API match:       True
+
+Classification (turn 1): debatable
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    debatable
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (10):
+    - [news] Musk wanted $80 billion to colonize Mars, OpenAI president testifies at trial
+      https://www.msn.com/en-us/technology/artificial-intelligence/musk-wanted-80-billion-to-colonize-mars-openai-president-testifies-at-trial/ar-AA22s9jR?ocid=BingNewsVerp
+    - [news] All the evidence revealed so far in Musk v. Altman
+      https://www.theverge.com/ai-artificial-intelligence/920775/evidence-exhibits-elon-musk-sam-altman-openai-trial
+    - [news] Elon Musk and OpenAI leaders face off in court over AI safety concerns
+      https://www.msn.com/en-in/sports/nba/elon-musk-and-openai-leaders-face-off-in-court-over-ai-safety-concerns/ar-AA22A1rC?ocid=BingNewsVerp
+    - [news] OpenAI chief Sam Altman denies betraying Elon Musk, defends for-profit push at t
+      https://www.reuters.com/legal/litigation/openai-chief-altman-take-stand-openai-musk-trial-tuesday-2026-05-12/
+    - [news] Musk testifies he did not read 'fine print' about OpenAI becoming for-profit com
+      https://www.reuters.com/sustainability/boards-policy-regulation/elon-musk-return-witness-stand-cross-examination-by-openais-lawyer-2026-04-30/
+    - [wikipedia] AI boom
+      https://en.wikipedia.org/wiki/AI_boom
+    - [wikipedia] Large language model
+      https://en.wikipedia.org/wiki/Large_language_model
+    - [wikipedia] Big Tech
+      https://en.wikipedia.org/wiki/Big_Tech
+    - [wikipedia] Views of Elon Musk
+      https://en.wikipedia.org/wiki/Views_of_Elon_Musk
+    - [wikipedia] Occupational safety and health
+      https://en.wikipedia.org/wiki/Occupational_safety_and_health
+
+--- Turn 2 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] History of artificial intelligence
+      https://en.wikipedia.org/wiki/History_of_artificial_intelligence
+    - [wikipedia] Occupational safety and health
+      https://en.wikipedia.org/wiki/Occupational_safety_and_health
+    - [wikipedia] Risk management
+      https://en.wikipedia.org/wiki/Risk_management
+    - [wikipedia] Artificial intelligence in India
+      https://en.wikipedia.org/wiki/Artificial_intelligence_in_India
+    - [wikipedia] Federal Motor Carrier Safety Administration
+      https://en.wikipedia.org/wiki/Federal_Motor_Carrier_Safety_Administration
+    - [news] Anthropic Drops Flagship Safety Pledge
+      https://finance.yahoo.com/news/anthropic-drops-flagship-safety-pledge-194103119.html
+    - [news] Top Analyst Reports for Visa, Linde & Thermo Fisher Scientific
+      https://finance.yahoo.com/news/top-analyst-reports-visa-linde-222100518.html
+    - [news] 'The world is in peril' — the signs of a dark AI reckoning are starting to pile 
+      https://tech.yahoo.com/ai/articles/world-peril-signs-dark-ai-170000748.html
+    - [news] A Populist Backlash Over AI is Brewing in America
+      https://www.yahoo.com/news/articles/populist-backlash-over-ai-brewing-183636359.html
+    - [news] Read about R. F. “Bob” Achgill's GOP primary platforms for Texas Governor
+      https://www.yahoo.com/news/articles/read-r-f-bob-achgills-203639273.html
+
+--- Turn 3 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Agriculture
+      https://en.wikipedia.org/wiki/Agriculture
+    - [wikipedia] AI alignment
+      https://en.wikipedia.org/wiki/AI_alignment
+    - [wikipedia] Machine learning
+      https://en.wikipedia.org/wiki/Machine_learning
+    - [wikipedia] Data center
+      https://en.wikipedia.org/wiki/Data_center
+    - [wikipedia] Real business-cycle theory
+      https://en.wikipedia.org/wiki/Real_business-cycle_theory
+    - [news] Boeing CEO apologizes to families for aircraft safety failings
+      https://www.yahoo.com/news/boeing-ceo-apologizes-families-aircraft-152945534.html
+    - [news] Spooked by Mythos, Trump suddenly realized AI safety testing might be good
+      https://arstechnica.com/tech-policy/2026/05/everything-that-could-go-wrong-with-trumps-ai-safety-tests-according-to-experts/
+    - [news] Trump administration working on AI safety rules for advanced models, may roll ou
+      https://www.msn.com/en-in/technology/artificial-intelligence/trump-administration-working-on-ai-safety-rules-for-advanced-models-may-roll-out-executive-order-this-week-report/ar-AA23HM0U?ocid=BingNewsVerp
+    - [news] OpenAI Launches Fellowship to Fund External AI Safety Research
+      https://thejournal.com/articles/2026/04/16/openai-launches-fellowship-to-fund-external-ai-safety-research.aspx
+    - [news] US government agency to safety test frontier AI models before release
+      https://www.computerworld.com/article/4168137/us-government-agency-to-safety-test-frontier-ai-models-before-release-3.html
+    - [arxiv] Laser pointer prohibition: improving safety or driving misclassification
+      http://arxiv.org/abs/1406.4924v1
+    - [arxiv] Financial and symbolic incentives promote 'green' charging choices
+      http://arxiv.org/abs/2508.08282v1
+    - [arxiv] VAT Compliance Incentives
+      http://arxiv.org/abs/2002.07862v3
+    - [arxiv] Methodology for Testing and Evaluation of Safety Analytics Approaches
+      http://arxiv.org/abs/2203.10416v1
+    - [arxiv] Model-Based Safety and Security Engineering
+      http://arxiv.org/abs/1810.04866v2
+
+--- Turn 4 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (8):
+    - [wikipedia] Sunk cost
+      https://en.wikipedia.org/wiki/Sunk_cost
+    - [wikipedia] Public–private partnership
+      https://en.wikipedia.org/wiki/Public%E2%80%93private_partnership
+    - [wikipedia] Government incentives for plug-in electric vehicles
+      https://en.wikipedia.org/wiki/Government_incentives_for_plug-in_electric_vehicles
+    - [wikipedia] Pensions in the United States
+      https://en.wikipedia.org/wiki/Pensions_in_the_United_States
+    - [wikipedia] Subprime mortgage crisis
+      https://en.wikipedia.org/wiki/Subprime_mortgage_crisis
+    - [news] Pentagon warns UK of missile delays amid defence gaps
+      https://www.msn.com/en-gb/news/other/us-warns-uk-of-missile-delays-amid-iran-war-strain/gm-GMD3B20C7B?ocid=BingNewsVerp
+    - [news] Gatik Notches Milestone In Industry-First Third-Party Safety Review
+      https://www.forbes.com/sites/richardbishop1/2025/04/14/gatik-notches-key-milestone-in-industry-first-third-party-safety-audit/
+    - [news] Rust in Safety-Critical Systems: Predictions for 2026
+      https://www.electronicdesign.com/technologies/embedded/software/article/55356147/adacore-rust-in-safety-critical-systems-predictions-for-2026
+

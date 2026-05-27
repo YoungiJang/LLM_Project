@@ -1,0 +1,150 @@
+=== Claim 16 — Result Metadata ===
+Claim:           전기차는 내연기관차보다 환경에 더 이롭다.
+Expected label:  debatable
+Fact label:      None
+Domain:          환경
+Persona:         moderate
+Turns completed: 4 / 4
+Cost (this item): $0.0238
+
+Expected APIs:   ['wikipedia', 'arxiv']
+Actual APIs:     {'wikipedia': 20, 'news': 15, 'arxiv': 20}
+API match:       True
+
+Classification (turn 1): debatable
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Electric vehicle
+      https://en.wikipedia.org/wiki/Electric_vehicle
+    - [wikipedia] Greenhouse gas emissions
+      https://en.wikipedia.org/wiki/Greenhouse_gas_emissions
+    - [wikipedia] Electric vehicle battery
+      https://en.wikipedia.org/wiki/Electric_vehicle_battery
+    - [wikipedia] Plug-in electric vehicle
+      https://en.wikipedia.org/wiki/Plug-in_electric_vehicle
+    - [wikipedia] Hydrogen vehicle
+      https://en.wikipedia.org/wiki/Hydrogen_vehicle
+    - [news] Duke study finds EVs quickly overcome their energy-intensive build to be cleaner
+      https://www.wunc.org/environment/2025-10-30/duke-research-study-electric-vehicle-ev-cars-energy-use
+    - [news] EVs Pay Off Their Carbon Debt in Just 2 Years | BEV Lifecycle Benefits
+      https://www.autoblog.com/news/evs-pay-off-their-carbon-debt-in-just-2-years-after-that-its-no-contest
+    - [news] Battery electric cars produce 73% less emissions -research
+      https://www.reuters.com/sustainability/climate-energy/battery-electric-cars-produce-73-less-emissions-research-2025-07-08/
+    - [news] A radical new engine shows why internal combustion still matters
+      https://www.msn.com/en-us/autos/general/a-radical-new-engine-shows-why-internal-combustion-still-matters/ar-AA21Dxv3?ocid=BingNewsVerp
+    - [news] Should Electric Cars Fully Replace Gas Cars in the Future? Environmental Pros an
+      https://www.techtimes.com/articles/316158/20260427/should-electric-cars-fully-replace-gas-cars-future-environmental-pros-cons.htm
+    - [arxiv] Double-distribution-function discrete Boltzmann model for combustion
+      http://arxiv.org/abs/1405.5500v3
+    - [arxiv] B-ETS: A Trusted Blockchain-based Emissions Trading System for Vehicle-to-Vehicl
+      http://arxiv.org/abs/2102.13477v2
+    - [arxiv] Magnetic properties of wurtzite (Ga,Mn)As
+      http://arxiv.org/abs/2101.07194v1
+    - [arxiv] Improved-Sensitivity Integral SQUID Magnetometry of (Ga,Mn)N Thin Films in Proxi
+      http://arxiv.org/abs/2101.09804v2
+    - [arxiv] Deep learning-based denoising for fast time-resolved flame emission spectroscopy
+      http://arxiv.org/abs/2208.12544v3
+
+--- Turn 2 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Electric vehicle
+      https://en.wikipedia.org/wiki/Electric_vehicle
+    - [wikipedia] Black carbon
+      https://en.wikipedia.org/wiki/Black_carbon
+    - [wikipedia] Plug-in hybrid
+      https://en.wikipedia.org/wiki/Plug-in_hybrid
+    - [wikipedia] Plug-in electric vehicles in the United States
+      https://en.wikipedia.org/wiki/Plug-in_electric_vehicles_in_the_United_States
+    - [wikipedia] Hybrid electric vehicle
+      https://en.wikipedia.org/wiki/Hybrid_electric_vehicle
+    - [news] This radical turbine engine could reinvent internal combustion
+      https://www.msn.com/en-us/technology/aviation/this-radical-turbine-engine-could-reinvent-internal-combustion/ar-AA21bMPe?ocid=BingNewsVerp
+    - [news] A radical new engine shows why internal combustion still matters
+      https://www.msn.com/en-us/autos/other/a-radical-new-engine-shows-why-internal-combustion-still-matters/ar-AA21Dxv3?ocid=BingNewsVerp
+    - [news] EU ends internal combustion engines ban, but restricts emissions
+      https://www.upi.com/Top_News/World-News/2025/12/16/belgium-eu-vehicles/7581765916641/
+    - [news] Study shows which vehicles pollute the least in every US county
+      https://arstechnica.com/cars/2025/08/study-shows-which-vehicles-pollute-the-least-in-every-us-county/
+    - [news] Toyota's Water-Cooled Hydrogen Combustion Engine Proves Its Commitment To A Hydr
+      https://www.topspeed.com/toyota-water-cooled-hydrogen-combustion-engine-proof/
+    - [arxiv] Double-distribution-function discrete Boltzmann model for combustion
+      http://arxiv.org/abs/1405.5500v3
+    - [arxiv] B-ETS: A Trusted Blockchain-based Emissions Trading System for Vehicle-to-Vehicl
+      http://arxiv.org/abs/2102.13477v2
+    - [arxiv] Deep learning-based denoising for fast time-resolved flame emission spectroscopy
+      http://arxiv.org/abs/2208.12544v3
+    - [arxiv] Forecasting the value of battery electric vehicles compared to internal combusti
+      http://arxiv.org/abs/1806.06947v1
+    - [arxiv] Sensitivity analysis of a mean-value exergy-based internal combustion engine mod
+      http://arxiv.org/abs/2201.07190v1
+
+--- Turn 3 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Electric vehicle
+      https://en.wikipedia.org/wiki/Electric_vehicle
+    - [wikipedia] Green vehicle
+      https://en.wikipedia.org/wiki/Green_vehicle
+    - [wikipedia] Electric vehicle battery
+      https://en.wikipedia.org/wiki/Electric_vehicle_battery
+    - [wikipedia] Alternative fuel vehicle
+      https://en.wikipedia.org/wiki/Alternative_fuel_vehicle
+    - [wikipedia] Plug-in electric vehicles in the United States
+      https://en.wikipedia.org/wiki/Plug-in_electric_vehicles_in_the_United_States
+    - [arxiv] Variance Stabilizing Transformations for Electricity Price Forecasting in Period
+      http://arxiv.org/abs/2511.13603v2
+    - [arxiv] B-ETS: A Trusted Blockchain-based Emissions Trading System for Vehicle-to-Vehicl
+      http://arxiv.org/abs/2102.13477v2
+    - [arxiv] Coupling of Real-Time and Co-Simulation for the Evaluation of the Large Scale In
+      http://arxiv.org/abs/1812.09578v1
+    - [arxiv] Electric or gasoline: a simple model to decide when buying a new vehicle
+      http://arxiv.org/abs/2311.05055v2
+    - [arxiv] Joint vehicle state and parameters estimation via Twin-in-the-Loop observers
+      http://arxiv.org/abs/2309.01461v1
+
+--- Turn 4 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (15):
+    - [wikipedia] Climate change
+      https://en.wikipedia.org/wiki/Climate_change
+    - [wikipedia] Plug-in hybrid
+      https://en.wikipedia.org/wiki/Plug-in_hybrid
+    - [wikipedia] Greenhouse gas emissions
+      https://en.wikipedia.org/wiki/Greenhouse_gas_emissions
+    - [wikipedia] Electric vehicle battery
+      https://en.wikipedia.org/wiki/Electric_vehicle_battery
+    - [wikipedia] Corn ethanol
+      https://en.wikipedia.org/wiki/Corn_ethanol
+    - [news] Are EVs Really Better for the Environment? How Electric Cars Compare to Gas Vehi
+      https://www.techtimes.com/articles/313637/20251226/are-evs-really-better-environment-how-electric-cars-compare-gas-vehicles-greener-future.htm
+    - [news] Banning combustion engine cars by 2035 will be necessary to get Australia moving
+      https://theconversation.com/banning-combustion-engine-cars-by-2035-will-be-necessary-to-get-australia-moving-on-electric-vehicles-267530
+    - [news] This radical turbine engine could reinvent internal combustion
+      https://www.msn.com/en-us/technology/aviation/this-radical-turbine-engine-could-reinvent-internal-combustion/ar-AA21bMPe?ocid=BingNewsVerp
+    - [news] A radical new engine shows why internal combustion still matters
+      https://www.msn.com/en-us/technology/general/a-radical-new-engine-shows-why-internal-combustion-still-matters/ar-AA21Dxv3?ocid=BingNewsVerp
+    - [news] Measurement of exhaust and noise emissions of an unrestricted enduro motorcycle
+      https://theicct.org/publication/exhaust-and-noise-emissions-unrestricted-enduro-motorcycle-may26/
+    - [arxiv] A Framework to Estimate Life Cycle Emissions for Vehicle-Integrated Photovoltaic
+      http://arxiv.org/abs/2410.09330v1
+    - [arxiv] Large Interferometer For Exoplanets (LIFE): XIII. The Value of Combining Thermal
+      http://arxiv.org/abs/2406.13037v1
+    - [arxiv] Large Interferometer For Exoplanets (LIFE): IV. Ideal kernel-nulling array archi
+      http://arxiv.org/abs/2201.04891v3
+    - [arxiv] Double-distribution-function discrete Boltzmann model for combustion
+      http://arxiv.org/abs/1405.5500v3
+    - [arxiv] Sensitivity analysis of a mean-value exergy-based internal combustion engine mod
+      http://arxiv.org/abs/2201.07190v1
+

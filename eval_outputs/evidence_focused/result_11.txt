@@ -1,0 +1,130 @@
+=== Claim 11 — Result Metadata ===
+Claim:           최근 중국의 희토류 수출 통제 강화는 서방의 반도체 공급망에 심각한 위협이다.
+Expected label:  debatable
+Fact label:      None
+Domain:          국제정치/무역
+Persona:         evidence_focused
+Turns completed: 4 / 4
+Cost (this item): $0.0267
+
+Expected APIs:   ['news']
+Actual APIs:     {'news': 20, 'wikipedia': 20, 'arxiv': 5}
+API match:       True
+
+Classification (turn 1): debatable
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [news] The US wants to cut off China’s chip equipment. China says the supply chain will
+      https://thenextweb.com/news/china-us-chip-export-controls-match-act
+    - [news] China tightens rare earth export controls, targets defence, semiconductor users
+      https://www.aol.com/china-tightens-rare-earth-export-015234512.html
+    - [news] China warns US chip export bills risk supply chain disruption
+      https://www.msn.com/en-us/news/insight/china-warns-us-chip-export-bills-risk-supply-chain-disruption/gm-GM5EBD836E?ocid=BingNewsVerp
+    - [news] Why China’s ‘Rare Earth Card’ Is Unlikely to Become a Lasting Geopolitical Lever
+      https://thediplomat.com/2026/04/why-chinas-rare-earth-card-is-unlikely-to-become-a-lasting-geopolitical-lever/
+    - [news] Rare earths, trade and pressure tactics: How China holds a powerful card against
+      https://www.moneycontrol.com/world/rare-earths-trade-and-pressure-tactics-how-china-holds-a-powerful-card-against-trump-explained-article-13918158.html
+    - [wikipedia] Rare-earth element
+      https://en.wikipedia.org/wiki/Rare-earth_element
+    - [wikipedia] Semiconductor industry
+      https://en.wikipedia.org/wiki/Semiconductor_industry
+    - [wikipedia] Made in China 2025
+      https://en.wikipedia.org/wiki/Made_in_China_2025
+    - [wikipedia] China–United States trade war
+      https://en.wikipedia.org/wiki/China%E2%80%93United_States_trade_war
+    - [wikipedia] Electric vehicle supply chain
+      https://en.wikipedia.org/wiki/Electric_vehicle_supply_chain
+
+--- Turn 2 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Rare-earth element
+      https://en.wikipedia.org/wiki/Rare-earth_element
+    - [wikipedia] Diamond
+      https://en.wikipedia.org/wiki/Diamond
+    - [wikipedia] History of science and technology in Japan
+      https://en.wikipedia.org/wiki/History_of_science_and_technology_in_Japan
+    - [wikipedia] Science and technology in China
+      https://en.wikipedia.org/wiki/Science_and_technology_in_China
+    - [wikipedia] Nickel
+      https://en.wikipedia.org/wiki/Nickel
+    - [news] As Trump reins in China tech curbs, Beijing's export controls come of age
+      https://www.reuters.com/world/china/trump-reins-china-tech-curbs-beijings-export-controls-come-age-2026-02-26/
+    - [news] China says will work with U.S. on 'reasonable' rare earth export concerns
+      https://seekingalpha.com/news/4595349-china-says-will-work-with-u-s-on-reasonable-rare-earth-export-concerns
+    - [news] China squeezes Japan over rare earths in repeat of 2010 showdown
+      https://www.msn.com/en-us/news/world/china-squeezes-japan-over-rare-earths-in-repeat-of-2010-showdown/ar-AA23Oi1k?ocid=BingNewsVerp
+    - [news] U.S., Australia move to rebuild rare earth supply chain
+      https://www.upi.com/Top_News/World-News/2026/04/27/us-australia-rebuilding-rare-earth-supply-chain/8361777335009/
+    - [news] China still drags its feet on rare earths sometimes, says Greer
+      https://www.reuters.com/business/aerospace-defense/china-still-drags-its-feet-rare-earths-sometimes-says-greer-2026-05-15/
+    - [arxiv] Exploitation of material consolidation trade-offs in multi-tier complex supply n
+      http://arxiv.org/abs/2210.11479v3
+    - [arxiv] Modeling the Path of Structural Strategic Deterrence: A Sand Table Simulation an
+      http://arxiv.org/abs/2505.21579v1
+    - [arxiv] Expert Insight-Based Modeling of Non-Kinetic Strategic Deterrence of Rare Earth 
+      http://arxiv.org/abs/2506.11645v1
+    - [arxiv] Magnetic Anisotropy in Two-dimensional van der Waals Magnetic Materials and Thei
+      http://arxiv.org/abs/2508.04952v1
+    - [arxiv] Lunar-like silicate material forms the Earth quasisatellite (469219) 2016 HO3 Ka
+      http://arxiv.org/abs/2111.06372v1
+
+--- Turn 3 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Rare-earth element
+      https://en.wikipedia.org/wiki/Rare-earth_element
+    - [wikipedia] Philippines
+      https://en.wikipedia.org/wiki/Philippines
+    - [wikipedia] Rare-earth industry in China
+      https://en.wikipedia.org/wiki/Rare-earth_industry_in_China
+    - [wikipedia] Insurance
+      https://en.wikipedia.org/wiki/Insurance
+    - [wikipedia] Uranium
+      https://en.wikipedia.org/wiki/Uranium
+    - [news] Trump, Xi to weigh rare earth truce extension, but China's curbs still bite
+      https://www.msn.com/en-us/news/world/trump-xi-to-weigh-rare-earth-truce-extension-but-chinas-curbs-still-bite/ar-AA233hEs?ocid=BingNewsVerp
+    - [news] U.S., China weigh extension of rare earth truce as Beijing maintains export rest
+      https://seekingalpha.com/news/4591827-us-china-weigh-extension-of-rare-earth-truce-as-beijing-maintains-export-restrictions-report
+    - [news] How China Killed Every Rare Earth Competitor Before It Could Get Started
+      https://oilprice.com/Energy/Energy-General/How-China-Killed-Every-Rare-Earth-Competitor-Before-It-Could-Get-Started.html
+    - [news] How China has expanded its economic toolkit during its trade truce with the US
+      https://www.reuters.com/world/china/how-china-has-expanded-its-economic-toolkit-during-its-trade-truce-with-us-2026-04-26/
+    - [news] U.S.-China Tensions Over Rare Earth Exports: A Trade Balancing Act
+      https://www.devdiscourse.com/article/law-order/3909015-us-china-tensions-over-rare-earth-exports-a-trade-balancing-act
+
+--- Turn 4 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (10):
+    - [wikipedia] Rare-earth element
+      https://en.wikipedia.org/wiki/Rare-earth_element
+    - [wikipedia] Petroleum
+      https://en.wikipedia.org/wiki/Petroleum
+    - [wikipedia] Tin
+      https://en.wikipedia.org/wiki/Tin
+    - [wikipedia] Electronic waste
+      https://en.wikipedia.org/wiki/Electronic_waste
+    - [wikipedia] Petroleum industry
+      https://en.wikipedia.org/wiki/Petroleum_industry
+    - [news] China's rare earth leverage and South Korea's strategic counterweight
+      https://www.upi.com/Voices/2026/02/25/perspective-china-rare-earth-leverage/5941772043256/
+    - [news] Rare earths surge above price floor given to MP Materials
+      https://www.reuters.com/business/energy/rare-earths-surge-above-price-floor-given-mp-materials-2026-02-18/
+    - [news] USA Rare Earth vs. MP Materials: Which Mining Stock Should You Buy in 2026?
+      https://www.fool.com/investing/2026/03/21/usa-rare-earth-vs-mp-materials-which-mining/
+    - [news] USA Rare Earth to buy Brazil's Serra Verde for $2.8 billion to build supply outs
+      https://www.cnbc.com/2026/04/20/usa-rare-earth-serra-verde-minerals-china.html
+    - [news] China Northern Rare Earth hikes 2Q26 rare earth ore prices over 44%, experts war
+      https://www.digitimes.com/news/a20260415PD213/china-rare-earth-price-demand-2026-supply-chain.html
+

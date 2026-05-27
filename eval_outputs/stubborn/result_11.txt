@@ -1,0 +1,130 @@
+=== Claim 11 — Result Metadata ===
+Claim:           최근 중국의 희토류 수출 통제 강화는 서방의 반도체 공급망에 심각한 위협이다.
+Expected label:  debatable
+Fact label:      None
+Domain:          국제정치/무역
+Persona:         stubborn
+Turns completed: 4 / 4
+Cost (this item): $0.0225
+
+Expected APIs:   ['news']
+Actual APIs:     {'news': 20, 'wikipedia': 20, 'arxiv': 5}
+API match:       True
+
+Classification (turn 1): debatable
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [news] China rare earth export pause nears expiry amid persistent supply concentration
+      https://www.msn.com/en-us/politics/government/china-rare-earth-export-pause-nears-expiry-amid-persistent-supply-concentration/ar-AA21RhEe?ocid=BingNewsVerp
+    - [news] China tightens rare earth export controls, targets defence, semiconductor users
+      https://www.aol.com/china-tightens-rare-earth-export-015234512.html
+    - [news] The US wants to cut off China’s chip equipment. China says the supply chain will
+      https://thenextweb.com/news/china-us-chip-export-controls-match-act
+    - [news] Rare earths, trade and pressure tactics: How China holds a powerful card against
+      https://www.moneycontrol.com/world/rare-earths-trade-and-pressure-tactics-how-china-holds-a-powerful-card-against-trump-explained-article-13918158.html
+    - [news] Why China’s ‘Rare Earth Card’ Is Unlikely to Become a Lasting Geopolitical Lever
+      https://thediplomat.com/2026/04/why-chinas-rare-earth-card-is-unlikely-to-become-a-lasting-geopolitical-lever/
+    - [wikipedia] Rare-earth element
+      https://en.wikipedia.org/wiki/Rare-earth_element
+    - [wikipedia] Semiconductor industry
+      https://en.wikipedia.org/wiki/Semiconductor_industry
+    - [wikipedia] Made in China 2025
+      https://en.wikipedia.org/wiki/Made_in_China_2025
+    - [wikipedia] China–United States trade war
+      https://en.wikipedia.org/wiki/China%E2%80%93United_States_trade_war
+    - [wikipedia] Electric vehicle supply chain
+      https://en.wikipedia.org/wiki/Electric_vehicle_supply_chain
+
+--- Turn 2 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Supply chain management
+      https://en.wikipedia.org/wiki/Supply_chain_management
+    - [wikipedia] Global value chain
+      https://en.wikipedia.org/wiki/Global_value_chain
+    - [wikipedia] Endocrine disruptor
+      https://en.wikipedia.org/wiki/Endocrine_disruptor
+    - [wikipedia] Australian live export industry
+      https://en.wikipedia.org/wiki/Australian_live_export_industry
+    - [wikipedia] Food inflation in Iran
+      https://en.wikipedia.org/wiki/Food_inflation_in_Iran
+    - [news] New Momentum, Old Problems: Transatlantic Export Control Considerations
+      https://www.csis.org/analysis/new-momentum-old-problems-transatlantic-export-control-considerations
+    - [news] The US wants to cut off China’s chip equipment. China says the supply chain will
+      https://thenextweb.com/news/china-us-chip-export-controls-match-act
+    - [news] From Supply Chain To Performance Chain: How Fortune 500 Leaders Are Designing Fo
+      https://www.forbes.com/councils/forbesbusinesscouncil/2026/04/15/from-supply-chain-to-performance-chain-how-fortune-500-leaders-are-designing-for-permanent-disruption/
+    - [news] China prioritises export controls, supply-chain security to shield economy in 20
+      https://www.msn.com/en-xl/money/other/china-prioritises-export-controls-supply-chain-security-to-shield-economy-in-2026/ar-AA1U3aEe?ocid=BingNewsVerp
+    - [news] Analysis-As Trump Reins in China Tech Curbs, Beijing's Export Controls Come of A
+      https://money.usnews.com/investing/news/articles/2026-02-26/analysis-as-trump-reins-in-china-tech-curbs-beijings-export-controls-come-of-age
+    - [arxiv] Exploitation of material consolidation trade-offs in multi-tier complex supply n
+      http://arxiv.org/abs/2210.11479v3
+    - [arxiv] A Two-Stage Stochastic Programming Model for Blood Supply Chain Management, Cons
+      http://arxiv.org/abs/2111.02808v1
+    - [arxiv] SoK: Analysis of Software Supply Chain Security by Establishing Secure Design Pr
+      http://arxiv.org/abs/2406.10109v1
+    - [arxiv] Large Language Models for Supply Chain Decisions
+      http://arxiv.org/abs/2507.21502v1
+    - [arxiv] The pre-main sequence binary HK Ori : Spectro-astrometry and EXPORT data
+      http://arxiv.org/abs/astro-ph/0406542v1
+
+--- Turn 3 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [news] Trading Day: US-China relief sparks world stock melt up
+      https://finance.yahoo.com/news/trading-day-us-china-relief-210237587.html
+    - [news] Opinion - Trump’s trade brinkmanship imperils market stability
+      https://finance.yahoo.com/news/opinion-trump-trade-brinkmanship-imperils-190000866.html
+    - [news] Decoding Micron Technology Inc (MU): A Strategic SWOT Insight
+      https://finance.yahoo.com/news/decoding-micron-technology-inc-mu-050119641.html
+    - [news] Decoding Applied Materials Inc (AMAT): A Strategic SWOT Insight
+      https://finance.yahoo.com/news/decoding-applied-materials-inc-amat-050146976.html
+    - [news] Meta Is Building a Compute Moat Amid Overvaluation
+      https://finance.yahoo.com/news/meta-building-compute-moat-amid-130142964.html
+    - [wikipedia] Economy of China
+      https://en.wikipedia.org/wiki/Economy_of_China
+    - [wikipedia] Synopsys
+      https://en.wikipedia.org/wiki/Synopsys
+    - [wikipedia] China–United States relations
+      https://en.wikipedia.org/wiki/China%E2%80%93United_States_relations
+    - [wikipedia] Stock market crashes in India
+      https://en.wikipedia.org/wiki/Stock_market_crashes_in_India
+    - [wikipedia] BYD Auto
+      https://en.wikipedia.org/wiki/BYD_Auto
+
+--- Turn 4 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (10):
+    - [wikipedia] Automotive industry in China
+      https://en.wikipedia.org/wiki/Automotive_industry_in_China
+    - [wikipedia] Protein adulteration in China
+      https://en.wikipedia.org/wiki/Protein_adulteration_in_China
+    - [wikipedia] Economy of China
+      https://en.wikipedia.org/wiki/Economy_of_China
+    - [wikipedia] Economy of India
+      https://en.wikipedia.org/wiki/Economy_of_India
+    - [wikipedia] 2007 pet food recalls
+      https://en.wikipedia.org/wiki/2007_pet_food_recalls
+    - [news] Here's How Intel Could Be Affected by the United States' Rare Earths Trade With.
+      https://finance.yahoo.com/news/heres-intel-could-affected-united-203000841.html
+    - [news] China says will work with U.S. on 'reasonable' rare earth export concerns
+      https://seekingalpha.com/news/4595349-china-says-will-work-with-u-s-on-reasonable-rare-earth-export-concerns
+    - [news] Why China’s ‘Rare Earth Card’ Is Unlikely to Become a Lasting Geopolitical Lever
+      https://thediplomat.com/2026/04/why-chinas-rare-earth-card-is-unlikely-to-become-a-lasting-geopolitical-lever/
+    - [news] U.S., Australia move to rebuild rare earth supply chain
+      https://www.upi.com/Top_News/World-News/2026/04/27/us-australia-rebuilding-rare-earth-supply-chain/8361777335009/
+    - [news] China’s Rare-Earth Card Looms Over Trump-Xi Summit
+      https://foreignpolicy.com/2026/05/12/trump-xi-china-summit-rare-earth-trade-critical-minerals/
+

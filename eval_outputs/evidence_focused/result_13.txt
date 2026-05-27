@@ -1,0 +1,128 @@
+=== Claim 13 — Result Metadata ===
+Claim:           강화학습 기반 RLHF는 벤치마크 상에서 LLM 정렬 문제의 근본적 해법으로 입증되었다.
+Expected label:  debatable
+Fact label:      None
+Domain:          AI 안전/학술
+Persona:         evidence_focused
+Turns completed: 4 / 4
+Cost (this item): $0.0282
+
+Expected APIs:   ['arxiv']
+Actual APIs:     {'arxiv': 20, 'wikipedia': 12, 'news': 12}
+API match:       True
+
+Classification (turn 1): debatable
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [arxiv] RLHF-Blender: A Configurable Interactive Interface for Learning from Diverse Hum
+      http://arxiv.org/abs/2308.04332v1
+    - [arxiv] Reinforcement Learning from Human Feedback: Whose Culture, Whose Values, Whose P
+      http://arxiv.org/abs/2407.17482v2
+    - [arxiv] Online Iterative Reinforcement Learning from Human Feedback with General Prefere
+      http://arxiv.org/abs/2402.07314v3
+    - [arxiv] Uni-RLHF: Universal Platform and Benchmark Suite for Reinforcement Learning with
+      http://arxiv.org/abs/2402.02423v2
+    - [arxiv] Iterative Preference Learning from Human Feedback: Bridging Theory and Practice 
+      http://arxiv.org/abs/2312.11456v4
+    - [wikipedia] Reinforcement learning from human feedback
+      https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback
+    - [wikipedia] Multi-agent reinforcement learning
+      https://en.wikipedia.org/wiki/Multi-agent_reinforcement_learning
+    - [wikipedia] Reinforcement learning
+      https://en.wikipedia.org/wiki/Reinforcement_learning
+    - [wikipedia] Generative pre-trained transformer
+      https://en.wikipedia.org/wiki/Generative_pre-trained_transformer
+    - [wikipedia] Large language model
+      https://en.wikipedia.org/wiki/Large_language_model
+    - [news] Zurich’s Rapidata raises €7.2M to build a real-time human feedback network for A
+      https://thenextweb.com/news/zurichs-rapidata-raises-e7-2m-to-build-a-real-time-human-feedback-network-for-ai
+    - [news] The New OpenAI o1 Generative AI Model Makes An Important Right Turn When It Come
+      https://www.forbes.com/sites/lanceeliot/2024/09/17/the-new-openai-o1-generative-ai-model-makes-an-important-right-turn-when-it-comes-to-reinforcement-learning/
+    - [news] OpenAI’s new “CriticGPT” model is trained to scrutinize GPT-4 outputs
+      https://arstechnica.com/information-technology/2024/06/openais-criticgpt-outperforms-humans-in-catching-ai-generated-code-bugs/
+    - [news] Web3-AI: What’s Real, and What’s Hype
+      https://finance.yahoo.com/news/web3-ai-real-hype-181427640.html
+    - [news] The Rise And Rise Of Reinforcement Learning: AI’s Quiet Revolution
+      https://www.forbes.com/sites/paulxmccarthy/2025/04/19/the-rise-and-rise-of-reinforcement-learning-ais-quiet-revolution/
+
+--- Turn 2 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Glossary of artificial intelligence
+      https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence
+    - [wikipedia] Reinforcement learning from human feedback
+      https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback
+    - [wikipedia] AI alignment
+      https://en.wikipedia.org/wiki/AI_alignment
+    - [wikipedia] Machine learning
+      https://en.wikipedia.org/wiki/Machine_learning
+    - [wikipedia] Outline of machine learning
+      https://en.wikipedia.org/wiki/Outline_of_machine_learning
+    - [arxiv] Mitigating Multimodal Hallucination via Phase-wise Self-reward
+      http://arxiv.org/abs/2604.17982v1
+    - [arxiv] PPO-BR: Dual-Signal Entropy-Reward Adaptation for Trust Region Policy Optimizati
+      http://arxiv.org/abs/2505.17714v1
+    - [arxiv] Composite Reward Design in PPO-Driven Adaptive Filtering
+      http://arxiv.org/abs/2506.06323v1
+    - [arxiv] Basic Ideas and Tools for Projection-Based Model Reduction of Parametric Partial
+      http://arxiv.org/abs/1911.08954v1
+    - [arxiv] DPO Meets PPO: Reinforced Token Optimization for RLHF
+      http://arxiv.org/abs/2404.18922v4
+    - [news] AI Reinforcement Learning from Human Feedback (RLHF) explained
+      https://www.geeky-gadgets.com/reinforcement-learning-from-human-feedback/
+    - [news] OpenAI is training models to 'confess' when they lie - what it means for future.
+      https://tech.yahoo.com/ai/chatgpt/articles/openai-training-models-confess-lie-080055832.html
+    - [news] RLHF And Beyond: How Can We Teach AI The Right Values?
+      https://www.forbes.com/sites/robtoews/2024/02/04/what-is-the-best-way-to-control-todays-ai/
+    - [news] Researchers astonished by tool’s apparent success at revealing AI’s “hidden obje
+      https://arstechnica.com/ai/2025/03/researchers-astonished-by-tools-apparent-success-at-revealing-ais-hidden-motives/
+    - [news] Revolutionizing AI Learning: The Role Of Passive Brain-Computer Interfaces And R
+      https://www.forbes.com/councils/forbestechcouncil/2025/01/22/revolutionizing-ai-learning-the-role-of-passive-brain-computer-interfaces-and-rlhf/
+
+--- Turn 3 ---
+  classification:    debatable
+  evidence_strength: strong
+  evaluator_state:   continue
+  sources (8):
+    - [wikipedia] Reinforcement learning from human feedback
+      https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback
+    - [wikipedia] Reasoning model
+      https://en.wikipedia.org/wiki/Reasoning_model
+    - [arxiv] Interpretable Preferences via Multi-Objective Reward Modeling and Mixture-of-Exp
+      http://arxiv.org/abs/2406.12845v1
+    - [arxiv] Online Iterative Reinforcement Learning from Human Feedback with General Prefere
+      http://arxiv.org/abs/2402.07314v3
+    - [arxiv] Data-Centric Human Preference with Rationales for Direct Preference Alignment
+      http://arxiv.org/abs/2407.14477v4
+    - [arxiv] Iterative Preference Learning from Human Feedback: Bridging Theory and Practice 
+      http://arxiv.org/abs/2312.11456v4
+    - [arxiv] Influencing Humans to Conform to Preference Models for RLHF
+      http://arxiv.org/abs/2501.06416v3
+    - [news] Ten Questions With OpenAI On Reinforcement Learning With Human Feedback
+      https://www.forbes.com/sites/aparnadhinakaran/2023/03/27/ten-questions-with-openai-on-reinforcement-learning-with-human-feedback/
+
+--- Turn 4 ---
+  classification:    debatable
+  evidence_strength: strong
+  evaluator_state:   close
+  sources (6):
+    - [news] Meta GenAI Boosts AI Learning with CGPO, Tackling Reward Hacking and Improving M
+      https://www.msn.com/en-gb/lifestyle/lifestylegeneral/meta-genai-boosts-ai-learning-with-cgpo-tackling-reward-hacking-and-improving-multi-task-performance/ar-AA1rR0FB?ocid=BingNewsVerp
+    - [arxiv] Interpretable Preferences via Multi-Objective Reward Modeling and Mixture-of-Exp
+      http://arxiv.org/abs/2406.12845v1
+    - [arxiv] Bias Fitting to Mitigate Length Bias of Reward Model in RLHF
+      http://arxiv.org/abs/2505.12843v1
+    - [arxiv] Composite Reward Design in PPO-Driven Adaptive Filtering
+      http://arxiv.org/abs/2506.06323v1
+    - [arxiv] Efficient RLHF: Reducing the Memory Usage of PPO
+      http://arxiv.org/abs/2309.00754v1
+    - [arxiv] Secrets of RLHF in Large Language Models Part I: PPO
+      http://arxiv.org/abs/2307.04964v2
+

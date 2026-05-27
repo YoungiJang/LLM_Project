@@ -1,0 +1,146 @@
+=== Claim 09 — Result Metadata ===
+Claim:           최근 OpenAI의 영리 기업 전환은 AI 안전성을 약화시켰다.
+Expected label:  debatable
+Fact label:      None
+Domain:          AI 산업/거버넌스
+Persona:         evidence_focused
+Turns completed: 4 / 4
+Cost (this item): $0.0259
+
+Expected APIs:   ['news']
+Actual APIs:     {'news': 18, 'wikipedia': 20, 'arxiv': 15}
+API match:       True
+
+Classification (turn 1): debatable
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [news] Musk wanted $80 billion to colonize Mars, OpenAI president testifies at trial
+      https://www.msn.com/en-us/technology/artificial-intelligence/musk-wanted-80-billion-to-colonize-mars-openai-president-testifies-at-trial/ar-AA22s9jR?ocid=BingNewsVerp
+    - [news] All the evidence revealed so far in Musk v. Altman
+      https://www.theverge.com/ai-artificial-intelligence/920775/evidence-exhibits-elon-musk-sam-altman-openai-trial
+    - [news] Elon Musk and OpenAI leaders face off in court over AI safety concerns
+      https://www.msn.com/en-in/sports/nba/elon-musk-and-openai-leaders-face-off-in-court-over-ai-safety-concerns/ar-AA22A1rC?ocid=BingNewsVerp
+    - [news] OpenAI chief Sam Altman denies betraying Elon Musk, defends for-profit push at t
+      https://www.reuters.com/legal/litigation/openai-chief-altman-take-stand-openai-musk-trial-tuesday-2026-05-12/
+    - [news] Musk testifies he did not read 'fine print' about OpenAI becoming for-profit com
+      https://www.reuters.com/sustainability/boards-policy-regulation/elon-musk-return-witness-stand-cross-examination-by-openais-lawyer-2026-04-30/
+    - [wikipedia] AI boom
+      https://en.wikipedia.org/wiki/AI_boom
+    - [wikipedia] Large language model
+      https://en.wikipedia.org/wiki/Large_language_model
+    - [wikipedia] Big Tech
+      https://en.wikipedia.org/wiki/Big_Tech
+    - [wikipedia] Occupational safety and health
+      https://en.wikipedia.org/wiki/Occupational_safety_and_health
+    - [wikipedia] Views of Elon Musk
+      https://en.wikipedia.org/wiki/Views_of_Elon_Musk
+
+--- Turn 2 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Intel
+      https://en.wikipedia.org/wiki/Intel
+    - [wikipedia] Electronic design automation
+      https://en.wikipedia.org/wiki/Electronic_design_automation
+    - [wikipedia] Psilocybin mushroom
+      https://en.wikipedia.org/wiki/Psilocybin_mushroom
+    - [wikipedia] Formula One sponsorship liveries
+      https://en.wikipedia.org/wiki/Formula_One_sponsorship_liveries
+    - [wikipedia] Electric vehicle
+      https://en.wikipedia.org/wiki/Electric_vehicle
+    - [news] Google is shipping Gemini models faster than its AI safety reports
+      https://techcrunch.com/2025/04/03/google-is-shipping-gemini-models-faster-than-its-ai-safety-reports/
+    - [news] Elon Musk reveals roadmap with nine-month cadence for new AI processor releases,
+      https://tech.yahoo.com/ai/deals/articles/elon-musk-reveals-roadmap-nine-161833164.html
+    - [news] Child safety lab launching ‘independent crash testing’ for AI tools
+      https://www.yahoo.com/news/articles/child-safety-lab-launching-independent-090051059.html
+    - [news] Google Gemini's frenzied AI releases seem to sideline AI safety reports
+      https://tech.yahoo.com/articles/google-geminis-frenzied-ai-releases-210912070.html
+    - [news] OpenAI releases GPT-5.5, its most capable AI model
+      https://tech.yahoo.com/ai/chatgpt/articles/openai-releases-gpt-5-5-182703026.html
+    - [arxiv] AI Safety is Stuck in Technical Terms -- A System Safety Response to the Interna
+      http://arxiv.org/abs/2503.04743v1
+    - [arxiv] Overview of AuTexTification at IberLEF 2023: Detection and Attribution of Machin
+      http://arxiv.org/abs/2309.11285v1
+    - [arxiv] A Different Approach to AI Safety: Proceedings from the Columbia Convening on Op
+      http://arxiv.org/abs/2506.22183v1
+    - [arxiv] Competing Visions of Ethical AI: A Case Study of OpenAI
+      http://arxiv.org/abs/2601.16513v1
+    - [arxiv] Foundations of GenIR
+      http://arxiv.org/abs/2501.02842v1
+
+--- Turn 3 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (13):
+    - [news] Canadian officials to meet with OpenAI safety team after school shooting
+      https://www.reuters.com/world/canada-summons-openai-safety-team-ottawa-urgent-talks-2026-02-23/
+    - [news] AI safety quake as top OpenAI and Anthropic scientists quit over dire risks
+      https://www.msn.com/en-us/technology/artificial-intelligence/ai-safety-quake-as-top-openai-and-anthropic-scientists-quit-over-dire-risks/ar-AA1WxmRH?ocid=BingNewsVerp
+    - [news] Anthropic’s new AI model raises safety fears as company limits release
+      https://www.msn.com/en-us/news/technology/anthropic-s-new-ai-model-raises-safety-fears-as-company-limits-release/ar-AA21q32O?ocid=BingNewsVerp
+    - [wikipedia] X (social network)
+      https://en.wikipedia.org/wiki/X_(social_network)
+    - [wikipedia] Tesla, Inc.
+      https://en.wikipedia.org/wiki/Tesla%2C_Inc.
+    - [wikipedia] Toyota
+      https://en.wikipedia.org/wiki/Toyota
+    - [wikipedia] Mark Esper
+      https://en.wikipedia.org/wiki/Mark_Esper
+    - [wikipedia] Criticism of Amazon
+      https://en.wikipedia.org/wiki/Criticism_of_Amazon
+    - [arxiv] Learning Dexterous In-Hand Manipulation
+      http://arxiv.org/abs/1808.00177v5
+    - [arxiv] Red Teaming for Large Language Models At Scale: Tackling Hallucinations on Mathe
+      http://arxiv.org/abs/2401.00290v1
+    - [arxiv] Mind the Gap: Comparing Model- vs Agentic-Level Red Teaming with Action-Graph Ob
+      http://arxiv.org/abs/2509.17259v1
+    - [arxiv] OpenAI o1 System Card
+      http://arxiv.org/abs/2412.16720v2
+    - [arxiv] OpenAI's Approach to External Red Teaming for AI Models and Systems
+      http://arxiv.org/abs/2503.16431v1
+
+--- Turn 4 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (15):
+    - [news] NDay, an NVIDIA Inception Member, Launches Self-Service GARAK AI LLM Red Teaming
+      https://www.freep.com/press-release/story/165584/nday-an-nvidia-inception-member-launches-self-service-garak-ai-llm-red-teaming-expanding-continuous-exploitability/
+    - [news] How Zscaler and OpenAI turn zero-trust security into an AI accelerator
+      https://siliconangle.com/2026/04/16/zscaler-openai-turn-zero-trust-security-ai-accelerator/
+    - [news] Spooked by Mythos, Trump suddenly realized AI safety testing might be good
+      https://arstechnica.com/tech-policy/2026/05/everything-that-could-go-wrong-with-trumps-ai-safety-tests-according-to-experts/
+    - [news] How Trump Should Approach AI Talks With China: Targeted Dialogue, Maximum Pressu
+      https://www.cfr.org/articles/how-trump-should-approach-ai-talks-with-china-targeted-dialogue-maximum-pressure
+    - [news] Why AI Safety: The Dilemma Of Profits V.S. Guardrails
+      https://www.forbes.com/sites/geruiwang/2026/02/28/why-ai-safety-the-dilemma-of-profits-vs-guardrails/
+    - [wikipedia] KAI KF-21 Boramae
+      https://en.wikipedia.org/wiki/KAI_KF-21_Boramae
+    - [wikipedia] Assassination of Charlie Kirk
+      https://en.wikipedia.org/wiki/Assassination_of_Charlie_Kirk
+    - [wikipedia] X (social network)
+      https://en.wikipedia.org/wiki/X_(social_network)
+    - [wikipedia] Killing of Alex Pretti
+      https://en.wikipedia.org/wiki/Killing_of_Alex_Pretti
+    - [wikipedia] Epstein files
+      https://en.wikipedia.org/wiki/Epstein_files
+    - [arxiv] Red Teaming for Large Language Models At Scale: Tackling Hallucinations on Mathe
+      http://arxiv.org/abs/2401.00290v1
+    - [arxiv] Mind the Gap: Comparing Model- vs Agentic-Level Red Teaming with Action-Graph Ob
+      http://arxiv.org/abs/2509.17259v1
+    - [arxiv] AI Safety is Stuck in Technical Terms -- A System Safety Response to the Interna
+      http://arxiv.org/abs/2503.04743v1
+    - [arxiv] Data-Centric Safety and Ethical Measures for Data and AI Governance
+      http://arxiv.org/abs/2506.10217v3
+    - [arxiv] Red Teaming AI Red Teaming
+      http://arxiv.org/abs/2507.05538v2
+

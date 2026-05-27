@@ -1,0 +1,120 @@
+=== Claim 09 — Result Metadata ===
+Claim:           최근 OpenAI의 영리 기업 전환은 AI 안전성을 약화시켰다.
+Expected label:  debatable
+Fact label:      None
+Domain:          AI 산업/거버넌스
+Persona:         believer
+Turns completed: 4 / 4
+Cost (this item): $0.0235
+
+Expected APIs:   ['news']
+Actual APIs:     {'news': 20, 'wikipedia': 20}
+API match:       True
+
+Classification (turn 1): debatable
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    debatable
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (10):
+    - [news] Musk wanted $80 billion to colonize Mars, OpenAI president testifies at trial
+      https://www.msn.com/en-us/technology/artificial-intelligence/musk-wanted-80-billion-to-colonize-mars-openai-president-testifies-at-trial/ar-AA22s9jR?ocid=BingNewsVerp
+    - [news] All the evidence revealed so far in Musk v. Altman
+      https://www.theverge.com/ai-artificial-intelligence/920775/evidence-exhibits-elon-musk-sam-altman-openai-trial
+    - [news] Elon Musk and OpenAI leaders face off in court over AI safety concerns
+      https://www.msn.com/en-in/sports/nba/elon-musk-and-openai-leaders-face-off-in-court-over-ai-safety-concerns/ar-AA22A1rC?ocid=BingNewsVerp
+    - [news] OpenAI chief Sam Altman denies betraying Elon Musk, defends for-profit push at t
+      https://www.reuters.com/legal/litigation/openai-chief-altman-take-stand-openai-musk-trial-tuesday-2026-05-12/
+    - [news] Musk testifies he did not read 'fine print' about OpenAI becoming for-profit com
+      https://www.reuters.com/sustainability/boards-policy-regulation/elon-musk-return-witness-stand-cross-examination-by-openais-lawyer-2026-04-30/
+    - [wikipedia] AI boom
+      https://en.wikipedia.org/wiki/AI_boom
+    - [wikipedia] Large language model
+      https://en.wikipedia.org/wiki/Large_language_model
+    - [wikipedia] Big Tech
+      https://en.wikipedia.org/wiki/Big_Tech
+    - [wikipedia] Occupational safety and health
+      https://en.wikipedia.org/wiki/Occupational_safety_and_health
+    - [wikipedia] Views of Elon Musk
+      https://en.wikipedia.org/wiki/Views_of_Elon_Musk
+
+--- Turn 2 ---
+  classification:    debatable
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Workforce housing
+      https://en.wikipedia.org/wiki/Workforce_housing
+    - [wikipedia] AI alignment
+      https://en.wikipedia.org/wiki/AI_alignment
+    - [wikipedia] Machine learning
+      https://en.wikipedia.org/wiki/Machine_learning
+    - [wikipedia] Steven Levitt
+      https://en.wikipedia.org/wiki/Steven_Levitt
+    - [wikipedia] Data center
+      https://en.wikipedia.org/wiki/Data_center
+    - [news] Boeing CEO apologizes to families for aircraft safety failings
+      https://www.yahoo.com/news/boeing-ceo-apologizes-families-aircraft-230044054.html
+    - [news] AI, Democracy And The Politics Of The Kitchen Table
+      https://www.yahoo.com/news/articles/ai-democracy-politics-kitchen-table-130802473.html
+    - [news] Nestlé and Danone are in hot water after delayed infant formula recalls trigger.
+      https://www.yahoo.com/news/us/articles/nestl-danone-hot-water-delayed-102000608.html
+    - [news] Erin Brockovich Asks Americans for Help as She Launches Data Center Map
+      https://www.yahoo.com/news/science/articles/erin-brockovich-asks-americans-help-151926251.html
+    - [news] Live Updates: Tank explosion threat "eliminated" for California chemical leak in
+      https://www.cbsnews.com/losangeles/live-updates/california-chemical-leak-orange-county-garden-grove-emergency-day-5/
+
+--- Turn 3 ---
+  classification:    debatable
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (10):
+    - [news] Cardiol Therapeutics Touts Phase III MAVERIC Timeline for CardiolRx at TD Cowen.
+      https://finance.yahoo.com/news/cardiol-therapeutics-touts-phase-iii-230226821.html
+    - [news] InflaRx Investor Update: Izicopan Set to Take Center Stage in AAV and Renal...
+      https://finance.yahoo.com/sectors/healthcare/articles/inflarx-investor-izicopan-set-center-155313118.html
+    - [news] Incyte Corp (INCY) Q4 2024 Earnings Call Highlights: Strong Revenue Growth and..
+      https://finance.yahoo.com/news/incyte-corp-incy-q4-2024-070416537.html
+    - [news] DP 23/1: FCA Publishes Discussion Paper on Sustainability-Related Governance, In
+      https://www.jdsupra.com/legalnews/dp-23-1-fca-publishes-discussion-paper-1458040/
+    - [news] Token Voting Undermines Crypto Governance And Incentive Alignment
+      https://menafn.com/1110932081/Token-Voting-Undermines-Crypto-Governance-And-Incentive-Alignment
+    - [wikipedia] Biotechnology
+      https://en.wikipedia.org/wiki/Biotechnology
+    - [wikipedia] Timeline of HIV/AIDS
+      https://en.wikipedia.org/wiki/Timeline_of_HIV%2FAIDS
+    - [wikipedia] Genetic engineering
+      https://en.wikipedia.org/wiki/Genetic_engineering
+    - [wikipedia] History of genetic engineering
+      https://en.wikipedia.org/wiki/History_of_genetic_engineering
+    - [wikipedia] Electronic cigarette
+      https://en.wikipedia.org/wiki/Electronic_cigarette
+
+--- Turn 4 ---
+  classification:    debatable
+  evidence_strength: weak
+  evaluator_state:   close
+  sources (10):
+    - [news] Musk wanted $80 billion to colonize Mars, OpenAI president testifies at trial
+      https://www.msn.com/en-us/technology/artificial-intelligence/musk-wanted-80-billion-to-colonize-mars-openai-president-testifies-at-trial/ar-AA22s9jR?ocid=BingNewsVerp
+    - [news] All the evidence revealed so far in Musk v. Altman
+      https://www.theverge.com/ai-artificial-intelligence/920775/evidence-exhibits-elon-musk-sam-altman-openai-trial
+    - [news] Elon Musk and OpenAI leaders face off in court over AI safety concerns
+      https://www.msn.com/en-in/sports/nba/elon-musk-and-openai-leaders-face-off-in-court-over-ai-safety-concerns/ar-AA22A1rC?ocid=BingNewsVerp
+    - [news] OpenAI chief Sam Altman denies betraying Elon Musk, defends for-profit push at t
+      https://www.reuters.com/legal/litigation/openai-chief-altman-take-stand-openai-musk-trial-tuesday-2026-05-12/
+    - [news] Musk testifies he did not read 'fine print' about OpenAI becoming for-profit com
+      https://www.reuters.com/sustainability/boards-policy-regulation/elon-musk-return-witness-stand-cross-examination-by-openais-lawyer-2026-04-30/
+    - [wikipedia] AI boom
+      https://en.wikipedia.org/wiki/AI_boom
+    - [wikipedia] Large language model
+      https://en.wikipedia.org/wiki/Large_language_model
+    - [wikipedia] Big Tech
+      https://en.wikipedia.org/wiki/Big_Tech
+    - [wikipedia] Occupational safety and health
+      https://en.wikipedia.org/wiki/Occupational_safety_and_health
+    - [wikipedia] Views of Elon Musk
+      https://en.wikipedia.org/wiki/Views_of_Elon_Musk
+

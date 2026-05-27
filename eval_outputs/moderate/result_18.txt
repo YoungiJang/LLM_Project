@@ -1,0 +1,160 @@
+=== Claim 18 — Result Metadata ===
+Claim:           실증 연구에 따르면 재택근무는 사무실 근무보다 생산성이 높다.
+Expected label:  debatable
+Fact label:      None
+Domain:          노동
+Persona:         moderate
+Turns completed: 4 / 4
+Cost (this item): $0.0241
+
+Expected APIs:   ['arxiv', 'news']
+Actual APIs:     {'wikipedia': 20, 'news': 20, 'arxiv': 20}
+API match:       True
+
+Classification (turn 1): debatable
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    debatable
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Trip.com Group
+      https://en.wikipedia.org/wiki/Trip.com_Group
+    - [wikipedia] Nicholas Bloom
+      https://en.wikipedia.org/wiki/Nicholas_Bloom
+    - [wikipedia] Telehealth
+      https://en.wikipedia.org/wiki/Telehealth
+    - [wikipedia] Telemetry
+      https://en.wikipedia.org/wiki/Telemetry
+    - [wikipedia] Large language model
+      https://en.wikipedia.org/wiki/Large_language_model
+    - [news] Opinion - Do-it-yourself AI could be the key to work-from-home productivity and.
+      https://www.yahoo.com/news/articles/opinion-yourself-ai-could-key-130000946.html
+    - [news] Opinion - Management failure, not work-from-home, kills productivity
+      https://www.yahoo.com/news/opinion-management-failure-not-home-130000529.html
+    - [news] Opinion - A flexible company is a successful company: Make the workplace work...
+      https://finance.yahoo.com/news/opinion-flexible-company-successful-company-140000023.html
+    - [news] Opinion - Canceling telework for disabled feds is a costly mistake — here’s why
+      https://www.yahoo.com/news/articles/opinion-canceling-telework-disabled-feds-130000656.html
+    - [news] Trump wants federal workers back at their desks. Why that may be harder than it.
+      https://www.yahoo.com/news/trump-wants-federal-workers-back-164756860.html
+    - [arxiv] Prompt Compression in Production Task Orchestration: A Pre-Registered Randomized
+      http://arxiv.org/abs/2603.23525v1
+    - [arxiv] Garbage Collection Makes Rust Easier to Use: A Randomized Controlled Trial of th
+      http://arxiv.org/abs/2110.01098v2
+    - [arxiv] TimeSenCLIP: A Time Series Vision-Language Model for Remote Sensing
+      http://arxiv.org/abs/2508.11919v3
+    - [arxiv] Aggregated Deep Local Features for Remote Sensing Image Retrieval
+      http://arxiv.org/abs/1903.09469v1
+    - [arxiv] Vision-Language Modeling Meets Remote Sensing: Models, Datasets and Perspectives
+      http://arxiv.org/abs/2505.14361v1
+
+--- Turn 2 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Autism
+      https://en.wikipedia.org/wiki/Autism
+    - [wikipedia] Large language model
+      https://en.wikipedia.org/wiki/Large_language_model
+    - [wikipedia] Flipped classroom
+      https://en.wikipedia.org/wiki/Flipped_classroom
+    - [wikipedia] Telehealth
+      https://en.wikipedia.org/wiki/Telehealth
+    - [wikipedia] Air pollution
+      https://en.wikipedia.org/wiki/Air_pollution
+    - [news] Top Remote Work Statistics And Trends
+      https://www.forbes.com/advisor/business/remote-work-statistics/
+    - [news] Remote Employees Remain Highly Productive, a New Survey Says
+      https://www.inc.com/kit-eaton/remote-employees-remain-highly-productive-a-new-survey-says/91248497
+    - [news] The Fallacies Of Return To Office Mandates: Embracing Hybrid Work
+      https://www.forbes.com/councils/forbesbusinesscouncil/2024/06/05/the-fallacies-of-return-to-office-mandates-embracing-hybrid-work/
+    - [news] Who Really Benefits From the Great Remote-Work Experiment?
+      https://www.theatlantic.com/podcasts/archive/2024/06/remote-work-study-women/678582/
+    - [news] Remote Work Productivity Hacks: Quick Wins for Busy Professionals
+      https://www.onrec.com/news/news-archive/remote-work-productivity-hacks-quick-wins-for-busy-professionals
+    - [arxiv] Prompt Compression in Production Task Orchestration: A Pre-Registered Randomized
+      http://arxiv.org/abs/2603.23525v1
+    - [arxiv] Garbage Collection Makes Rust Easier to Use: A Randomized Controlled Trial of th
+      http://arxiv.org/abs/2110.01098v2
+    - [arxiv] TimeSenCLIP: A Time Series Vision-Language Model for Remote Sensing
+      http://arxiv.org/abs/2508.11919v3
+    - [arxiv] Aggregated Deep Local Features for Remote Sensing Image Retrieval
+      http://arxiv.org/abs/1903.09469v1
+    - [arxiv] Vision-Language Modeling Meets Remote Sensing: Models, Datasets and Perspectives
+      http://arxiv.org/abs/2505.14361v1
+
+--- Turn 3 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [arxiv] A Comparative Study of Removal Noise from Remote Sensing Image
+      http://arxiv.org/abs/1002.1148v1
+    - [arxiv] Aggregated Deep Local Features for Remote Sensing Image Retrieval
+      http://arxiv.org/abs/1903.09469v1
+    - [arxiv] TimeSenCLIP: A Time Series Vision-Language Model for Remote Sensing
+      http://arxiv.org/abs/2508.11919v3
+    - [arxiv] Vision-Language Modeling Meets Remote Sensing: Models, Datasets and Perspectives
+      http://arxiv.org/abs/2505.14361v1
+    - [arxiv] Clinical Productivity System - A Decision Support Model
+      http://arxiv.org/abs/1206.0021v1
+    - [wikipedia] Usability
+      https://en.wikipedia.org/wiki/Usability
+    - [wikipedia] Information technology management
+      https://en.wikipedia.org/wiki/Information_technology_management
+    - [wikipedia] History of climate change science
+      https://en.wikipedia.org/wiki/History_of_climate_change_science
+    - [wikipedia] Leadership
+      https://en.wikipedia.org/wiki/Leadership
+    - [wikipedia] Cooper's hawk
+      https://en.wikipedia.org/wiki/Cooper's_hawk
+    - [news] Managerial bias — not remote work — is sabotaging today’s workplace
+      https://thehill.com/opinion/technology/5400428-proximity-bias-discriminates-remote-workers/
+    - [news] Remote work, not AI, credited for US productivity growth
+      https://www.msn.com/en-us/news/insight/burnout-and-ai-layoffs-reshape-u-s-job-market-in-2026/gm-GM3B25D4EB?ocid=BingNewsVerp
+    - [news] Who Really Benefits From the Great Remote-Work Experiment?
+      https://www.theatlantic.com/podcasts/archive/2024/06/remote-work-study-women/678582/
+    - [news] The Fallacies Of Return To Office Mandates: Embracing Hybrid Work
+      https://www.forbes.com/councils/forbesbusinesscouncil/2024/06/05/the-fallacies-of-return-to-office-mandates-embracing-hybrid-work/
+    - [news] Majority of Remote Workers Would Quit If Forced to Return to Office: Study
+      https://www.newsweek.com/majority-remote-workers-would-quit-if-forced-return-office-1952885
+
+--- Turn 4 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (15):
+    - [wikipedia] Trip.com Group
+      https://en.wikipedia.org/wiki/Trip.com_Group
+    - [wikipedia] Nicholas Bloom
+      https://en.wikipedia.org/wiki/Nicholas_Bloom
+    - [wikipedia] Telehealth
+      https://en.wikipedia.org/wiki/Telehealth
+    - [wikipedia] Telemetry
+      https://en.wikipedia.org/wiki/Telemetry
+    - [wikipedia] Large language model
+      https://en.wikipedia.org/wiki/Large_language_model
+    - [news] Remote Symptom Monitoring of Patients With Advanced Lung Cancer (The ProWide Stu
+      https://ascopubs.org/doi/10.1200/OP-24-00562
+    - [news] NCATS award to support multi-site study evaluating remote trials
+      https://www.buffalo.edu/provost/messages.host.html/content/shared/university/news/ub-reporter-articles/stories/2024/11/ncats-remote-trials.detail.html
+    - [news] The return-to-the-office trend backfires
+      https://thehill.com/opinion/technology/5775420-remote-first-productivity-growth/
+    - [news] Remote work ‘a refuge’ from gender discrimination, study finds
+      https://www.hrdive.com/news/remote-work-a-refuge-from-gender-discrimination/741278/
+    - [news] Managerial bias — not remote work — is sabotaging today’s workplace
+      https://thehill.com/opinion/technology/5400428-proximity-bias-discriminates-remote-workers/
+    - [arxiv] Prompt Compression in Production Task Orchestration: A Pre-Registered Randomized
+      http://arxiv.org/abs/2603.23525v1
+    - [arxiv] Garbage Collection Makes Rust Easier to Use: A Randomized Controlled Trial of th
+      http://arxiv.org/abs/2110.01098v2
+    - [arxiv] TimeSenCLIP: A Time Series Vision-Language Model for Remote Sensing
+      http://arxiv.org/abs/2508.11919v3
+    - [arxiv] Aggregated Deep Local Features for Remote Sensing Image Retrieval
+      http://arxiv.org/abs/1903.09469v1
+    - [arxiv] Vision-Language Modeling Meets Remote Sensing: Models, Datasets and Perspectives
+      http://arxiv.org/abs/2505.14361v1
+

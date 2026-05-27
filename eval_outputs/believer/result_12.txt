@@ -1,0 +1,150 @@
+=== Claim 12 — Result Metadata ===
+Claim:           최근 연구에 따르면 대형 언어 모델은 진정한 의미의 추론을 수행하지 못한다.
+Expected label:  debatable
+Fact label:      None
+Domain:          AI/인지과학
+Persona:         believer
+Turns completed: 4 / 4
+Cost (this item): $0.0254
+
+Expected APIs:   ['arxiv']
+Actual APIs:     {'arxiv': 20, 'wikipedia': 20, 'news': 15}
+API match:       True
+
+Classification (turn 1): debatable
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    debatable
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (15):
+    - [arxiv] Making Large Language Models Better Reasoners with Alignment
+      http://arxiv.org/abs/2309.02144v1
+    - [arxiv] Large Language Models Reasoning Abilities Under Non-Ideal Conditions After RL-Fi
+      http://arxiv.org/abs/2508.04848v1
+    - [arxiv] CROP: Token-Efficient Reasoning in Large Language Models via Regularized Prompt 
+      http://arxiv.org/abs/2604.14214v1
+    - [arxiv] Response: Emergent analogical reasoning in large language models
+      http://arxiv.org/abs/2308.16118v2
+    - [arxiv] ARS: Adaptive Reasoning Suppression for Efficient Large Reasoning Language Model
+      http://arxiv.org/abs/2510.00071v2
+    - [wikipedia] Large language model
+      https://en.wikipedia.org/wiki/Large_language_model
+    - [wikipedia] Generative pre-trained transformer
+      https://en.wikipedia.org/wiki/Generative_pre-trained_transformer
+    - [wikipedia] Prompt engineering
+      https://en.wikipedia.org/wiki/Prompt_engineering
+    - [wikipedia] Sparrow (chatbot)
+      https://en.wikipedia.org/wiki/Sparrow_(chatbot)
+    - [wikipedia] Artificial intelligence
+      https://en.wikipedia.org/wiki/Artificial_intelligence
+    - [news] ‘Reasoning’ AI models have become a trend, for better or worse
+      https://techcrunch.com/2024/12/14/reasoning-ai-models-have-become-a-trend-for-better-or-worse/
+    - [news] Neuro-Symbolic AI Wins On Long-Horizon Reasoning And Does So At A Lower Energy..
+      https://tech.yahoo.com/ai/articles/neuro-symbolic-ai-wins-long-071500294.html
+    - [news] Intelligence Illusion: What Apple’s AI Study Reveals About Reasoning
+      https://www.forbes.com/sites/corneliawalther/2025/06/09/intelligence-illusion-what-apples-ai-study-reveals-about-reasoning/
+    - [news] Improving AI-Generated Mental Health Advice By Dipping Into The Prompt...
+      https://tech.yahoo.com/articles/improving-ai-generated-mental-health-071500576.html
+    - [news] Apple study reveals major AI flaw in OpenAI, Google, and Meta LLMs
+      https://tech.yahoo.com/ai/articles/apple-study-reveals-major-ai-172102183.html
+
+--- Turn 2 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [arxiv] Multimodal Reasoning with LLM for Encrypted Traffic Interpretation: A Benchmark
+      http://arxiv.org/abs/2604.08140v1
+    - [arxiv] Navigating the State of Cognitive Flow: Context-Aware AI Interventions for Effec
+      http://arxiv.org/abs/2504.16021v1
+    - [arxiv] V-STaR: Benchmarking Video-LLMs on Video Spatio-Temporal Reasoning
+      http://arxiv.org/abs/2503.11495v1
+    - [arxiv] Measuring Five-Nines Reliability: Sample-Efficient LLM Evaluation in Saturated B
+      http://arxiv.org/abs/2605.11209v1
+    - [arxiv] LongCoT: Benchmarking Long-Horizon Chain-of-Thought Reasoning
+      http://arxiv.org/abs/2604.14140v1
+    - [news] Mastering LLM monitoring for reliable AI at scale
+      https://www.msn.com/en-us/news/other/mastering-llm-monitoring-for-reliable-ai-at-scale/gm-GM1D405AD9?ocid=BingNewsVerp
+    - [news] Has this stealth startup finally cracked the code on enterprise AI agent reliabi
+      https://venturebeat.com/ai/has-this-stealth-startup-finally-cracked-the-code-on-enterprise-ai-agent
+    - [news] This LLM framework takes a first stab at benchmarking Big AI's compliance with..
+      https://techcrunch.com/2024/10/16/latticeflows-llm-framework-takes-a-first-stab-at-benchmarking-big-ais-compliance-with-eu-ai-act/
+    - [news] Impact of prompt engineering on large language models for risk of bias assessmen
+      https://ebm.bmj.com/content/early/2026/05/17/bmjebm-2025-114055
+    - [news] TII announces Falcon-H1 model availability as NVIDIA NIM to deliver sovereign AI
+      https://www.zawya.com/en/press-release/companies-news/tii-announces-falcon-h1-model-availability-as-nvidia-nim-to-deliver-sovereign-ai-at-scale-rk19mvu7
+    - [wikipedia] Large language model
+      https://en.wikipedia.org/wiki/Large_language_model
+    - [wikipedia] Google Gemini
+      https://en.wikipedia.org/wiki/Google_Gemini
+    - [wikipedia] Gemini (language model)
+      https://en.wikipedia.org/wiki/Gemini_(language_model)
+    - [wikipedia] Prompt engineering
+      https://en.wikipedia.org/wiki/Prompt_engineering
+    - [wikipedia] Grok (chatbot)
+      https://en.wikipedia.org/wiki/Grok_(chatbot)
+
+--- Turn 3 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [news] How to choose the best LLM for your Task?
+      https://www.thewindowsclub.com/how-to-choose-the-best-llm-for-your-task
+    - [news] Cognite Launches the Cognite Atlas AI™ LLM & SLM Benchmark Report for Industrial
+      https://www.businesswire.com/news/home/20241013808704/en/Cognite-Launches-the-Cognite-Atlas-AI-LLM-SLM-Benchmark-Report-for-Industrial-Agents
+    - [news] AI’s understanding and reasoning skills can’t be assessed by current tests
+      https://www.sciencenews.org/article/ai-understanding-reasoning-skill-assess
+    - [news] Inception Launches Mercury 2, the Fastest Reasoning LLM — 5x Faster Than Leading
+      https://www.businesswire.com/news/home/20260224034496/en/Inception-Launches-Mercury-2-the-Fastest-Reasoning-LLM-5x-Faster-Than-Leading-Speed-Optimized-LLMs-with-Dramatically-Lower-Inference-Cost
+    - [news] Deepseek-R1-Lite Open Source LLM Fully Tested
+      https://www.geeky-gadgets.com/deepseek-r1-lite-advanced-features/
+    - [wikipedia] Reasoning model
+      https://en.wikipedia.org/wiki/Reasoning_model
+    - [wikipedia] Hallucination (artificial intelligence)
+      https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)
+    - [wikipedia] Three-Body
+      https://en.wikipedia.org/wiki/Three-Body
+    - [wikipedia] Temple Mount
+      https://en.wikipedia.org/wiki/Temple_Mount
+    - [wikipedia] Pompeii
+      https://en.wikipedia.org/wiki/Pompeii
+    - [arxiv] ChaosBench-Logic: A Benchmark for Logical and Symbolic Reasoning on Chaotic Dyna
+      http://arxiv.org/abs/2601.01982v1
+    - [arxiv] LogicVista: Multimodal LLM Logical Reasoning Benchmark in Visual Contexts
+      http://arxiv.org/abs/2407.04973v1
+    - [arxiv] Measuring Five-Nines Reliability: Sample-Efficient LLM Evaluation in Saturated B
+      http://arxiv.org/abs/2605.11209v1
+    - [arxiv] Navigating the State of Cognitive Flow: Context-Aware AI Interventions for Effec
+      http://arxiv.org/abs/2504.16021v1
+    - [arxiv] None of the Others: a General Technique to Distinguish Reasoning from Memorizati
+      http://arxiv.org/abs/2502.12896v5
+
+--- Turn 4 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (10):
+    - [arxiv] Measuring Five-Nines Reliability: Sample-Efficient LLM Evaluation in Saturated B
+      http://arxiv.org/abs/2605.11209v1
+    - [arxiv] Navigating the State of Cognitive Flow: Context-Aware AI Interventions for Effec
+      http://arxiv.org/abs/2504.16021v1
+    - [arxiv] Evaluating LLM-driven User-Intent Formalization for Verification-Aware Languages
+      http://arxiv.org/abs/2406.09757v2
+    - [arxiv] None of the Others: a General Technique to Distinguish Reasoning from Memorizati
+      http://arxiv.org/abs/2502.12896v5
+    - [arxiv] REST: Stress Testing Large Reasoning Models by Asking Multiple Problems at Once
+      http://arxiv.org/abs/2507.10541v2
+    - [wikipedia] Large language model
+      https://en.wikipedia.org/wiki/Large_language_model
+    - [wikipedia] Prompt engineering
+      https://en.wikipedia.org/wiki/Prompt_engineering
+    - [wikipedia] Theoretical computer science
+      https://en.wikipedia.org/wiki/Theoretical_computer_science
+    - [wikipedia] Origin of language
+      https://en.wikipedia.org/wiki/Origin_of_language
+    - [wikipedia] Glossary of computer science
+      https://en.wikipedia.org/wiki/Glossary_of_computer_science
+

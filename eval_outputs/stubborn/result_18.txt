@@ -1,0 +1,150 @@
+=== Claim 18 — Result Metadata ===
+Claim:           실증 연구에 따르면 재택근무는 사무실 근무보다 생산성이 높다.
+Expected label:  debatable
+Fact label:      None
+Domain:          노동
+Persona:         stubborn
+Turns completed: 4 / 4
+Cost (this item): $0.0211
+
+Expected APIs:   ['arxiv', 'news']
+Actual APIs:     {'wikipedia': 20, 'news': 20, 'arxiv': 15}
+API match:       True
+
+Classification (turn 1): debatable
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    debatable
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Trip.com Group
+      https://en.wikipedia.org/wiki/Trip.com_Group
+    - [wikipedia] Nicholas Bloom
+      https://en.wikipedia.org/wiki/Nicholas_Bloom
+    - [wikipedia] Telehealth
+      https://en.wikipedia.org/wiki/Telehealth
+    - [wikipedia] Telemetry
+      https://en.wikipedia.org/wiki/Telemetry
+    - [wikipedia] Large language model
+      https://en.wikipedia.org/wiki/Large_language_model
+    - [news] Remote Symptom Monitoring of Patients With Advanced Lung Cancer (The ProWide Stu
+      https://ascopubs.org/doi/10.1200/OP-24-00562
+    - [news] Opinion - Do-it-yourself AI could be the key to work-from-home productivity and.
+      https://www.yahoo.com/news/articles/opinion-yourself-ai-could-key-130000946.html
+    - [news] NCATS award to support multi-site study evaluating remote trials
+      https://www.buffalo.edu/provost/messages.host.html/content/shared/university/news/ub-reporter-articles/stories/2024/11/ncats-remote-trials.detail.html
+    - [news] Opinion - Management failure, not work-from-home, kills productivity
+      https://www.yahoo.com/news/opinion-management-failure-not-home-130000529.html
+    - [news] Opinion - A flexible company is a successful company: Make the workplace work...
+      https://finance.yahoo.com/news/opinion-flexible-company-successful-company-140000023.html
+    - [arxiv] Prompt Compression in Production Task Orchestration: A Pre-Registered Randomized
+      http://arxiv.org/abs/2603.23525v1
+    - [arxiv] Garbage Collection Makes Rust Easier to Use: A Randomized Controlled Trial of th
+      http://arxiv.org/abs/2110.01098v2
+    - [arxiv] TimeSenCLIP: A Time Series Vision-Language Model for Remote Sensing
+      http://arxiv.org/abs/2508.11919v3
+    - [arxiv] Aggregated Deep Local Features for Remote Sensing Image Retrieval
+      http://arxiv.org/abs/1903.09469v1
+    - [arxiv] Vision-Language Modeling Meets Remote Sensing: Models, Datasets and Perspectives
+      http://arxiv.org/abs/2505.14361v1
+
+--- Turn 2 ---
+  classification:    debatable
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Remote work
+      https://en.wikipedia.org/wiki/Remote_work
+    - [wikipedia] Workforce productivity
+      https://en.wikipedia.org/wiki/Workforce_productivity
+    - [wikipedia] Pair programming
+      https://en.wikipedia.org/wiki/Pair_programming
+    - [wikipedia] Work–life balance
+      https://en.wikipedia.org/wiki/Work%E2%80%93life_balance
+    - [wikipedia] Big Five personality traits
+      https://en.wikipedia.org/wiki/Big_Five_personality_traits
+    - [news] Ex-Google CEO walked back claims that remote work is hurting the company. But a.
+      https://www.yahoo.com/tech/ex-google-ceo-walked-back-020200586.html
+    - [news] Does working from home reinforce gender stereotypes?
+      https://finance.yahoo.com/news/working-from-home-gender-stereotypes-050046727.html
+    - [news] Why 'mouse jiggling' is a symptom of a bigger work problem
+      https://finance.yahoo.com/news/why-mouse-jiggling-symptom-bigger-050003094.html
+    - [news] Get to the office if you want a promotion, ex-Google CEO says
+      https://www.yahoo.com/tech/office-want-promotion-ex-google-092101223.html
+    - [news] The word business leaders use to hedge when staff ask if they're planning a...
+      https://finance.yahoo.com/news/word-business-leaders-hedge-staff-004755064.html
+    - [arxiv] A Comparative Study of Removal Noise from Remote Sensing Image
+      http://arxiv.org/abs/1002.1148v1
+    - [arxiv] A new multivariate meta-analysis model for many variates and few studies
+      http://arxiv.org/abs/2009.11808v4
+    - [arxiv] Aggregated Deep Local Features for Remote Sensing Image Retrieval
+      http://arxiv.org/abs/1903.09469v1
+    - [arxiv] TimeSenCLIP: A Time Series Vision-Language Model for Remote Sensing
+      http://arxiv.org/abs/2508.11919v3
+    - [arxiv] Vision-Language Modeling Meets Remote Sensing: Models, Datasets and Perspectives
+      http://arxiv.org/abs/2505.14361v1
+
+--- Turn 3 ---
+  classification:    debatable
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (15):
+    - [news] SHOCKER! Study Says Working From Home Makes People Happy
+      https://www.blackenterprise.com/study-australia-work-home-remote-happy/
+    - [news] Opinion - Do-it-yourself AI could be the key to work-from-home productivity and.
+      https://www.yahoo.com/news/articles/opinion-yourself-ai-could-key-130000946.html
+    - [news] Salary isn’t everything: Why flexibility to work remotely is the future of work
+      https://thehill.com/opinion/finance/5859902-hybrid-work-performance-retention/
+    - [news] Opinion - Management failure, not work-from-home, kills productivity
+      https://www.yahoo.com/news/opinion-management-failure-not-home-130000529.html
+    - [news] Opinion - Salary isn’t everything: Why flexibility to work remotely is the futur
+      https://finance.yahoo.com/sectors/technology/articles/opinion-salary-isn-t-everything-130000650.html
+    - [arxiv] A Comparative Study of Removal Noise from Remote Sensing Image
+      http://arxiv.org/abs/1002.1148v1
+    - [arxiv] Prompt Compression in Production Task Orchestration: A Pre-Registered Randomized
+      http://arxiv.org/abs/2603.23525v1
+    - [arxiv] Aggregated Deep Local Features for Remote Sensing Image Retrieval
+      http://arxiv.org/abs/1903.09469v1
+    - [arxiv] TimeSenCLIP: A Time Series Vision-Language Model for Remote Sensing
+      http://arxiv.org/abs/2508.11919v3
+    - [arxiv] Vision-Language Modeling Meets Remote Sensing: Models, Datasets and Perspectives
+      http://arxiv.org/abs/2505.14361v1
+    - [wikipedia] Nicholas Bloom
+      https://en.wikipedia.org/wiki/Nicholas_Bloom
+    - [wikipedia] Telehealth
+      https://en.wikipedia.org/wiki/Telehealth
+    - [wikipedia] Telemetry
+      https://en.wikipedia.org/wiki/Telemetry
+    - [wikipedia] Large language model
+      https://en.wikipedia.org/wiki/Large_language_model
+    - [wikipedia] Health human resources
+      https://en.wikipedia.org/wiki/Health_human_resources
+
+--- Turn 4 ---
+  classification:    debatable
+  evidence_strength: weak
+  evaluator_state:   close
+  sources (10):
+    - [news] Opinion - Do-it-yourself AI could be the key to work-from-home productivity and.
+      https://www.yahoo.com/news/articles/opinion-yourself-ai-could-key-130000946.html
+    - [news] Opinion - Management failure, not work-from-home, kills productivity
+      https://www.yahoo.com/news/opinion-management-failure-not-home-130000529.html
+    - [news] Opinion - A flexible company is a successful company: Make the workplace work...
+      https://finance.yahoo.com/news/opinion-flexible-company-successful-company-140000023.html
+    - [news] Opinion - Canceling telework for disabled feds is a costly mistake — here’s why
+      https://www.yahoo.com/news/articles/opinion-canceling-telework-disabled-feds-130000656.html
+    - [news] Trump wants federal workers back at their desks. Why that may be harder than it.
+      https://www.yahoo.com/news/trump-wants-federal-workers-back-164756860.html
+    - [wikipedia] Trip.com Group
+      https://en.wikipedia.org/wiki/Trip.com_Group
+    - [wikipedia] Nicholas Bloom
+      https://en.wikipedia.org/wiki/Nicholas_Bloom
+    - [wikipedia] Telehealth
+      https://en.wikipedia.org/wiki/Telehealth
+    - [wikipedia] Telemetry
+      https://en.wikipedia.org/wiki/Telemetry
+    - [wikipedia] Large language model
+      https://en.wikipedia.org/wiki/Large_language_model
+

@@ -1,0 +1,130 @@
+=== Claim 07 — Result Metadata ===
+Claim:           이버멕틴은 코로나19 치료에 효과적이라는 임상 증거가 충분하다.
+Expected label:  clearly_false
+Fact label:      False
+Domain:          의학/팬데믹
+Persona:         stubborn
+Turns completed: 4 / 4
+Cost (this item): $0.0233
+
+Expected APIs:   ['arxiv', 'news']
+Actual APIs:     {'news': 20, 'wikipedia': 20, 'arxiv': 5}
+API match:       True
+
+Classification (turn 1): debatable
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [news] Ivermectin is being touted as a cure for COVID and cancer. Here’s what science s
+      https://www.yahoo.com/news/ivermectin-being-touted-cure-covid-150006467.html
+    - [news] Ivermectin was touted as a cure for COVID, now it’s being tested for cancer. But
+      https://theconversation.com/ivermectin-was-touted-as-a-cure-for-covid-now-its-being-tested-for-cancer-but-what-can-it-actually-treat-276180
+    - [news] Do Hydroxychloroquine and Ivermectin Work?
+      https://sports.yahoo.com/articles/hydroxychloroquine-ivermectin-184516678.html
+    - [news] Do Face Masks Work?
+      https://sports.yahoo.com/articles/face-masks-181502165.html
+    - [news] Most COVID-19 Drugs Fall Short, Meta-Analysis Confirms
+      https://www.medscape.com/viewarticle/most-covid-19-drugs-fall-short-meta-analysis-confirms-2025a1000ib6
+    - [wikipedia] Ivermectin
+      https://en.wikipedia.org/wiki/Ivermectin
+    - [wikipedia] Ivermectin during the COVID-19 pandemic
+      https://en.wikipedia.org/wiki/Ivermectin_during_the_COVID-19_pandemic
+    - [wikipedia] COVID-19 pandemic
+      https://en.wikipedia.org/wiki/COVID-19_pandemic
+    - [wikipedia] Treatment and management of COVID-19
+      https://en.wikipedia.org/wiki/Treatment_and_management_of_COVID-19
+    - [wikipedia] COVID-19 misinformation
+      https://en.wikipedia.org/wiki/COVID-19_misinformation
+
+--- Turn 2 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Clinical trial
+      https://en.wikipedia.org/wiki/Clinical_trial
+    - [wikipedia] Vitamin D
+      https://en.wikipedia.org/wiki/Vitamin_D
+    - [wikipedia] Randomized controlled trial
+      https://en.wikipedia.org/wiki/Randomized_controlled_trial
+    - [wikipedia] Adaptive design (medicine)
+      https://en.wikipedia.org/wiki/Adaptive_design_(medicine)
+    - [wikipedia] Timeline of disability rights in the United States
+      https://en.wikipedia.org/wiki/Timeline_of_disability_rights_in_the_United_States
+    - [news] FDA Drafts Guidance on Demonstrating Substantial Evidence of Effectiveness
+      https://www.raps.org/resource/fda-drafts-guidance-on-demonstrating-substantial-e.html
+    - [news] FDA’s new real-world evidence program offers early agency feedback
+      https://www.raps.org/resource/fdas-new-real-world-evidence-program-offers-early.html
+    - [news] Real World Evidence: FDA Finalizes Guidance on Using EHRs in Clinical Studies
+      https://www.raps.org/resource/real-world-evidence-fda-finalizes-guidance-on-usi.html
+    - [news] 5 Key Regulatory Shifts From Makary's Era at the FDA
+      https://www.ajmc.com/view/5-key-regulatory-shifts-from-makary-s-era-at-the-fda
+    - [news] New meta-analysis demonstrates that access to the GeneSight test can significant
+      https://www.eurekalert.org/news-releases/1096969
+
+--- Turn 3 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Randomized controlled trial
+      https://en.wikipedia.org/wiki/Randomized_controlled_trial
+    - [wikipedia] Scientific consensus
+      https://en.wikipedia.org/wiki/Scientific_consensus
+    - [wikipedia] Information and communications technology
+      https://en.wikipedia.org/wiki/Information_and_communications_technology
+    - [wikipedia] Shared decision-making in medicine
+      https://en.wikipedia.org/wiki/Shared_decision-making_in_medicine
+    - [wikipedia] Social media use in politics
+      https://en.wikipedia.org/wiki/Social_media_use_in_politics
+    - [news] Study Finds FDA Used Evidence, Not Politics, in Abortion Pill Decisions
+      https://www.empr.com/news/study-finds-fda-used-evidence-not-politics-in-abortion-pill-decisions/
+    - [news] FDA blocks publication of COVID, shingles vaccine safety studies: NYT
+      https://www.fiercepharma.com/pharma/fda-blocks-publication-covid-shingles-vaccine-safety-studies-nyt
+    - [news] The FDA Is Approving Drugs Without Evidence They Work
+      https://www.msn.com/en-us/health/other/the-fda-is-approving-drugs-without-evidence-they-work/ar-AA1G9znW?ocid=BingNewsVerp
+    - [news] Harmonized pregnancy studies to enhance external and internal validity of drug s
+      https://www.frontiersin.org/research-topics/81000/harmonized-pregnancy-studies-to-enhance-external-and-internal-validity-of-drug-safety-studies-evaluating-real-world-evidence-an-expert-consensus-on-definitions-and-methods
+    - [news] How A Leadership Change At The FDA Could Impact Daily Lives
+      https://www.forbes.com/sites/briancastrucci/2026/05/18/how-a-leadership-change-at-the-fda-could-impact-daily-lives/
+
+--- Turn 4 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (15):
+    - [wikipedia] Ivermectin
+      https://en.wikipedia.org/wiki/Ivermectin
+    - [wikipedia] Ivermectin during the COVID-19 pandemic
+      https://en.wikipedia.org/wiki/Ivermectin_during_the_COVID-19_pandemic
+    - [wikipedia] COVID-19 misinformation
+      https://en.wikipedia.org/wiki/COVID-19_misinformation
+    - [wikipedia] Treatment and management of COVID-19
+      https://en.wikipedia.org/wiki/Treatment_and_management_of_COVID-19
+    - [wikipedia] COVID-19 pandemic
+      https://en.wikipedia.org/wiki/COVID-19_pandemic
+    - [news] Do Hydroxychloroquine and Ivermectin Work?
+      https://sports.yahoo.com/articles/hydroxychloroquine-ivermectin-184516678.html
+    - [news] Study finds ivermectin lowers malaria infection rates when added to existing con
+      https://medicalxpress.com/news/2025-07-ivermectin-lowers-malaria-infection-added.html
+    - [news] In severe scabies, standard-dose ivermectin superior to high dose
+      https://www.msn.com/en-us/science/microbiology/in-severe-scabies-standard-dose-ivermectin-superior-to-high-dose/ar-AA22IA0o?ocid=BingNewsVerp
+    - [news] Greene slammed for false ivermectin claim amid hantavirus outbreak
+      https://www.msn.com/en-us/news/other/greene-slammed-for-false-ivermectin-claim-amid-hantavirus-outbreak/gm-GM7EED5C2C?ocid=BingNewsVerp
+    - [news] Amid Hantavirus Panic, the Ivermectin Super Fans Are Back
+      https://theintercept.com/2026/05/08/hantavirus-cruise-ship-outbreak-ivermectin-covid/
+    - [arxiv] An Efficient Mixture of Deep and Machine Learning Models for COVID-19 and Tuberc
+      http://arxiv.org/abs/2007.08223v1
+    - [arxiv] Bayesian hypothesis testing and hierarchical modelling of ivermectin effectivene
+      http://arxiv.org/abs/2109.13739v2
+    - [arxiv] Dietary Supplements and Nutraceuticals Under Investigation for COVID-19 Preventi
+      http://arxiv.org/abs/2102.02250v1
+    - [arxiv] Endpoints for randomized controlled clinical trials for COVID-19 treatments
+      http://arxiv.org/abs/2006.10533v1
+    - [arxiv] An Open-Publishing Response to the COVID-19 Infodemic
+      http://arxiv.org/abs/2109.08633v1
+

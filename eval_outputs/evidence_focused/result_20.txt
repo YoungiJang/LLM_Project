@@ -1,0 +1,128 @@
+=== Claim 20 — Result Metadata ===
+Claim:           클래식 음악이 재즈보다 더 가치 있는 예술이다.
+Expected label:  subjective_opinion
+Fact label:      None
+Domain:          음악
+Persona:         evidence_focused
+Turns completed: 4 / 4
+Cost (this item): $0.0264
+
+Expected APIs:   ['wikipedia']
+Actual APIs:     {'wikipedia': 20, 'news': 9, 'arxiv': 15}
+API match:       True
+
+Classification (turn 1): subjective_opinion
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    subjective_opinion
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (5):
+    - [wikipedia] Jazz
+      https://en.wikipedia.org/wiki/Jazz
+    - [wikipedia] Marxist cultural analysis
+      https://en.wikipedia.org/wiki/Marxist_cultural_analysis
+    - [wikipedia] Music and politics
+      https://en.wikipedia.org/wiki/Music_and_politics
+    - [wikipedia] Timeline of musical events
+      https://en.wikipedia.org/wiki/Timeline_of_musical_events
+    - [wikipedia] Glossary of music terminology
+      https://en.wikipedia.org/wiki/Glossary_of_music_terminology
+
+--- Turn 2 ---
+  classification:    subjective_opinion
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (14):
+    - [wikipedia] Rock music
+      https://en.wikipedia.org/wiki/Rock_music
+    - [wikipedia] Music therapy
+      https://en.wikipedia.org/wiki/Music_therapy
+    - [wikipedia] Lemonade (album)
+      https://en.wikipedia.org/wiki/Lemonade_(album)
+    - [wikipedia] Cultural impact of Gilbert and Sullivan
+      https://en.wikipedia.org/wiki/Cultural_impact_of_Gilbert_and_Sullivan
+    - [wikipedia] Theodor W. Adorno
+      https://en.wikipedia.org/wiki/Theodor_W._Adorno
+    - [news] Jazz and classical music have become simpler, a new study finds
+      https://www.sciencenews.org/article/jazz-classical-music-simpler-pop-rock
+    - [news] From Madrid to Carnegie Hall: Europe’s New Cultural Capital Shapes the Next Gene
+      https://www.nytimes.com/paidpost/the-reina-sofia-school-orchestra/europes-new-cultural-capital-shapes-the-next-generation-of-classical-musicians.html
+    - [news] Jo-Yu Chen: For Taiwanese Pianist Classical Jazz is a Gas
+      https://www.allaboutjazz.com/jo-yu-chen-for-taiwanese-pianist-classical-jazz-hybrid-is-a-gas-interview
+    - [news] Music Therapy for Fragile Infants
+      https://www.psychologytoday.com/us/blog/healing-through-creativity/202512/music-therapy-for-fragile-infants
+    - [arxiv] GlobalMood: A cross-cultural benchmark for music emotion recognition
+      http://arxiv.org/abs/2505.09539v2
+    - [arxiv] The Jazz Transformer on the Front Line: Exploring the Shortcomings of AI-compose
+      http://arxiv.org/abs/2008.01307v1
+    - [arxiv] Optical Music Recognition of Jazz Lead Sheets
+      http://arxiv.org/abs/2509.05329v1
+    - [arxiv] Exploring Transformer-Based Music Overpainting for Jazz Piano Variations
+      http://arxiv.org/abs/2412.04610v1
+    - [arxiv] The Extended Evolutionary Synthesis Facilitates Evolutionary Models of Culture C
+      http://arxiv.org/abs/1812.00143v4
+
+--- Turn 3 ---
+  classification:    subjective_opinion
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Music
+      https://en.wikipedia.org/wiki/Music
+    - [wikipedia] Music theory
+      https://en.wikipedia.org/wiki/Music_theory
+    - [wikipedia] Kaikhosru Shapurji Sorabji
+      https://en.wikipedia.org/wiki/Kaikhosru_Shapurji_Sorabji
+    - [wikipedia] Western culture
+      https://en.wikipedia.org/wiki/Western_culture
+    - [wikipedia] Role of Christianity in Western society
+      https://en.wikipedia.org/wiki/Role_of_Christianity_in_Western_society
+    - [news] Study uncovers some underlying reasons why music therapy helps treat depression
+      https://www.aol.com/study-uncovers-underlying-reasons-why-090000114.html
+    - [news] U of M music program a key driver of city musical renaissance | Opinion
+      https://www.yahoo.com/entertainment/music/articles/u-m-music-program-key-100443225.html
+    - [news] Researchers uncover stunning effects of music to lower heart rates and blood...
+      https://www.yahoo.com/news/articles/stunning-effects-music-intensive-care-111737094.html
+    - [news] If You’ve Got Musical Abilities, These College Majors Might Be Your Perfect Matc
+      https://www.yahoo.com/lifestyle/articles/ve-got-musical-abilities-college-211237207.html
+    - [news] Music Therapy for Fragile Infants
+      https://www.psychologytoday.com/us/blog/healing-through-creativity/202512/music-therapy-for-fragile-infants
+    - [arxiv] Twelve Years of Education and Public Outreach with the Fermi Gamma-ray Space Tel
+      http://arxiv.org/abs/1303.0042v1
+    - [arxiv] Use of analogies in science education, a systematic mapping study
+      http://arxiv.org/abs/2108.00849v1
+    - [arxiv] Inquiry-Based Mathematics Education: a call for reform in tertiary education see
+      http://arxiv.org/abs/2206.12149v1
+    - [arxiv] Cinema, Fermi Problems, & General Education
+      http://arxiv.org/abs/physics/0608058v2
+    - [arxiv] Symbolic Music Representations for Classification Tasks: A Systematic Evaluation
+      http://arxiv.org/abs/2309.02567v2
+
+--- Turn 4 ---
+  classification:    subjective_opinion
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (10):
+    - [wikipedia] Music
+      https://en.wikipedia.org/wiki/Music
+    - [wikipedia] Glenn Gould
+      https://en.wikipedia.org/wiki/Glenn_Gould
+    - [wikipedia] Orchestra
+      https://en.wikipedia.org/wiki/Orchestra
+    - [wikipedia] Trumpet
+      https://en.wikipedia.org/wiki/Trumpet
+    - [wikipedia] Double bass
+      https://en.wikipedia.org/wiki/Double_bass
+    - [arxiv] Dorabella Cipher as Musical Inspiration
+      http://arxiv.org/abs/2509.17950v1
+    - [arxiv] Music SketchNet: Controllable Music Generation via Factorized Representations of
+      http://arxiv.org/abs/2008.01291v1
+    - [arxiv] Introduction to Gestural Similarity in Music. An Application of Category Theory 
+      http://arxiv.org/abs/1904.10340v1
+    - [arxiv] musif: a Python package for symbolic music feature extraction
+      http://arxiv.org/abs/2307.01120v1
+    - [arxiv] Improving Choral Music Separation through Expressive Synthesized Data from Sampl
+      http://arxiv.org/abs/2209.02871v1
+

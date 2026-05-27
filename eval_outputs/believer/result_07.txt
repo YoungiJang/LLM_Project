@@ -1,0 +1,138 @@
+=== Claim 07 — Result Metadata ===
+Claim:           이버멕틴은 코로나19 치료에 효과적이라는 임상 증거가 충분하다.
+Expected label:  clearly_false
+Fact label:      False
+Domain:          의학/팬데믹
+Persona:         believer
+Turns completed: 4 / 4
+Cost (this item): $0.0234
+
+Expected APIs:   ['arxiv', 'news']
+Actual APIs:     {'news': 19, 'wikipedia': 20, 'arxiv': 10}
+API match:       True
+
+Classification (turn 1): debatable
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [news] Ivermectin was touted as a cure for COVID, now it’s being tested for cancer. But
+      https://theconversation.com/ivermectin-was-touted-as-a-cure-for-covid-now-its-being-tested-for-cancer-but-what-can-it-actually-treat-276180
+    - [news] COVID-19, RSV, and flu vaccines remain safe and effective
+      https://www.news-medical.net/news/20251103/COVID-19-RSV-and-flu-vaccines-remain-safe-and-effective.aspx
+    - [news] As new variant spreads, what's the latest COVID-19 vaccine guidance? It's compli
+      https://www.usatoday.com/story/news/health/2025/06/27/covid-new-variant-nb-18-1-latest-vaccine-guidance/84386234007/
+    - [news] How to Get a COVID-19 Vaccine
+      https://www.everydayhealth.com/infectious-diseases/how-to-get-a-covid-19-vaccine/
+    - [news] What to Know About Getting the COVID-19 Vaccine Right Now
+      https://time.com/7313128/covid-19-vaccine-recommendations-cdc-fda/
+    - [wikipedia] Ivermectin
+      https://en.wikipedia.org/wiki/Ivermectin
+    - [wikipedia] Ivermectin during the COVID-19 pandemic
+      https://en.wikipedia.org/wiki/Ivermectin_during_the_COVID-19_pandemic
+    - [wikipedia] COVID-19 pandemic
+      https://en.wikipedia.org/wiki/COVID-19_pandemic
+    - [wikipedia] COVID-19 misinformation
+      https://en.wikipedia.org/wiki/COVID-19_misinformation
+    - [wikipedia] Treatment and management of COVID-19
+      https://en.wikipedia.org/wiki/Treatment_and_management_of_COVID-19
+
+--- Turn 2 ---
+  classification:    debatable
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Ivermectin
+      https://en.wikipedia.org/wiki/Ivermectin
+    - [wikipedia] Ivermectin during the COVID-19 pandemic
+      https://en.wikipedia.org/wiki/Ivermectin_during_the_COVID-19_pandemic
+    - [wikipedia] COVID-19 pandemic
+      https://en.wikipedia.org/wiki/COVID-19_pandemic
+    - [wikipedia] COVID-19 misinformation
+      https://en.wikipedia.org/wiki/COVID-19_misinformation
+    - [wikipedia] Treatment and management of COVID-19
+      https://en.wikipedia.org/wiki/Treatment_and_management_of_COVID-19
+    - [news] Ivermectin is being touted as a cure for COVID and cancer. Here’s what science s
+      https://www.yahoo.com/news/ivermectin-being-touted-cure-covid-150006467.html
+    - [news] Ivermectin was touted as a cure for COVID, now it’s being tested for cancer. But
+      https://theconversation.com/ivermectin-was-touted-as-a-cure-for-covid-now-its-being-tested-for-cancer-but-what-can-it-actually-treat-276180
+    - [news] Do Hydroxychloroquine and Ivermectin Work?
+      https://sports.yahoo.com/articles/hydroxychloroquine-ivermectin-184516678.html
+    - [news] Do Face Masks Work?
+      https://sports.yahoo.com/articles/face-masks-181502165.html
+    - [news] NC House votes to make it easier to get ivermectin, reigniting COVID controversy
+      https://www.yahoo.com/news/nc-house-votes-easier-ivermectin-203028415.html
+    - [arxiv] An Efficient Mixture of Deep and Machine Learning Models for COVID-19 and Tuberc
+      http://arxiv.org/abs/2007.08223v1
+    - [arxiv] Bayesian hypothesis testing and hierarchical modelling of ivermectin effectivene
+      http://arxiv.org/abs/2109.13739v2
+    - [arxiv] Dietary Supplements and Nutraceuticals Under Investigation for COVID-19 Preventi
+      http://arxiv.org/abs/2102.02250v1
+    - [arxiv] COVID 19, a realistic model for saturation, growth and decay of the India specif
+      http://arxiv.org/abs/2004.09912v1
+    - [arxiv] An Open-Publishing Response to the COVID-19 Infodemic
+      http://arxiv.org/abs/2109.08633v1
+
+--- Turn 3 ---
+  classification:    debatable
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Nirmatrelvir/ritonavir
+      https://en.wikipedia.org/wiki/Nirmatrelvir%2Fritonavir
+    - [wikipedia] COVID-19 drug repurposing research
+      https://en.wikipedia.org/wiki/COVID-19_drug_repurposing_research
+    - [wikipedia] Ivermectin during the COVID-19 pandemic
+      https://en.wikipedia.org/wiki/Ivermectin_during_the_COVID-19_pandemic
+    - [wikipedia] Evidence-based medicine
+      https://en.wikipedia.org/wiki/Evidence-based_medicine
+    - [wikipedia] COVID-19 misinformation
+      https://en.wikipedia.org/wiki/COVID-19_misinformation
+    - [news] Ivermectin is making a post-pandemic comeback, among cancer patients
+      https://www.npr.org/2026/03/02/nx-s1-5729102/ivermectin-politics-treatment-cancer-evidence
+    - [news] Do Hydroxychloroquine and Ivermectin Work?
+      https://sports.yahoo.com/articles/hydroxychloroquine-ivermectin-184516678.html
+    - [news] Study reveals dramatic rise in ivermectin and hydroxychloroquine prescriptions d
+      https://www.news-medical.net/news/20250221/Study-reveals-dramatic-rise-in-ivermectin-and-hydroxychloroquine-prescriptions-during-COVID-19.aspx
+    - [news] What Ivermectin Can (and Can’t) Do
+      https://www.nytimes.com/2025/03/31/well/ivermectin-cancer-covid.html
+    - [news] Updated Evidence for Covid-19, RSV, and Influenza Vaccines for 2025–2026
+      https://www.nejm.org/doi/full/10.1056/NEJMsa2514268
+
+--- Turn 4 ---
+  classification:    debatable
+  evidence_strength: weak
+  evaluator_state:   close
+  sources (14):
+    - [wikipedia] Amphetamine
+      https://en.wikipedia.org/wiki/Amphetamine
+    - [wikipedia] Adderall
+      https://en.wikipedia.org/wiki/Adderall
+    - [wikipedia] Dextroamphetamine
+      https://en.wikipedia.org/wiki/Dextroamphetamine
+    - [wikipedia] Addiction
+      https://en.wikipedia.org/wiki/Addiction
+    - [wikipedia] Memory
+      https://en.wikipedia.org/wiki/Memory
+    - [news] Federally funded clinical trial suggests knowing HIV ‘viral load’ doesn’t improv
+      https://www.eurekalert.org/news-releases/1110194
+    - [news] Clinical trial suggests knowing HIV 'viral load' doesn't improve number of patie
+      https://medicalxpress.com/news/2025-12-clinical-trial-hiv-viral-doesnt.html
+    - [news] Observational Comparative Research in Cardiovascular and Brain Health and Diseas
+      https://www.ahajournals.org/doi/10.1161/CIR.0000000000001440
+    - [news] New guideline provides treatment recommendations for restless legs syndrome
+      https://www.eurekalert.org/news-releases/1064675
+    - [arxiv] Using clinical trial registries to inform Copas selection model for publication 
+      http://arxiv.org/abs/2005.14396v1
+    - [arxiv] A Bias Correction Method in Meta-analysis of Randomized Clinical Trials with no 
+      http://arxiv.org/abs/2009.10265v3
+    - [arxiv] Publication bias adjustment in network meta-analysis: an inverse probability wei
+      http://arxiv.org/abs/2402.00239v1
+    - [arxiv] Assurance for clinical trial design with normally distributed outcomes: elicitin
+      http://arxiv.org/abs/1702.00978v2
+    - [arxiv] Eligibility-Aware Evidence Synthesis: An Agentic Framework for Clinical Trial Me
+      http://arxiv.org/abs/2604.02678v1
+

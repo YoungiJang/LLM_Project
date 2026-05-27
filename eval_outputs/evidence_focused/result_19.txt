@@ -1,0 +1,120 @@
+=== Claim 19 — Result Metadata ===
+Claim:           한국의 저출생 문제는 주거비 부담이 가장 큰 원인이다.
+Expected label:  debatable
+Fact label:      None
+Domain:          한국 사회
+Persona:         evidence_focused
+Turns completed: 4 / 4
+Cost (this item): $0.0239
+
+Expected APIs:   ['news', 'wikipedia']
+Actual APIs:     {'wikipedia': 20, 'news': 20}
+API match:       True
+
+Classification (turn 1): debatable
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    debatable
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Aging of South Korea
+      https://en.wikipedia.org/wiki/Aging_of_South_Korea
+    - [wikipedia] Sub-replacement fertility
+      https://en.wikipedia.org/wiki/Sub-replacement_fertility
+    - [wikipedia] Generation Alpha
+      https://en.wikipedia.org/wiki/Generation_Alpha
+    - [wikipedia] Voluntary childlessness
+      https://en.wikipedia.org/wiki/Voluntary_childlessness
+    - [wikipedia] Demographics of Taiwan
+      https://en.wikipedia.org/wiki/Demographics_of_Taiwan
+    - [news] South Korea is finally having more babies. But can it last?
+      https://www.yahoo.com/news/articles/south-korea-finally-having-more-003833594.html
+    - [news] Sales of dog strollers outpace baby strollers in the country with the world’s lo
+      https://finance.yahoo.com/news/sales-dog-strollers-outpace-baby-193102352.html
+    - [news] China used to fine couples for having too many babies. Now it can’t pay them eno
+      https://www.yahoo.com/news/articles/china-used-fine-couples-having-235948735.html
+    - [news] 'It's a men vs women world – but we need each other more than ever'
+      https://www.yahoo.com/lifestyle/men-vs-women-world-other-100300889.html
+    - [news] How soaring housing costs have crushed the birth rate
+      https://www.yahoo.com/news/soaring-housing-costs-crushed-birth-110000722.html
+
+--- Turn 2 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Generation Alpha
+      https://en.wikipedia.org/wiki/Generation_Alpha
+    - [wikipedia] Generation Z
+      https://en.wikipedia.org/wiki/Generation_Z
+    - [wikipedia] Obesity in the United States
+      https://en.wikipedia.org/wiki/Obesity_in_the_United_States
+    - [wikipedia] Human rights violations against Palestinians by Israel
+      https://en.wikipedia.org/wiki/Human_rights_violations_against_Palestinians_by_Israel
+    - [wikipedia] International rankings of Thailand
+      https://en.wikipedia.org/wiki/International_rankings_of_Thailand
+    - [news] Singles Facing Significantly Greater Housing Cost Burden Than Married Couples
+      https://nationalmortgageprofessional.com/news/singles-facing-significantly-greater-housing-cost-burden-married-couples
+    - [news] Heart says yes, savings say no: People open to marriage, under certain condition
+      https://koreajoongangdaily.joins.com/news/2025-07-23/national/socialAffairs/Heart-says-yes-savings-say-no-People-open-to-marriage-under-certain-conditions/2359627
+    - [news] Seoul home prices, jeonse, monthly rent to surge
+      https://www.msn.com/en-xl/news/other/seoul-home-prices-jeonse-monthly-rent-to-surge/ar-AA1SSwKp?ocid=BingNewsVerp
+    - [news] Monthly rent overtakes jeonse in Seoul apartments
+      https://www.msn.com/en-xl/news/other/monthly-rent-overtakes-jeonse-in-seoul-apartments/ar-AA1YGFfo?ocid=BingNewsVerp
+    - [news] Land minister vows to provide more homes for youth, newlyweds in greater Seoul a
+      https://www.msn.com/en-us/money/topstories/land-minister-vows-to-provide-more-homes-for-youth-newlyweds-in-greater-seoul-area/ar-AA1VcPnZ?ocid=BingNewsVerp
+
+--- Turn 3 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Voluntary childlessness
+      https://en.wikipedia.org/wiki/Voluntary_childlessness
+    - [wikipedia] Child marriage
+      https://en.wikipedia.org/wiki/Child_marriage
+    - [wikipedia] Women's health in India
+      https://en.wikipedia.org/wiki/Women's_health_in_India
+    - [wikipedia] Violence against women
+      https://en.wikipedia.org/wiki/Violence_against_women
+    - [wikipedia] Generation Alpha
+      https://en.wikipedia.org/wiki/Generation_Alpha
+    - [news] Study: Despite growth in Jacksonville affordable housing, many renters still cos
+      https://www.firstcoastnews.com/article/news/local/study-affordable-housing-growth-jacksonville-renters-burdened/77-b5aec45d-d521-462d-a8b2-31b330f49943
+    - [news] Housing Cost Linked to Worse Health Outcomes in Medicaid Patients With Heart Fai
+      https://www.ajmc.com/view/housing-cost-linked-to-worse-health-outcomes-in-medicaid-patients-with-heart-failure
+    - [news] US states ranked by how much of their income residents spend on housing, from le
+      https://www.businessinsider.com/every-state-ranked-by-housing-cost-burden-2026
+    - [news] South Korea is finally having more babies. But can it last?
+      https://www.yahoo.com/news/articles/south-korea-finally-having-more-003833594.html
+    - [news] The truth about why we stopped having babies
+      https://www.aol.com/truth-why-stopped-having-babies-050000673.html
+
+--- Turn 4 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (10):
+    - [wikipedia] Fertility factor (demography)
+      https://en.wikipedia.org/wiki/Fertility_factor_(demography)
+    - [wikipedia] Teenage pregnancy
+      https://en.wikipedia.org/wiki/Teenage_pregnancy
+    - [wikipedia] Reproductive justice
+      https://en.wikipedia.org/wiki/Reproductive_justice
+    - [wikipedia] Abortion in the United States
+      https://en.wikipedia.org/wiki/Abortion_in_the_United_States
+    - [wikipedia] Voluntary childlessness
+      https://en.wikipedia.org/wiki/Voluntary_childlessness
+    - [news] Spiraling Housing Costs Behind Plummeting Birth Rate: Study
+      https://www.newsweek.com/spiraling-housing-costs-behind-plummeting-birth-rate-study-11040822
+    - [news] Housing costs are rising — and it’s the main reason why fertility rates are fall
+      https://nypost.com/2025/11/12/real-estate/rising-housing-costs-have-caused-fertility-rates-to-fall/
+    - [news] Fact check: Do immigrants increase the cost of housing nationwide?
+      https://www.wral.com/news/nccapitol/fact-check-housing-costs-immigration-november-2025/
+    - [news] Heart says yes, savings say no: People open to marriage, under certain condition
+      https://koreajoongangdaily.joins.com/news/2025-07-23/national/socialAffairs/Heart-says-yes-savings-say-no-People-open-to-marriage-under-certain-conditions/2359627
+    - [news] Marriage numbers drop for first time in 23 months
+      https://www.msn.com/en-xl/news/other/south-korea-s-marriage-decline-after-23-month-surge/ar-AA21ufwM?ocid=BingNewsVerp
+

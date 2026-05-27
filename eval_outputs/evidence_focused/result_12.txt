@@ -1,0 +1,150 @@
+=== Claim 12 — Result Metadata ===
+Claim:           최근 연구에 따르면 대형 언어 모델은 진정한 의미의 추론을 수행하지 못한다.
+Expected label:  debatable
+Fact label:      None
+Domain:          AI/인지과학
+Persona:         evidence_focused
+Turns completed: 4 / 4
+Cost (this item): $0.0254
+
+Expected APIs:   ['arxiv']
+Actual APIs:     {'arxiv': 20, 'wikipedia': 20, 'news': 15}
+API match:       True
+
+Classification (turn 1): debatable
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    debatable
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (15):
+    - [arxiv] Making Large Language Models Better Reasoners with Alignment
+      http://arxiv.org/abs/2309.02144v1
+    - [arxiv] Large Language Models Reasoning Abilities Under Non-Ideal Conditions After RL-Fi
+      http://arxiv.org/abs/2508.04848v1
+    - [arxiv] A Critical Review of Causal Reasoning Benchmarks for Large Language Models
+      http://arxiv.org/abs/2407.08029v1
+    - [arxiv] CROP: Token-Efficient Reasoning in Large Language Models via Regularized Prompt 
+      http://arxiv.org/abs/2604.14214v1
+    - [arxiv] ARS: Adaptive Reasoning Suppression for Efficient Large Reasoning Language Model
+      http://arxiv.org/abs/2510.00071v2
+    - [wikipedia] Large language model
+      https://en.wikipedia.org/wiki/Large_language_model
+    - [wikipedia] Reasoning model
+      https://en.wikipedia.org/wiki/Reasoning_model
+    - [wikipedia] Language model benchmark
+      https://en.wikipedia.org/wiki/Language_model_benchmark
+    - [wikipedia] Llama (language model)
+      https://en.wikipedia.org/wiki/Llama_(language_model)
+    - [wikipedia] Gemini (language model)
+      https://en.wikipedia.org/wiki/Gemini_(language_model)
+    - [news] Advanced AI Language Model Outperforms Physicians in Reasoning Tasks
+      https://www.emjreviews.com/innovations/news/advanced-ai-language-model-outperforms-physicians-in-reasoning-tasks/
+    - [news] Scientists found AI’s fatal flaw—the most advanced models are failing basic logi
+      https://www.msn.com/en-us/news/technology/scientists-found-ai-s-fatal-flaw-the-most-advanced-models-are-failing-basic-logic-tests/ar-AA1WAcR8?ocid=BingNewsVerp
+    - [news] Cohere cracks lossless quantization and native citations with first full Apache.
+      https://venturebeat.com/technology/cohere-cracks-lossless-quantization-and-native-citations-with-first-full-apache-2-0-licensed-open-model-command-a
+    - [news] Will AI Cloud Demand Fuel Alibaba's FY2027 Enterprise Growth?
+      https://finance.yahoo.com/sectors/technology/articles/ai-cloud-demand-fuel-alibabas-162200498.html
+    - [news] AI Is Solving Erdős Problems. What Comes Next?
+      https://www.unite.ai/ai-solving-erdos-problems-math-research/
+
+--- Turn 2 ---
+  classification:    debatable
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (15):
+    - [arxiv] Towards applied theories based on computability logic
+      http://arxiv.org/abs/0805.3521v4
+    - [arxiv] Propositional computability logic I
+      http://arxiv.org/abs/cs/0404023v2
+    - [arxiv] Modal Extensions of Łukasiewicz Logic for Modeling Coalitional Power
+      http://arxiv.org/abs/1411.6452v3
+    - [arxiv] A Neutral Temporal Deontic STIT Logic
+      http://arxiv.org/abs/1907.03265v4
+    - [arxiv] Topological Modal Logics with Difference Modality
+      http://arxiv.org/abs/1011.5687v1
+    - [wikipedia] History of artificial intelligence
+      https://en.wikipedia.org/wiki/History_of_artificial_intelligence
+    - [wikipedia] Artificial intelligence
+      https://en.wikipedia.org/wiki/Artificial_intelligence
+    - [wikipedia] Progress in artificial intelligence
+      https://en.wikipedia.org/wiki/Progress_in_artificial_intelligence
+    - [wikipedia] Reinforcement learning
+      https://en.wikipedia.org/wiki/Reinforcement_learning
+    - [wikipedia] List of datasets for machine-learning research
+      https://en.wikipedia.org/wiki/List_of_datasets_for_machine-learning_research
+    - [news] How The ARISE Network Is Rethinking Clinical AI
+      https://tech.yahoo.com/ai/articles/arise-network-rethinking-clinical-ai-124458300.html
+    - [news] At summit in Athens, a Latter-day Saint apostle shares soaring hopes, hard...
+      https://www.yahoo.com/news/world/articles/summit-athens-latter-day-saint-135222690.html
+    - [news] StepFun's Voice AI Topped Every Benchmark. It Also Hears Your Sighs
+      https://tech.yahoo.com/ai/meta-ai/articles/stepfuns-voice-ai-topped-every-152944264.html
+    - [news] This Half-Gigabyte AI Model Runs Local Agents on Your Phone
+      https://tech.yahoo.com/ai/meta-ai/articles/half-gigabyte-ai-model-runs-205920743.html
+    - [news] AI Is Solving Erdős Problems. What Comes Next?
+      https://www.unite.ai/ai-solving-erdos-problems-math-research/
+
+--- Turn 3 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [arxiv] C2-Faith: Benchmarking LLM Judges for Causal and Coverage Faithfulness in Chain-
+      http://arxiv.org/abs/2603.05167v1
+    - [arxiv] DiffCoT: Diffusion-styled Chain-of-Thought Reasoning in LLMs
+      http://arxiv.org/abs/2601.03559v2
+    - [arxiv] FaithCoT-Bench: Benchmarking Instance-Level Faithfulness of Chain-of-Thought Rea
+      http://arxiv.org/abs/2510.04040v2
+    - [arxiv] Faithful Chain-of-Thought Reasoning
+      http://arxiv.org/abs/2301.13379v3
+    - [arxiv] GeoFaith: A Spatio-Temporal Dual View of Faithful Chain-of-Thought
+      http://arxiv.org/abs/2605.26893v1
+    - [wikipedia] Hallucination (artificial intelligence)
+      https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)
+    - [wikipedia] Reasoning model
+      https://en.wikipedia.org/wiki/Reasoning_model
+    - [wikipedia] Machine learning
+      https://en.wikipedia.org/wiki/Machine_learning
+    - [wikipedia] Artificial general intelligence
+      https://en.wikipedia.org/wiki/Artificial_general_intelligence
+    - [wikipedia] Artificial intelligence
+      https://en.wikipedia.org/wiki/Artificial_intelligence
+
+--- Turn 4 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (15):
+    - [wikipedia] John Lennon
+      https://en.wikipedia.org/wiki/John_Lennon
+    - [wikipedia] Mohammad Reza Pahlavi
+      https://en.wikipedia.org/wiki/Mohammad_Reza_Pahlavi
+    - [wikipedia] Claudius
+      https://en.wikipedia.org/wiki/Claudius
+    - [wikipedia] Germaine Greer
+      https://en.wikipedia.org/wiki/Germaine_Greer
+    - [wikipedia] Retford
+      https://en.wikipedia.org/wiki/Retford
+    - [arxiv] FaithCoT-Bench: Benchmarking Instance-Level Faithfulness of Chain-of-Thought Rea
+      http://arxiv.org/abs/2510.04040v2
+    - [arxiv] MINT-CoT: Enabling Interleaved Visual Tokens in Mathematical Chain-of-Thought Re
+      http://arxiv.org/abs/2506.05331v1
+    - [arxiv] Zebra-CoT: A Dataset for Interleaved Vision Language Reasoning
+      http://arxiv.org/abs/2507.16746v2
+    - [arxiv] Detecting Unfaithful Chain-of-Thought via Circuit-Guided Internal-External Discr
+      http://arxiv.org/abs/2605.25603v1
+    - [arxiv] ERA-CoT: Improving Chain-of-Thought through Entity Relationship Analysis
+      http://arxiv.org/abs/2403.06932v2
+    - [news] Enable or disable Text and Image generation for Apps in Windows 11
+      https://www.thewindowsclub.com/enable-or-disable-text-and-image-generation-for-apps
+    - [news] OpenAI's ChatGPT Images 2.0 is here and it does multilingual text, full infograp
+      https://venturebeat.com/technology/openais-chatgpt-images-2-0-is-here-and-it-does-multilingual-text-full-infographics-slides-maps-even-manga-seemingly-flawlessly
+    - [news] Why AI Policy Is Really A Workforce Question For Higher Education
+      https://www.forbes.com/sites/avivalegatt/2026/03/24/why-ai-policy-is-really-a-workforce-question-for-higher-education/
+    - [news] Have AI Hallucinations Been Solved? The Truth About Chatbot Accuracy in 2026
+      https://www.techtimes.com/articles/316829/20260519/have-ai-hallucinations-been-solved-truth-about-chatbot-accuracy-2026.htm
+    - [news] Students treat AI as a helper, not a replacement, in academic work
+      https://www.devdiscourse.com/article/technology/3913854-students-treat-ai-as-a-helper-not-a-replacement-in-academic-work
+

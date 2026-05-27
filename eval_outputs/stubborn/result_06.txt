@@ -1,0 +1,154 @@
+=== Claim 06 — Result Metadata ===
+Claim:           학술 연구에 따르면 백신은 자폐를 유발한다.
+Expected label:  clearly_false
+Fact label:      False
+Domain:          의학
+Persona:         stubborn
+Turns completed: 4 / 4
+Cost (this item): $0.0238
+
+Expected APIs:   ['arxiv', 'wikipedia']
+Actual APIs:     {'news': 17, 'arxiv': 20, 'wikipedia': 20}
+API match:       True
+
+Classification (turn 1): clearly_false
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    clearly_false
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (15):
+    - [news] WHO global expert committee finds no causal link exists between vaccines and aut
+      https://www.news-medical.net/news/20251212/WHO-global-expert-committee-finds-no-causal-link-exists-between-vaccines-and-autism.aspx
+    - [news] WHO confirms vaccines do not cause autism, global review shows
+      https://www.msn.com/en-in/news/other/who-confirms-vaccines-do-not-cause-autism-global-review-shows/ar-AA1Scupv?ocid=BingNewsVerp
+    - [news] RFK Jr. picks promoters of debunked vaccine-autism claims for key panel
+      https://www.detroitnews.com/story/news/nation/2026/01/29/rfk-jr-picks-promoters-of-debunked-vaccine-autism-claims-for-key-panel/88417917007/
+    - [news] Extensive data analysis confirms the safety of aluminum adjuvanted vaccines
+      https://www.news-medical.net/news/20260507/Extensive-data-analysis-confirms-safety-of-aluminum-adjuvanted-vaccines.aspx
+    - [news] Recent studies challenge Kennedy's claims about vaccines, Tylenol and antidepres
+      https://www.nbcnews.com/health/health-news/recent-studies-challenge-kennedys-claims-vaccines-tylenol-antidepressa-rcna259464
+    - [arxiv] eXtended Reality for Autism Interventions: The importance of Mediation and Senso
+      http://arxiv.org/abs/2106.15983v1
+    - [arxiv] Social Engagement of Children with Autism during Interaction with a Robot
+      http://arxiv.org/abs/2002.12360v1
+    - [arxiv] A new multivariate meta-analysis model for many variates and few studies
+      http://arxiv.org/abs/2009.11808v4
+    - [arxiv] Epitope analysis for influenza vaccine design
+      http://arxiv.org/abs/q-bio/0408016v1
+    - [arxiv] Reduced interhemispheric functional connectivity of children with autism: eviden
+      http://arxiv.org/abs/1309.5840v1
+    - [wikipedia] MMR vaccine and autism
+      https://en.wikipedia.org/wiki/MMR_vaccine_and_autism
+    - [wikipedia] Vaccines and autism
+      https://en.wikipedia.org/wiki/Vaccines_and_autism
+    - [wikipedia] Measles vaccine
+      https://en.wikipedia.org/wiki/Measles_vaccine
+    - [wikipedia] Autism
+      https://en.wikipedia.org/wiki/Autism
+    - [wikipedia] Vaccine hesitancy
+      https://en.wikipedia.org/wiki/Vaccine_hesitancy
+
+--- Turn 2 ---
+  classification:    clearly_false
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (12):
+    - [wikipedia] Pseudoscience
+      https://en.wikipedia.org/wiki/Pseudoscience
+    - [wikipedia] Science
+      https://en.wikipedia.org/wiki/Science
+    - [wikipedia] Knowledge
+      https://en.wikipedia.org/wiki/Knowledge
+    - [wikipedia] Agnosticism
+      https://en.wikipedia.org/wiki/Agnosticism
+    - [wikipedia] Graphology
+      https://en.wikipedia.org/wiki/Graphology
+    - [arxiv] IPPOG : Bridging the gap between science education at school and modern scientif
+      http://arxiv.org/abs/2011.14743v1
+    - [arxiv] RerrFact: Reduced Evidence Retrieval Representations for Scientific Claim Verifi
+      http://arxiv.org/abs/2202.02646v2
+    - [arxiv] ClaimFlow: Tracing the Evolution of Scientific Claims in NLP
+      http://arxiv.org/abs/2603.16073v1
+    - [arxiv] A strategy to identify event specific hospitalizations in large health claims da
+      http://arxiv.org/abs/2111.04443v1
+    - [arxiv] AI Debate Aids Assessment of Controversial Claims
+      http://arxiv.org/abs/2506.02175v2
+    - [news] Ultra‑processed food: why the debate needs less fear and more clarity
+      https://theconversation.com/ultra-processed-food-why-the-debate-needs-less-fear-and-more-clarity-278060
+    - [news] The Legal Landscape: Lawyer evidence debate in Maxwell Anderson murder trial
+      https://www.wisn.com/article/the-legal-landscape-lawyer-evidence-debate-in-maxwell-anderson-murder-trial/64926592
+
+--- Turn 3 ---
+  classification:    clearly_false
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] MMR vaccine and autism
+      https://en.wikipedia.org/wiki/MMR_vaccine_and_autism
+    - [wikipedia] Lancet MMR vaccine-autism report
+      https://en.wikipedia.org/wiki/Lancet_MMR_vaccine-autism_report
+    - [wikipedia] Vaccines and autism
+      https://en.wikipedia.org/wiki/Vaccines_and_autism
+    - [wikipedia] Autism
+      https://en.wikipedia.org/wiki/Autism
+    - [wikipedia] MMR vaccine
+      https://en.wikipedia.org/wiki/MMR_vaccine
+    - [news] Major new review finds no direct link between vaccines autism
+      https://www.msn.com/en-us/health/general/major-new-review-finds-no-direct-link-between-vaccines-autism/ar-AA22xUgi?ocid=BingNewsVerp
+    - [news] Vaccines do not cause autism: WHO
+      https://www.msn.com/en-us/health/other/vaccines-do-not-cause-autism-who/ar-AA1SbKRG?ocid=BingNewsVerp
+    - [news] CDC: Claims about vaccines not causing autism not ‘evidence-based’
+      https://www.msn.com/en-us/health/medical/cdc-claims-about-vaccines-not-causing-autism-not-evidence-based/ar-AA1QOUQP?ocid=BingNewsVerp
+    - [news] CDC website changed to include false claims that link autism and vaccines
+      https://www.cnn.com/2025/11/20/health/cdc-website-autism-vaccines
+    - [news] Acting CDC director, citing Trump directive, calls for MMR shot to be split into
+      https://www.wral.com/story/acting-cdc-director-citing-trump-directive-calls-for-mmr-shot-to-be-split-into-three-despite-no-evidence-of-benefit/22188334/
+    - [arxiv] Sensing technologies and machine learning methods for emotion recognition in aut
+      http://arxiv.org/abs/2407.04712v1
+    - [arxiv] eXtended Reality for Autism Interventions: The importance of Mediation and Senso
+      http://arxiv.org/abs/2106.15983v1
+    - [arxiv] Epitope analysis for influenza vaccine design
+      http://arxiv.org/abs/q-bio/0408016v1
+    - [arxiv] Social Engagement of Children with Autism during Interaction with a Robot
+      http://arxiv.org/abs/2002.12360v1
+    - [arxiv] A Systematic Review of Computational Thinking in Early Ages
+      http://arxiv.org/abs/2106.10275v1
+
+--- Turn 4 ---
+  classification:    clearly_false
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (15):
+    - [arxiv] ALL-IN meta-analysis: breathing life into living systematic reviews and prospect
+      http://arxiv.org/abs/2109.12141v2
+    - [arxiv] AI chatbots versus human healthcare professionals: a systematic review and meta-
+      http://arxiv.org/abs/2602.05628v1
+    - [arxiv] Generative AI and Creativity: A Systematic Literature Review and Meta-Analysis
+      http://arxiv.org/abs/2505.17241v1
+    - [arxiv] Epitope analysis for influenza vaccine design
+      http://arxiv.org/abs/q-bio/0408016v1
+    - [arxiv] A Systematic Review of Computational Thinking in Early Ages
+      http://arxiv.org/abs/2106.10275v1
+    - [wikipedia] BCG vaccine
+      https://en.wikipedia.org/wiki/BCG_vaccine
+    - [wikipedia] COVID-19 vaccine
+      https://en.wikipedia.org/wiki/COVID-19_vaccine
+    - [wikipedia] Influenza vaccine
+      https://en.wikipedia.org/wiki/Influenza_vaccine
+    - [wikipedia] HPV vaccine
+      https://en.wikipedia.org/wiki/HPV_vaccine
+    - [wikipedia] Nootropic
+      https://en.wikipedia.org/wiki/Nootropic
+    - [news] Breathing tubes, blindness and death. I’ve seen effects of vaccine skepticism. |
+      https://www.yahoo.com/news/articles/breathing-tubes-blindness-death-ve-100253549.html
+    - [news] Opinion - Meta killed outside fact-checking solely to placate Donald Trump
+      https://www.yahoo.com/news/opinion-meta-killed-outside-fact-143000470.html
+    - [news] Cutting mRNA Research Could Be Our Deadliest Mistake Yet
+      https://www.yahoo.com/news/articles/cutting-mrna-research-could-deadliest-214556850.html
+    - [news] 7 of the Worst Things You Can Do During Cold and Flu Season
+      https://www.yahoo.com/news/articles/7-worst-things-during-cold-215156331.html
+    - [news] These Are the 2 Most Common Symptoms of the New XEC Variant Doctors Are Seeing..
+      https://www.yahoo.com/news/2-most-common-symptoms-xec-212500926.html
+

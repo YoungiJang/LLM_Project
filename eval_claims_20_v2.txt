@@ -1,0 +1,78 @@
+HW2 평가용 명제 20개 (v2: API 다양성 반영 재설계)
+명세 §5.1 분류 배분: established_fact 2 / clearly_false 6 / debatable 10 / subjective_opinion 2
+
+────────────────────────────────────────────
+[established_fact] — 2개 (즉시 종료 데모용)
+────────────────────────────────────────────
+1. 지구는 태양 주위를 공전한다. (established_fact, 천문학) [Wikipedia]
+2. 흡연은 폐암 위험을 유의하게 증가시킨다. (established_fact, 의학) [Wikipedia]
+
+────────────────────────────────────────────
+[clearly_false] — 6개 (멀티턴 강한 반박, 도메인·API 다양화)
+────────────────────────────────────────────
+3. 인간은 뇌의 10%만 사용한다. (clearly_false, 신경과학) [Wikipedia]
+4. 지구는 평평하다. (clearly_false, 과학) [Wikipedia]
+5. 1969년 아폴로 11호 달 착륙은 조작이다. (clearly_false, 역사) [Wikipedia]
+6. 학술 연구에 따르면 백신은 자폐를 유발한다. (clearly_false, 의학) [ArXiv + Wikipedia]
+7. 이버멕틴은 코로나19 치료에 효과적이라는 임상 증거가 충분하다. (clearly_false, 의학/팬데믹) [ArXiv + NewsAPI]
+8. 최근 보도에 따르면 2024년 미국 대선은 광범위한 부정선거로 결과가 뒤집혔다. (clearly_false, 시사/정치) [NewsAPI]
+
+────────────────────────────────────────────
+[debatable] — 10개 (멀티턴 핵심 평가 대상, 도메인·API 다양화)
+────────────────────────────────────────────
+[NewsAPI 우세 — 최근 1개월 영어 매체에서 보도된 사실에 대한 해석/평가]
+ 9. 최근 OpenAI의 영리 기업 전환은 AI 안전성을 약화시켰다. (debatable, AI 산업/거버넌스) [NewsAPI]
+10. 최근 일론 머스크의 X(트위터) 운영 방침은 표현의 자유를 후퇴시켰다. (debatable, 미디어/플랫폼) [NewsAPI]
+11. 최근 중국의 희토류 수출 통제 강화는 서방의 반도체 공급망에 심각한 위협이다. (debatable, 국제정치/무역) [NewsAPI]
+
+[ArXiv 우세 — '최근 연구/벤치마크/메타분석/실증 연구' 등 학술 신호 포함]
+12. 최근 연구에 따르면 대형 언어 모델은 진정한 의미의 추론을 수행하지 못한다. (debatable, AI/인지과학) [ArXiv]
+13. 강화학습 기반 RLHF는 벤치마크 상에서 LLM 정렬 문제의 근본적 해법으로 입증되었다. (debatable, AI 안전/학술) [ArXiv]
+14. 메타분석에 따르면 청소년의 SNS 사용은 정신건강에 부정적 영향을 준다. (debatable, 보건/심리학 연구) [ArXiv]
+
+[Wikipedia 우세 — 백과사전적 배경 + 일부 보조 API]
+15. 원자력은 탄소중립 달성에 필수적인 에너지원이다. (debatable, 에너지) [Wikipedia + NewsAPI]
+16. 전기차는 내연기관차보다 환경에 더 이롭다. (debatable, 환경) [Wikipedia + ArXiv]
+17. 사형제는 흉악범죄 억제에 효과적이므로 유지되어야 한다. (debatable, 사회/윤리) [Wikipedia + ArXiv]
+
+[혼합]
+18. 실증 연구에 따르면 재택근무는 사무실 근무보다 생산성이 높다. (debatable, 노동) [ArXiv + NewsAPI]
+
+[한국 맥락]
+19. 한국의 저출생 문제는 주거비 부담이 가장 큰 원인이다. (debatable, 한국 사회) [NewsAPI + Wikipedia]
+
+※ debatable 카테고리는 위 9~19로 11개로 보이지만 실제 10개 — 한국 맥락 명제 19번이 debatable의 마지막(10번째).
+  (NewsAPI 우세 3 + ArXiv 우세 3 + Wikipedia 우세 3 + 혼합 1 = 10. 19번은 한국 맥락 카테고리의 첫 번째이자 debatable 10번째)
+
+────────────────────────────────────────────
+[subjective_opinion] — 2개 (취향 반박 모드, 정답 라벨 없음)
+────────────────────────────────────────────
+20. 클래식 음악이 재즈보다 더 가치 있는 예술이다. (subjective_opinion, 음악) [Wikipedia]
+21. 영화는 책보다 우월한 매체이다. (subjective_opinion, 매체/문화) [Wikipedia]
+
+⚠ 위 번호 21은 표기 편의를 위함이며, 명세 §5.1 기준 명제 총수는 20개:
+  established_fact 2 (1~2) + clearly_false 6 (3~8) + debatable 10 (9~18) + subjective_opinion 2 (19~20)
+  의 정렬을 기대했으나 본 문서에서는 [한국 맥락]을 debatable의 19번에 배치 + subjective_opinion을 20·21로 표기.
+  실제 EVAL_CLAIMS 리스트(노트북 셀)에는 정확히 20개가 들어 있음.
+
+────────────────────────────────────────────
+참고 (v1 → v2 변경 사항)
+────────────────────────────────────────────
+- 한국어 명제 그대로 사용한다. 검색 쿼리는 1단계(쿼리 추출기)가 영어로 변환한다 (IMPLEMENTATION_NOTES §2).
+- 각 명제 우측 대괄호 [ ]는 **라우터가 의도된 분포로 선택할 것으로 예상되는 API**. EVAL_CLAIMS의 `expected_apis` 메타와 동일.
+- v1 대비 변경:
+  · clearly_false 6개 중 3개(이버멕틴·미국 대선·"학술 연구에 따르면" 신호 추가 백신)를 NewsAPI/ArXiv 친화적 명제로 교체. 기존 5G·마늘·기본 백신 명제는 모두 Wikipedia로만 잡혀 시연 다양성이 약했음.
+  · debatable 10개를 NewsAPI 주력 3개 / ArXiv 주력 3개(학술 신호 키워드 포함) / Wikipedia 주력 3개 / 혼합 1개로 재배분.
+  · ArXiv 명제는 "최근 연구에 따르면", "벤치마크 상에서", "메타분석에 따르면", "실증 연구에 따르면" 같은 표현을 명시해 라우터가 학술 API를 자연스럽게 고르도록 유도.
+  · NewsAPI 명제는 "최근 ~한 사실에 대한 해석/평가" 형태로 작성. 미래 예측이나 추상적 인과 주장이 아닌, 최근 1개월 영어 매체에서 보도된 사실을 근거로 양측 입장을 인용 가능한 형태.
+- 한국적 맥락 명제(저출생 19)는 NewsAPI 영문 매체에서 일부 결과가 잡힘 (Korea Herald, Korea Times 등). 부족하면 Wikipedia 영문판으로 보완.
+- subjective_opinion 2개는 사실 라벨 없음. Logical Soundness · Persuasiveness · Debate Win-rate만 측정 (명세 §5.4).
+
+────────────────────────────────────────────
+의도된 API 분포 (multi-count — 한 명제가 여러 API에 걸칠 수 있음)
+────────────────────────────────────────────
+- Wikipedia : 12개 명제에서 (단독 또는 보조)
+- NewsAPI   :  7개 명제에서
+- ArXiv     :  8개 명제에서
+
+(이전 v1: 사실상 Wikipedia 단일 의존)

@@ -1,0 +1,158 @@
+=== Claim 16 — Result Metadata ===
+Claim:           전기차는 내연기관차보다 환경에 더 이롭다.
+Expected label:  debatable
+Fact label:      None
+Domain:          환경
+Persona:         evidence_focused
+Turns completed: 4 / 4
+Cost (this item): $0.0280
+
+Expected APIs:   ['wikipedia', 'arxiv']
+Actual APIs:     {'wikipedia': 20, 'arxiv': 20, 'news': 19}
+API match:       True
+
+Classification (turn 1): debatable
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Electric vehicle
+      https://en.wikipedia.org/wiki/Electric_vehicle
+    - [wikipedia] Electric vehicle battery
+      https://en.wikipedia.org/wiki/Electric_vehicle_battery
+    - [wikipedia] Alternative fuel vehicle
+      https://en.wikipedia.org/wiki/Alternative_fuel_vehicle
+    - [wikipedia] Plug-in electric vehicle
+      https://en.wikipedia.org/wiki/Plug-in_electric_vehicle
+    - [wikipedia] Hydrogen vehicle
+      https://en.wikipedia.org/wiki/Hydrogen_vehicle
+    - [arxiv] Double-distribution-function discrete Boltzmann model for combustion
+      http://arxiv.org/abs/1405.5500v3
+    - [arxiv] B-ETS: A Trusted Blockchain-based Emissions Trading System for Vehicle-to-Vehicl
+      http://arxiv.org/abs/2102.13477v2
+    - [arxiv] Deep learning-based denoising for fast time-resolved flame emission spectroscopy
+      http://arxiv.org/abs/2208.12544v3
+    - [arxiv] Forecasting the value of battery electric vehicles compared to internal combusti
+      http://arxiv.org/abs/1806.06947v1
+    - [arxiv] Joint vehicle state and parameters estimation via Twin-in-the-Loop observers
+      http://arxiv.org/abs/2309.01461v1
+    - [news] New Study Proves EVs Are Always Cleaner Than Gas Cars
+      https://autos.yahoo.com/articles/study-proves-evs-always-cleaner-173520076.html;_ylt=A2RTpzpO4hZqvQIAbJjQtDMD;_ylu=Y29sbwNhcC1zb3V0aGVhc3QtMQRwb3MDMQR2dGlkAwRzZWMDc3I-
+    - [news] EVs outperform ICE vehicles on lifetime emissions, study finds
+      https://r.search.yahoo.com/_ylt=A2RTpzpO4hZqvQIAb5jQtDMD;_ylu=Y29sbwNhcC1zb3V0aGVhc3QtMQRwb3MDMgR2dGlkAwRzZWMDc3I-/RV=2/RE=1781094223/RO=10/RU=https://www.yahoo.com/news/evs-outperform-icevs-lifetime-emissions-100000252.html?fr=sycsrp_catchall/RK=2/RS=.QgZpvnTJ4AY63Z9An21X26KMgw-
+    - [news] Are EVs really reducing overall emissions? What ‘cradle-to-grave’ analysis found
+      https://r.search.yahoo.com/_ylt=A2RTpzpO4hZqvQIAcpjQtDMD;_ylu=Y29sbwNhcC1zb3V0aGVhc3QtMQRwb3MDMwR2dGlkAwRzZWMDc3I-/RV=2/RE=1781094223/RO=10/RU=https://www.yahoo.com/news/articles/evs-really-reducing-overall-emissions-120000957.html?fr=sycsrp_catchall/RK=2/RS=.Km1II198bqGLVn2mbk11x9a.aA-
+    - [news] Duke study finds EVs quickly overcome their energy-intensive build to be cleaner
+      https://www.wunc.org/environment/2025-10-30/duke-research-study-electric-vehicle-ev-cars-energy-use
+    - [news] A radical new engine shows why internal combustion still matters
+      https://www.msn.com/en-us/technology/general/a-radical-new-engine-shows-why-internal-combustion-still-matters/ar-AA21Dxv3?ocid=BingNewsVerp
+
+--- Turn 2 ---
+  classification:    debatable
+  evidence_strength: strong
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Electric vehicle
+      https://en.wikipedia.org/wiki/Electric_vehicle
+    - [wikipedia] Plug-in electric vehicle
+      https://en.wikipedia.org/wiki/Plug-in_electric_vehicle
+    - [wikipedia] Plug-in electric vehicles in the United States
+      https://en.wikipedia.org/wiki/Plug-in_electric_vehicles_in_the_United_States
+    - [wikipedia] Alternative fuel vehicle
+      https://en.wikipedia.org/wiki/Alternative_fuel_vehicle
+    - [wikipedia] Electric vehicle battery
+      https://en.wikipedia.org/wiki/Electric_vehicle_battery
+    - [news] New study addresses concerns about EV battery production emissions
+      https://www.syracuse.com/living/2025/10/new-study-addresses-concerns-about-ev-battery-production-emissions.html
+    - [news] EV growth has slowed. Here’s what that means for industry, jobs and emissions
+      https://www.msn.com/en-us/money/other/ev-growth-has-slowed-here-s-what-that-means-for-industry-jobs-and-the-climate/ar-AA1Sqn0i?ocid=BingNewsVerp
+    - [news] EV tax discount removed two days' worth of carbon emissions
+      https://www.msn.com/en-au/motoring/electric-cars/ev-tax-discount-removed-two-days-worth-of-carbon-emissions/ar-AA22rWWu?ocid=BingNewsVerp
+    - [news] Report says plug-in hybrids are almost as polluting as gas-powered cars
+      https://newatlas.com/transport/plug-in-hybrids-phev-polluting-ice-cars/
+    - [news] Will Energy Crisis and Govt's EV Push Fast-Track India’s Clean Mobility Ambition
+      https://www.outlookbusiness.com/industry/india-commercial-ev-push-energy-crisis-explainer
+    - [arxiv] Magnetic properties of wurtzite (Ga,Mn)As
+      http://arxiv.org/abs/2101.07194v1
+    - [arxiv] Improved-Sensitivity Integral SQUID Magnetometry of (Ga,Mn)N Thin Films in Proxi
+      http://arxiv.org/abs/2101.09804v2
+    - [arxiv] Are EVs Cleaner Than We Think? Evaluating Consequential Greenhouse Gas Emissions
+      http://arxiv.org/abs/2504.17632v1
+    - [arxiv] Fermi level and bands offsets determination in insulating (Ga,Mn)N/GaN structure
+      http://arxiv.org/abs/1712.06008v1
+    - [arxiv] The Effect of External Debt on Greenhouse Gas Emissions
+      http://arxiv.org/abs/2206.01840v3
+
+--- Turn 3 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Electric vehicle battery
+      https://en.wikipedia.org/wiki/Electric_vehicle_battery
+    - [wikipedia] Electricity in Turkey
+      https://en.wikipedia.org/wiki/Electricity_in_Turkey
+    - [wikipedia] Climate change in Turkey
+      https://en.wikipedia.org/wiki/Climate_change_in_Turkey
+    - [wikipedia] Energy policy of India
+      https://en.wikipedia.org/wiki/Energy_policy_of_India
+    - [wikipedia] Hydro-Québec
+      https://en.wikipedia.org/wiki/Hydro-Qu%C3%A9bec
+    - [news] EVs outperform ICE vehicles on lifetime emissions, study finds
+      https://www.yahoo.com/news/evs-outperform-icevs-lifetime-emissions-100000252.html
+    - [news] Hybrids vs EVs vs ICE: Which Car Actually Pollutes the Most?
+      https://autos.yahoo.com/articles/hybrids-vs-evs-vs-ice-163000394.html;_ylt=A2RTdSh44hZqzAIAP6DQtDMD;_ylu=Y29sbwNhcC1zb3V0aGVhc3QtMQRwb3MDMgR2dGlkAwRzZWMDc3I-
+    - [news] Are EVs Really Better for the Environment? How Electric Cars Compare to Gas Vehi
+      https://www.techtimes.com/articles/313637/20251226/are-evs-really-better-environment-how-electric-cars-compare-gas-vehicles-greener-future.htm
+    - [news] Should Electric Cars Fully Replace Gas Cars in the Future? Environmental Pros an
+      https://www.techtimes.com/articles/316158/20260427/should-electric-cars-fully-replace-gas-cars-future-environmental-pros-cons.htm
+    - [news] 13 Dirty Truths About Hybrid Cars Everyone Should Know
+      https://autos.yahoo.com/ev-and-future-tech/articles/13-dirty-truths-hybrid-cars-103028185.html;_ylt=A2RTdSh44hZqzAIAQqDQtDMD;_ylu=Y29sbwNhcC1zb3V0aGVhc3QtMQRwb3MDMwR2dGlkAwRzZWMDc3I-
+    - [arxiv] Large Interferometer For Exoplanets (LIFE): IV. Ideal kernel-nulling array archi
+      http://arxiv.org/abs/2201.04891v3
+    - [arxiv] Life in solid ice
+      http://arxiv.org/abs/q-bio/0507004v1
+    - [arxiv] Large Interferometer For Exoplanets (LIFE): XIII. The Value of Combining Thermal
+      http://arxiv.org/abs/2406.13037v1
+    - [arxiv] Large Interferometer For Exoplanets (LIFE): V. Diagnostic potential of a mid-inf
+      http://arxiv.org/abs/2204.10041v1
+    - [arxiv] Large Interferometer For Exoplanets (LIFE): IX. Assessing the Impact of Clouds o
+      http://arxiv.org/abs/2303.04727v2
+
+--- Turn 4 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (14):
+    - [wikipedia] Climate change mitigation
+      https://en.wikipedia.org/wiki/Climate_change_mitigation
+    - [wikipedia] Electric vehicle
+      https://en.wikipedia.org/wiki/Electric_vehicle
+    - [wikipedia] Low-carbon economy
+      https://en.wikipedia.org/wiki/Low-carbon_economy
+    - [wikipedia] Plug-in hybrid
+      https://en.wikipedia.org/wiki/Plug-in_hybrid
+    - [wikipedia] Indirect land use change impacts of biofuels
+      https://en.wikipedia.org/wiki/Indirect_land_use_change_impacts_of_biofuels
+    - [news] IEA: Coal Outpaces Gas in OECD Power Mix as "Bridge Fuel" Falters
+      https://oilprice.com/Energy/Energy-General/IEA-Coal-Outpaces-Gas-in-OECD-Power-Mix-as-Bridge-Fuel-Falters.html
+    - [news] Are EVs Really Better for the Environment? How Electric Cars Compare to Gas Vehi
+      https://www.techtimes.com/articles/313637/20251226/are-evs-really-better-environment-how-electric-cars-compare-gas-vehicles-greener-future.htm
+    - [news] Are EVs really reducing overall emissions? What ‘cradle-to-grave’ analysis found
+      https://www.newsobserver.com/news/nation-world/national/article311855307.html
+    - [news] UK unveils first recycled EV battery pouch cells that cut carbon emissions by 32
+      https://www.msn.com/en-us/news/technology/uk-unveils-first-recycled-ev-battery-pouch-cells-that-cut-carbon-emissions-by-32/ar-AA1LPaER?ocid=BingNewsVerp
+    - [arxiv] Magnetic properties of wurtzite (Ga,Mn)As
+      http://arxiv.org/abs/2101.07194v1
+    - [arxiv] Improved-Sensitivity Integral SQUID Magnetometry of (Ga,Mn)N Thin Films in Proxi
+      http://arxiv.org/abs/2101.09804v2
+    - [arxiv] Fermi level and bands offsets determination in insulating (Ga,Mn)N/GaN structure
+      http://arxiv.org/abs/1712.06008v1
+    - [arxiv] Electrical characteristics of vertical-geometry Schottky junction to magnetic in
+      http://arxiv.org/abs/1907.09757v1
+    - [arxiv] Wurtzite (Ga,Mn)As nanowire shells with ferromagnetic properties
+      http://arxiv.org/abs/1712.05713v1
+

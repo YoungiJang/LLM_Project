@@ -1,0 +1,120 @@
+=== Claim 03 — Result Metadata ===
+Claim:           인간은 뇌의 10%만 사용한다.
+Expected label:  clearly_false
+Fact label:      False
+Domain:          신경과학
+Persona:         moderate
+Turns completed: 4 / 4
+Cost (this item): $0.0212
+
+Expected APIs:   ['wikipedia']
+Actual APIs:     {'wikipedia': 20, 'arxiv': 20}
+API match:       True
+
+Classification (turn 1): debatable
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    debatable
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Ten-percent-of-the-brain myth
+      https://en.wikipedia.org/wiki/Ten-percent-of-the-brain_myth
+    - [wikipedia] List of common misconceptions about science, technology, and mathematics
+      https://en.wikipedia.org/wiki/List_of_common_misconceptions_about_science%2C_technology%2C_and_mathematics
+    - [wikipedia] Variant Creutzfeldt–Jakob disease
+      https://en.wikipedia.org/wiki/Variant_Creutzfeldt%E2%80%93Jakob_disease
+    - [wikipedia] MythBusters (2010 season)
+      https://en.wikipedia.org/wiki/MythBusters_(2010_season)
+    - [wikipedia] Facebook
+      https://en.wikipedia.org/wiki/Facebook
+    - [arxiv] Multi-Point Detection of the Powerful Gamma Ray Burst GRB221009A Propagation thr
+      http://arxiv.org/abs/2309.05856v1
+    - [arxiv] Precise measurement of CMB polarisation from Dome-C: the BRAIN and CLOVER experi
+      http://arxiv.org/abs/astro-ph/0412590v2
+    - [arxiv] The Galactic Chemical Evolution of phosphorus observed with IGRINS
+      http://arxiv.org/abs/2210.04940v1
+    - [arxiv] A One-Dimensional Energy Balance Model Parameterization for the Formation of CO2
+      http://arxiv.org/abs/2501.11667v1
+    - [arxiv] Trends and Characteristics of High-Frequency Type II Bursts Detected by CALLISTO
+      http://arxiv.org/abs/2106.09310v1
+
+--- Turn 2 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Ten-percent-of-the-brain myth
+      https://en.wikipedia.org/wiki/Ten-percent-of-the-brain_myth
+    - [wikipedia] Probably Science
+      https://en.wikipedia.org/wiki/Probably_Science
+    - [wikipedia] Functional magnetic resonance imaging
+      https://en.wikipedia.org/wiki/Functional_magnetic_resonance_imaging
+    - [wikipedia] Brain positron emission tomography
+      https://en.wikipedia.org/wiki/Brain_positron_emission_tomography
+    - [wikipedia] Electroencephalography
+      https://en.wikipedia.org/wiki/Electroencephalography
+    - [arxiv] IPPOG : Bridging the gap between science education at school and modern scientif
+      http://arxiv.org/abs/2011.14743v1
+    - [arxiv] The myth of the Digital Earth between fragmentation and wholeness
+      http://arxiv.org/abs/1412.2078v1
+    - [arxiv] Names from Greek Myth in Fundamental Physics
+      http://arxiv.org/abs/2210.10623v3
+    - [arxiv] RerrFact: Reduced Evidence Retrieval Representations for Scientific Claim Verifi
+      http://arxiv.org/abs/2202.02646v2
+    - [arxiv] Gravitational wave astronomy with LIGO and similar detectors in the next decade
+      http://arxiv.org/abs/1904.03187v1
+
+--- Turn 3 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Neuroplasticity
+      https://en.wikipedia.org/wiki/Neuroplasticity
+    - [wikipedia] Hebbian theory
+      https://en.wikipedia.org/wiki/Hebbian_theory
+    - [wikipedia] Activity-dependent plasticity
+      https://en.wikipedia.org/wiki/Activity-dependent_plasticity
+    - [wikipedia] Learning
+      https://en.wikipedia.org/wiki/Learning
+    - [wikipedia] Nonsynaptic plasticity
+      https://en.wikipedia.org/wiki/Nonsynaptic_plasticity
+    - [arxiv] Kwinking as the plastic forming mechanism of B19' NiTi martensite
+      http://arxiv.org/abs/2305.07125v3
+    - [arxiv] Frequency-dependent stress response under thermal cycle: A thermal-crystal plast
+      http://arxiv.org/abs/2605.19280v1
+    - [arxiv] Neuron-level Balance between Stability and Plasticity in Deep Reinforcement Lear
+      http://arxiv.org/abs/2504.08000v1
+    - [arxiv] Precise measurement of CMB polarisation from Dome-C: the BRAIN and CLOVER experi
+      http://arxiv.org/abs/astro-ph/0412590v2
+    - [arxiv] Federated Learning in Distributed Medical Databases: Meta-Analysis of Large-Scal
+      http://arxiv.org/abs/1810.08553v4
+
+--- Turn 4 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (10):
+    - [wikipedia] Artificial general intelligence
+      https://en.wikipedia.org/wiki/Artificial_general_intelligence
+    - [wikipedia] Intelligence quotient
+      https://en.wikipedia.org/wiki/Intelligence_quotient
+    - [wikipedia] Fluid and crystallized intelligence
+      https://en.wikipedia.org/wiki/Fluid_and_crystallized_intelligence
+    - [wikipedia] Cognitive load
+      https://en.wikipedia.org/wiki/Cognitive_load
+    - [wikipedia] Artificial intelligence
+      https://en.wikipedia.org/wiki/Artificial_intelligence
+    - [arxiv] The Artificial Scientist: Logicist, Emergentist, and Universalist Approaches to 
+      http://arxiv.org/abs/2110.01831v1
+    - [arxiv] Compression, The Fermi Paradox and Artificial Super-Intelligence
+      http://arxiv.org/abs/2110.01835v1
+    - [arxiv] Cognition and Emotion: Perspectives of a Closing Gap
+      http://arxiv.org/abs/1002.3035v1
+    - [arxiv] Symbol Emergence in Cognitive Developmental Systems: a Survey
+      http://arxiv.org/abs/1801.08829v2
+    - [arxiv] Advancing Perception in Artificial Intelligence through Principles of Cognitive 
+      http://arxiv.org/abs/2310.08803v1
+

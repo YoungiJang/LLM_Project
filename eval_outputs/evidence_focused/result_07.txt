@@ -1,0 +1,160 @@
+=== Claim 07 — Result Metadata ===
+Claim:           이버멕틴은 코로나19 치료에 효과적이라는 임상 증거가 충분하다.
+Expected label:  clearly_false
+Fact label:      False
+Domain:          의학/팬데믹
+Persona:         evidence_focused
+Turns completed: 4 / 4
+Cost (this item): $0.0261
+
+Expected APIs:   ['arxiv', 'news']
+Actual APIs:     {'wikipedia': 20, 'news': 20, 'arxiv': 20}
+API match:       True
+
+Classification (turn 1): debatable
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    debatable
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Ivermectin
+      https://en.wikipedia.org/wiki/Ivermectin
+    - [wikipedia] Ivermectin during the COVID-19 pandemic
+      https://en.wikipedia.org/wiki/Ivermectin_during_the_COVID-19_pandemic
+    - [wikipedia] COVID-19 pandemic
+      https://en.wikipedia.org/wiki/COVID-19_pandemic
+    - [wikipedia] COVID-19 misinformation
+      https://en.wikipedia.org/wiki/COVID-19_misinformation
+    - [wikipedia] Treatment and management of COVID-19
+      https://en.wikipedia.org/wiki/Treatment_and_management_of_COVID-19
+    - [news] Ivermectin was touted as a cure for COVID, now it’s being tested for cancer. But
+      https://theconversation.com/ivermectin-was-touted-as-a-cure-for-covid-now-its-being-tested-for-cancer-but-what-can-it-actually-treat-276180
+    - [news] Ivermectin is being touted as a cure for COVID and cancer. Here’s what science s
+      https://www.yahoo.com/news/ivermectin-being-touted-cure-covid-150006467.html
+    - [news] Do Hydroxychloroquine and Ivermectin Work?
+      https://sports.yahoo.com/articles/hydroxychloroquine-ivermectin-184516678.html
+    - [news] Do Face Masks Work?
+      https://sports.yahoo.com/articles/face-masks-181502165.html
+    - [news] What to Know About Getting the COVID-19 Vaccine Right Now
+      https://time.com/7313128/covid-19-vaccine-recommendations-cdc-fda/
+    - [arxiv] An Efficient Mixture of Deep and Machine Learning Models for COVID-19 and Tuberc
+      http://arxiv.org/abs/2007.08223v1
+    - [arxiv] Bayesian hypothesis testing and hierarchical modelling of ivermectin effectivene
+      http://arxiv.org/abs/2109.13739v2
+    - [arxiv] Dietary Supplements and Nutraceuticals Under Investigation for COVID-19 Preventi
+      http://arxiv.org/abs/2102.02250v1
+    - [arxiv] COVID 19, a realistic model for saturation, growth and decay of the India specif
+      http://arxiv.org/abs/2004.09912v1
+    - [arxiv] An Open-Publishing Response to the COVID-19 Infodemic
+      http://arxiv.org/abs/2109.08633v1
+
+--- Turn 2 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Ivermectin during the COVID-19 pandemic
+      https://en.wikipedia.org/wiki/Ivermectin_during_the_COVID-19_pandemic
+    - [wikipedia] COVID-19 misinformation
+      https://en.wikipedia.org/wiki/COVID-19_misinformation
+    - [wikipedia] Treatment and management of COVID-19
+      https://en.wikipedia.org/wiki/Treatment_and_management_of_COVID-19
+    - [wikipedia] COVID-19 pandemic
+      https://en.wikipedia.org/wiki/COVID-19_pandemic
+    - [wikipedia] Chloroquine and hydroxychloroquine during the COVID-19 pandemic
+      https://en.wikipedia.org/wiki/Chloroquine_and_hydroxychloroquine_during_the_COVID-19_pandemic
+    - [news] Ivermectin is being touted as a cure for COVID and cancer. Here’s what science s
+      https://www.yahoo.com/news/ivermectin-being-touted-cure-covid-150006467.html
+    - [news] Do Hydroxychloroquine and Ivermectin Work?
+      https://sports.yahoo.com/articles/hydroxychloroquine-ivermectin-184516678.html
+    - [news] US cancer institute studying ivermectin’s ‘ability to kill cancer cells’
+      https://www.miamiherald.com/news/health-care/article314666990.html
+    - [news] Awash in Data? FDA Removes a Barrier in Real-World Evidence Generation
+      https://www.jdsupra.com/legalnews/awash-in-data-fda-removes-a-barrier-in-4548557/
+    - [news] Is this 2020 all over again? Some Republicans push Ivermectin again amid Hantavi
+      https://www.silive.com/politics/2026/05/is-this-2020-all-over-again-some-republicans-push-ivermectin-again-amid-hantavirus-fears.html
+    - [arxiv] COVID-19 mortality prediction: A case study for İstanbul
+      http://arxiv.org/abs/2201.09309v1
+    - [arxiv] An Efficient Mixture of Deep and Machine Learning Models for COVID-19 and Tuberc
+      http://arxiv.org/abs/2007.08223v1
+    - [arxiv] Bayesian hypothesis testing and hierarchical modelling of ivermectin effectivene
+      http://arxiv.org/abs/2109.13739v2
+    - [arxiv] Dietary Supplements and Nutraceuticals Under Investigation for COVID-19 Preventi
+      http://arxiv.org/abs/2102.02250v1
+    - [arxiv] An Open-Publishing Response to the COVID-19 Infodemic
+      http://arxiv.org/abs/2109.08633v1
+
+--- Turn 3 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Clinical trial
+      https://en.wikipedia.org/wiki/Clinical_trial
+    - [wikipedia] COVID-19 vaccine
+      https://en.wikipedia.org/wiki/COVID-19_vaccine
+    - [wikipedia] Osteoporosis
+      https://en.wikipedia.org/wiki/Osteoporosis
+    - [wikipedia] Influenza vaccine
+      https://en.wikipedia.org/wiki/Influenza_vaccine
+    - [wikipedia] Management of HIV/AIDS
+      https://en.wikipedia.org/wiki/Management_of_HIV%2FAIDS
+    - [arxiv] Leveraging contact network structure in the design of cluster randomized trials
+      http://arxiv.org/abs/1610.09926v1
+    - [arxiv] Endpoints for randomized controlled clinical trials for COVID-19 treatments
+      http://arxiv.org/abs/2006.10533v1
+    - [arxiv] Optimal designs for active controlled dose finding trials with efficacy-toxicity
+      http://arxiv.org/abs/1601.00797v1
+    - [arxiv] Jointly modeling multiple endpoints for efficient treatment effect estimation in
+      http://arxiv.org/abs/2506.03393v1
+    - [arxiv] The Long Shadow of Pandemic: Understanding the lingering effects of cause-specif
+      http://arxiv.org/abs/2603.23707v1
+    - [news] FAIR-HF2: Another IV Iron Trial Fails to Impact Hard Endpoints
+      https://www.tctmd.com/news/fair-hf2-another-iv-iron-trial-fails-impact-hard-endpoints
+    - [news] Impact of exercise on health outcomes in people with cancer: an umbrella review 
+      https://bjsm.bmj.com/content/59/14/1010
+    - [news] Association of 2024–2025 Covid-19 Vaccine with Covid-19 Outcomes in U.S. Veteran
+      https://www.nejm.org/doi/full/10.1056/NEJMoa2510226
+    - [news] FDA Class I Recall of FreeStyle Libre 3 Sensors: Practical Steps and Legal Consi
+      https://www.jdsupra.com/legalnews/fda-class-i-recall-of-freestyle-libre-3-9546079/
+    - [news] FDA recalls pantoprazole batch over tablet discoloration
+      https://www.msn.com/en-us/news/other/fda-recalls-pantoprazole-batch-over-tablet-discoloration/gm-GM4B1FF01B?ocid=BingNewsVerp
+
+--- Turn 4 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (15):
+    - [wikipedia] Methicillin-resistant Staphylococcus aureus
+      https://en.wikipedia.org/wiki/Methicillin-resistant_Staphylococcus_aureus
+    - [wikipedia] COVID-19 pandemic
+      https://en.wikipedia.org/wiki/COVID-19_pandemic
+    - [wikipedia] Chronic kidney disease
+      https://en.wikipedia.org/wiki/Chronic_kidney_disease
+    - [wikipedia] Pulmonary embolism
+      https://en.wikipedia.org/wiki/Pulmonary_embolism
+    - [wikipedia] Acute pancreatitis
+      https://en.wikipedia.org/wiki/Acute_pancreatitis
+    - [arxiv] Valuation of Mortality Risk via the Instantaneous Sharpe Ratio: Applications to 
+      http://arxiv.org/abs/0802.3250v1
+    - [arxiv] Sequential Design and Spatial Modeling for Portfolio Tail Risk Measurement
+      http://arxiv.org/abs/1710.05204v2
+    - [arxiv] Statistical Emulators for Pricing and Hedging Longevity Risk Products
+      http://arxiv.org/abs/1508.00310v2
+    - [arxiv] GMWB Riders in a Binomial Framework - Pricing, Hedging, and Diversification of M
+      http://arxiv.org/abs/1410.7453v2
+    - [arxiv] Two-dimensional magnetic interactions in LaFeAsO
+      http://arxiv.org/abs/1303.4033v1
+    - [news] St. Agnes Hospital earns top heart failure care award again
+      https://www.yahoo.com/news/articles/st-agnes-hospital-earns-top-093344612.html
+    - [news] Wooster Community Hospital earns top stroke care recognition
+      https://www.yahoo.com/news/wooster-community-hospital-earns-top-090347919.html
+    - [news] Saint Anne’s Hospital receives award for high-quality stroke care
+      https://www.yahoo.com/news/articles/saint-anne-hospital-receives-award-123008020.html
+    - [news] OhioHealth Marion General Hospital recognized for efforts to improve stroke care
+      https://www.yahoo.com/news/ohiohealth-marion-general-hospital-recognized-154109159.html
+    - [news] University Hospitals Cleveland set to evaluate AI for early lung cancer...
+      https://finance.yahoo.com/news/university-hospitals-cleveland-set-evaluate-165707620.html
+

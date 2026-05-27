@@ -1,0 +1,130 @@
+=== Claim 19 — Result Metadata ===
+Claim:           한국의 저출생 문제는 주거비 부담이 가장 큰 원인이다.
+Expected label:  debatable
+Fact label:      None
+Domain:          한국 사회
+Persona:         stubborn
+Turns completed: 4 / 4
+Cost (this item): $0.0230
+
+Expected APIs:   ['news', 'wikipedia']
+Actual APIs:     {'wikipedia': 20, 'news': 20, 'arxiv': 5}
+API match:       True
+
+Classification (turn 1): debatable
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    debatable
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Generation Alpha
+      https://en.wikipedia.org/wiki/Generation_Alpha
+    - [wikipedia] Voluntary childlessness
+      https://en.wikipedia.org/wiki/Voluntary_childlessness
+    - [wikipedia] Demographics of Thailand
+      https://en.wikipedia.org/wiki/Demographics_of_Thailand
+    - [wikipedia] Population decline
+      https://en.wikipedia.org/wiki/Population_decline
+    - [wikipedia] Developing country
+      https://en.wikipedia.org/wiki/Developing_country
+    - [news] South Korea’s Birth Rate Crisis Sees Glimmer of Hope
+      https://www.newsweek.com/south-korea-birth-rate-crisis-update-11767459
+    - [news] South Korea's birthrate, the world's lowest, rises again amid signs of easing de
+      https://www.reuters.com/business/healthcare-pharmaceuticals/south-koreas-birthrate-worlds-lowest-rises-again-amid-signs-easing-demographic-2026-02-25/
+    - [news] South Korea's fertility rate hits 0.99, highest since 2024
+      https://www.msn.com/en-xl/news/other/south-korea-s-fertility-rate-hits-record-high-of-0-99-in-january/ar-AA1ZlHoU?ocid=BingNewsVerp
+    - [news] South Korea birth rate jumps but still under key fertility threshold
+      https://www.djournal.com/news/national/south-korea-birth-rate-jumps-but-still-under-key-fertility-threshold/article_2e1c90f0-a36a-5326-89e5-61068bf2c85f.html
+    - [news] South Korea's birth rate crisis sees glimmer of hope
+      https://www.msn.com/en-us/news/news/south-korea-s-birth-rate-crisis-sees-glimmer-of-hope/ar-AA1ZUTvN?ocid=BingNewsVerp
+
+--- Turn 2 ---
+  classification:    debatable
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Total fertility rate
+      https://en.wikipedia.org/wiki/Total_fertility_rate
+    - [wikipedia] Adoption in the United States
+      https://en.wikipedia.org/wiki/Adoption_in_the_United_States
+    - [wikipedia] Economic history of the United States
+      https://en.wikipedia.org/wiki/Economic_history_of_the_United_States
+    - [wikipedia] Presidency of Joe Biden
+      https://en.wikipedia.org/wiki/Presidency_of_Joe_Biden
+    - [wikipedia] Anthony Albanese
+      https://en.wikipedia.org/wiki/Anthony_Albanese
+    - [news] California weighs new factory-built housing rules to ease construction, cost bur
+      https://www.dailybreeze.com/2026/03/04/california-weighs-new-factory-built-housing-rules-to-ease-construction-cost-burden/
+    - [news] Housing costs are rising — and it’s the main reason why fertility rates are fall
+      https://nypost.com/2025/11/12/real-estate/rising-housing-costs-have-caused-fertility-rates-to-fall/
+    - [news] Study: Housing costs, childcare, healthcare access contributing to mental health
+      https://www.msn.com/en-us/health/other/study-housing-costs-childcare-healthcare-access-contributing-to-mental-health-struggles-in-metro-atlanta/ar-AA1ZILv5?ocid=BingNewsVerp
+    - [news] Is the ACA driving up healthcare costs? The evidence is mixed
+      https://www.latimes.com/business/story/2026-03-14/aca-driving-up-health-care-costs-trump-affordable-care-act
+    - [news] Covering the Cost: The cost of healthcare for patients with serious and terminal
+      https://www.hawaiinewsnow.com/2026/04/01/covering-cost-cost-healthcare-patients-with-serious-terminal-illnesses/
+
+--- Turn 3 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Voluntary childlessness
+      https://en.wikipedia.org/wiki/Voluntary_childlessness
+    - [wikipedia] Teenage pregnancy
+      https://en.wikipedia.org/wiki/Teenage_pregnancy
+    - [wikipedia] Child abuse
+      https://en.wikipedia.org/wiki/Child_abuse
+    - [wikipedia] Reproductive rights
+      https://en.wikipedia.org/wiki/Reproductive_rights
+    - [wikipedia] Human rights violations against Palestinians by Israel
+      https://en.wikipedia.org/wiki/Human_rights_violations_against_Palestinians_by_Israel
+    - [news] A marriage crisis? Stunning stats raise concerns, hopes
+      https://www.washingtontimes.com/news/2026/may/15/marriage-crisis-stunning-stats-raise-concerns-hopes/
+    - [news] South Korean marriage, childbirth ages surge 6-7 years beyond parents'
+      https://www.msn.com/en-xl/family-and-relationships/marriage/south-korean-marriage-childbirth-ages-surge-6-7-years-beyond-parents/ar-AA1W9bH0?ocid=BingNewsVerp
+    - [news] Milestones like marriage and parenthood are so delayed for millennials and Gen Z
+      https://www.msn.com/en-us/money/insurance/milestones-like-marriage-and-parenthood-are-so-delayed-for-millennials-and-gen-z-many-of-them-are-skipping-out-on-life-insurance-report-finds/ar-AA1MzwJM?ocid=BingNewsVerp
+    - [news] Dallas’ affordable housing supply is evaporating, report finds
+      https://www.keranews.org/texas-news/2026-02-24/dallas-affordable-housing-supply-is-evaporating-report-finds
+    - [news] Dallas housing trends show gaps in affordability and supply
+      https://www.dallasnews.com/news/politics/article/dallas-housing-trends-show-gaps-affordability-22167973.php
+    - [arxiv] Insights into the multiplicity-induced-dominancy for scalar delay-differential e
+      http://arxiv.org/abs/2107.11348v2
+    - [arxiv] Whats the worth of a promise? Evaluating the indirect effects of a program to re
+      http://arxiv.org/abs/2104.12215v1
+    - [arxiv] New Features of P3$δ$ software: Partial Pole Placement via Delay Action
+      http://arxiv.org/abs/2107.11341v2
+    - [arxiv] The dynamic impact of monetary policy on regional housing prices in the US: Evid
+      http://arxiv.org/abs/1802.05870v1
+    - [arxiv] Data Preservation in High Energy Physics
+      http://arxiv.org/abs/0912.0255v1
+
+--- Turn 4 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (10):
+    - [wikipedia] Affordable housing
+      https://en.wikipedia.org/wiki/Affordable_housing
+    - [wikipedia] Subsidized housing in the United States
+      https://en.wikipedia.org/wiki/Subsidized_housing_in_the_United_States
+    - [wikipedia] Healthcare in the United States
+      https://en.wikipedia.org/wiki/Healthcare_in_the_United_States
+    - [wikipedia] Real estate economics
+      https://en.wikipedia.org/wiki/Real_estate_economics
+    - [wikipedia] Subprime mortgage crisis
+      https://en.wikipedia.org/wiki/Subprime_mortgage_crisis
+    - [news] Poor Housing Affordability, Quality Raise Risks of Serious Geriatric Conditions,
+      https://www.ajmc.com/view/poor-housing-affordability-quality-raise-risks-of-serious-geriatric-conditions-death-in-older-adults
+    - [news] Opinion: New rankings reinforce CT’s decades-long affordability issues
+      https://www.courant.com/2026/04/23/opinion-new-rankings-reinforce-cts-decades-long-affordability-issues/
+    - [news] Largest housing affordability package in a generation passes in the Senate
+      https://www.aol.com/finance/largest-housing-affordability-package-generation-170659792.html
+    - [news] California weighs new factory-built housing rules to ease construction, cost bur
+      https://www.dailynews.com/2026/03/04/california-weighs-new-factory-built-housing-rules-to-ease-construction-cost-burden/
+    - [news] US states ranked by how much of their income residents spend on housing, from le
+      https://www.businessinsider.com/every-state-ranked-by-housing-cost-burden-2026
+

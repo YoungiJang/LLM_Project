@@ -1,0 +1,124 @@
+=== Claim 05 — Result Metadata ===
+Claim:           1969년 아폴로 11호 달 착륙은 조작이다.
+Expected label:  clearly_false
+Fact label:      False
+Domain:          역사
+Persona:         believer
+Turns completed: 4 / 4
+Cost (this item): $0.0245
+
+Expected APIs:   ['wikipedia']
+Actual APIs:     {'wikipedia': 17, 'news': 20, 'arxiv': 5}
+API match:       True
+
+Classification (turn 1): clearly_false
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    clearly_false
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Third-party evidence for Apollo Moon landings
+      https://en.wikipedia.org/wiki/Third-party_evidence_for_Apollo_Moon_landings
+    - [wikipedia] Apollo 11
+      https://en.wikipedia.org/wiki/Apollo_11
+    - [wikipedia] Moon landing conspiracy theories
+      https://en.wikipedia.org/wiki/Moon_landing_conspiracy_theories
+    - [wikipedia] Apollo 16
+      https://en.wikipedia.org/wiki/Apollo_16
+    - [wikipedia] Apollo program
+      https://en.wikipedia.org/wiki/Apollo_program
+    - [news] Did we really land on the moon? Artemis II photos, conspiracies debunked
+      https://www.usatoday.com/story/news/2026/04/07/conspiracy-theory-moon-landing-fake-artemis-2/89498292007/
+    - [news] Declassified Apollo mission UFO files challenge long-running moon landing conspi
+      https://www.msn.com/en-us/news/other/declassified-apollo-mission-ufo-files-challenge-long-running-moon-landing-conspiracy-theories/ar-AA22Iw6R?ocid=BingNewsVerp
+    - [news] Pentagon releases Apollo UFO files amid transparency push
+      https://www.msn.com/en-gb/news/other/pentagon-releases-decades-of-ufo-files-in-major-disclosure/gm-GML5650A6A?ocid=BingNewsVerp
+    - [news] How does Artemis II's re-entry differ from the Apollo missions?
+      https://www.kcra.com/article/artemis-ii-apollo-reentry-differences-quarantine/70988719
+    - [news] UFO docs: 'Unidentified phenomena' seen in photos from Apollo moon missions
+      https://www.kcra.com/article/unidentified-phenomena-photos-apollo-moon-missions-ufo-uap-declassified/71255366
+
+--- Turn 2 ---
+  classification:    clearly_false
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (7):
+    - [wikipedia] Global Positioning System
+      https://en.wikipedia.org/wiki/Global_Positioning_System
+    - [wikipedia] Santa Susana Field Laboratory
+      https://en.wikipedia.org/wiki/Santa_Susana_Field_Laboratory
+    - [news] Former astronaut William Anders, who took iconic Earthrise photo, killed in...
+      https://www.yahoo.com/news/rescue-teams-searching-plane-crash-221617617.html
+    - [news] Former Apollo 8 Astronaut William Anders Dead at 90 After Plane Crash in...
+      https://www.yahoo.com/news/former-apollo-8-astronaut-william-010631272.html
+    - [news] The Significance of The Artemis II Moon Photos
+      https://www.yahoo.com/news/articles/significance-artemis-ii-moon-photos-180820799.html
+    - [news] Apollo Moon flags still standing, images show
+      https://www.bbc.com/news/science-environment-19050795
+    - [news] Is there a 'true' story behind the fake Apollo moon landing in 'Fly Me to the...
+      https://www.yahoo.com/entertainment/true-story-behind-fake-apollo-140001092.html
+
+--- Turn 3 ---
+  classification:    clearly_false
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] MythBusters (2008 season)
+      https://en.wikipedia.org/wiki/MythBusters_(2008_season)
+    - [wikipedia] Moon
+      https://en.wikipedia.org/wiki/Moon
+    - [wikipedia] Unidentified flying object
+      https://en.wikipedia.org/wiki/Unidentified_flying_object
+    - [wikipedia] Modern flat Earth beliefs
+      https://en.wikipedia.org/wiki/Modern_flat_Earth_beliefs
+    - [wikipedia] Asteroid
+      https://en.wikipedia.org/wiki/Asteroid
+    - [news] Artemis II, Hollywood And Moon Landing Conspiracy Theories
+      https://www.forbes.com/sites/marshallshepherd/2026/04/03/artemis-ii-hollywood-and-moon-landing-conspiracy-theories/
+    - [news] Did we really land on the moon? Artemis II launches, conspiracies debunked
+      https://www.floridatoday.com/story/tech/science/space/2026/03/31/moon-landing-fake-conspiracy-theory-kardashian-buzz-aldrin-nasa-artemis/89392567007/
+    - [news] Brit Hume rebuts moon hoax claims amid Artemis II buzz
+      https://www.msn.com/en-us/news/insight/brit-hume-rebuts-moon-hoax-claims-amid-artemis-ii-buzz/gm-GMF2C2D07A?ocid=BingNewsVerp
+    - [news] Brit Hume pushes back on moon landing hoax claims in new clip
+      https://www.msn.com/en-us/news/technology/brit-hume-pushes-back-on-moon-landing-hoax-claims-in-new-clip/ar-AA204VWl?ocid=BingNewsVerp
+    - [news] Is NASA lying? Artemis II clip sparks decades-old 'fake Apollo moon landing' deb
+      https://www.msn.com/en-in/technology/space-exploration/is-nasa-lying-artemis-ii-clip-sparks-decades-old-fake-apollo-moon-landing-debate-watch/ar-AA20f9ai?ocid=BingNewsVerp
+    - [arxiv] The moon and the origin of life
+      http://arxiv.org/abs/astro-ph/0112399v1
+    - [arxiv] First observation of the cosmic ray shadow of the Moon and the Sun with KM3NeT/O
+      http://arxiv.org/abs/2211.08977v2
+    - [arxiv] Apollo: Band-sequence Modeling for High-Quality Audio Restoration
+      http://arxiv.org/abs/2409.08514v2
+    - [arxiv] Apollo: An Exploration of Video Understanding in Large Multimodal Models
+      http://arxiv.org/abs/2412.10360v1
+    - [arxiv] Origin of the Moon
+      http://arxiv.org/abs/2103.02045v1
+
+--- Turn 4 ---
+  classification:    clearly_false
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (10):
+    - [wikipedia] Apollo 11
+      https://en.wikipedia.org/wiki/Apollo_11
+    - [wikipedia] Moon
+      https://en.wikipedia.org/wiki/Moon
+    - [wikipedia] Venus
+      https://en.wikipedia.org/wiki/Venus
+    - [wikipedia] Massachusetts Institute of Technology
+      https://en.wikipedia.org/wiki/Massachusetts_Institute_of_Technology
+    - [wikipedia] July–September 2020 in science
+      https://en.wikipedia.org/wiki/July%E2%80%93September_2020_in_science
+    - [news] Did we really land on the moon? Artemis II photos, conspiracies debunked
+      https://www.livingstondaily.com/story/news/2026/04/07/conspiracy-theory-moon-landing-fake-artemis-2/89498292007/
+    - [news] Was it all fake? – The moon landing debate
+      https://www.msn.com/en-us/video/news/was-it-all-fake-–-the-moon-landing-debate/vi-AA1Wdbg8?ocid=BingNewsVerp
+    - [news] Brit Hume rebuts moon hoax claims amid Artemis II launch
+      https://www.msn.com/en-us/news/other/brit-hume-rebuts-moon-hoax-claims-amid-artemis-ii-launch/gm-GM508E669F?ocid=BingNewsVerp
+    - [news] Brit Hume rebuts moon hoax claims amid Artemis II buzz
+      https://www.msn.com/en-us/news/insight/brit-hume-rebuts-moon-hoax-claims-amid-artemis-ii-buzz/gm-GMF2C2D07A?ocid=BingNewsVerp
+    - [news] Did we really land on the moon? Artemis II photos, conspiracies debunked
+      https://www.aol.com/news/did-really-land-moon-artemis-214548754.html
+

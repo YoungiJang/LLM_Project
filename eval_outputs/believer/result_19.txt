@@ -1,0 +1,130 @@
+=== Claim 19 — Result Metadata ===
+Claim:           한국의 저출생 문제는 주거비 부담이 가장 큰 원인이다.
+Expected label:  debatable
+Fact label:      None
+Domain:          한국 사회
+Persona:         believer
+Turns completed: 4 / 4
+Cost (this item): $0.0244
+
+Expected APIs:   ['news', 'wikipedia']
+Actual APIs:     {'wikipedia': 20, 'news': 20, 'arxiv': 5}
+API match:       True
+
+Classification (turn 1): debatable
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    debatable
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Aging of South Korea
+      https://en.wikipedia.org/wiki/Aging_of_South_Korea
+    - [wikipedia] Sub-replacement fertility
+      https://en.wikipedia.org/wiki/Sub-replacement_fertility
+    - [wikipedia] Voluntary childlessness
+      https://en.wikipedia.org/wiki/Voluntary_childlessness
+    - [wikipedia] Hagwon
+      https://en.wikipedia.org/wiki/Hagwon
+    - [wikipedia] Demographics of Taiwan
+      https://en.wikipedia.org/wiki/Demographics_of_Taiwan
+    - [news] South Korea's fertility policy gaps leave hopeful parents behind
+      https://www.upi.com/Voices/2026/04/24/perspective-births-rate/6781777063808/
+    - [news] South Korea is finally having more babies. But can it last?
+      https://www.cnn.com/2026/02/06/asia/south-korea-population-fertility-rate-intl-hnk-dst
+    - [news] How to minimise the cost of a falling population
+      https://www.economist.com/by-invitation/2026/05/18/how-to-minimise-the-cost-of-a-falling-population
+    - [news] Exclusive: South Korea's fertility rate rebounds to 0.85 in first half
+      https://www.msn.com/en-xl/family-and-relationships/parenting/exclusive-south-korea-s-fertility-rate-rebounds-to-0-85-in-first-half/ar-AA1UQiFx?ocid=BingNewsVerp
+    - [news] Housing costs are rising — and it’s the main reason why fertility rates are fall
+      https://www.msn.com/en-us/health/other/housing-costs-are-rising-and-it-s-the-main-reason-why-fertility-rates-are-falling/ar-AA1QjxHx?ocid=BingNewsVerp
+
+--- Turn 2 ---
+  classification:    debatable
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Millennials
+      https://en.wikipedia.org/wiki/Millennials
+    - [wikipedia] Millennials in the United States
+      https://en.wikipedia.org/wiki/Millennials_in_the_United_States
+    - [wikipedia] Baby boomers
+      https://en.wikipedia.org/wiki/Baby_boomers
+    - [wikipedia] Generation Z
+      https://en.wikipedia.org/wiki/Generation_Z
+    - [wikipedia] Obesity in the United States
+      https://en.wikipedia.org/wiki/Obesity_in_the_United_States
+    - [news] A marriage crisis? Stunning stats raise concerns, hopes
+      https://www.washingtontimes.com/news/2026/may/15/marriage-crisis-stunning-stats-raise-concerns-hopes/
+    - [news] The pressure of being “marriage-ready” in your 30s
+      https://www.bona.co.za/lifestyle/the-pressure-of-being-marriage-ready-in-your-30s/
+    - [news] New data reveals deepening generational housing and affordability gap
+      https://www.msn.com/en-ca/news/insight/unemployment-debt-and-global-ranking-highlight-canada-s-economic-strains/gm-GM1EDDFB0B?ocid=BingNewsVerp
+    - [news] Milestones like marriage and parenthood are so delayed for millennials and Gen Z
+      https://www.msn.com/en-us/money/insurance/milestones-like-marriage-and-parenthood-are-so-delayed-for-millennials-and-gen-z-many-of-them-are-skipping-out-on-life-insurance-report-finds/ar-AA1MzwJM?ocid=BingNewsVerp
+    - [news] StatsCan finds millennials twice as likely to live with parents
+      https://www.msn.com/en-ca/news/other/statscan-finds-millennials-twice-as-likely-to-live-with-parents/gm-GML8700F7F?ocid=BingNewsVerp
+
+--- Turn 3 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (15):
+    - [wikipedia] Fertility factor (demography)
+      https://en.wikipedia.org/wiki/Fertility_factor_(demography)
+    - [wikipedia] Millennials
+      https://en.wikipedia.org/wiki/Millennials
+    - [wikipedia] Millennials in the United States
+      https://en.wikipedia.org/wiki/Millennials_in_the_United_States
+    - [wikipedia] Transgender rights in the United States
+      https://en.wikipedia.org/wiki/Transgender_rights_in_the_United_States
+    - [wikipedia] Economy of the United States
+      https://en.wikipedia.org/wiki/Economy_of_the_United_States
+    - [news] These Couples Wanted to Have Children. Rising Costs Are Stopping Them.
+      https://www.nytimes.com/2026/04/26/business/children-rising-costs.html
+    - [news] New data reveals deepening generational housing and affordability gap
+      https://www.msn.com/en-ca/news/insight/unemployment-debt-and-global-ranking-highlight-canada-s-economic-strains/gm-GM1EDDFB0B?ocid=BingNewsVerp
+    - [news] The Housing Market Was Built for a Baby Boom. What Happens in a Baby Bust?
+      https://www.yahoo.com/lifestyle/articles/housing-market-built-baby-boom-100000173.html
+    - [news] Kids? Marriage? Young adults are delaying these key milestones
+      https://www.yahoo.com/news/articles/kids-marriage-young-adults-delaying-211222388.html
+    - [news] America’s twin scarcities: The 4-million-unit shortage in both housing and child
+      https://finance.yahoo.com/economy/articles/america-twin-scarcities-4-million-123248698.html
+    - [arxiv] A Quantitative Model of Non-Marriage and Fertility: Bargaining over Leisure
+      http://arxiv.org/abs/2603.14758v1
+    - [arxiv] Whats the worth of a promise? Evaluating the indirect effects of a program to re
+      http://arxiv.org/abs/2104.12215v1
+    - [arxiv] Urban Housing Prices and Migration's Fertility Intentions: Based on the 2018 Chi
+      http://arxiv.org/abs/2112.07273v1
+    - [arxiv] CoCAtt: A Cognitive-Conditioned Driver Attention Dataset (Supplementary Material
+      http://arxiv.org/abs/2207.04028v1
+    - [arxiv] Exploring Drivers of Extreme Housing Prices in Australia
+      http://arxiv.org/abs/2604.18605v1
+
+--- Turn 4 ---
+  classification:    debatable
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (10):
+    - [wikipedia] Millennials
+      https://en.wikipedia.org/wiki/Millennials
+    - [wikipedia] One-child policy
+      https://en.wikipedia.org/wiki/One-child_policy
+    - [wikipedia] Poverty
+      https://en.wikipedia.org/wiki/Poverty
+    - [wikipedia] Luxembourg Institute of Socio-Economic Research
+      https://en.wikipedia.org/wiki/Luxembourg_Institute_of_Socio-Economic_Research
+    - [wikipedia] Robert F. Kennedy Jr.
+      https://en.wikipedia.org/wiki/Robert_F._Kennedy_Jr.
+    - [news] Texas lawmakers target property taxes, abortion and gender transition care in...
+      https://www.yahoo.com/news/texas-lawmakers-target-property-taxes-210646069.html
+    - [news] Why are so many Americans worried about falling birth rates?
+      https://www.yahoo.com/news/articles/why-many-americans-worried-falling-110000235.html
+    - [news] Family-Friendly Metros Have Shrinking Baby Populations. Will They Still Appeal..
+      https://www.yahoo.com/news/articles/family-friendly-metros-shrinking-baby-003514139.html
+    - [news] What you need to know before planning a pregnancy
+      https://www.msn.com/en-in/health/other/what-you-need-to-know-before-planning-a-pregnancy/ar-AA1SvvQz?ocid=BingNewsVerp
+    - [news] Opinion: CT talks housing, but doesn't walk it
+      https://ctmirror.org/2026/05/27/ct-talks-housing-but-doesnt-walk-it/
+

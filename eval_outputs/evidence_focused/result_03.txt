@@ -1,0 +1,110 @@
+=== Claim 03 — Result Metadata ===
+Claim:           인간은 뇌의 10%만 사용한다.
+Expected label:  clearly_false
+Fact label:      False
+Domain:          신경과학
+Persona:         evidence_focused
+Turns completed: 4 / 4
+Cost (this item): $0.0236
+
+Expected APIs:   ['wikipedia']
+Actual APIs:     {'wikipedia': 20, 'arxiv': 15}
+API match:       True
+
+Classification (turn 1): clearly_false
+Final evaluator state:   close
+
+--- Turn 1 ---
+  classification:    clearly_false
+  evidence_strength: weak
+  evaluator_state:   continue
+  sources (5):
+    - [wikipedia] Ten-percent-of-the-brain myth
+      https://en.wikipedia.org/wiki/Ten-percent-of-the-brain_myth
+    - [wikipedia] List of common misconceptions about science, technology, and mathematics
+      https://en.wikipedia.org/wiki/List_of_common_misconceptions_about_science%2C_technology%2C_and_mathematics
+    - [wikipedia] MythBusters (2010 season)
+      https://en.wikipedia.org/wiki/MythBusters_(2010_season)
+    - [wikipedia] Variant Creutzfeldt–Jakob disease
+      https://en.wikipedia.org/wiki/Variant_Creutzfeldt%E2%80%93Jakob_disease
+    - [wikipedia] Facebook
+      https://en.wikipedia.org/wiki/Facebook
+
+--- Turn 2 ---
+  classification:    clearly_false
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Ten-percent-of-the-brain myth
+      https://en.wikipedia.org/wiki/Ten-percent-of-the-brain_myth
+    - [wikipedia] Orgasm
+      https://en.wikipedia.org/wiki/Orgasm
+    - [wikipedia] Science of reading
+      https://en.wikipedia.org/wiki/Science_of_reading
+    - [wikipedia] Attention deficit hyperactivity disorder
+      https://en.wikipedia.org/wiki/Attention_deficit_hyperactivity_disorder
+    - [wikipedia] Sleep apnea
+      https://en.wikipedia.org/wiki/Sleep_apnea
+    - [arxiv] Precise measurement of CMB polarisation from Dome-C: the BRAIN and CLOVER experi
+      http://arxiv.org/abs/astro-ph/0412590v2
+    - [arxiv] Toward High-Throughput Artificial Intelligence-Based Segmentation in Oncological
+      http://arxiv.org/abs/2107.13661v4
+    - [arxiv] fMRI-LM: Towards a Universal Foundation Model for Language-Aligned fMRI Understa
+      http://arxiv.org/abs/2511.21760v4
+    - [arxiv] See Through Their Minds: Learning Transferable Neural Representation from Cross-
+      http://arxiv.org/abs/2403.06361v2
+    - [arxiv] The myth of the Digital Earth between fragmentation and wholeness
+      http://arxiv.org/abs/1412.2078v1
+
+--- Turn 3 ---
+  classification:    clearly_false
+  evidence_strength: medium
+  evaluator_state:   continue
+  sources (10):
+    - [wikipedia] Lateralization of brain function
+      https://en.wikipedia.org/wiki/Lateralization_of_brain_function
+    - [wikipedia] Aging brain
+      https://en.wikipedia.org/wiki/Aging_brain
+    - [wikipedia] Mind uploading
+      https://en.wikipedia.org/wiki/Mind_uploading
+    - [wikipedia] Neuroimaging
+      https://en.wikipedia.org/wiki/Neuroimaging
+    - [wikipedia] Human brain
+      https://en.wikipedia.org/wiki/Human_brain
+    - [arxiv] Precise measurement of CMB polarisation from Dome-C: the BRAIN and CLOVER experi
+      http://arxiv.org/abs/astro-ph/0412590v2
+    - [arxiv] Efficient embedding network for 3D brain tumor segmentation
+      http://arxiv.org/abs/2011.11052v1
+    - [arxiv] A framework for rapid, reproducible, and high-fidelity whole-brain multi-pool CE
+      http://arxiv.org/abs/2502.16986v4
+    - [arxiv] Boosting Skull-Stripping Performance for Pediatric Brain Images
+      http://arxiv.org/abs/2402.16634v1
+    - [arxiv] Uniqueness Analysis of Controllability Scores and Their Application to Brain Net
+      http://arxiv.org/abs/2408.03023v4
+
+--- Turn 4 ---
+  classification:    clearly_false
+  evidence_strength: medium
+  evaluator_state:   close
+  sources (10):
+    - [wikipedia] Human brain
+      https://en.wikipedia.org/wiki/Human_brain
+    - [wikipedia] Biology of depression
+      https://en.wikipedia.org/wiki/Biology_of_depression
+    - [wikipedia] Daniel Amen
+      https://en.wikipedia.org/wiki/Daniel_Amen
+    - [wikipedia] Attention deficit hyperactivity disorder
+      https://en.wikipedia.org/wiki/Attention_deficit_hyperactivity_disorder
+    - [wikipedia] Lateralization of brain function
+      https://en.wikipedia.org/wiki/Lateralization_of_brain_function
+    - [arxiv] Multiple Comparison Procedures for Neuroimaging Genomewide Association Studies
+      http://arxiv.org/abs/1402.2678v3
+    - [arxiv] Precise measurement of CMB polarisation from Dome-C: the BRAIN and CLOVER experi
+      http://arxiv.org/abs/astro-ph/0412590v2
+    - [arxiv] The myth of the Digital Earth between fragmentation and wholeness
+      http://arxiv.org/abs/1412.2078v1
+    - [arxiv] Neuroimaging Modality Fusion in Alzheimer's Classification Using Convolutional N
+      http://arxiv.org/abs/1811.05105v1
+    - [arxiv] Multiple Kernel Learning and Automatic Subspace Relevance Determination for High
+      http://arxiv.org/abs/1706.00856v1
+
