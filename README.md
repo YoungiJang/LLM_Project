@@ -145,7 +145,13 @@ OpenAI `gpt-5.4-nano` 단가 추정 기준. `$20` 한도 안전.
 
 ---
 
-## 8. 명세·과제 정보
+## 8. 데모 영상
+
+[데모 영상 보기 (Google Drive)](https://drive.google.com/file/d/1ovDq9H9t7GGRUEXkgfmOq83BsN9_lm0h/view?usp=drive_link)
+
+---
+
+## 9. 명세·과제 정보
 
 - 과제: AI 수업 HW2, 2026년 5월 31일 마감
 - 구현팀: 한경찬, 장영인
